@@ -206,7 +206,7 @@ function dataviz() {
     // right
     main_group
         .append("text")
-        .attr("id", "id-appearences")
+        .attr("id", "id-appearances")
         .attr("x", width + 30)
         .attr("y", 45)
         .style("fill", "black")
@@ -227,7 +227,7 @@ function dataviz() {
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("Appearences");
+        .text("Appearances");
 
     main_group
         .append("rect")
@@ -540,7 +540,7 @@ function dataviz() {
     // timeline
     d3.selectAll(".timeline").style("opacity", 0);
     d3.selectAll(".cup-Brazil").style("opacity", 1);
-    d3.select("#id-appearences").text(worldcup_history_data.filter((d) => d.team_txt == "Brazil").length);
+    d3.select("#id-appearances").text(worldcup_history_data.filter((d) => d.team_txt == "Brazil").length);
 
     // bars
     d3.selectAll(".team-bars").style("opacity", 0);
@@ -555,7 +555,7 @@ function dataviz() {
         //timeline
         d3.selectAll(".timeline").transition().duration(200).style("opacity", 0);
         d3.selectAll(`.cup-${team_x}`).transition().duration(50).style("opacity", 1);
-        d3.select("#id-appearences").text(worldcup_history_data.filter((d) => d.team_txt == team_x).length);
+        d3.select("#id-appearances").text(worldcup_history_data.filter((d) => d.team_txt == team_x).length);
 
         //bars
         d3.selectAll(".team-bars").transition().duration(200).style("opacity", 0);
