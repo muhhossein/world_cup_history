@@ -381,7 +381,7 @@ function dataviz() {
         .append("rect")
         .attr("x", -70)
         .attr("y", 60)
-        .attr("height", 500)
+        .attr("height", 480)
         .attr("width", width + 140)
         .style("fill", "none")
         .style("fill-opacity", 1)
