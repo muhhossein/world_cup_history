@@ -164,7 +164,7 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     var selected_team = "Brazil";
 
-    var main_group = svg.append("g").classed("main-group", true).attr("transform", "translate(0,0)");
+    var main_group = svg.append("g").classed("main-group", true).attr("transform", "translate(0,-20)");
 
     // border
     main_group
@@ -374,7 +374,7 @@ function dataviz() {
     // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const central_group = svg.append("g").classed("central-group", true).attr("transform", `translate(0,70)`);
+    const central_group = svg.append("g").classed("central-group", true).attr("transform", `translate(0,60)`);
 
     // border
     central_group
@@ -515,7 +515,7 @@ function dataviz() {
         d3.select(this)
             .append("circle")
             .attr("cx", width / 2)
-            .attr("cy", 70)
+            .attr("cy", 60)
             .attr("r", 40)
             .style("fill", "white")
             .style("stroke", "#4d1c3e")
@@ -525,7 +525,7 @@ function dataviz() {
             .append("image")
             .attr("id", "id-flag-a")
             .attr("x", width / 2 - 35)
-            .attr("y", 70 - 35)
+            .attr("y", 60 - 35)
             .attr("width", "70px")
             .attr("height", "70px")
             .attr("href", `flags/Brazil.png`)
