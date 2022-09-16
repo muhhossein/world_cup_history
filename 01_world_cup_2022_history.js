@@ -23,7 +23,7 @@ dimensions.vizboardHeight = dimensions.height - dimensions.margin.top - dimensio
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Draw SVG
 const vizboardWidth = 1200;
-const vizboardHeight = 800;
+const vizboardHeight = 760;
 
 const vizboard = d3
     .select("#vizboard-desktop")
@@ -401,9 +401,9 @@ function dataviz() {
         .attr("width", 60)
         .style("fill", (d) => color_scale(d.stage))
         .style("fill-opacity", 1)
-        .style("stroke", "grey")
+        .style("stroke", "white")
         .style("stroke-width", 1)
-        .style("stroke-opacity", 0.3);
+        .style("stroke-opacity", 1);
 
     // year
     const years = central_group
@@ -438,7 +438,7 @@ function dataviz() {
         .attr("x", 70)
         .attr("y", (d) => wc_labels_scale(d) + 17)
         .style("font-size", "11px")
-        .style("font-weight", "400")
+        .style("font-weight", "500")
         .style("text-align", "center")
         .text((d) => d);
 
@@ -448,7 +448,7 @@ function dataviz() {
         .attr("x1", 180)
         .attr("y1", 150)
         .attr("x2", 180)
-        .attr("y2", 470)
+        .attr("y2", 430)
         .style("stroke", "grey")
         .style("stroke-width", 1)
         .style("stroke-opacity", 0.3);
@@ -468,7 +468,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("x", 70)
-        .attr("y", 510)
+        .attr("y", 480)
         .style("font-size", "9px")
         .style("font-weight", "400")
         .style("text-align", "center")
@@ -478,7 +478,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("x", 70)
-        .attr("y", 525)
+        .attr("y", 495)
         .style("font-size", "9px")
         .style("font-weight", "400")
         .style("text-align", "center")
@@ -488,7 +488,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("x", 140)
-        .attr("y", 165)
+        .attr("y", 166)
         .style("font-size", "9px")
         .style("font-weight", "400")
         .style("text-align", "center")
@@ -498,7 +498,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("x", 137)
-        .attr("y", 213)
+        .attr("y", 207)
         .style("font-size", "9px")
         .style("font-weight", "400")
         .style("text-align", "center")
