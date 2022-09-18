@@ -8,7 +8,7 @@ let dimensions = {
     width: window.innerWidth * 0.95,
     height: window.innerHeight * 0.9,
     margin: {
-        top: 90,
+        top: 00,
         right: 140,
         bottom: 70,
         left: 140,
@@ -23,15 +23,15 @@ dimensions.vizboardHeight = dimensions.height - dimensions.margin.top - dimensio
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Draw SVG
 const vizboardWidth = 1200;
-const vizboardHeight = 760;
+const vizboardHeight = 800;
 
 const vizboard = d3
     .select("#vizboard-desktop")
     .append("svg")
     .classed("svg-vizboard", true)
-    .attr("viewBox", `0 0 ${vizboardWidth} ${vizboardHeight}`);
-// .attr("preserveAspectRatio", "xMinYMin meet");
-// .style("border", "1px dashed lightblue")
+    .attr("viewBox", `0 0 ${vizboardWidth} ${vizboardHeight}`)
+    .attr("preserveAspectRatio", "xMinYMin meet");
+// .style("border", "1px dashed red");
 
 let svg = vizboard.append("g").style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`);
 
@@ -129,20 +129,12 @@ function dataviz() {
     const wc_stages_scale = d3
         .scalePoint()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range([0 + 150, height - 200]);
+        .range([0 + 120, height - 350]);
 
     const wc_labels_scale = d3
         .scalePoint()
-        .domain([
-            "Group stage",
-            "Round of 16",
-            "Quarter-finals",
-            "4th: Semi-finalist",
-            "3rd: Semi-finalist",
-            "2nd: Runner-up",
-            "1st: Winner",
-        ])
-        .range([0 + 150, height - 200]);
+        .domain(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
+        .range([0 + 120, height - 350]);
 
     const wc_h_scale = d3
         .scaleLinear()
@@ -152,13 +144,206 @@ function dataviz() {
     const color_scale = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range(["#a1a1a1", "#a36880", "#99365d", "#87a16d", "#628045", "#466b9c", "#003470"]);
+        .range(["#DFE8EF", "#9DB7CE", "#5B8FB2", "#46708C", "#D8765B", "#969696", "#FFB636"]);
+    // .range(["#a1a1a1", "#a36880", "#99365d", "#87a16d", "#628045", "#466b9c", "#003470"]);
 
     const color_scale_txt = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range(["white", "white", "white", "white", "white", "white", "white"]);
+        .range(["grey", "white", "white", "white", "white", "white", "black"]);
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    const central_group = svg.append("g").classed("central-group", true).attr("transform", `translate(0,0)`);
 
+    // border
+    central_group
+        .append("rect")
+        .attr("x", -70)
+        .attr("y", 60)
+        .attr("height", 420)
+        .attr("width", width + 140)
+        .style("fill", "none")
+        .style("fill-opacity", 1)
+        .style("stroke", "grey")
+        .style("stroke-width", 1)
+        .style("stroke-opacity", 0.3);
+
+    // rects
+    const bars = central_group
+        .selectAll("rect.team-bars")
+        .data(worldcup_history_data)
+        .join("rect")
+        .attr("class", (d) => `team-bars bars-${d.team_txt}`)
+        .attr("x", (d) => wc_h_scale(d.count))
+        .attr("y", (d) => wc_stages_scale(d.stage))
+        .attr("height", 30)
+        .attr("width", 60)
+        .style("fill", (d) => color_scale(d.stage))
+        .style("fill-opacity", 1)
+        .style("stroke", "white")
+        .style("stroke-width", 1)
+        .style("stroke-opacity", 1);
+
+    // year
+    const years = central_group
+        .selectAll("text.team-labels")
+        .data(worldcup_history_data)
+        .join("text")
+        .attr("class", (d) => `team-labels labels-${d.team_txt}`)
+        .attr("x", (d) => wc_h_scale(d.count) + 30)
+        .attr("y", (d) => wc_stages_scale(d.stage) + 18)
+        .style("fill", (d) => color_scale_txt(d.stage))
+        .style("fill-opacity", 1)
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .text((d) => d.year);
+
+    // labels
+    const stage_labels = central_group
+        .selectAll("text.stage-label")
+        .data(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
+        .join("text")
+        .attr("class", "stage-label")
+        .attr("x", 70)
+        .attr("y", (d) => wc_labels_scale(d) + 17)
+        .style("font-size", "11px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .text((d) => d);
+
+    // v line
+    central_group
+        .append("line")
+        .attr("x1", 180)
+        .attr("y1", 120)
+        .attr("x2", 180)
+        .attr("y2", 410)
+        .style("stroke", "grey")
+        .style("stroke-width", 1)
+        .style("stroke-opacity", 0.3);
+
+    // footer
+    central_group
+        .append("text")
+        .attr("x", 70)
+        .attr("y", 440)
+        .style("font-size", "9px")
+        .style("font-weight", "400")
+        .style("text-align", "center")
+        .style("fill", "grey")
+        .text(
+            "(1) 1930, 1950–1970 and 1986–2018: group stage | 1934–1938: knockout round of 16 | 1974–1982: first group stage. "
+        );
+
+    central_group
+        .append("text")
+        .attr("x", 70)
+        .attr("y", 455)
+        .style("font-size", "9px")
+        .style("font-weight", "400")
+        .style("text-align", "center")
+        .style("fill", "grey")
+        .text("(2) 1974–1982: second group stage | 1986–2022: knockout round of 16.");
+
+    central_group
+        .append("text")
+        .attr("x", 133)
+        .attr("y", 136)
+        .style("font-size", "9px")
+        .style("font-weight", "400")
+        .style("text-align", "center")
+        .style("fill", "grey")
+        .text("(1)");
+
+    central_group
+        .append("text")
+        .attr("x", 150)
+        .attr("y", 178)
+        .style("font-size", "9px")
+        .style("font-weight", "400")
+        .style("text-align", "center")
+        .style("fill", "grey")
+        .text("(2)");
+
+    // matches
+    central_group
+        .append("text")
+        .attr("x", width / 2 - 100)
+        .attr("y", 75)
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "grey")
+        .text("Matches");
+
+    central_group
+        .append("text")
+        .attr("id", "id-matches")
+        .attr("x", width / 2 - 100)
+        .attr("y", 53)
+        .style("font-size", "22px")
+        .style("font-weight", "600")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "black")
+        .text("100");
+
+    // goals
+    central_group
+        .append("text")
+        .attr("x", width / 2 + 100)
+        .attr("y", 75)
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "grey")
+        .text("Goals");
+
+    central_group
+        .append("text")
+        .attr("id", "id-goals")
+        .attr("x", width / 2 + 100)
+        .attr("y", 53)
+        .style("font-size", "22px")
+        .style("font-weight", "600")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "black")
+        .text("300");
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // 00. flag ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    const flag = central_group.append("g").each(function (d, i) {
+        d3.select(this)
+            .append("circle")
+            .attr("cx", width / 2)
+            .attr("cy", 50)
+            .attr("r", 40)
+            .style("fill", "white")
+            .style("stroke", "#4d1c3e")
+            .style("opacity", 1);
+
+        d3.select(this)
+            .append("image")
+            .attr("id", "id-flag-a")
+            .attr("x", width / 2 - 35)
+            .attr("y", 50 - 35)
+            .attr("width", "70px")
+            .attr("height", "70px")
+            .attr("href", `flags/Brazil.png`)
+            .style("opacity", 1);
+    });
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 05. Header /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -166,7 +351,7 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     var selected_team = "Brazil";
 
-    var main_group = svg.append("g").classed("main-group", true).attr("transform", "translate(0,-20)");
+    var main_group = svg.append("g").classed("main-group", true).attr("transform", "translate(0,490)");
 
     // border
     main_group
@@ -222,14 +407,26 @@ function dataviz() {
     main_group
         .append("text")
         .attr("x", width + 30)
-        .attr("y", 65)
+        .attr("y", 63)
         .style("fill", "black")
         .style("fill-opacity", 1)
         .style("font-size", "10px")
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("Appearances");
+        .text("Past");
+
+    main_group
+        .append("text")
+        .attr("x", width + 30)
+        .attr("y", 75)
+        .style("fill", "black")
+        .style("fill-opacity", 1)
+        .style("font-size", "10px")
+        .style("font-weight", "400")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .text("appearances");
 
     main_group
         .append("rect")
@@ -371,216 +568,6 @@ function dataviz() {
             .text((d) => d.host);
     });
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const central_group = svg.append("g").classed("central-group", true).attr("transform", `translate(0,60)`);
-
-    // border
-    central_group
-        .append("rect")
-        .attr("x", -70)
-        .attr("y", 60)
-        .attr("height", 480)
-        .attr("width", width + 140)
-        .style("fill", "none")
-        .style("fill-opacity", 1)
-        .style("stroke", "grey")
-        .style("stroke-width", 1)
-        .style("stroke-opacity", 0.3);
-
-    // rects
-    const bars = central_group
-        .selectAll("rect.team-bars")
-        .data(worldcup_history_data)
-        .join("rect")
-        .attr("class", (d) => `team-bars bars-${d.team_txt}`)
-        .attr("x", (d) => wc_h_scale(d.count))
-        .attr("y", (d) => wc_stages_scale(d.stage))
-        .attr("height", 30)
-        .attr("width", 60)
-        .style("fill", (d) => color_scale(d.stage))
-        .style("fill-opacity", 1)
-        .style("stroke", "white")
-        .style("stroke-width", 1)
-        .style("stroke-opacity", 1);
-
-    // year
-    const years = central_group
-        .selectAll("text.team-labels")
-        .data(worldcup_history_data)
-        .join("text")
-        .attr("class", (d) => `team-labels labels-${d.team_txt}`)
-        .attr("x", (d) => wc_h_scale(d.count) + 30)
-        .attr("y", (d) => wc_stages_scale(d.stage) + 18)
-        .style("fill", (d) => color_scale_txt(d.stage))
-        .style("fill-opacity", 1)
-        .style("font-size", "12px")
-        .style("font-weight", "500")
-        .style("text-align", "center")
-        .style("text-anchor", "middle")
-        .text((d) => d.year);
-
-    // labels
-    const stage_labels = central_group
-        .selectAll("text.stage-label")
-        .data([
-            "Group stage",
-            "Round of 16",
-            "Quarter-finals",
-            "4th: Semi-finalist",
-            "3rd: Semi-finalist",
-            "2nd: Runner-up",
-            "1st: Winner",
-        ])
-        .join("text")
-        .attr("class", "stage-label")
-        .attr("x", 70)
-        .attr("y", (d) => wc_labels_scale(d) + 17)
-        .style("font-size", "11px")
-        .style("font-weight", "500")
-        .style("text-align", "center")
-        .text((d) => d);
-
-    // v line
-    central_group
-        .append("line")
-        .attr("x1", 180)
-        .attr("y1", 150)
-        .attr("x2", 180)
-        .attr("y2", 430)
-        .style("stroke", "grey")
-        .style("stroke-width", 1)
-        .style("stroke-opacity", 0.3);
-
-    // labels
-    central_group
-        .append("text")
-        .attr("x", 70)
-        .attr("y", 125)
-        .style("font-size", "16px")
-        .style("font-weight", "400")
-        .style("text-align", "center")
-        .style("fill", "grey")
-        .text("How far has the team achieved in each World Cup?");
-
-    // footer
-    central_group
-        .append("text")
-        .attr("x", 70)
-        .attr("y", 480)
-        .style("font-size", "9px")
-        .style("font-weight", "400")
-        .style("text-align", "center")
-        .style("fill", "grey")
-        .text("(1) 1934–1938: knockout round of 16, 1974–1982: first group stage.");
-
-    central_group
-        .append("text")
-        .attr("x", 70)
-        .attr("y", 495)
-        .style("font-size", "9px")
-        .style("font-weight", "400")
-        .style("text-align", "center")
-        .style("fill", "grey")
-        .text("(2) 1974–1982: second group stage.");
-
-    central_group
-        .append("text")
-        .attr("x", 140)
-        .attr("y", 166)
-        .style("font-size", "9px")
-        .style("font-weight", "400")
-        .style("text-align", "center")
-        .style("fill", "grey")
-        .text("(1)");
-
-    central_group
-        .append("text")
-        .attr("x", 137)
-        .attr("y", 207)
-        .style("font-size", "9px")
-        .style("font-weight", "400")
-        .style("text-align", "center")
-        .style("fill", "grey")
-        .text("(2)");
-
-    // matches
-    central_group
-        .append("text")
-        .attr("x", width / 2 - 100)
-        .attr("y", 75)
-        .style("font-size", "12px")
-        .style("font-weight", "500")
-        .style("text-align", "center")
-        .style("text-anchor", "middle")
-        .style("fill", "grey")
-        .text("Matches");
-
-    central_group
-        .append("text")
-        .attr("id", "id-matches")
-        .attr("x", width / 2 - 100)
-        .attr("y", 53)
-        .style("font-size", "18px")
-        .style("font-weight", "600")
-        .style("text-align", "center")
-        .style("text-anchor", "middle")
-        .style("fill", "black")
-        .text("100");
-
-    // goals
-    central_group
-        .append("text")
-        .attr("x", width / 2 + 100)
-        .attr("y", 75)
-        .style("font-size", "12px")
-        .style("font-weight", "500")
-        .style("text-align", "center")
-        .style("text-anchor", "middle")
-        .style("fill", "grey")
-        .text("Goals");
-
-    central_group
-        .append("text")
-        .attr("id", "id-goals")
-        .attr("x", width / 2 + 100)
-        .attr("y", 53)
-        .style("font-size", "18px")
-        .style("font-weight", "600")
-        .style("text-align", "center")
-        .style("text-anchor", "middle")
-        .style("fill", "black")
-        .text("300");
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // 00. flag ///////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    const flag = central_group.append("g").each(function (d, i) {
-        d3.select(this)
-            .append("circle")
-            .attr("cx", width / 2)
-            .attr("cy", 50)
-            .attr("r", 40)
-            .style("fill", "white")
-            .style("stroke", "#4d1c3e")
-            .style("opacity", 1);
-
-        d3.select(this)
-            .append("image")
-            .attr("id", "id-flag-a")
-            .attr("x", width / 2 - 35)
-            .attr("y", 50 - 35)
-            .attr("width", "70px")
-            .attr("height", "70px")
-            .attr("href", `flags/Brazil.png`)
-            .style("opacity", 1);
-    });
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 00. dropdown ///////////////////////////////////////////////////////////////////////////////////////////////////
