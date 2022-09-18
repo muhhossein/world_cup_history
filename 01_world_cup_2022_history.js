@@ -62,6 +62,8 @@ var worldcup_history_converter = function (point) {
         appearances: +point.appearances,
         stage: point.stage,
         count: +point.count,
+        matches: +point.pld,
+        goals: +point.gf,
     };
 };
 
@@ -457,12 +459,12 @@ function dataviz() {
     central_group
         .append("text")
         .attr("x", 70)
-        .attr("y", 120)
+        .attr("y", 125)
         .style("font-size", "16px")
-        .style("font-weight", "500")
+        .style("font-weight", "400")
         .style("text-align", "center")
-        // .style("fill", "grey")
-        .text("Achievement in every World Cup");
+        .style("fill", "grey")
+        .text("How far has the team achieved in each World Cup?");
 
     // footer
     central_group
@@ -505,6 +507,54 @@ function dataviz() {
         .style("fill", "grey")
         .text("(2)");
 
+    // matches
+    central_group
+        .append("text")
+        .attr("x", width / 2 - 100)
+        .attr("y", 75)
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "grey")
+        .text("Matches");
+
+    central_group
+        .append("text")
+        .attr("id", "id-matches")
+        .attr("x", width / 2 - 100)
+        .attr("y", 53)
+        .style("font-size", "18px")
+        .style("font-weight", "600")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "black")
+        .text("100");
+
+    // goals
+    central_group
+        .append("text")
+        .attr("x", width / 2 + 100)
+        .attr("y", 75)
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "grey")
+        .text("Goals");
+
+    central_group
+        .append("text")
+        .attr("id", "id-goals")
+        .attr("x", width / 2 + 100)
+        .attr("y", 53)
+        .style("font-size", "18px")
+        .style("font-weight", "600")
+        .style("text-align", "center")
+        .style("text-anchor", "middle")
+        .style("fill", "black")
+        .text("300");
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 00. flag ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -515,7 +565,7 @@ function dataviz() {
         d3.select(this)
             .append("circle")
             .attr("cx", width / 2)
-            .attr("cy", 60)
+            .attr("cy", 50)
             .attr("r", 40)
             .style("fill", "white")
             .style("stroke", "#4d1c3e")
@@ -525,7 +575,7 @@ function dataviz() {
             .append("image")
             .attr("id", "id-flag-a")
             .attr("x", width / 2 - 35)
-            .attr("y", 60 - 35)
+            .attr("y", 50 - 35)
             .attr("width", "70px")
             .attr("height", "70px")
             .attr("href", `flags/Brazil.png`)
@@ -550,6 +600,9 @@ function dataviz() {
     d3.selectAll(".team-labels").style("opacity", 0);
     d3.selectAll(`.labels-Brazil`).style("opacity", 1);
 
+    d3.select(`#id-matches`).text(worldcup_history_data.filter((d) => d.team_txt == "Brazil")[0].matches);
+    d3.select(`#id-goals`).text(worldcup_history_data.filter((d) => d.team_txt == "Brazil")[0].goals);
+
     // update function
     function team_stats_show(team_x) {
         //timeline
@@ -567,6 +620,15 @@ function dataviz() {
 
         // flag
         d3.select("#id-flag-a").attr("href", `flags/${team_x}.png`);
+
+        // matches and goals
+        if (team_x != "Qatar") {
+            d3.select(`#id-matches`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].matches);
+            d3.select(`#id-goals`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].goals);
+        } else {
+            d3.select(`#id-matches`).text("0");
+            d3.select(`#id-goals`).text("0");
+        }
     }
 
     /* When the user clicks on the button,
