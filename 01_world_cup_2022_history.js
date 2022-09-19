@@ -23,7 +23,7 @@ dimensions.vizboardHeight = dimensions.height - dimensions.margin.top - dimensio
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Draw SVG
 const vizboardWidth = 1200;
-const vizboardHeight = 800;
+const vizboardHeight = 600;
 
 const vizboard = d3
     .select("#vizboard-desktop")
@@ -129,12 +129,12 @@ function dataviz() {
     const wc_stages_scale = d3
         .scalePoint()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range([0 + 120, height - 350]);
+        .range([0 + 120, height - 150]);
 
     const wc_labels_scale = d3
         .scalePoint()
         .domain(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
-        .range([0 + 120, height - 350]);
+        .range([0 + 120, height - 150]);
 
     const wc_h_scale = d3
         .scaleLinear()
@@ -326,10 +326,11 @@ function dataviz() {
 
     const flag = central_group.append("g").each(function (d, i) {
         d3.select(this)
-            .append("circle")
-            .attr("cx", width / 2)
-            .attr("cy", 50)
-            .attr("r", 40)
+            .append("rect")
+            .attr("x", width / 2 - 52.5)
+            .attr("y", 19)
+            .attr("width", 105)
+            .attr("height", 62)
             .style("fill", "white")
             .style("stroke", "#4d1c3e")
             .style("opacity", 1);
@@ -337,11 +338,11 @@ function dataviz() {
         d3.select(this)
             .append("image")
             .attr("id", "id-flag-a")
-            .attr("x", width / 2 - 35)
+            .attr("x", width / 2 - 50)
             .attr("y", 50 - 35)
-            .attr("width", "70px")
+            .attr("width", "100px")
             .attr("height", "70px")
-            .attr("href", `flags/Brazil.png`)
+            .attr("href", `flags/Brazil.jpg`)
             .style("opacity", 1);
     });
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -606,7 +607,7 @@ function dataviz() {
         d3.selectAll(`.labels-${team_x}`).transition().duration(50).style("opacity", 1);
 
         // flag
-        d3.select("#id-flag-a").attr("href", `flags/${team_x}.png`);
+        d3.select("#id-flag-a").attr("href", `flags/${team_x}.jpg`);
 
         // matches and goals
         if (team_x != "Qatar") {
