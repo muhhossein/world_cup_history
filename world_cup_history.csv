@@ -1,276 +1,276 @@
-﻿serial,cup_serial,team,team_txt,year,host,appearances,stage,count,rank,part,pld,w,d,l,gf,ga,gd,pts
-1,1,Argentina,Argentina,1930,Uruguay,17,2nd,1,4,17,81,43,15,23,137,93,44,144
-2,2,Argentina,Argentina,1934,Italy,17,R1,1,4,17,81,43,15,23,137,93,44,144
-3,6,Argentina,Argentina,1958,Sweden,17,R1,2,4,17,81,43,15,23,137,93,44,144
-4,7,Argentina,Argentina,1962,Chile,17,R1,3,4,17,81,43,15,23,137,93,44,144
-5,8,Argentina,Argentina,1966,England,17,QF,1,4,17,81,43,15,23,137,93,44,144
-6,10,Argentina,Argentina,1974,Germany,17,R2,1,4,17,81,43,15,23,137,93,44,144
-7,11,Argentina,Argentina,1978,Argentina,17,1st,1,4,17,81,43,15,23,137,93,44,144
-8,12,Argentina,Argentina,1982,Spain,17,R2,2,4,17,81,43,15,23,137,93,44,144
-9,13,Argentina,Argentina,1986,Mexico,17,1st,2,4,17,81,43,15,23,137,93,44,144
-10,14,Argentina,Argentina,1990,Italy,17,2nd,2,4,17,81,43,15,23,137,93,44,144
-11,15,Argentina,Argentina,1994,US,17,R2,3,4,17,81,43,15,23,137,93,44,144
-12,16,Argentina,Argentina,1998,France,17,QF,2,4,17,81,43,15,23,137,93,44,144
-13,17,Argentina,Argentina,2002,Korea-Japan,17,R1,4,4,17,81,43,15,23,137,93,44,144
-14,18,Argentina,Argentina,2006,Germany,17,QF,3,4,17,81,43,15,23,137,93,44,144
-15,19,Argentina,Argentina,2010,South Africa,17,QF,4,4,17,81,43,15,23,137,93,44,144
-16,20,Argentina,Argentina,2014,Brazil,17,2nd,3,4,17,81,43,15,23,137,93,44,144
-17,21,Argentina,Argentina,2018,Russia,17,R2,4,4,17,81,43,15,23,137,93,44,144
-1,10,Australia,Australia,1974,Germany,5,R1,1,49,5,16,2,4,10,13,31,−18,10
-2,18,Australia,Australia,2006,Germany,5,R2,1,49,5,16,2,4,10,13,31,−19,11
-3,19,Australia,Australia,2010,South Africa,5,R1,2,49,5,16,2,4,10,13,31,−20,12
-4,20,Australia,Australia,2014,Brazil,5,R1,3,49,5,16,2,4,10,13,31,−21,13
-5,21,Australia,Australia,2018,Russia,5,R1,4,49,5,16,2,4,10,13,31,−22,14
-1,1,Belgium,Belgium,1930,Uruguay,13,R1,1,11,13,48,20,9,19,68,72,−4,69
-2,2,Belgium,Belgium,1934,Italy,13,R1,2,11,13,48,20,9,19,68,72,−5,70
-3,3,Belgium,Belgium,1938,France,13,R1,3,11,13,48,20,9,19,68,72,−6,71
-4,5,Belgium,Belgium,1954,Switzerland,13,R1,4,11,13,48,20,9,19,68,72,−7,72
-5,9,Belgium,Belgium,1970,Mexico,13,R1,5,11,13,48,20,9,19,68,72,−8,73
-6,12,Belgium,Belgium,1982,Spain,13,R2,1,11,13,48,20,9,19,68,72,−9,74
-7,13,Belgium,Belgium,1986,Mexico,13,4th,1,11,13,48,20,9,19,68,72,−10,75
-8,14,Belgium,Belgium,1990,Italy,13,R2,2,11,13,48,20,9,19,68,72,−11,76
-9,15,Belgium,Belgium,1994,US,13,R2,3,11,13,48,20,9,19,68,72,−12,77
-10,16,Belgium,Belgium,1998,France,13,R1,6,11,13,48,20,9,19,68,72,−13,78
-11,17,Belgium,Belgium,2002,Korea-Japan,13,R2,4,11,13,48,20,9,19,68,72,−14,79
-12,20,Belgium,Belgium,2014,Brazil,13,QF,1,11,13,48,20,9,19,68,72,−15,80
-13,21,Belgium,Belgium,2018,Russia,13,3rd,1,11,13,48,20,9,19,68,72,−16,81
-1,1,Brazil,Brazil,1930,Uruguay,21,R1,1,1,21,109,73,18,18,229,105,124,237
-2,2,Brazil,Brazil,1934,Italy,21,R1,2,1,21,109,73,18,18,229,105,124,237
-3,3,Brazil,Brazil,1938,France,21,3rd,1,1,21,109,73,18,18,229,105,124,237
-4,4,Brazil,Brazil,1950,Brazil,21,2nd,1,1,21,109,73,18,18,229,105,124,237
-5,5,Brazil,Brazil,1954,Switzerland,21,QF,1,1,21,109,73,18,18,229,105,124,237
-6,6,Brazil,Brazil,1958,Sweden,21,1st,1,1,21,109,73,18,18,229,105,124,237
-7,7,Brazil,Brazil,1962,Chile,21,1st,2,1,21,109,73,18,18,229,105,124,237
-8,8,Brazil,Brazil,1966,England,21,R1,3,1,21,109,73,18,18,229,105,124,237
-9,9,Brazil,Brazil,1970,Mexico,21,1st,3,1,21,109,73,18,18,229,105,124,237
-10,10,Brazil,Brazil,1974,Germany,21,4th,1,1,21,109,73,18,18,229,105,124,237
-11,11,Brazil,Brazil,1978,Argentina,21,3rd,2,1,21,109,73,18,18,229,105,124,237
-12,12,Brazil,Brazil,1982,Spain,21,R2,1,1,21,109,73,18,18,229,105,124,237
-13,13,Brazil,Brazil,1986,Mexico,21,QF,2,1,21,109,73,18,18,229,105,124,237
-14,14,Brazil,Brazil,1990,Italy,21,R2,2,1,21,109,73,18,18,229,105,124,237
-15,15,Brazil,Brazil,1994,US,21,1st,4,1,21,109,73,18,18,229,105,124,237
-16,16,Brazil,Brazil,1998,France,21,2nd,2,1,21,109,73,18,18,229,105,124,237
-17,17,Brazil,Brazil,2002,Korea-Japan,21,1st,5,1,21,109,73,18,18,229,105,124,237
-18,18,Brazil,Brazil,2006,Germany,21,QF,3,1,21,109,73,18,18,229,105,124,237
-19,19,Brazil,Brazil,2010,South Africa,21,QF,4,1,21,109,73,18,18,229,105,124,237
-20,20,Brazil,Brazil,2014,Brazil,21,4th,2,1,21,109,73,18,18,229,105,124,237
-21,21,Brazil,Brazil,2018,Russia,21,QF,5,1,21,109,73,18,18,229,105,124,237
-1,12,Cameroon,Cameroon,1982,Spain,7,R1,1,33,7,23,4,7,12,18,43,−25,19
-2,14,Cameroon,Cameroon,1990,Italy,7,QF,1,33,7,23,4,7,12,18,43,−26,20
-3,15,Cameroon,Cameroon,1994,US,7,R1,2,33,7,23,4,7,12,18,43,−27,21
-4,16,Cameroon,Cameroon,1998,France,7,R1,3,33,7,23,4,7,12,18,43,−28,22
-5,17,Cameroon,Cameroon,2002,Korea-Japan,7,R1,4,33,7,23,4,7,12,18,43,−29,23
-6,19,Cameroon,Cameroon,2010,South Africa,7,R1,5,33,7,23,4,7,12,18,43,−30,24
-7,20,Cameroon,Cameroon,2014,Brazil,7,R1,6,33,7,23,4,7,12,18,43,−31,25
-1,13,Canada,Canada,1986,Mexico,1,R1,1,72,1,3,0,0,3,0,5,−5,0
-1,14,Costa Rica,Costa_Rica,1990,Italy,5,R2,1,31,5,18,5,5,8,19,28,−9,20
-2,17,Costa Rica,Costa_Rica,2002,Korea-Japan,5,R1,1,31,5,18,5,5,8,19,28,−9,20
-3,18,Costa Rica,Costa_Rica,2006,Germany,5,R1,2,31,5,18,5,5,8,19,28,−9,20
-4,20,Costa Rica,Costa_Rica,2014,Brazil,5,QF,1,31,5,18,5,5,8,19,28,−9,20
-5,21,Costa Rica,Costa_Rica,2018,Russia,5,R1,3,31,5,18,5,5,8,19,28,−9,20
-1,16,Croatia,Croatia,1998,France,5,3rd,1,22,5,23,11,4,8,35,26,9,37
-2,17,Croatia,Croatia,2002,Korea-Japan,5,R1,1,22,5,23,11,4,8,35,26,9,37
-3,18,Croatia,Croatia,2006,Germany,5,R1,2,22,5,23,11,4,8,35,26,9,37
-4,20,Croatia,Croatia,2014,Brazil,5,R1,3,22,5,23,11,4,8,35,26,9,37
-5,21,Croatia,Croatia,2018,Russia,5,2nd,1,22,5,23,11,4,8,35,26,9,37
-1,13,Denmark,Denmark,1986,Mexico,5,R2,1,23,5,20,9,5,6,30,26,4,32
-2,16,Denmark,Denmark,1998,France,5,QF,1,23,5,20,9,5,6,30,26,4,32
-3,17,Denmark,Denmark,2002,Korea-Japan,5,R2,2,23,5,20,9,5,6,30,26,4,32
-4,19,Denmark,Denmark,2010,South Africa,5,R1,1,23,5,20,9,5,6,30,26,4,32
-5,21,Denmark,Denmark,2018,Russia,5,R2,3,23,5,20,9,5,6,30,26,4,32
-1,17,Ecuador,Ecuador,2002,Korea-Japan,3,R2,1,40,3,10,4,1,5,10,11,−1,13
-2,18,Ecuador,Ecuador,2006,Germany,3,R2,2,40,3,10,4,1,5,10,11,−1,13
-3,20,Ecuador,Ecuador,2014,Brazil,3,R1,1,40,3,10,4,1,5,10,11,−1,13
-1,4,England,England,1950,Brazil,15,R1,1,6,15,69,29,21,19,91,64,27,108
-2,5,England,England,1954,Switzerland,15,QF,1,6,15,69,29,21,19,91,64,27,108
-3,6,England,England,1958,Sweden,15,R1,2,6,15,69,29,21,19,91,64,27,108
-4,7,England,England,1962,Chile,15,QF,2,6,15,69,29,21,19,91,64,27,108
-5,8,England,England,1966,England,15,1st,1,6,15,69,29,21,19,91,64,27,108
-6,9,England,England,1970,Mexico,15,QF,3,6,15,69,29,21,19,91,64,27,108
-7,12,England,England,1982,Spain,15,R2,1,6,15,69,29,21,19,91,64,27,108
-8,13,England,England,1986,Mexico,15,QF,4,6,15,69,29,21,19,91,64,27,108
-9,14,England,England,1990,Italy,15,4th,1,6,15,69,29,21,19,91,64,27,108
-10,16,England,England,1998,France,15,R2,2,6,15,69,29,21,19,91,64,27,108
-11,17,England,England,2002,Korea-Japan,15,QF,5,6,15,69,29,21,19,91,64,27,108
-12,18,England,England,2006,Germany,15,QF,6,6,15,69,29,21,19,91,64,27,108
-13,19,England,England,2010,South Africa,15,R2,3,6,15,69,29,21,19,91,64,27,108
-14,20,England,England,2014,Brazil,15,R1,3,6,15,69,29,21,19,91,64,27,108
-15,21,England,England,2018,Russia,15,4th,2,6,15,69,29,21,19,91,64,27,108
-1,1,France,France,1930,Uruguay,15,R1,1,5,15,66,34,13,19,120,77,43,115
-2,2,France,France,1934,Italy,15,R1,2,5,15,66,34,13,19,120,77,43,115
-3,3,France,France,1938,France,15,QF,1,5,15,66,34,13,19,120,77,43,115
-4,5,France,France,1954,Switzerland,15,R1,3,5,15,66,34,13,19,120,77,43,115
-5,6,France,France,1958,Sweden,15,3rd,1,5,15,66,34,13,19,120,77,43,115
-6,8,France,France,1966,England,15,R1,4,5,15,66,34,13,19,120,77,43,115
-7,11,France,France,1978,Argentina,15,R1,5,5,15,66,34,13,19,120,77,43,115
-8,12,France,France,1982,Spain,15,4th,1,5,15,66,34,13,19,120,77,43,115
-9,13,France,France,1986,Mexico,15,3rd,2,5,15,66,34,13,19,120,77,43,115
-10,16,France,France,1998,France,15,1st,1,5,15,66,34,13,19,120,77,43,115
-11,17,France,France,2002,Korea-Japan,15,R1,6,5,15,66,34,13,19,120,77,43,115
-12,18,France,France,2006,Germany,15,2nd,1,5,15,66,34,13,19,120,77,43,115
-13,19,France,France,2010,South Africa,15,R1,7,5,15,66,34,13,19,120,77,43,115
-14,20,France,France,2014,Brazil,15,QF,2,5,15,66,34,13,19,120,77,43,115
-15,21,France,France,2018,Russia,15,1st,2,5,15,66,34,13,19,120,77,43,115
-1,2,Germany,Germany,1934,Italy,19,3rd,1,2,19,109,67,20,22,226,125,101,221
-2,3,Germany,Germany,1938,France,19,R1,1,2,19,109,67,20,22,226,125,101,221
-3,5,Germany,Germany,1954,Switzerland,19,1st,1,2,19,109,67,20,22,226,125,101,221
-4,6,Germany,Germany,1958,Sweden,19,4th,1,2,19,109,67,20,22,226,125,101,221
-5,7,Germany,Germany,1962,Chile,19,QF,1,2,19,109,67,20,22,226,125,101,221
-6,8,Germany,Germany,1966,England,19,2nd,1,2,19,109,67,20,22,226,125,101,221
-7,9,Germany,Germany,1970,Mexico,19,3rd,2,2,19,109,67,20,22,226,125,101,221
-8,10,Germany,Germany,1974,Germany,19,1st,2,2,19,109,67,20,22,226,125,101,221
-9,11,Germany,Germany,1978,Argentina,19,R2,1,2,19,109,67,20,22,226,125,101,221
-10,12,Germany,Germany,1982,Spain,19,2nd,2,2,19,109,67,20,22,226,125,101,221
-11,13,Germany,Germany,1986,Mexico,19,2nd,3,2,19,109,67,20,22,226,125,101,221
-12,14,Germany,Germany,1990,Italy,19,1st,3,2,19,109,67,20,22,226,125,101,221
-13,15,Germany,Germany,1994,US,19,QF,2,2,19,109,67,20,22,226,125,101,221
-14,16,Germany,Germany,1998,France,19,QF,3,2,19,109,67,20,22,226,125,101,221
-15,17,Germany,Germany,2002,Korea-Japan,19,2nd,4,2,19,109,67,20,22,226,125,101,221
-16,18,Germany,Germany,2006,Germany,19,3rd,3,2,19,109,67,20,22,226,125,101,221
-17,19,Germany,Germany,2010,South Africa,19,3rd,4,2,19,109,67,20,22,226,125,101,221
-18,20,Germany,Germany,2014,Brazil,19,1st,4,2,19,109,67,20,22,226,125,101,221
-19,21,Germany,Germany,2018,Russia,19,R1,2,2,19,109,67,20,22,226,125,101,221
-1,18,Ghana,Ghana,2006,Germany,3,R2,1,37,3,12,4,3,5,13,16,−3,15
-2,19,Ghana,Ghana,2010,South Africa,3,QF,1,37,3,12,4,3,5,13,16,−3,15
-3,20,Ghana,Ghana,2014,Brazil,3,R1,1,37,3,12,4,3,5,13,16,−3,15
-1,11,Iran,Iran,1978,Argentina,5,R1,1,48,5,15,2,4,9,9,24,−15,10
-2,16,Iran,Iran,1998,France,5,R1,2,48,5,15,2,4,9,9,24,−15,10
-3,18,Iran,Iran,2006,Germany,5,R1,3,48,5,15,2,4,9,9,24,−15,10
-4,20,Iran,Iran,2014,Brazil,5,R1,4,48,5,15,2,4,9,9,24,−15,10
-5,21,Iran,Iran,2018,Russia,5,R1,5,48,5,15,2,4,9,9,24,−15,10
-1,16,Japan,Japan,1998,France,6,R1,1,30,6,21,5,5,11,20,29,−9,20
-2,17,Japan,Japan,2002,Korea-Japan,6,R2,1,30,6,21,5,5,11,20,29,−9,20
-3,18,Japan,Japan,2006,Germany,6,R1,2,30,6,21,5,5,11,20,29,−9,20
-4,19,Japan,Japan,2010,South Africa,6,R2,2,30,6,21,5,5,11,20,29,−9,20
-5,20,Japan,Japan,2014,Brazil,6,R1,3,30,6,21,5,5,11,20,29,−9,20
-6,21,Japan,Japan,2018,Russia,6,R2,3,30,6,21,5,5,11,20,29,−9,20
-1,1,Mexico,Mexico,1930,Uruguay,16,R1,1,14,16,57,16,14,27,60,98,−38,62
-2,4,Mexico,Mexico,1950,Brazil,16,R1,2,14,16,57,16,14,27,60,98,−39,63
-3,5,Mexico,Mexico,1954,Switzerland,16,R1,3,14,16,57,16,14,27,60,98,−40,64
-4,6,Mexico,Mexico,1958,Sweden,16,R1,4,14,16,57,16,14,27,60,98,−41,65
-5,7,Mexico,Mexico,1962,Chile,16,R1,5,14,16,57,16,14,27,60,98,−42,66
-6,8,Mexico,Mexico,1966,England,16,R1,6,14,16,57,16,14,27,60,98,−43,67
-7,9,Mexico,Mexico,1970,Mexico,16,QF,1,14,16,57,16,14,27,60,98,−44,68
-8,11,Mexico,Mexico,1978,Argentina,16,R1,7,14,16,57,16,14,27,60,98,−45,69
-9,13,Mexico,Mexico,1986,Mexico,16,QF,2,14,16,57,16,14,27,60,98,−46,70
-10,15,Mexico,Mexico,1994,US,16,R2,1,14,16,57,16,14,27,60,98,−47,71
-11,16,Mexico,Mexico,1998,France,16,R2,2,14,16,57,16,14,27,60,98,−48,72
-12,17,Mexico,Mexico,2002,Korea-Japan,16,R2,3,14,16,57,16,14,27,60,98,−49,73
-13,18,Mexico,Mexico,2006,Germany,16,R2,4,14,16,57,16,14,27,60,98,−50,74
-14,19,Mexico,Mexico,2010,South Africa,16,R2,5,14,16,57,16,14,27,60,98,−51,75
-15,20,Mexico,Mexico,2014,Brazil,16,R2,6,14,16,57,16,14,27,60,98,−52,76
-16,21,Mexico,Mexico,2018,Russia,16,R2,7,14,16,57,16,14,27,60,98,−53,77
-1,9,Morocco,Morocco,1970,Mexico,5,R1,1,43,5,16,2,5,9,14,22,−8,11
-2,13,Morocco,Morocco,1986,Mexico,5,R2,1,43,5,16,2,5,9,14,22,−9,12
-3,15,Morocco,Morocco,1994,US,5,R1,2,43,5,16,2,5,9,14,22,−10,13
-4,16,Morocco,Morocco,1998,France,5,R1,3,43,5,16,2,5,9,14,22,−11,14
-5,21,Morocco,Morocco,2018,Russia,5,R1,4,43,5,16,2,5,9,14,22,−12,15
-1,2,Netherlands,Netherlands,1934,Italy,10,R1,1,8,10,50,27,12,11,86,48,38,93
-2,3,Netherlands,Netherlands,1938,France,10,R1,2,8,10,50,27,12,11,86,48,38,93
-3,10,Netherlands,Netherlands,1974,Germany,10,2nd,1,8,10,50,27,12,11,86,48,38,93
-4,11,Netherlands,Netherlands,1978,Argentina,10,2nd,2,8,10,50,27,12,11,86,48,38,93
-5,14,Netherlands,Netherlands,1990,Italy,10,R2,1,8,10,50,27,12,11,86,48,38,93
-6,15,Netherlands,Netherlands,1994,US,10,QF,1,8,10,50,27,12,11,86,48,38,93
-7,16,Netherlands,Netherlands,1998,France,10,4th,1,8,10,50,27,12,11,86,48,38,93
-8,18,Netherlands,Netherlands,2006,Germany,10,R2,2,8,10,50,27,12,11,86,48,38,93
-9,19,Netherlands,Netherlands,2010,South Africa,10,2nd,3,8,10,50,27,12,11,86,48,38,93
-10,20,Netherlands,Netherlands,2014,Brazil,10,3rd,1,8,10,50,27,12,11,86,48,38,93
-1,3,Poland,Poland,1938,France,8,R1,1,15,8,34,16,5,13,46,45,1,53
-2,10,Poland,Poland,1974,Germany,8,3rd,1,15,8,34,16,5,13,46,45,1,53
-3,11,Poland,Poland,1978,Argentina,8,R2,1,15,8,34,16,5,13,46,45,1,53
-4,12,Poland,Poland,1982,Spain,8,3rd,2,15,8,34,16,5,13,46,45,1,53
-5,13,Poland,Poland,1986,Mexico,8,R2,2,15,8,34,16,5,13,46,45,1,53
-6,17,Poland,Poland,2002,Korea-Japan,8,R1,2,15,8,34,16,5,13,46,45,1,53
-7,18,Poland,Poland,2006,Germany,8,R1,3,15,8,34,16,5,13,46,45,1,53
-8,21,Poland,Poland,2018,Russia,8,R1,4,15,8,34,16,5,13,46,45,1,53
-1,8,Portugal,Portugal,1966,England,7,3rd,1,17,7,30,14,6,10,49,35,14,48
-2,13,Portugal,Portugal,1986,Mexico,7,R1,1,17,7,30,14,6,10,49,35,14,48
-3,17,Portugal,Portugal,2002,Korea-Japan,7,R1,2,17,7,30,14,6,10,49,35,14,48
-4,18,Portugal,Portugal,2006,Germany,7,4th,1,17,7,30,14,6,10,49,35,14,48
-5,19,Portugal,Portugal,2010,South Africa,7,R2,1,17,7,30,14,6,10,49,35,14,48
-6,20,Portugal,Portugal,2014,Brazil,7,R1,3,17,7,30,14,6,10,49,35,14,48
-7,21,Portugal,Portugal,2018,Russia,7,R2,2,17,7,30,14,6,10,49,35,14,48
-1,15,Saudi Arabia,Saudi_Arabia,1994,US,5,R2,1,44,5,16,3,2,11,11,39,−28,11
-2,16,Saudi Arabia,Saudi_Arabia,1998,France,5,R1,1,44,5,16,3,2,11,11,39,−29,12
-3,17,Saudi Arabia,Saudi_Arabia,2002,Korea-Japan,5,R1,2,44,5,16,3,2,11,11,39,−30,13
-4,18,Saudi Arabia,Saudi_Arabia,2006,Germany,5,R1,3,44,5,16,3,2,11,11,39,−31,14
-5,21,Saudi Arabia,Saudi_Arabia,2018,Russia,5,R1,4,44,5,16,3,2,11,11,39,−32,15
-1,17,Senegal,Senegal,2002,Korea-Japan,2,QF,1,41,2,8,3,3,2,11,10,1,12
-2,21,Senegal,Senegal,2018,Russia,2,R1,1,41,2,8,3,3,2,11,10,1,12
-1,1,Serbia,Serbia,1930,Uruguay,12,4th,1,13,12,46,18,8,20,66,63,3,62
-2,4,Serbia,Serbia,1950,Brazil,12,R1,1,13,12,46,18,8,20,66,63,3,62
-3,5,Serbia,Serbia,1954,Switzerland,12,QF,1,13,12,46,18,8,20,66,63,3,62
-4,6,Serbia,Serbia,1958,Sweden,12,QF,2,13,12,46,18,8,20,66,63,3,62
-5,7,Serbia,Serbia,1962,Chile,12,4th,2,13,12,46,18,8,20,66,63,3,62
-6,10,Serbia,Serbia,1974,Germany,12,R2,1,13,12,46,18,8,20,66,63,3,62
-7,12,Serbia,Serbia,1982,Spain,12,R1,2,13,12,46,18,8,20,66,63,3,62
-8,14,Serbia,Serbia,1990,Italy,12,QF,3,13,12,46,18,8,20,66,63,3,62
-9,16,Serbia,Serbia,1998,France,12,R2,2,13,12,46,18,8,20,66,63,3,62
-10,18,Serbia,Serbia,2006,Germany,12,R1,3,13,12,46,18,8,20,66,63,3,62
-11,19,Serbia,Serbia,2010,South Africa,12,R1,4,13,12,46,18,8,20,66,63,3,62
-12,21,Serbia,Serbia,2018,Russia,12,R1,5,13,12,46,18,8,20,66,63,3,62
-1,5,South Korea,South_Korea,1954,Switzerland,10,R1,1,28,10,34,6,9,19,34,70,−36,27
-2,13,South Korea,South_Korea,1986,Mexico,10,R1,2,28,10,34,6,9,19,34,70,−37,28
-3,14,South Korea,South_Korea,1990,Italy,10,R1,3,28,10,34,6,9,19,34,70,−38,29
-4,15,South Korea,South_Korea,1994,US,10,R1,4,28,10,34,6,9,19,34,70,−39,30
-5,16,South Korea,South_Korea,1998,France,10,R1,5,28,10,34,6,9,19,34,70,−40,31
-6,17,South Korea,South_Korea,2002,Korea-Japan,10,4th,1,28,10,34,6,9,19,34,70,−41,32
-7,18,South Korea,South_Korea,2006,Germany,10,R1,6,28,10,34,6,9,19,34,70,−42,33
-8,19,South Korea,South_Korea,2010,South Africa,10,R2,1,28,10,34,6,9,19,34,70,−43,34
-9,20,South Korea,South_Korea,2014,Brazil,10,R1,7,28,10,34,6,9,19,34,70,−44,35
-10,21,South Korea,South_Korea,2018,Russia,10,R1,8,28,10,34,6,9,19,34,70,−45,36
-1,2,Spain,Spain,1934,Italy,15,QF,1,7,15,63,30,15,18,99,72,27,105
-2,4,Spain,Spain,1950,Brazil,15,4th,1,7,15,63,30,15,18,99,72,27,105
-3,7,Spain,Spain,1962,Chile,15,R1,1,7,15,63,30,15,18,99,72,27,105
-4,8,Spain,Spain,1966,England,15,R1,2,7,15,63,30,15,18,99,72,27,105
-5,11,Spain,Spain,1978,Argentina,15,R1,3,7,15,63,30,15,18,99,72,27,105
-6,12,Spain,Spain,1982,Spain,15,R2,1,7,15,63,30,15,18,99,72,27,105
-7,13,Spain,Spain,1986,Mexico,15,QF,2,7,15,63,30,15,18,99,72,27,105
-8,14,Spain,Spain,1990,Italy,15,R2,2,7,15,63,30,15,18,99,72,27,105
-9,15,Spain,Spain,1994,US,15,QF,3,7,15,63,30,15,18,99,72,27,105
-10,16,Spain,Spain,1998,France,15,R1,4,7,15,63,30,15,18,99,72,27,105
-11,17,Spain,Spain,2002,Korea-Japan,15,QF,4,7,15,63,30,15,18,99,72,27,105
-12,18,Spain,Spain,2006,Germany,15,R2,3,7,15,63,30,15,18,99,72,27,105
-13,19,Spain,Spain,2010,South Africa,15,1st,1,7,15,63,30,15,18,99,72,27,105
-14,20,Spain,Spain,2014,Brazil,15,R1,5,7,15,63,30,15,18,99,72,27,105
-15,21,Spain,Spain,2018,Russia,15,R2,4,7,15,63,30,15,18,99,72,27,105
-1,2,Switzerland,Switzerland,1934,Italy,11,QF,1,18,11,37,12,8,17,50,64,−14,44
-2,3,Switzerland,Switzerland,1938,France,11,QF,2,18,11,37,12,8,17,50,64,−15,45
-3,4,Switzerland,Switzerland,1950,Brazil,11,R1,1,18,11,37,12,8,17,50,64,−16,46
-4,5,Switzerland,Switzerland,1954,Switzerland,11,QF,3,18,11,37,12,8,17,50,64,−17,47
-5,7,Switzerland,Switzerland,1962,Chile,11,R1,2,18,11,37,12,8,17,50,64,−18,48
-6,8,Switzerland,Switzerland,1966,England,11,R1,3,18,11,37,12,8,17,50,64,−19,49
-7,15,Switzerland,Switzerland,1994,US,11,R2,1,18,11,37,12,8,17,50,64,−20,50
-8,18,Switzerland,Switzerland,2006,Germany,11,R2,2,18,11,37,12,8,17,50,64,−21,51
-9,19,Switzerland,Switzerland,2010,South Africa,11,R1,4,18,11,37,12,8,17,50,64,−22,52
-10,20,Switzerland,Switzerland,2014,Brazil,11,R2,3,18,11,37,12,8,17,50,64,−23,53
-11,21,Switzerland,Switzerland,2018,Russia,11,R2,4,18,11,37,12,8,17,50,64,−24,54
-1,11,Tunisia,Tunisia,1978,Argentina,5,R1,1,47,5,15,2,4,9,13,25,−12,10
-2,16,Tunisia,Tunisia,1998,France,5,R1,2,47,5,15,2,4,9,13,25,−13,11
-3,17,Tunisia,Tunisia,2002,Korea-Japan,5,R1,3,47,5,15,2,4,9,13,25,−14,12
-4,18,Tunisia,Tunisia,2006,Germany,5,R1,4,47,5,15,2,4,9,13,25,−15,13
-5,21,Tunisia,Tunisia,2018,Russia,5,R1,5,47,5,15,2,4,9,13,25,−16,14
-1,1,United States,United_States,1930,Uruguay,10,3rd,1,26,10,33,8,6,19,37,62,−25,30
-2,2,United States,United_States,1934,Italy,10,R1,1,26,10,33,8,6,19,37,62,−26,31
-3,4,United States,United_States,1950,Brazil,10,R1,2,26,10,33,8,6,19,37,62,−27,32
-4,14,United States,United_States,1990,Italy,10,R1,3,26,10,33,8,6,19,37,62,−28,33
-5,15,United States,United_States,1994,US,10,R2,1,26,10,33,8,6,19,37,62,−29,34
-6,16,United States,United_States,1998,France,10,R1,4,26,10,33,8,6,19,37,62,−30,35
-7,17,United States,United_States,2002,Korea-Japan,10,QF,1,26,10,33,8,6,19,37,62,−31,36
-8,18,United States,United_States,2006,Germany,10,R1,5,26,10,33,8,6,19,37,62,−32,37
-9,19,United States,United_States,2010,South Africa,10,R2,2,26,10,33,8,6,19,37,62,−33,38
-10,20,United States,United_States,2014,Brazil,10,R2,3,26,10,33,8,6,19,37,62,−34,39
-1,1,Uruguay,Uruguay,1930,Uruguay,13,1st,1,9,13,56,24,12,20,87,74,13,84
-2,4,Uruguay,Uruguay,1950,Brazil,13,1st,2,9,13,56,24,12,20,87,74,13,84
-3,5,Uruguay,Uruguay,1954,Switzerland,13,4th,1,9,13,56,24,12,20,87,74,13,84
-4,7,Uruguay,Uruguay,1962,Chile,13,R1,1,9,13,56,24,12,20,87,74,13,84
-5,8,Uruguay,Uruguay,1966,England,13,QF,1,9,13,56,24,12,20,87,74,13,84
-6,9,Uruguay,Uruguay,1970,Mexico,13,4th,2,9,13,56,24,12,20,87,74,13,84
-7,10,Uruguay,Uruguay,1974,Germany,13,R1,2,9,13,56,24,12,20,87,74,13,84
-8,13,Uruguay,Uruguay,1986,Mexico,13,R2,1,9,13,56,24,12,20,87,74,13,84
-9,14,Uruguay,Uruguay,1990,Italy,13,R2,2,9,13,56,24,12,20,87,74,13,84
-10,17,Uruguay,Uruguay,2002,Korea-Japan,13,R1,3,9,13,56,24,12,20,87,74,13,84
-11,19,Uruguay,Uruguay,2010,South Africa,13,4th,3,9,13,56,24,12,20,87,74,13,84
-12,20,Uruguay,Uruguay,2014,Brazil,13,R2,3,9,13,56,24,12,20,87,74,13,84
-13,21,Uruguay,Uruguay,2018,Russia,13,QF,2,9,13,56,24,12,20,87,74,13,84
-1,6,Wales,Wales,1958,Sweden,1,QF,1,54,1,5,1,3,1,4,4,0,6
+﻿serial,cup_serial,team,team_txt,year,host,host_ar,appearances,stage,count,rank,part,pld,w,d,l,gf,ga,gd,pts
+1,1,Argentina,Argentina,1930,Uruguay,أوروغواي,17,2nd,1,4,17,81,43,15,23,137,93,44,144
+2,2,Argentina,Argentina,1934,Italy,إيطاليا,17,R1,1,4,17,81,43,15,23,137,93,44,144
+3,6,Argentina,Argentina,1958,Sweden,السويد,17,R1,2,4,17,81,43,15,23,137,93,44,144
+4,7,Argentina,Argentina,1962,Chile,تشيلي,17,R1,3,4,17,81,43,15,23,137,93,44,144
+5,8,Argentina,Argentina,1966,England,إنجلترا,17,QF,1,4,17,81,43,15,23,137,93,44,144
+6,10,Argentina,Argentina,1974,Germany,ألمانيا,17,R2,1,4,17,81,43,15,23,137,93,44,144
+7,11,Argentina,Argentina,1978,Argentina,الأرجنتين,17,1st,1,4,17,81,43,15,23,137,93,44,144
+8,12,Argentina,Argentina,1982,Spain,إسبانيا,17,R2,2,4,17,81,43,15,23,137,93,44,144
+9,13,Argentina,Argentina,1986,Mexico,المكسيك,17,1st,2,4,17,81,43,15,23,137,93,44,144
+10,14,Argentina,Argentina,1990,Italy,إيطاليا,17,2nd,2,4,17,81,43,15,23,137,93,44,144
+11,15,Argentina,Argentina,1994,US,الولايات المتحدة الأمريكية,17,R2,3,4,17,81,43,15,23,137,93,44,144
+12,16,Argentina,Argentina,1998,France,فرنسا,17,QF,2,4,17,81,43,15,23,137,93,44,144
+13,17,Argentina,Argentina,2002,Korea-Japan,كوريا واليابان,17,R1,4,4,17,81,43,15,23,137,93,44,144
+14,18,Argentina,Argentina,2006,Germany,ألمانيا,17,QF,3,4,17,81,43,15,23,137,93,44,144
+15,19,Argentina,Argentina,2010,South Africa,جنوب أفريقيا,17,QF,4,4,17,81,43,15,23,137,93,44,144
+16,20,Argentina,Argentina,2014,Brazil,البرازيل,17,2nd,3,4,17,81,43,15,23,137,93,44,144
+17,21,Argentina,Argentina,2018,Russia,روسيا,17,R2,4,4,17,81,43,15,23,137,93,44,144
+1,10,Australia,Australia,1974,Germany,ألمانيا,5,R1,1,49,5,16,2,4,10,13,31,−18,10
+2,18,Australia,Australia,2006,Germany,ألمانيا,5,R2,1,49,5,16,2,4,10,13,31,−19,11
+3,19,Australia,Australia,2010,South Africa,جنوب أفريقيا,5,R1,2,49,5,16,2,4,10,13,31,−20,12
+4,20,Australia,Australia,2014,Brazil,البرازيل,5,R1,3,49,5,16,2,4,10,13,31,−21,13
+5,21,Australia,Australia,2018,Russia,روسيا,5,R1,4,49,5,16,2,4,10,13,31,−22,14
+1,1,Belgium,Belgium,1930,Uruguay,أوروغواي,13,R1,1,11,13,48,20,9,19,68,72,−4,69
+2,2,Belgium,Belgium,1934,Italy,إيطاليا,13,R1,2,11,13,48,20,9,19,68,72,−5,70
+3,3,Belgium,Belgium,1938,France,فرنسا,13,R1,3,11,13,48,20,9,19,68,72,−6,71
+4,5,Belgium,Belgium,1954,Switzerland,سويسرا,13,R1,4,11,13,48,20,9,19,68,72,−7,72
+5,9,Belgium,Belgium,1970,Mexico,المكسيك,13,R1,5,11,13,48,20,9,19,68,72,−8,73
+6,12,Belgium,Belgium,1982,Spain,إسبانيا,13,R2,1,11,13,48,20,9,19,68,72,−9,74
+7,13,Belgium,Belgium,1986,Mexico,المكسيك,13,4th,1,11,13,48,20,9,19,68,72,−10,75
+8,14,Belgium,Belgium,1990,Italy,إيطاليا,13,R2,2,11,13,48,20,9,19,68,72,−11,76
+9,15,Belgium,Belgium,1994,US,الولايات المتحدة الأمريكية,13,R2,3,11,13,48,20,9,19,68,72,−12,77
+10,16,Belgium,Belgium,1998,France,فرنسا,13,R1,6,11,13,48,20,9,19,68,72,−13,78
+11,17,Belgium,Belgium,2002,Korea-Japan,كوريا واليابان,13,R2,4,11,13,48,20,9,19,68,72,−14,79
+12,20,Belgium,Belgium,2014,Brazil,البرازيل,13,QF,1,11,13,48,20,9,19,68,72,−15,80
+13,21,Belgium,Belgium,2018,Russia,روسيا,13,3rd,1,11,13,48,20,9,19,68,72,−16,81
+1,1,Brazil,Brazil,1930,Uruguay,أوروغواي,21,R1,1,1,21,109,73,18,18,229,105,124,237
+2,2,Brazil,Brazil,1934,Italy,إيطاليا,21,R1,2,1,21,109,73,18,18,229,105,124,237
+3,3,Brazil,Brazil,1938,France,فرنسا,21,3rd,1,1,21,109,73,18,18,229,105,124,237
+4,4,Brazil,Brazil,1950,Brazil,البرازيل,21,2nd,1,1,21,109,73,18,18,229,105,124,237
+5,5,Brazil,Brazil,1954,Switzerland,سويسرا,21,QF,1,1,21,109,73,18,18,229,105,124,237
+6,6,Brazil,Brazil,1958,Sweden,السويد,21,1st,1,1,21,109,73,18,18,229,105,124,237
+7,7,Brazil,Brazil,1962,Chile,تشيلي,21,1st,2,1,21,109,73,18,18,229,105,124,237
+8,8,Brazil,Brazil,1966,England,إنجلترا,21,R1,3,1,21,109,73,18,18,229,105,124,237
+9,9,Brazil,Brazil,1970,Mexico,المكسيك,21,1st,3,1,21,109,73,18,18,229,105,124,237
+10,10,Brazil,Brazil,1974,Germany,ألمانيا,21,4th,1,1,21,109,73,18,18,229,105,124,237
+11,11,Brazil,Brazil,1978,Argentina,الأرجنتين,21,3rd,2,1,21,109,73,18,18,229,105,124,237
+12,12,Brazil,Brazil,1982,Spain,إسبانيا,21,R2,1,1,21,109,73,18,18,229,105,124,237
+13,13,Brazil,Brazil,1986,Mexico,المكسيك,21,QF,2,1,21,109,73,18,18,229,105,124,237
+14,14,Brazil,Brazil,1990,Italy,إيطاليا,21,R2,2,1,21,109,73,18,18,229,105,124,237
+15,15,Brazil,Brazil,1994,US,الولايات المتحدة الأمريكية,21,1st,4,1,21,109,73,18,18,229,105,124,237
+16,16,Brazil,Brazil,1998,France,فرنسا,21,2nd,2,1,21,109,73,18,18,229,105,124,237
+17,17,Brazil,Brazil,2002,Korea-Japan,كوريا واليابان,21,1st,5,1,21,109,73,18,18,229,105,124,237
+18,18,Brazil,Brazil,2006,Germany,ألمانيا,21,QF,3,1,21,109,73,18,18,229,105,124,237
+19,19,Brazil,Brazil,2010,South Africa,جنوب أفريقيا,21,QF,4,1,21,109,73,18,18,229,105,124,237
+20,20,Brazil,Brazil,2014,Brazil,البرازيل,21,4th,2,1,21,109,73,18,18,229,105,124,237
+21,21,Brazil,Brazil,2018,Russia,روسيا,21,QF,5,1,21,109,73,18,18,229,105,124,237
+1,12,Cameroon,Cameroon,1982,Spain,إسبانيا,7,R1,1,33,7,23,4,7,12,18,43,−25,19
+2,14,Cameroon,Cameroon,1990,Italy,إيطاليا,7,QF,1,33,7,23,4,7,12,18,43,−26,20
+3,15,Cameroon,Cameroon,1994,US,الولايات المتحدة الأمريكية,7,R1,2,33,7,23,4,7,12,18,43,−27,21
+4,16,Cameroon,Cameroon,1998,France,فرنسا,7,R1,3,33,7,23,4,7,12,18,43,−28,22
+5,17,Cameroon,Cameroon,2002,Korea-Japan,كوريا واليابان,7,R1,4,33,7,23,4,7,12,18,43,−29,23
+6,19,Cameroon,Cameroon,2010,South Africa,جنوب أفريقيا,7,R1,5,33,7,23,4,7,12,18,43,−30,24
+7,20,Cameroon,Cameroon,2014,Brazil,البرازيل,7,R1,6,33,7,23,4,7,12,18,43,−31,25
+1,13,Canada,Canada,1986,Mexico,المكسيك,1,R1,1,72,1,3,0,0,3,0,5,−5,0
+1,14,Costa Rica,Costa_Rica,1990,Italy,إيطاليا,5,R2,1,31,5,18,5,5,8,19,28,−9,20
+2,17,Costa Rica,Costa_Rica,2002,Korea-Japan,كوريا واليابان,5,R1,1,31,5,18,5,5,8,19,28,−9,20
+3,18,Costa Rica,Costa_Rica,2006,Germany,ألمانيا,5,R1,2,31,5,18,5,5,8,19,28,−9,20
+4,20,Costa Rica,Costa_Rica,2014,Brazil,البرازيل,5,QF,1,31,5,18,5,5,8,19,28,−9,20
+5,21,Costa Rica,Costa_Rica,2018,Russia,روسيا,5,R1,3,31,5,18,5,5,8,19,28,−9,20
+1,16,Croatia,Croatia,1998,France,فرنسا,5,3rd,1,22,5,23,11,4,8,35,26,9,37
+2,17,Croatia,Croatia,2002,Korea-Japan,كوريا واليابان,5,R1,1,22,5,23,11,4,8,35,26,9,37
+3,18,Croatia,Croatia,2006,Germany,ألمانيا,5,R1,2,22,5,23,11,4,8,35,26,9,37
+4,20,Croatia,Croatia,2014,Brazil,البرازيل,5,R1,3,22,5,23,11,4,8,35,26,9,37
+5,21,Croatia,Croatia,2018,Russia,روسيا,5,2nd,1,22,5,23,11,4,8,35,26,9,37
+1,13,Denmark,Denmark,1986,Mexico,المكسيك,5,R2,1,23,5,20,9,5,6,30,26,4,32
+2,16,Denmark,Denmark,1998,France,فرنسا,5,QF,1,23,5,20,9,5,6,30,26,4,32
+3,17,Denmark,Denmark,2002,Korea-Japan,كوريا واليابان,5,R2,2,23,5,20,9,5,6,30,26,4,32
+4,19,Denmark,Denmark,2010,South Africa,جنوب أفريقيا,5,R1,1,23,5,20,9,5,6,30,26,4,32
+5,21,Denmark,Denmark,2018,Russia,روسيا,5,R2,3,23,5,20,9,5,6,30,26,4,32
+1,17,Ecuador,Ecuador,2002,Korea-Japan,كوريا واليابان,3,R2,1,40,3,10,4,1,5,10,11,−1,13
+2,18,Ecuador,Ecuador,2006,Germany,ألمانيا,3,R2,2,40,3,10,4,1,5,10,11,−1,13
+3,20,Ecuador,Ecuador,2014,Brazil,البرازيل,3,R1,1,40,3,10,4,1,5,10,11,−1,13
+1,4,England,England,1950,Brazil,البرازيل,15,R1,1,6,15,69,29,21,19,91,64,27,108
+2,5,England,England,1954,Switzerland,سويسرا,15,QF,1,6,15,69,29,21,19,91,64,27,108
+3,6,England,England,1958,Sweden,السويد,15,R1,2,6,15,69,29,21,19,91,64,27,108
+4,7,England,England,1962,Chile,تشيلي,15,QF,2,6,15,69,29,21,19,91,64,27,108
+5,8,England,England,1966,England,إنجلترا,15,1st,1,6,15,69,29,21,19,91,64,27,108
+6,9,England,England,1970,Mexico,المكسيك,15,QF,3,6,15,69,29,21,19,91,64,27,108
+7,12,England,England,1982,Spain,إسبانيا,15,R2,1,6,15,69,29,21,19,91,64,27,108
+8,13,England,England,1986,Mexico,المكسيك,15,QF,4,6,15,69,29,21,19,91,64,27,108
+9,14,England,England,1990,Italy,إيطاليا,15,4th,1,6,15,69,29,21,19,91,64,27,108
+10,16,England,England,1998,France,فرنسا,15,R2,2,6,15,69,29,21,19,91,64,27,108
+11,17,England,England,2002,Korea-Japan,كوريا واليابان,15,QF,5,6,15,69,29,21,19,91,64,27,108
+12,18,England,England,2006,Germany,ألمانيا,15,QF,6,6,15,69,29,21,19,91,64,27,108
+13,19,England,England,2010,South Africa,جنوب أفريقيا,15,R2,3,6,15,69,29,21,19,91,64,27,108
+14,20,England,England,2014,Brazil,البرازيل,15,R1,3,6,15,69,29,21,19,91,64,27,108
+15,21,England,England,2018,Russia,روسيا,15,4th,2,6,15,69,29,21,19,91,64,27,108
+1,1,France,France,1930,Uruguay,أوروغواي,15,R1,1,5,15,66,34,13,19,120,77,43,115
+2,2,France,France,1934,Italy,إيطاليا,15,R1,2,5,15,66,34,13,19,120,77,43,115
+3,3,France,France,1938,France,فرنسا,15,QF,1,5,15,66,34,13,19,120,77,43,115
+4,5,France,France,1954,Switzerland,سويسرا,15,R1,3,5,15,66,34,13,19,120,77,43,115
+5,6,France,France,1958,Sweden,السويد,15,3rd,1,5,15,66,34,13,19,120,77,43,115
+6,8,France,France,1966,England,إنجلترا,15,R1,4,5,15,66,34,13,19,120,77,43,115
+7,11,France,France,1978,Argentina,الأرجنتين,15,R1,5,5,15,66,34,13,19,120,77,43,115
+8,12,France,France,1982,Spain,إسبانيا,15,4th,1,5,15,66,34,13,19,120,77,43,115
+9,13,France,France,1986,Mexico,المكسيك,15,3rd,2,5,15,66,34,13,19,120,77,43,115
+10,16,France,France,1998,France,فرنسا,15,1st,1,5,15,66,34,13,19,120,77,43,115
+11,17,France,France,2002,Korea-Japan,كوريا واليابان,15,R1,6,5,15,66,34,13,19,120,77,43,115
+12,18,France,France,2006,Germany,ألمانيا,15,2nd,1,5,15,66,34,13,19,120,77,43,115
+13,19,France,France,2010,South Africa,جنوب أفريقيا,15,R1,7,5,15,66,34,13,19,120,77,43,115
+14,20,France,France,2014,Brazil,البرازيل,15,QF,2,5,15,66,34,13,19,120,77,43,115
+15,21,France,France,2018,Russia,روسيا,15,1st,2,5,15,66,34,13,19,120,77,43,115
+1,2,Germany,Germany,1934,Italy,إيطاليا,19,3rd,1,2,19,109,67,20,22,226,125,101,221
+2,3,Germany,Germany,1938,France,فرنسا,19,R1,1,2,19,109,67,20,22,226,125,101,221
+3,5,Germany,Germany,1954,Switzerland,سويسرا,19,1st,1,2,19,109,67,20,22,226,125,101,221
+4,6,Germany,Germany,1958,Sweden,السويد,19,4th,1,2,19,109,67,20,22,226,125,101,221
+5,7,Germany,Germany,1962,Chile,تشيلي,19,QF,1,2,19,109,67,20,22,226,125,101,221
+6,8,Germany,Germany,1966,England,إنجلترا,19,2nd,1,2,19,109,67,20,22,226,125,101,221
+7,9,Germany,Germany,1970,Mexico,المكسيك,19,3rd,2,2,19,109,67,20,22,226,125,101,221
+8,10,Germany,Germany,1974,Germany,ألمانيا,19,1st,2,2,19,109,67,20,22,226,125,101,221
+9,11,Germany,Germany,1978,Argentina,الأرجنتين,19,R2,1,2,19,109,67,20,22,226,125,101,221
+10,12,Germany,Germany,1982,Spain,إسبانيا,19,2nd,2,2,19,109,67,20,22,226,125,101,221
+11,13,Germany,Germany,1986,Mexico,المكسيك,19,2nd,3,2,19,109,67,20,22,226,125,101,221
+12,14,Germany,Germany,1990,Italy,إيطاليا,19,1st,3,2,19,109,67,20,22,226,125,101,221
+13,15,Germany,Germany,1994,US,الولايات المتحدة الأمريكية,19,QF,2,2,19,109,67,20,22,226,125,101,221
+14,16,Germany,Germany,1998,France,فرنسا,19,QF,3,2,19,109,67,20,22,226,125,101,221
+15,17,Germany,Germany,2002,Korea-Japan,كوريا واليابان,19,2nd,4,2,19,109,67,20,22,226,125,101,221
+16,18,Germany,Germany,2006,Germany,ألمانيا,19,3rd,3,2,19,109,67,20,22,226,125,101,221
+17,19,Germany,Germany,2010,South Africa,جنوب أفريقيا,19,3rd,4,2,19,109,67,20,22,226,125,101,221
+18,20,Germany,Germany,2014,Brazil,البرازيل,19,1st,4,2,19,109,67,20,22,226,125,101,221
+19,21,Germany,Germany,2018,Russia,روسيا,19,R1,2,2,19,109,67,20,22,226,125,101,221
+1,18,Ghana,Ghana,2006,Germany,ألمانيا,3,R2,1,37,3,12,4,3,5,13,16,−3,15
+2,19,Ghana,Ghana,2010,South Africa,جنوب أفريقيا,3,QF,1,37,3,12,4,3,5,13,16,−3,15
+3,20,Ghana,Ghana,2014,Brazil,البرازيل,3,R1,1,37,3,12,4,3,5,13,16,−3,15
+1,11,Iran,Iran,1978,Argentina,الأرجنتين,5,R1,1,48,5,15,2,4,9,9,24,−15,10
+2,16,Iran,Iran,1998,France,فرنسا,5,R1,2,48,5,15,2,4,9,9,24,−15,10
+3,18,Iran,Iran,2006,Germany,ألمانيا,5,R1,3,48,5,15,2,4,9,9,24,−15,10
+4,20,Iran,Iran,2014,Brazil,البرازيل,5,R1,4,48,5,15,2,4,9,9,24,−15,10
+5,21,Iran,Iran,2018,Russia,روسيا,5,R1,5,48,5,15,2,4,9,9,24,−15,10
+1,16,Japan,Japan,1998,France,فرنسا,6,R1,1,30,6,21,5,5,11,20,29,−9,20
+2,17,Japan,Japan,2002,Korea-Japan,كوريا واليابان,6,R2,1,30,6,21,5,5,11,20,29,−9,20
+3,18,Japan,Japan,2006,Germany,ألمانيا,6,R1,2,30,6,21,5,5,11,20,29,−9,20
+4,19,Japan,Japan,2010,South Africa,جنوب أفريقيا,6,R2,2,30,6,21,5,5,11,20,29,−9,20
+5,20,Japan,Japan,2014,Brazil,البرازيل,6,R1,3,30,6,21,5,5,11,20,29,−9,20
+6,21,Japan,Japan,2018,Russia,روسيا,6,R2,3,30,6,21,5,5,11,20,29,−9,20
+1,1,Mexico,Mexico,1930,Uruguay,أوروغواي,16,R1,1,14,16,57,16,14,27,60,98,−38,62
+2,4,Mexico,Mexico,1950,Brazil,البرازيل,16,R1,2,14,16,57,16,14,27,60,98,−39,63
+3,5,Mexico,Mexico,1954,Switzerland,سويسرا,16,R1,3,14,16,57,16,14,27,60,98,−40,64
+4,6,Mexico,Mexico,1958,Sweden,السويد,16,R1,4,14,16,57,16,14,27,60,98,−41,65
+5,7,Mexico,Mexico,1962,Chile,تشيلي,16,R1,5,14,16,57,16,14,27,60,98,−42,66
+6,8,Mexico,Mexico,1966,England,إنجلترا,16,R1,6,14,16,57,16,14,27,60,98,−43,67
+7,9,Mexico,Mexico,1970,Mexico,المكسيك,16,QF,1,14,16,57,16,14,27,60,98,−44,68
+8,11,Mexico,Mexico,1978,Argentina,الأرجنتين,16,R1,7,14,16,57,16,14,27,60,98,−45,69
+9,13,Mexico,Mexico,1986,Mexico,المكسيك,16,QF,2,14,16,57,16,14,27,60,98,−46,70
+10,15,Mexico,Mexico,1994,US,الولايات المتحدة الأمريكية,16,R2,1,14,16,57,16,14,27,60,98,−47,71
+11,16,Mexico,Mexico,1998,France,فرنسا,16,R2,2,14,16,57,16,14,27,60,98,−48,72
+12,17,Mexico,Mexico,2002,Korea-Japan,كوريا واليابان,16,R2,3,14,16,57,16,14,27,60,98,−49,73
+13,18,Mexico,Mexico,2006,Germany,ألمانيا,16,R2,4,14,16,57,16,14,27,60,98,−50,74
+14,19,Mexico,Mexico,2010,South Africa,جنوب أفريقيا,16,R2,5,14,16,57,16,14,27,60,98,−51,75
+15,20,Mexico,Mexico,2014,Brazil,البرازيل,16,R2,6,14,16,57,16,14,27,60,98,−52,76
+16,21,Mexico,Mexico,2018,Russia,روسيا,16,R2,7,14,16,57,16,14,27,60,98,−53,77
+1,9,Morocco,Morocco,1970,Mexico,المكسيك,5,R1,1,43,5,16,2,5,9,14,22,−8,11
+2,13,Morocco,Morocco,1986,Mexico,المكسيك,5,R2,1,43,5,16,2,5,9,14,22,−9,12
+3,15,Morocco,Morocco,1994,US,الولايات المتحدة الأمريكية,5,R1,2,43,5,16,2,5,9,14,22,−10,13
+4,16,Morocco,Morocco,1998,France,فرنسا,5,R1,3,43,5,16,2,5,9,14,22,−11,14
+5,21,Morocco,Morocco,2018,Russia,روسيا,5,R1,4,43,5,16,2,5,9,14,22,−12,15
+1,2,Netherlands,Netherlands,1934,Italy,إيطاليا,10,R1,1,8,10,50,27,12,11,86,48,38,93
+2,3,Netherlands,Netherlands,1938,France,فرنسا,10,R1,2,8,10,50,27,12,11,86,48,38,93
+3,10,Netherlands,Netherlands,1974,Germany,ألمانيا,10,2nd,1,8,10,50,27,12,11,86,48,38,93
+4,11,Netherlands,Netherlands,1978,Argentina,الأرجنتين,10,2nd,2,8,10,50,27,12,11,86,48,38,93
+5,14,Netherlands,Netherlands,1990,Italy,إيطاليا,10,R2,1,8,10,50,27,12,11,86,48,38,93
+6,15,Netherlands,Netherlands,1994,US,الولايات المتحدة الأمريكية,10,QF,1,8,10,50,27,12,11,86,48,38,93
+7,16,Netherlands,Netherlands,1998,France,فرنسا,10,4th,1,8,10,50,27,12,11,86,48,38,93
+8,18,Netherlands,Netherlands,2006,Germany,ألمانيا,10,R2,2,8,10,50,27,12,11,86,48,38,93
+9,19,Netherlands,Netherlands,2010,South Africa,جنوب أفريقيا,10,2nd,3,8,10,50,27,12,11,86,48,38,93
+10,20,Netherlands,Netherlands,2014,Brazil,البرازيل,10,3rd,1,8,10,50,27,12,11,86,48,38,93
+1,3,Poland,Poland,1938,France,فرنسا,8,R1,1,15,8,34,16,5,13,46,45,1,53
+2,10,Poland,Poland,1974,Germany,ألمانيا,8,3rd,1,15,8,34,16,5,13,46,45,1,53
+3,11,Poland,Poland,1978,Argentina,الأرجنتين,8,R2,1,15,8,34,16,5,13,46,45,1,53
+4,12,Poland,Poland,1982,Spain,إسبانيا,8,3rd,2,15,8,34,16,5,13,46,45,1,53
+5,13,Poland,Poland,1986,Mexico,المكسيك,8,R2,2,15,8,34,16,5,13,46,45,1,53
+6,17,Poland,Poland,2002,Korea-Japan,كوريا واليابان,8,R1,2,15,8,34,16,5,13,46,45,1,53
+7,18,Poland,Poland,2006,Germany,ألمانيا,8,R1,3,15,8,34,16,5,13,46,45,1,53
+8,21,Poland,Poland,2018,Russia,روسيا,8,R1,4,15,8,34,16,5,13,46,45,1,53
+1,8,Portugal,Portugal,1966,England,إنجلترا,7,3rd,1,17,7,30,14,6,10,49,35,14,48
+2,13,Portugal,Portugal,1986,Mexico,المكسيك,7,R1,1,17,7,30,14,6,10,49,35,14,48
+3,17,Portugal,Portugal,2002,Korea-Japan,كوريا واليابان,7,R1,2,17,7,30,14,6,10,49,35,14,48
+4,18,Portugal,Portugal,2006,Germany,ألمانيا,7,4th,1,17,7,30,14,6,10,49,35,14,48
+5,19,Portugal,Portugal,2010,South Africa,جنوب أفريقيا,7,R2,1,17,7,30,14,6,10,49,35,14,48
+6,20,Portugal,Portugal,2014,Brazil,البرازيل,7,R1,3,17,7,30,14,6,10,49,35,14,48
+7,21,Portugal,Portugal,2018,Russia,روسيا,7,R2,2,17,7,30,14,6,10,49,35,14,48
+1,15,Saudi Arabia,Saudi_Arabia,1994,US,الولايات المتحدة الأمريكية,5,R2,1,44,5,16,3,2,11,11,39,−28,11
+2,16,Saudi Arabia,Saudi_Arabia,1998,France,فرنسا,5,R1,1,44,5,16,3,2,11,11,39,−29,12
+3,17,Saudi Arabia,Saudi_Arabia,2002,Korea-Japan,كوريا واليابان,5,R1,2,44,5,16,3,2,11,11,39,−30,13
+4,18,Saudi Arabia,Saudi_Arabia,2006,Germany,ألمانيا,5,R1,3,44,5,16,3,2,11,11,39,−31,14
+5,21,Saudi Arabia,Saudi_Arabia,2018,Russia,روسيا,5,R1,4,44,5,16,3,2,11,11,39,−32,15
+1,17,Senegal,Senegal,2002,Korea-Japan,كوريا واليابان,2,QF,1,41,2,8,3,3,2,11,10,1,12
+2,21,Senegal,Senegal,2018,Russia,روسيا,2,R1,1,41,2,8,3,3,2,11,10,1,12
+1,1,Serbia,Serbia,1930,Uruguay,أوروغواي,12,4th,1,13,12,46,18,8,20,66,63,3,62
+2,4,Serbia,Serbia,1950,Brazil,البرازيل,12,R1,1,13,12,46,18,8,20,66,63,3,62
+3,5,Serbia,Serbia,1954,Switzerland,سويسرا,12,QF,1,13,12,46,18,8,20,66,63,3,62
+4,6,Serbia,Serbia,1958,Sweden,السويد,12,QF,2,13,12,46,18,8,20,66,63,3,62
+5,7,Serbia,Serbia,1962,Chile,تشيلي,12,4th,2,13,12,46,18,8,20,66,63,3,62
+6,10,Serbia,Serbia,1974,Germany,ألمانيا,12,R2,1,13,12,46,18,8,20,66,63,3,62
+7,12,Serbia,Serbia,1982,Spain,إسبانيا,12,R1,2,13,12,46,18,8,20,66,63,3,62
+8,14,Serbia,Serbia,1990,Italy,إيطاليا,12,QF,3,13,12,46,18,8,20,66,63,3,62
+9,16,Serbia,Serbia,1998,France,فرنسا,12,R2,2,13,12,46,18,8,20,66,63,3,62
+10,18,Serbia,Serbia,2006,Germany,ألمانيا,12,R1,3,13,12,46,18,8,20,66,63,3,62
+11,19,Serbia,Serbia,2010,South Africa,جنوب أفريقيا,12,R1,4,13,12,46,18,8,20,66,63,3,62
+12,21,Serbia,Serbia,2018,Russia,روسيا,12,R1,5,13,12,46,18,8,20,66,63,3,62
+1,5,South Korea,South_Korea,1954,Switzerland,سويسرا,10,R1,1,28,10,34,6,9,19,34,70,−36,27
+2,13,South Korea,South_Korea,1986,Mexico,المكسيك,10,R1,2,28,10,34,6,9,19,34,70,−37,28
+3,14,South Korea,South_Korea,1990,Italy,إيطاليا,10,R1,3,28,10,34,6,9,19,34,70,−38,29
+4,15,South Korea,South_Korea,1994,US,الولايات المتحدة الأمريكية,10,R1,4,28,10,34,6,9,19,34,70,−39,30
+5,16,South Korea,South_Korea,1998,France,فرنسا,10,R1,5,28,10,34,6,9,19,34,70,−40,31
+6,17,South Korea,South_Korea,2002,Korea-Japan,كوريا واليابان,10,4th,1,28,10,34,6,9,19,34,70,−41,32
+7,18,South Korea,South_Korea,2006,Germany,ألمانيا,10,R1,6,28,10,34,6,9,19,34,70,−42,33
+8,19,South Korea,South_Korea,2010,South Africa,جنوب أفريقيا,10,R2,1,28,10,34,6,9,19,34,70,−43,34
+9,20,South Korea,South_Korea,2014,Brazil,البرازيل,10,R1,7,28,10,34,6,9,19,34,70,−44,35
+10,21,South Korea,South_Korea,2018,Russia,روسيا,10,R1,8,28,10,34,6,9,19,34,70,−45,36
+1,2,Spain,Spain,1934,Italy,إيطاليا,15,QF,1,7,15,63,30,15,18,99,72,27,105
+2,4,Spain,Spain,1950,Brazil,البرازيل,15,4th,1,7,15,63,30,15,18,99,72,27,105
+3,7,Spain,Spain,1962,Chile,تشيلي,15,R1,1,7,15,63,30,15,18,99,72,27,105
+4,8,Spain,Spain,1966,England,إنجلترا,15,R1,2,7,15,63,30,15,18,99,72,27,105
+5,11,Spain,Spain,1978,Argentina,الأرجنتين,15,R1,3,7,15,63,30,15,18,99,72,27,105
+6,12,Spain,Spain,1982,Spain,إسبانيا,15,R2,1,7,15,63,30,15,18,99,72,27,105
+7,13,Spain,Spain,1986,Mexico,المكسيك,15,QF,2,7,15,63,30,15,18,99,72,27,105
+8,14,Spain,Spain,1990,Italy,إيطاليا,15,R2,2,7,15,63,30,15,18,99,72,27,105
+9,15,Spain,Spain,1994,US,الولايات المتحدة الأمريكية,15,QF,3,7,15,63,30,15,18,99,72,27,105
+10,16,Spain,Spain,1998,France,فرنسا,15,R1,4,7,15,63,30,15,18,99,72,27,105
+11,17,Spain,Spain,2002,Korea-Japan,كوريا واليابان,15,QF,4,7,15,63,30,15,18,99,72,27,105
+12,18,Spain,Spain,2006,Germany,ألمانيا,15,R2,3,7,15,63,30,15,18,99,72,27,105
+13,19,Spain,Spain,2010,South Africa,جنوب أفريقيا,15,1st,1,7,15,63,30,15,18,99,72,27,105
+14,20,Spain,Spain,2014,Brazil,البرازيل,15,R1,5,7,15,63,30,15,18,99,72,27,105
+15,21,Spain,Spain,2018,Russia,روسيا,15,R2,4,7,15,63,30,15,18,99,72,27,105
+1,2,Switzerland,Switzerland,1934,Italy,إيطاليا,11,QF,1,18,11,37,12,8,17,50,64,−14,44
+2,3,Switzerland,Switzerland,1938,France,فرنسا,11,QF,2,18,11,37,12,8,17,50,64,−15,45
+3,4,Switzerland,Switzerland,1950,Brazil,البرازيل,11,R1,1,18,11,37,12,8,17,50,64,−16,46
+4,5,Switzerland,Switzerland,1954,Switzerland,سويسرا,11,QF,3,18,11,37,12,8,17,50,64,−17,47
+5,7,Switzerland,Switzerland,1962,Chile,تشيلي,11,R1,2,18,11,37,12,8,17,50,64,−18,48
+6,8,Switzerland,Switzerland,1966,England,إنجلترا,11,R1,3,18,11,37,12,8,17,50,64,−19,49
+7,15,Switzerland,Switzerland,1994,US,الولايات المتحدة الأمريكية,11,R2,1,18,11,37,12,8,17,50,64,−20,50
+8,18,Switzerland,Switzerland,2006,Germany,ألمانيا,11,R2,2,18,11,37,12,8,17,50,64,−21,51
+9,19,Switzerland,Switzerland,2010,South Africa,جنوب أفريقيا,11,R1,4,18,11,37,12,8,17,50,64,−22,52
+10,20,Switzerland,Switzerland,2014,Brazil,البرازيل,11,R2,3,18,11,37,12,8,17,50,64,−23,53
+11,21,Switzerland,Switzerland,2018,Russia,روسيا,11,R2,4,18,11,37,12,8,17,50,64,−24,54
+1,11,Tunisia,Tunisia,1978,Argentina,الأرجنتين,5,R1,1,47,5,15,2,4,9,13,25,−12,10
+2,16,Tunisia,Tunisia,1998,France,فرنسا,5,R1,2,47,5,15,2,4,9,13,25,−13,11
+3,17,Tunisia,Tunisia,2002,Korea-Japan,كوريا واليابان,5,R1,3,47,5,15,2,4,9,13,25,−14,12
+4,18,Tunisia,Tunisia,2006,Germany,ألمانيا,5,R1,4,47,5,15,2,4,9,13,25,−15,13
+5,21,Tunisia,Tunisia,2018,Russia,روسيا,5,R1,5,47,5,15,2,4,9,13,25,−16,14
+1,1,United States,United_States,1930,Uruguay,أوروغواي,10,3rd,1,26,10,33,8,6,19,37,62,−25,30
+2,2,United States,United_States,1934,Italy,إيطاليا,10,R1,1,26,10,33,8,6,19,37,62,−26,31
+3,4,United States,United_States,1950,Brazil,البرازيل,10,R1,2,26,10,33,8,6,19,37,62,−27,32
+4,14,United States,United_States,1990,Italy,إيطاليا,10,R1,3,26,10,33,8,6,19,37,62,−28,33
+5,15,United States,United_States,1994,US,الولايات المتحدة الأمريكية,10,R2,1,26,10,33,8,6,19,37,62,−29,34
+6,16,United States,United_States,1998,France,فرنسا,10,R1,4,26,10,33,8,6,19,37,62,−30,35
+7,17,United States,United_States,2002,Korea-Japan,كوريا واليابان,10,QF,1,26,10,33,8,6,19,37,62,−31,36
+8,18,United States,United_States,2006,Germany,ألمانيا,10,R1,5,26,10,33,8,6,19,37,62,−32,37
+9,19,United States,United_States,2010,South Africa,جنوب أفريقيا,10,R2,2,26,10,33,8,6,19,37,62,−33,38
+10,20,United States,United_States,2014,Brazil,البرازيل,10,R2,3,26,10,33,8,6,19,37,62,−34,39
+1,1,Uruguay,Uruguay,1930,Uruguay,أوروغواي,13,1st,1,9,13,56,24,12,20,87,74,13,84
+2,4,Uruguay,Uruguay,1950,Brazil,البرازيل,13,1st,2,9,13,56,24,12,20,87,74,13,84
+3,5,Uruguay,Uruguay,1954,Switzerland,سويسرا,13,4th,1,9,13,56,24,12,20,87,74,13,84
+4,7,Uruguay,Uruguay,1962,Chile,تشيلي,13,R1,1,9,13,56,24,12,20,87,74,13,84
+5,8,Uruguay,Uruguay,1966,England,إنجلترا,13,QF,1,9,13,56,24,12,20,87,74,13,84
+6,9,Uruguay,Uruguay,1970,Mexico,المكسيك,13,4th,2,9,13,56,24,12,20,87,74,13,84
+7,10,Uruguay,Uruguay,1974,Germany,ألمانيا,13,R1,2,9,13,56,24,12,20,87,74,13,84
+8,13,Uruguay,Uruguay,1986,Mexico,المكسيك,13,R2,1,9,13,56,24,12,20,87,74,13,84
+9,14,Uruguay,Uruguay,1990,Italy,إيطاليا,13,R2,2,9,13,56,24,12,20,87,74,13,84
+10,17,Uruguay,Uruguay,2002,Korea-Japan,كوريا واليابان,13,R1,3,9,13,56,24,12,20,87,74,13,84
+11,19,Uruguay,Uruguay,2010,South Africa,جنوب أفريقيا,13,4th,3,9,13,56,24,12,20,87,74,13,84
+12,20,Uruguay,Uruguay,2014,Brazil,البرازيل,13,R2,3,9,13,56,24,12,20,87,74,13,84
+13,21,Uruguay,Uruguay,2018,Russia,روسيا,13,QF,2,9,13,56,24,12,20,87,74,13,84
+1,6,Wales,Wales,1958,Sweden,السويد,1,QF,1,54,1,5,1,3,1,4,4,0,6
