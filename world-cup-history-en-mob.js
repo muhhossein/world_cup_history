@@ -144,13 +144,53 @@ function dataviz() {
     const color_scale = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range(["#DFE8EF", "#9DB7CE", "#5B8FB2", "#46708C", "#D8765B", "#969696", "#FFB636"]);
+        .range(["#B3EEFF", "#7CDAFF", "#47C6FF", "#32A2EF", "url(#gradient-3)", "url(#gradient-2)", "url(#gradient-1)"]);
     // .range(["#a1a1a1", "#a36880", "#99365d", "#87a16d", "#628045", "#466b9c", "#003470"]);
 
     const color_scale_txt = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
         .range(["grey", "white", "white", "white", "white", "white", "black"]);
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // 06. Gradient ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Create the svg:defs element and the main gradient definition.
+    var svgDefs = svg.append("defs");
+    // 1
+    var gradient_1 = svgDefs.append("linearGradient").attr("id", "gradient-1");
+    gradient_1
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_1.append("stop").attr("class", "stop-left-1").attr("offset", "0");
+    gradient_1.append("stop").attr("class", "stop-center-1").attr("offset", "0.5");
+    gradient_1.append("stop").attr("class", "stop-right-1").attr("offset", "1");
+
+    // 2
+    var gradient_2 = svgDefs.append("linearGradient").attr("id", "gradient-2");
+    gradient_2
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_2.append("stop").attr("class", "stop-left-2").attr("offset", "0");
+    gradient_2.append("stop").attr("class", "stop-center-2").attr("offset", "0.5");
+    gradient_2.append("stop").attr("class", "stop-right-2").attr("offset", "1");
+
+    //3
+    var gradient_3 = svgDefs.append("linearGradient").attr("id", "gradient-3");
+    gradient_3
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_3.append("stop").attr("class", "stop-left-3").attr("offset", "0");
+    gradient_3.append("stop").attr("class", "stop-center-3").attr("offset", "0.5");
+    gradient_3.append("stop").attr("class", "stop-right-3").attr("offset", "1");
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -260,7 +300,7 @@ function dataviz() {
 
     central_group
         .append("text")
-        .attr("x", -50)
+        .attr("x", -60)
         .attr("y", 168)
         .style("font-size", "9px")
         .style("font-weight", "400")
@@ -270,7 +310,7 @@ function dataviz() {
 
     central_group
         .append("text")
-        .attr("x", -34)
+        .attr("x", -44)
         .attr("y", 223)
         .style("font-size", "9px")
         .style("font-weight", "400")

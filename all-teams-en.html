@@ -9,18 +9,18 @@
         <meta name="author" content="Al Jazeera" />
         <meta name="robots" content="max-image-preview:large" />
         <meta property="og:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="og:description" content="Past performance at the World Cup (1930-2018)" />
+        <meta property="og:description" content="Summary goes here" />
         <meta property="title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="description" content="Past performance at the World Cup (1930-2018)" />
+        <meta property="description" content="Summary goes here" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@AJEnglish" />
         <meta property="twitter:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="twitter:description" content="Past performance at the World Cup (1930-2018)" />
+        <meta property="twitter:description" content="Summary goes here" />
         <meta property="image" content="" />
         <meta property="twitter:image:src" content="" />
         <meta name="title" content="Visualising the FIFA World Cup 2022" />
-        <meta name="description" content="Past performance at the World Cup (1930-2018)" />
+        <meta name="description" content="Summary goes here" />
         <link rel="amphtml" href="https://interactive.aljazeera.com/aje/fifa-arab-cup-2021/amp.html" />
         <link rel="apple-touch-icon" href="apple-touch-icon.jpg" />
         <link rel="shortcut icon" href="favicon.ico" />
@@ -36,16 +36,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet"
         />
 
         <style>
             html {
-                background-color: #dbdbdb;
+                background-color: #ffffff;
             }
             * {
-                font-family: "Montserrat", sans-serif;
+                font-family: "Roboto", sans-serif;
                 margin: 0;
                 padding: 0;
             }
@@ -53,7 +53,7 @@
             h1 {
                 font-size: 1em;
                 text-align: center;
-                color: white;
+                color: Black;
                 opacity: 1;
                 margin-bottom: 20px;
                 font-weight: 400;
@@ -67,7 +67,7 @@
                 color: grey;
             }
 
-            #vizboard-desktop {
+            #vizboard {
                 display: inline-block;
                 position: relative;
                 margin: 10px auto;
@@ -95,137 +95,11 @@
                 opacity: 0.5;
             }
             /* ----------------------------------------------------- */
-            .custom-select {
-                display: inline-block;
-                position: relative;
-                font-size: 20px;
-                line-height: 8px;
-            }
-
-            .custom-select select {
-                display: none; /*hide original SELECT element: */
-            }
-
-            .select-selected {
-                background-color: rgb(219, 219, 219);
-            }
-
-            /* Style the arrow inside the select element: */
-            .select-selected:after {
-                position: absolute;
-                content: "";
-                top: 10px;
-                right: 10px;
-                width: 0;
-                height: 0;
-                border: 6px solid transparent;
-                border-color: #ffffff transparent transparent transparent;
-            }
-
-            /* Point the arrow upwards when the select box is open (active): */
-            .select-selected.select-arrow-active:after {
-                border-color: transparent transparent #ffffff transparent;
-                top: 5px;
-            }
-
-            /* style the items (options), including the selected item: */
-            .select-items div,
-            .select-selected {
-                color: #393939;
-                font-weight: 500;
-                padding: 8px 10px;
-                border: 1px solid transparent;
-                border-color: transparent transparent rgba(136, 51, 51, 0.268) transparent;
-                cursor: pointer;
-            }
-
-            /* Style items (options): */
-            .select-items {
-                position: absolute;
-                background-color: rgba(232, 232, 232, 0.96);
-                font-size: 12px;
-                top: 100%;
-                left: 0;
-                right: 0;
-                z-index: 99;
-            }
-
-            /* Hide the items when the select box is closed: */
-            .select-hide {
-                display: none;
-            }
-
-            .select-items div:hover,
-            .same-as-selected {
-                background-color: #cbcbcb;
-            }
-
-            .team-select {
-                margin: 20px auto;
-                vertical-align: middle;
-                text-align: center;
-            }
-            .team-a-select {
-                margin-right: 5px;
-                margin-top: 10px;
-            }
-            .team-b-select {
-                margin-left: 24px;
-            }
-            .title-comp {
-                font-size: 19px;
-                font-weight: 500;
-                color: black;
-                margin-top: 0px;
-                padding-top: 0px;
-            }
-            /*//////////////////////////////////////////////////////////////*/
         </style>
     </head>
 
     <body>
-        <div class="team-select">
-            <!-- <p>Team A</p> -->
-            <div class="custom-select team-a-select" style="width: 180px">
-                <select name="Team A" id="team-a">
-                    <option value="_">Team A</option>
-                    <option value="Argentina">Argentina</option>
-                    <option value="Australia">Australia</option>
-                    <option value="Belgium">Belgium</option>
-                    <option selected="selected" value="Brazil">Brazil</option>
-                    <option value="Cameroon">Cameroon</option>
-                    <option value="Canada">Canada</option>
-                    <option value="Costa_Rica">Costa Rica</option>
-                    <option value="Croatia">Croatia</option>
-                    <option value="Denmark">Denmark</option>
-                    <option value="Ecuador">Ecuador</option>
-                    <option value="England">England</option>
-                    <option value="France">France</option>
-                    <option value="Germany">Germany</option>
-                    <option value="Ghana">Ghana</option>
-                    <option value="Iran">Iran</option>
-                    <option value="Japan">Japan</option>
-                    <option value="Mexico">Mexico</option>
-                    <option value="Morocco">Morocco</option>
-                    <option value="Netherlands">Netherlands</option>
-                    <option value="Poland">Poland</option>
-                    <option value="Portugal">Portugal</option>
-                    <option value="Qatar">Qatar</option>
-                    <option value="Saudi_Arabia">Saudi Arabia</option>
-                    <option value="Senegal">Senegal</option>
-                    <option value="Serbia">Serbia</option>
-                    <option value="South_Korea">South Korea</option>
-                    <option value="Spain">Spain</option>
-                    <option value="Switzerland">Switzerland</option>
-                    <option value="Tunisia">Tunisia</option>
-                    <option value="United_States">US</option>
-                    <option value="Uruguay">Uruguay</option>
-                    <option value="Wales">Wales</option>
-                </select>
-            </div>
-        </div>
-        <h1 class="title-comp">Past performance at the World Cup (1930-2018)</h1>
-        <div id="vizboard-desktop"></div>
+        <div id="vizboard"></div>
 
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
@@ -235,7 +109,7 @@
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
 
-        <script type="text/javascript" src="01_world_cup_2022_history_mobile.js"></script>
+        <script type="text/javascript" src="all-teams-en.js"></script>
         <!--Chartbeat AJE header -->
         <script type="text/javascript">
             var _sf_startpt = new Date().getTime();

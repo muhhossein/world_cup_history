@@ -59,6 +59,7 @@ var worldcup_history_converter = function (point) {
         team_txt: point.team_txt,
         year: +point.year,
         host: point.host,
+        host_ar: point.host_ar,
         appearances: +point.appearances,
         stage: point.stage,
         count: +point.count,
@@ -104,6 +105,7 @@ function dataviz() {
         (v) => v.length,
         (d) => d.year,
         (d) => d.host,
+        (d) => d.host_ar,
         (d) => d.cup_serial
     );
 
@@ -124,7 +126,7 @@ function dataviz() {
     const wc_years_scale = d3
         .scalePoint()
         .domain(worldcup_years_domain)
-        .range([0 + 40, width - 40]);
+        .range([width - 40, 0 + 40]);
 
     const wc_stages_scale = d3
         .scalePoint()
@@ -133,24 +135,64 @@ function dataviz() {
 
     const wc_labels_scale = d3
         .scalePoint()
-        .domain(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
+        .domain(["التصفيات الأولي", "التصفيات الثانية", "ربع النهائي", "المركز الرابع", "المركز الثالث", "المركز الثاني", "الفائز"])
         .range([0 + 120, height - 150]);
 
     const wc_h_scale = d3
         .scaleLinear()
         .domain([1, 8])
-        .range([0 + 200, width - 200]);
+        .range([width - 200, 0 + 200]);
 
     const color_scale = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range(["#DFE8EF", "#9DB7CE", "#5B8FB2", "#46708C", "#D8765B", "#969696", "#FFB636"]);
+        .range(["#B3EEFF", "#7CDAFF", "#47C6FF", "#32A2EF", "url(#gradient-3)", "url(#gradient-2)", "url(#gradient-1)"]);
     // .range(["#a1a1a1", "#a36880", "#99365d", "#87a16d", "#628045", "#466b9c", "#003470"]);
 
     const color_scale_txt = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
         .range(["grey", "white", "white", "white", "white", "white", "black"]);
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // 06. Gradient ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Create the svg:defs element and the main gradient definition.
+    var svgDefs = svg.append("defs");
+    // 1
+    var gradient_1 = svgDefs.append("linearGradient").attr("id", "gradient-1");
+    gradient_1
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_1.append("stop").attr("class", "stop-left-1").attr("offset", "0");
+    gradient_1.append("stop").attr("class", "stop-center-1").attr("offset", "0.5");
+    gradient_1.append("stop").attr("class", "stop-right-1").attr("offset", "1");
+
+    // 2
+    var gradient_2 = svgDefs.append("linearGradient").attr("id", "gradient-2");
+    gradient_2
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_2.append("stop").attr("class", "stop-left-2").attr("offset", "0");
+    gradient_2.append("stop").attr("class", "stop-center-2").attr("offset", "0.5");
+    gradient_2.append("stop").attr("class", "stop-right-2").attr("offset", "1");
+
+    //3
+    var gradient_3 = svgDefs.append("linearGradient").attr("id", "gradient-3");
+    gradient_3
+        .attr("x1", "0%") // from 0% to 100%
+        .attr("y1", "0%") // from 0% to 100%
+        .attr("x2", "100%") // from 0% to 100%
+        .attr("y2", "100%"); // from 0% to 100%
+    gradient_3.append("stop").attr("class", "stop-left-3").attr("offset", "0");
+    gradient_3.append("stop").attr("class", "stop-center-3").attr("offset", "0.5");
+    gradient_3.append("stop").attr("class", "stop-right-3").attr("offset", "1");
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -206,10 +248,10 @@ function dataviz() {
     // labels
     const stage_labels = central_group
         .selectAll("text.stage-label")
-        .data(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
+        .data(["التصفيات الأولي", "التصفيات الثانية", "ربع النهائي", "المركز الرابع", "المركز الثالث", "المركز الثاني", "الفائز"])
         .join("text")
         .attr("class", "stage-label")
-        .attr("x", 70)
+        .attr("x", width - 70)
         .attr("y", (d) => wc_labels_scale(d) + 17)
         .style("font-size", "11px")
         .style("font-weight", "500")
@@ -219,9 +261,9 @@ function dataviz() {
     // v line
     central_group
         .append("line")
-        .attr("x1", 180)
+        .attr("x1", width - 100)
         .attr("y1", 120)
-        .attr("x2", 180)
+        .attr("x2", width - 100)
         .attr("y2", 410)
         .style("stroke", "grey")
         .style("stroke-width", 1)
@@ -230,29 +272,29 @@ function dataviz() {
     // footer
     central_group
         .append("text")
-        .attr("x", 70)
+        .attr("x", width - 0)
         .attr("y", 440)
         .style("font-size", "9px")
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("fill", "grey")
-        .text(
-            "(1) 1930, 1950–1970 and 1986–2018: group stage | 1934–1938: knockout round of 16 | 1974–1982: first group stage. "
-        );
+        .style("direction", "rtl")
+        .text("(1) 1930 ، 1950-1970  و 1986-2018: دور المجموعات | 1934-1938: دور الـ 16 | 1974-1982: دور المجموعات الأول.");
 
     central_group
         .append("text")
-        .attr("x", 70)
+        .attr("x", width)
         .attr("y", 455)
         .style("font-size", "9px")
         .style("font-weight", "400")
-        .style("text-align", "center")
+        .style("text-align", "right")
         .style("fill", "grey")
-        .text("(2) 1974–1982: second group stage | 1986–2022: knockout round of 16.");
+        .style("direction", "rtl")
+        .text("(2) 1974-1982: دور المجموعات الثاني | 1986-2022: دور الـ16.");
 
     central_group
         .append("text")
-        .attr("x", 133)
+        .attr("x", width - 85)
         .attr("y", 136)
         .style("font-size", "9px")
         .style("font-weight", "400")
@@ -262,7 +304,7 @@ function dataviz() {
 
     central_group
         .append("text")
-        .attr("x", 150)
+        .attr("x", width - 85)
         .attr("y", 178)
         .style("font-size", "9px")
         .style("font-weight", "400")
@@ -273,19 +315,19 @@ function dataviz() {
     // matches
     central_group
         .append("text")
-        .attr("x", width / 2 - 100)
+        .attr("x", width / 2 + 100)
         .attr("y", 75)
         .style("font-size", "12px")
         .style("font-weight", "500")
         .style("text-align", "center")
         .style("text-anchor", "middle")
         .style("fill", "grey")
-        .text("Matches");
+        .text("مباراة");
 
     central_group
         .append("text")
         .attr("id", "id-matches")
-        .attr("x", width / 2 - 100)
+        .attr("x", width / 2 + 100)
         .attr("y", 53)
         .style("font-size", "22px")
         .style("font-weight", "600")
@@ -297,19 +339,19 @@ function dataviz() {
     // goals
     central_group
         .append("text")
-        .attr("x", width / 2 + 100)
+        .attr("x", width / 2 - 100)
         .attr("y", 75)
         .style("font-size", "12px")
         .style("font-weight", "500")
         .style("text-align", "center")
         .style("text-anchor", "middle")
         .style("fill", "grey")
-        .text("Goals");
+        .text("هدف");
 
     central_group
         .append("text")
         .attr("id", "id-goals")
-        .attr("x", width / 2 + 100)
+        .attr("x", width / 2 - 100)
         .attr("y", 53)
         .style("font-size", "22px")
         .style("font-weight", "600")
@@ -395,7 +437,7 @@ function dataviz() {
     main_group
         .append("text")
         .attr("id", "id-appearances")
-        .attr("x", width + 30)
+        .attr("x", 0 - 30)
         .attr("y", 45)
         .style("fill", "black")
         .style("fill-opacity", 1)
@@ -407,7 +449,7 @@ function dataviz() {
 
     main_group
         .append("text")
-        .attr("x", width + 30)
+        .attr("x", 0 - 30)
         .attr("y", 63)
         .style("fill", "black")
         .style("fill-opacity", 1)
@@ -415,11 +457,11 @@ function dataviz() {
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("Past");
+        .text("مشاركة");
 
     main_group
         .append("text")
-        .attr("x", width + 30)
+        .attr("x", 0 - 30)
         .attr("y", 75)
         .style("fill", "black")
         .style("fill-opacity", 1)
@@ -427,7 +469,7 @@ function dataviz() {
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("appearances");
+        .text("سابقة");
 
     main_group
         .append("rect")
@@ -444,7 +486,7 @@ function dataviz() {
     // left group
     main_group
         .append("text")
-        .attr("x", 0 - 30)
+        .attr("x", width + 30)
         .attr("y", 35)
         .style("fill", "black")
         .style("fill-opacity", 1)
@@ -452,11 +494,11 @@ function dataviz() {
         .style("font-weight", "600")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("World Cup");
+        .text("كأس العالم");
 
     main_group
         .append("text")
-        .attr("x", 0 - 30)
+        .attr("x", width + 30)
         .attr("y", 65)
         .style("fill", "black")
         .style("fill-opacity", 1)
@@ -464,13 +506,13 @@ function dataviz() {
         .style("font-weight", "400")
         .style("text-align", "center")
         .style("text-anchor", "middle")
-        .text("Host");
+        .text("المستضيف");
 
     main_group
         .append("line")
-        .attr("x1", 0 - 30)
+        .attr("x1", width + 30)
         .attr("y1", 40)
-        .attr("x2", 0 - 30)
+        .attr("x2", width + 30)
         .attr("y2", 55)
         .style("stroke", "grey")
         .style("stroke-width", 1)
@@ -479,7 +521,7 @@ function dataviz() {
     main_group
         .append("circle")
         .attr("r", 2)
-        .attr("cx", -30)
+        .attr("cx", width + 30)
         .attr("cy", 55)
         .style("fill", "grey")
         .style("fill-opacity", 1);
@@ -562,11 +604,11 @@ function dataviz() {
             .attr("y", (d, i) => (d.cup_serial % 2 ? 40 : 55))
             .style("fill", "grey")
             .style("fill-opacity", 1)
-            .style("font-size", "9px")
+            .style("font-size", "8px")
             .style("font-weight", "500")
             .style("text-align", "center")
             .style("text-anchor", "middle")
-            .text((d) => d.host);
+            .text((d) => d.host_ar);
     });
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
