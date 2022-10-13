@@ -597,7 +597,7 @@ function dataviz() {
                 .style("font-weight", "500")
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
-                .text("Hover over each circle");
+                .text("Hover/Tap on each circle");
 
             d3.select(this)
                 .append("text")
@@ -620,7 +620,7 @@ function dataviz() {
                 .style("font-weight", "500")
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
-                .text("Matches colour code");
+                .text("Match colour code");
 
             d3.select(this)
                 .append("text")
@@ -630,7 +630,7 @@ function dataviz() {
                 .style("font-size", "16px")
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
-                .text("Winning | Draw | Losing");
+                .text("Won | Draw | Lost");
 
             const colors = ["#32A2EF", "grey", "#EB7716"];
 
@@ -639,7 +639,7 @@ function dataviz() {
                 .data([-1, 0, 1])
                 .enter()
                 .append("circle")
-                .attr("cx", (d) => d * 60)
+                .attr("cx", (d) => d * 40)
                 .attr("cy", -30)
                 .attr("r", 10)
                 .style("fill", (d, i) => colors[i])
@@ -656,7 +656,7 @@ function dataviz() {
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
                 .style("font-size", "16px")
-                .text("Size of circle represents difference");
+                .text("The size of the circle represents");
 
             d3.select(this)
                 .append("text")
@@ -667,7 +667,7 @@ function dataviz() {
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
                 .style("font-size", "16px")
-                .text("of score between the two teams");
+                .text("the goal difference between the two teams");
         });
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1146,7 +1146,7 @@ function dataviz() {
         d3.select("#id-score-a").text(`${match_data.score_a}`);
         d3.select("#id-score-b").text(`${match_data.score_b}`);
         d3.select("#id-tournament").text(`${match_data.tournament}`);
-        d3.select("#id-country").text(`${match_data.country} | ${match_data.day} ${month_scale(match_data.month)} ${match_data.year}`);
+        d3.select("#id-country").text(`${match_data.country} | ${month_scale(match_data.month)} ${match_data.day}, ${match_data.year}`);
         d3.select("#id-team-a-flag").attr("href", `flags/${match_data.team_a_txt}.jpg`);
         d3.select("#id-team-b-flag").attr("href", `flags/${match_data.team_b_txt}.jpg`);
         // goals

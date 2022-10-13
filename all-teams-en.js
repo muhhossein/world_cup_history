@@ -529,7 +529,7 @@ function dataviz() {
                 .attr("id", (d) => `label_${d[0]}`)
                 .text((d, i) => d[1][0].team_text)
                 .style("fill", "black")
-                .style("font-size", "12px")
+                .style("font-size", "14px")
                 .style("font-weight", "600")
                 .style("text-anchor", "middle")
                 .style("alignment-baseline", "middle");
@@ -546,7 +546,8 @@ function dataviz() {
 
     // change labels
     d3.select("#label_Saudi_Arabia").text("Saudi Arabia").attr("transform", "translate(0,5)");
-    d3.select("#label_South_Korea").text("South Korea").attr("transform", "translate(0,-5)");
+    d3.select("#label_Denmark").attr("transform", "translate(5,0)");
+    d3.select("#label_South_Korea").text("S Korea").attr("transform", "translate(0,0)");
     d3.select("#label_United_States").text("US").attr("transform", "translate(0,0)");
     d3.select("#label_Costa_Rica").text("Costa Rica").attr("transform", "translate(0,0)");
 
@@ -652,23 +653,23 @@ function dataviz() {
                 .append("text")
                 .attr("x", 0)
                 .attr("y", 65)
-                .style("font-size", "12px")
+                .style("font-size", "14px")
                 .style("font-weight", "600")
                 .style("fill", "black")
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
-                .text("Explore the full competition history");
+                .text("Explore the full competition history between");
 
             d3.select(this)
                 .append("text")
                 .attr("x", 0)
-                .attr("y", 78)
-                .style("font-size", "12px")
+                .attr("y", 81)
+                .style("font-size", "14px")
                 .style("font-weight", "600")
                 .style("fill", "black")
                 .style("text-align", "center")
                 .style("text-anchor", "middle")
-                .text("of the World Cup teams since 1900");
+                .text("the World Cup teams from 1900 to 2022");
         });
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -705,14 +706,14 @@ function dataviz() {
                 .style("stroke-opacity", 0.6)
                 .style("fill-opacity", 0.1);
 
-            d3.select(this).append("text").attr("y", -50).style("font-size", "22px").style("fill", "grey").text(" : ");
+            d3.select(this).append("text").attr("y", -50).style("font-size", "26px").style("fill", "grey").text(" : ");
             // team a
             d3.select(this)
                 .append("text")
                 .attr("id", "id-team-a")
                 .attr("x", -10)
                 .attr("y", -50)
-                .style("font-size", "22px")
+                .style("font-size", "26px")
                 .style("fill", "black")
                 .style("text-align", "right")
                 .style("text-anchor", "end")
@@ -724,21 +725,21 @@ function dataviz() {
                 .attr("id", "id-team-b")
                 .attr("x", 10)
                 .attr("y", -50)
-                .style("font-size", "22px")
+                .style("font-size", "26px")
                 .style("fill", "black")
                 .style("text-align", "left")
                 .style("text-anchor", "start")
                 .text("Team B");
 
             // score
-            d3.select(this).append("text").attr("y", -20).style("font-size", "22px").style("fill", "grey").text(" : ");
+            d3.select(this).append("text").attr("y", -20).style("font-size", "26px").style("fill", "grey").text(" : ");
 
             d3.select(this)
                 .append("text")
                 .attr("id", "id-score-a")
                 .attr("x", -10)
                 .attr("y", -20)
-                .style("font-size", "22px")
+                .style("font-size", "26px")
                 .style("fill", "black")
                 .style("text-align", "right")
                 .style("text-anchor", "end")
@@ -749,7 +750,7 @@ function dataviz() {
                 .attr("id", "id-score-b")
                 .attr("x", 10)
                 .attr("y", -20)
-                .style("font-size", "22px")
+                .style("font-size", "26px")
                 .style("fill", "black")
                 .style("text-align", "left")
                 .style("text-anchor", "start")
@@ -759,17 +760,17 @@ function dataviz() {
             d3.select(this)
                 .append("text")
                 .attr("id", "id-tournament")
-                .attr("y", 30)
-                .style("fill", "#5c5c5c")
-                .style("font-size", "18px")
+                .attr("y", 50)
+                .style("fill", "black")
+                .style("font-size", "22px")
                 .text("Teams");
 
             // country
             d3.select(this)
                 .append("text")
                 .attr("id", "id-country")
-                .attr("y", 60)
-                .style("font-size", "16px")
+                .attr("y", 80)
+                .style("font-size", "20px")
                 .style("opacity", 0.8)
                 .text("Teams");
 
@@ -826,7 +827,7 @@ function dataviz() {
         .append("g")
         .attr("id", "id-team-text")
         .style("transform", "translate(0px,0px)")
-        .style("font-size", "18px")
+        .style("font-size", "24px")
         .style("text-align", "center")
         .style("text-anchor", "middle")
         .style("fill", "black")
@@ -870,20 +871,27 @@ function dataviz() {
             d3.select(this)
                 .append("text")
                 .attr("id", "t-team")
-                .attr("y", -40)
-                .style("font-size", "22px")
+                .attr("y", -60)
+                .style("font-size", "30px")
                 .style("font-weight", "600")
                 .style("fill", "black")
                 .text("");
 
             // total matches line
-            d3.select(this).append("text").attr("y", -10).attr("id", "t-matches").style("font-size", "16px").style("opacity", 1).text("");
+            d3.select(this)
+                .append("text")
+                .attr("y", -12)
+                .attr("id", "t-matches")
+                .style("font-size", "26px")
+                .style("font-weight", "500")
+                .style("opacity", 1)
+                .text("");
 
             // years
-            d3.select(this).append("text").attr("id", "t-years").attr("y", 20).style("font-size", "16px").text("");
+            d3.select(this).append("text").attr("id", "t-years").attr("y", 20).style("font-size", "20px").text("");
 
             // stats line
-            d3.select(this).append("text").attr("y", 70).attr("id", "t-results").style("font-size", "14px").style("opacity", 1).text("");
+            d3.select(this).append("text").attr("y", 70).attr("id", "t-results").style("font-size", "18px").style("opacity", 1).text("");
 
             // stats
             //.range(["#195aa6", "#bf3d72", "#e8cc5d"]);
@@ -943,10 +951,10 @@ function dataviz() {
             d3.select(this)
                 .append("text")
                 .attr("x", -10)
-                .attr("y", 130)
+                .attr("y", 137)
                 .attr("id", "team-stats-txt1")
                 .style("fill", "#32A2EF")
-                .style("font-size", "14px")
+                .style("font-size", "20px")
                 .style("font-weight", "500")
                 .style("opacity", 1)
                 .text("50%");
@@ -954,10 +962,10 @@ function dataviz() {
             d3.select(this)
                 .append("text")
                 .attr("x", 10)
-                .attr("y", 130)
+                .attr("y", 137)
                 .attr("id", "team-stats-txt2")
                 .style("fill", "#EB7716")
-                .style("font-size", "14px")
+                .style("font-size", "20px")
                 .style("font-weight", "500")
                 .style("opacity", 1)
                 .text("50%");
@@ -968,7 +976,7 @@ function dataviz() {
                 .attr("y", 110)
                 .attr("class", "t-info")
                 .style("fill", "white")
-                .style("font-size", "16px")
+                .style("font-size", "20px")
                 .style("opacity", 1)
                 .text("");
 
@@ -977,7 +985,7 @@ function dataviz() {
                 .attr("y", 135)
                 .attr("class", "t-info")
                 .style("fill", "white")
-                .style("font-size", "16px")
+                .style("font-size", "20px")
                 .style("opacity", 1)
                 .text("");
         });
@@ -1110,7 +1118,7 @@ function dataviz() {
                 .attr("y", 30)
                 .attr("id", "sep-stats-txt1")
                 .style("fill", "white")
-                .style("font-size", "12px")
+                .style("font-size", "24px")
                 .style("opacity", 1)
                 .text("50%");
 
@@ -1120,7 +1128,7 @@ function dataviz() {
                 .attr("y", 90)
                 .attr("id", "sep-stats-txt2")
                 .style("fill", "deeppink")
-                .style("font-size", "12px")
+                .style("font-size", "24px")
                 .style("opacity", 1)
                 .text("50%");
 
@@ -1211,7 +1219,7 @@ function dataviz() {
         // console.log(team_summary);
 
         team_text.style("opacity", 1);
-        d3.select("#t-team").text(`${team_summary.team_text}`);
+        d3.select("#t-team").text(`${team_summary.team}`);
         d3.select("#t-years").text(`from ${team_summary.start_year} to ${team_summary.end_year}`);
         d3.select("#t-matches").text(`${team_summary.matches} matches`);
         d3.select("#t-results").text(
@@ -1311,7 +1319,7 @@ function dataviz() {
         d3.select("#id-score-a").text(`${match_data.home_score}`);
         d3.select("#id-score-b").text(`${match_data.away_score}`);
         d3.select("#id-tournament").text(`${match_data.tournament}`);
-        d3.select("#id-country").text(`${match_data.country} | ${match_data.day} ${month_scale(match_data.month)} ${match_data.year}`);
+        d3.select("#id-country").text(`${match_data.country} | ${month_scale(match_data.month)} ${match_data.day}, ${match_data.year}`);
         d3.select("#id-team-a-flag").attr("href", `flags/${match_data.home_team}.jpg`);
         d3.select("#id-team-b-flag").attr("href", `flags/${match_data.away_team}.jpg`);
         // goals
@@ -1474,7 +1482,7 @@ function dataviz() {
         // console.log(team_summary);
 
         team_text.style("opacity", 1);
-        d3.select("#t-team").text(`${team_summary.team_text}`);
+        d3.select("#t-team").text(`${team_summary.team}`);
         d3.select("#t-years").text(`from ${team_summary.start_year} to ${team_summary.end_year}`);
         d3.select("#t-matches").text(`${team_summary.matches} matches`);
         d3.select("#t-results").text(
