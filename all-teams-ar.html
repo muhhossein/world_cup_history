@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+        <title>Visualising the FIFA World Cup 2022</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <meta name="author" content="Al Jazeera" />
+        <meta name="robots" content="max-image-preview:large" />
+        <meta property="og:title" content="Visualising the FIFA World Cup 2022" />
+        <meta property="og:description" content="Summary goes here" />
+        <meta property="title" content="Visualising the FIFA World Cup 2022" />
+        <meta property="description" content="Summary goes here" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@AJEnglish" />
+        <meta property="twitter:title" content="Visualising the FIFA World Cup 2022" />
+        <meta property="twitter:description" content="Summary goes here" />
+        <meta property="image" content="" />
+        <meta property="twitter:image:src" content="" />
+        <meta name="title" content="Visualising the FIFA World Cup 2022" />
+        <meta name="description" content="Summary goes here" />
+        <link rel="amphtml" href="https://interactive.aljazeera.com/aje/fifa-arab-cup-2021/amp.html" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.jpg" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <script>
+            window.privLanguage = "EN";
+        </script>
+
+        <!-- Load d3.js -->
+        <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+
+        <!-- https://observablehq.com/@didoesdigital/9-june-2020-designing-for-small-screens-responsive-data-viz -->
+        <!-- <script type="text/javascript" src="d3.js"></script> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            @font-face {
+                font-family: Al-Jazeera-Arabic-Bold;
+                src: url("font/Al-Jazeera-Arabic-Bold.ttf");
+            }
+            @font-face {
+                font-family: Al-Jazeera-Arabic-Regular;
+                src: url("font/Al-Jazeera-Arabic-Regular.ttf");
+            }
+
+            html {
+                background-color: #ffffff;
+                font-family: Al-Jazeera-Arabic-Regular, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                font-size: 1em;
+                text-align: center;
+                color: Black;
+                opacity: 1;
+                margin-bottom: 20px;
+                font-weight: 400;
+                padding-top: 20px;
+                /*border: 0.5px solid grey;*/
+            }
+
+            p {
+                display: inline-block;
+                font-size: 12px;
+                color: grey;
+            }
+
+            #vizboard {
+                display: inline-block;
+                position: relative;
+                margin: 10px auto;
+                text-align: center;
+                width: 100%;
+            }
+
+            .svg-vizboard {
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .axis line,
+            .axis path {
+                stroke: grey;
+                opacity: 0.4;
+                shape-rendering: crispEdges;
+            }
+
+            .axis text {
+                fill: grey;
+                font-size: 7px;
+                opacity: 0.5;
+            }
+            /* ----------------------------------------------------- */
+        </style>
+    </head>
+
+    <body>
+        <div id="vizboard"></div>
+
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+
+        <script type="text/javascript" src="all-teams-ar.js"></script>
+        <!--Chartbeat AJE header -->
+        <script type="text/javascript">
+            var _sf_startpt = new Date().getTime();
+        </script>
+
+        <!--GOOGLE ANALYTICS AJE -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i["GoogleAnalyticsObject"] = r;
+                (i[r] =
+                    i[r] ||
+                    function () {
+                        (i[r].q = i[r].q || []).push(arguments);
+                    }),
+                    (i[r].l = 1 * new Date());
+                (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+            ga("create", "UA-1615344-7", { allowAnchor: true });
+            ga("send", "pageview", {
+                page: location.pathname + location.search + location.hash,
+            });
+        </script>
+
+        <!--CHARTBEAT AJE -->
+        <script type="text/javascript">
+            var _sf_async_config = {};
+            /** CONFIGURATION START **/
+            _sf_async_config.uid = 3291;
+            _sf_async_config.domain = "aljazeera.com";
+            _sf_async_config.useCanonical = true;
+            _sf_async_config.sections = "AJ Labs";
+            _sf_async_config.authors = "AJ Labs";
+            _sf_async_config.title = "Visualising the FIFA Arab Cup 2021";
+            /** CONFIGURATION END **/
+            (function () {
+                function loadChartbeat() {
+                    window._sf_endpt = new Date().getTime();
+                    var e = document.createElement("script");
+                    e.setAttribute("language", "javascript");
+                    e.setAttribute("type", "text/javascript");
+                    e.setAttribute("src", "//static.chartbeat.com/js/chartbeat.js");
+                    document.body.appendChild(e);
+                }
+                var oldonload = window.onload;
+                window.onload =
+                    typeof window.onload != "function"
+                        ? loadChartbeat
+                        : function () {
+                              oldonload();
+                              loadChartbeat();
+                          };
+            })();
+        </script>
+    </body>
+</html>
