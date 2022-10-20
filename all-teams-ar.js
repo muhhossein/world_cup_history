@@ -670,12 +670,12 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("x", -75)
+                .attr("x", -60)
                 .attr("y", -100)
-                .attr("width", "150px")
-                .attr("height", "150px")
+                .attr("width", "120px")
+                .attr("height", "120px")
                 .style("opacity", 1)
-                .attr("href", "flags/football.png");
+                .attr("href", "flags/football_ar.png");
 
             d3.select(this)
                 .append("text")
@@ -836,7 +836,7 @@ function dataviz() {
                 .attr("width", "40px")
                 .attr("height", "40px")
                 .style("opacity", 1)
-                .attr("href", "flags/football.png");
+                .attr("href", "flags/football_ar.png");
 
             d3.select(this)
                 .append("image")
@@ -846,7 +846,7 @@ function dataviz() {
                 .attr("width", "40px")
                 .attr("height", "40px")
                 .style("opacity", 1)
-                .attr("href", "flags/football.png");
+                .attr("href", "flags/football_ar.png");
         });
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -895,7 +895,7 @@ function dataviz() {
                 .attr("width", "60px")
                 .attr("height", "60px")
                 .style("opacity", 1)
-                .attr("href", "flags/football.png");
+                .attr("href", "flags/football_ar.png");
 
             // team
             // .range(["#ffffff", "#e80093", "#00e1ff"]);

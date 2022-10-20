@@ -642,10 +642,10 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("x", -75)
+                .attr("x", -60)
                 .attr("y", -100)
-                .attr("width", "150px")
-                .attr("height", "150px")
+                .attr("width", "120px")
+                .attr("height", "120px")
                 .style("opacity", 1)
                 .attr("href", "flags/football.png");
 

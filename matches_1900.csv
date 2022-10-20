@@ -110,9 +110,9 @@
 18/07/1915,Uruguay,Argentina,أوروغواي,الأرجنتين,2,3,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1915,-1,1,5,109,1,1,Uruguay,Argentina,5,1,0.41811,0.48898,2,loser,winner
 15/08/1915,Argentina,Uruguay,الأرجنتين,أوروغواي,2,1,Copa Lipton, كأس ليبتون,Buenos Aires,Argentina,الأرجنتين,FALSE,15,8,1915,1,-1,3,110,1,1,Argentina,Uruguay,5,1,0.60053,0.12035,2,winner,loser
 12/09/1915,Uruguay,Argentina,أوروغواي,الأرجنتين,2,0,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,12,9,1915,2,-2,2,111,1,1,Uruguay,Argentina,5,2,0.56831,0.48011,2,winner,loser
-10/07/1916,Argentina,Brazil,الأرجنتين,البرازيل,1,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,10,7,1916,0,0,2,112,1,0,Argentina,Brazil,6,0,0.59056,0.04609,2,draw,draw
-12/07/1916,Brazil,Uruguay,البرازيل,أوروغواي,1,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,12,7,1916,-1,1,3,113,0,1,Brazil,Uruguay,6,1,0.49182,0.96817,2,loser,winner
-17/07/1916,Argentina,Uruguay,الأرجنتين,أوروغواي,0,0,Copa Am√©rica,كوبا أميركا,Avellaneda,Argentina,الأرجنتين,FALSE,17,7,1916,0,0,0,114,1,1,Argentina,Uruguay,6,0,0.57447,0.67061,2,draw,draw
+10/07/1916,Argentina,Brazil,الأرجنتين,البرازيل,1,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,10,7,1916,0,0,2,112,1,0,Argentina,Brazil,6,0,0.59056,0.04609,2,draw,draw
+12/07/1916,Brazil,Uruguay,البرازيل,أوروغواي,1,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,12,7,1916,-1,1,3,113,0,1,Brazil,Uruguay,6,1,0.49182,0.96817,2,loser,winner
+17/07/1916,Argentina,Uruguay,الأرجنتين,أوروغواي,0,0,Copa America,كوبا أميركا,Avellaneda,Argentina,الأرجنتين,FALSE,17,7,1916,0,0,0,114,1,1,Argentina,Uruguay,6,0,0.57447,0.67061,2,draw,draw
 18/07/1916,Uruguay,Brazil,أوروغواي,البرازيل,0,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1916,-1,1,1,115,1,0,Uruguay,Brazil,6,1,0.32455,0.56976,2,loser,winner
 15/08/1916,Argentina,Uruguay,الأرجنتين,أوروغواي,3,1,Copa Newton,كأس نيوتن,Avellaneda,Argentina,الأرجنتين,FALSE,15,8,1916,2,-2,4,116,1,1,Argentina,Uruguay,6,2,0.71602,0.3146,2,winner,loser
 15/08/1916,Uruguay,Argentina,أوروغواي,الأرجنتين,1,2,Copa Lipton, كأس ليبتون,Montevideo,Uruguay,أوروغواي,FALSE,15,8,1916,-1,1,3,117,1,1,Uruguay,Argentina,6,1,0.6694,0.18628,2,loser,winner
@@ -122,9 +122,9 @@
 18/07/1917,Uruguay,Argentina,أوروغواي,الأرجنتين,0,2,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1917,-2,2,2,121,1,1,Uruguay,Argentina,7,2,0.13827,0.51536,2,loser,winner
 15/08/1917,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Lipton, كأس ليبتون,Avellaneda,Argentina,الأرجنتين,FALSE,15,8,1917,1,-1,1,122,1,1,Argentina,Uruguay,7,1,0.39758,0.92975,2,winner,loser
 02/09/1917,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,2,9,1917,1,-1,1,123,1,1,Uruguay,Argentina,7,1,0.80742,0.85168,2,winner,loser
-03/10/1917,Argentina,Brazil,الأرجنتين,البرازيل,4,2,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,3,10,1917,2,-2,6,124,1,0,Argentina,Brazil,7,2,0.41585,0.46398,2,winner,loser
-07/10/1917,Uruguay,Brazil,أوروغواي,البرازيل,4,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,7,10,1917,4,-4,4,125,1,0,Uruguay,Brazil,7,4,0.17605,0.42692,2,winner,loser
-14/10/1917,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,14,10,1917,1,-1,1,126,1,1,Uruguay,Argentina,7,1,0.18748,0.35901,2,winner,loser
+03/10/1917,Argentina,Brazil,الأرجنتين,البرازيل,4,2,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,3,10,1917,2,-2,6,124,1,0,Argentina,Brazil,7,2,0.41585,0.46398,2,winner,loser
+07/10/1917,Uruguay,Brazil,أوروغواي,البرازيل,4,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,7,10,1917,4,-4,4,125,1,0,Uruguay,Brazil,7,4,0.17605,0.42692,2,winner,loser
+14/10/1917,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,14,10,1917,1,-1,1,126,1,1,Uruguay,Argentina,7,1,0.18748,0.35901,2,winner,loser
 16/10/1917,Uruguay,Brazil,أوروغواي,البرازيل,3,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,16,10,1917,2,-2,4,127,1,0,Uruguay,Brazil,7,2,0.79042,0.34813,2,winner,loser
 18/07/1918,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1918,0,0,2,128,1,1,Uruguay,Argentina,8,0,0.70796,0.7532,2,draw,draw
 28/07/1918,Uruguay,Argentina,أوروغواي,الأرجنتين,3,1,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,28,7,1918,2,-2,4,129,1,1,Uruguay,Argentina,8,2,0.74155,0.38894,2,winner,loser
@@ -133,10 +133,10 @@
 20/09/1918,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Copa Lipton, كأس ليبتون,Montevideo,Uruguay,أوروغواي,FALSE,20,9,1918,0,0,2,132,1,1,Uruguay,Argentina,8,0,0.14906,0.89805,2,draw,draw
 29/09/1918,Argentina,Uruguay,الأرجنتين,أوروغواي,2,0,Copa Newton,كأس نيوتن,Buenos Aires,Argentina,الأرجنتين,FALSE,29,9,1918,2,-2,2,133,1,1,Argentina,Uruguay,8,2,0.93688,0.36918,2,winner,loser
 09/03/1919,Belgium,France,بلجيكا,فرنسا,2,2,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,9,3,1919,0,0,4,134,1,0,Belgium,France,9,0,0.19597,0.28539,2,draw,draw
-13/05/1919,Argentina,Uruguay,الأرجنتين,أوروغواي,2,3,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,13,5,1919,-1,1,5,135,1,1,Argentina,Uruguay,9,1,0.91535,0.24419,2,loser,winner
-18/05/1919,Brazil,Argentina,البرازيل,الأرجنتين,3,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,18,5,1919,2,-2,4,136,0,1,Brazil,Argentina,9,2,0.45707,0.93034,2,winner,loser
-26/05/1919,Brazil,Uruguay,البرازيل,أوروغواي,2,2,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,26,5,1919,0,0,4,137,0,1,Brazil,Uruguay,9,0,0.15692,0.92063,2,draw,draw
-29/05/1919,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,29,5,1919,1,-1,1,138,0,1,Brazil,Uruguay,9,1,0.78532,0.43297,2,winner,loser
+13/05/1919,Argentina,Uruguay,الأرجنتين,أوروغواي,2,3,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,13,5,1919,-1,1,5,135,1,1,Argentina,Uruguay,9,1,0.91535,0.24419,2,loser,winner
+18/05/1919,Brazil,Argentina,البرازيل,الأرجنتين,3,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,18,5,1919,2,-2,4,136,0,1,Brazil,Argentina,9,2,0.45707,0.93034,2,winner,loser
+26/05/1919,Brazil,Uruguay,البرازيل,أوروغواي,2,2,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,26,5,1919,0,0,4,137,0,1,Brazil,Uruguay,9,0,0.15692,0.92063,2,draw,draw
+29/05/1919,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,29,5,1919,1,-1,1,138,0,1,Brazil,Uruguay,9,1,0.78532,0.43297,2,winner,loser
 01/06/1919,Brazil,Argentina,البرازيل,الأرجنتين,3,3,Friendly,مبارة ودية,Rio de Janeiro,Brazil,البرازيل,FALSE,1,6,1919,0,0,6,139,0,1,Brazil,Argentina,9,0,0.28445,0.41472,2,draw,draw
 18/07/1919,Uruguay,Argentina,أوروغواي,الأرجنتين,4,1,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1919,3,-3,5,140,1,1,Uruguay,Argentina,9,3,0.99873,0.53669,2,winner,loser
 24/08/1919,Uruguay,Argentina,أوروغواي,الأرجنتين,2,1,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,24,8,1919,1,-1,3,141,1,1,Uruguay,Argentina,9,1,0.21724,0.91448,2,winner,loser
@@ -152,17 +152,17 @@
 18/07/1920,Uruguay,Argentina,أوروغواي,الأرجنتين,2,0,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1920,2,-2,2,151,1,1,Uruguay,Argentina,0,2,0.49071,0.72098,3,winner,loser
 25/07/1920,Argentina,Uruguay,الأرجنتين,أوروغواي,1,3,Copa Newton,كأس نيوتن,Buenos Aires,Argentina,الأرجنتين,FALSE,25,7,1920,-2,2,4,152,1,1,Argentina,Uruguay,0,2,0.45369,0.25008,3,loser,winner
 08/08/1920,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Premio Honor Argentino, كأس الأرجنتين الفخرية,Buenos Aires,Argentina,الأرجنتين,FALSE,8,8,1920,1,-1,1,153,1,1,Argentina,Uruguay,0,1,0.20612,0.30172,3,winner,loser
-12/09/1920,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,12,9,1920,0,0,2,154,1,1,Uruguay,Argentina,0,0,0.23077,0.47286,3,draw,draw
-18/09/1920,Brazil,Uruguay,البرازيل,أوروغواي,0,6,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,18,9,1920,-6,6,6,155,0,1,Brazil,Uruguay,0,6,0.31444,0.41055,3,loser,winner
-25/09/1920,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,25,9,1920,2,-2,2,156,1,0,Argentina,Brazil,0,2,0.3044,0.06958,3,winner,loser
+12/09/1920,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,12,9,1920,0,0,2,154,1,1,Uruguay,Argentina,0,0,0.23077,0.47286,3,draw,draw
+18/09/1920,Brazil,Uruguay,البرازيل,أوروغواي,0,6,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,18,9,1920,-6,6,6,155,0,1,Brazil,Uruguay,0,6,0.31444,0.41055,3,loser,winner
+25/09/1920,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,25,9,1920,2,-2,2,156,1,0,Argentina,Brazil,0,2,0.3044,0.06958,3,winner,loser
 06/03/1921,Belgium,France,بلجيكا,فرنسا,3,1,Friendly,مبارة ودية,Forest,Belgium,بلجيكا,FALSE,6,3,1921,2,-2,4,157,1,0,Belgium,France,1,2,0.84289,0.90062,3,winner,loser
 14/03/1921,Wales,England,ويلز,إنجلترا,0,0,British Championship, البطولة البريطانية,Cardiff,Wales,ويلز,FALSE,14,3,1921,0,0,0,158,0,1,Wales,England,1,0,0.78882,0.39984,3,draw,draw
 15/05/1921,Belgium,Netherlands,بلجيكا,هولندا,1,1,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,15,5,1921,0,0,2,159,1,1,Belgium,Netherlands,1,0,0.4988,0.8543,3,draw,draw
 21/05/1921,Belgium,England,بلجيكا,إنجلترا,0,2,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,21,5,1921,-2,2,2,160,1,1,Belgium,England,1,2,0.58802,0.68367,3,loser,winner
 12/06/1921,Denmark,Netherlands,الدنمارك,هولندا,1,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,12,6,1921,0,0,2,161,1,1,Denmark,Netherlands,1,0,0.89932,0.37914,3,draw,draw
-02/10/1921,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,10,1921,1,-1,1,162,1,0,Argentina,Brazil,1,1,0.49861,0.46696,3,winner,loser
-23/10/1921,Brazil,Uruguay,البرازيل,أوروغواي,1,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,23,10,1921,-1,1,3,163,0,1,Brazil,Uruguay,1,1,0.14318,0.8436,3,loser,winner
-30/10/1921,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,10,1921,1,-1,1,164,1,1,Argentina,Uruguay,1,1,0.30039,0.45565,3,winner,loser
+02/10/1921,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,10,1921,1,-1,1,162,1,0,Argentina,Brazil,1,1,0.49861,0.46696,3,winner,loser
+23/10/1921,Brazil,Uruguay,البرازيل,أوروغواي,1,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,23,10,1921,-1,1,3,163,0,1,Brazil,Uruguay,1,1,0.14318,0.8436,3,loser,winner
+30/10/1921,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,10,1921,1,-1,1,164,1,1,Argentina,Uruguay,1,1,0.30039,0.45565,3,winner,loser
 13/11/1921,France,Netherlands,فرنسا,هولندا,0,5,Friendly,مبارة ودية,Vincennes,France,فرنسا,FALSE,13,11,1921,-5,5,5,165,0,1,France,Netherlands,1,5,0.79207,0.14121,3,loser,winner
 18/12/1921,Spain,Portugal,إسبانيا,البرتغال,3,1,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,18,12,1921,2,-2,4,166,1,1,Spain,Portugal,1,2,0.65808,0.07614,3,winner,loser
 15/01/1922,France,Belgium,فرنسا,بلجيكا,2,1,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,15,1,1922,1,-1,3,167,0,1,France,Belgium,2,1,0.60816,0.69704,3,winner,loser
@@ -173,9 +173,9 @@
 17/04/1922,Netherlands,Denmark,هولندا,الدنمارك,2,0,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,17,4,1922,2,-2,2,172,1,1,Netherlands,Denmark,2,2,0.56017,0.31576,3,winner,loser
 30/04/1922,France,Spain,فرنسا,إسبانيا,0,4,Friendly,مبارة ودية,Le Bouscat,France,فرنسا,FALSE,30,4,1922,-4,4,4,173,0,1,France,Spain,2,4,0.95273,0.87773,3,loser,winner
 07/05/1922,Netherlands,Belgium,هولندا,بلجيكا,1,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,7,5,1922,-1,1,3,174,1,1,Netherlands,Belgium,2,1,0.71953,0.35741,3,loser,winner
-01/10/1922,Brazil,Uruguay,البرازيل,أوروغواي,0,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,1,10,1922,0,0,0,175,0,1,Brazil,Uruguay,2,0,0.07453,0.3398,3,draw,draw
-08/10/1922,Argentina,Uruguay,الأرجنتين,أوروغواي,0,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,8,10,1922,-1,1,1,176,1,1,Argentina,Uruguay,2,1,0.92368,0.17662,3,loser,winner
-15/10/1922,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,15,10,1922,2,-2,2,177,0,1,Brazil,Argentina,2,2,0.8569,0.19927,3,winner,loser
+01/10/1922,Brazil,Uruguay,البرازيل,أوروغواي,0,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,1,10,1922,0,0,0,175,0,1,Brazil,Uruguay,2,0,0.07453,0.3398,3,draw,draw
+08/10/1922,Argentina,Uruguay,الأرجنتين,أوروغواي,0,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,8,10,1922,-1,1,1,176,1,1,Argentina,Uruguay,2,1,0.92368,0.17662,3,loser,winner
+15/10/1922,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,15,10,1922,2,-2,2,177,0,1,Brazil,Argentina,2,2,0.8569,0.19927,3,winner,loser
 22/10/1922,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa Roca, كأس روكا,S√£o Paulo,Brazil,البرازيل,FALSE,22,10,1922,1,-1,3,178,0,1,Brazil,Argentina,2,1,0.80657,0.94313,3,winner,loser
 12/11/1922,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Lipton, كأس ليبتون,Montevideo,Uruguay,أوروغواي,FALSE,12,11,1922,1,-1,1,179,1,1,Uruguay,Argentina,2,1,0.03862,0.26098,3,winner,loser
 19/11/1922,Switzerland,Netherlands,سويسرا,هولندا,5,0,Friendly,مبارة ودية,Berne,Switzerland,سويسرا,FALSE,19,11,1922,5,-5,5,180,0,1,Switzerland,Netherlands,2,5,0.4484,0.27022,3,winner,loser
@@ -199,11 +199,11 @@
 22/07/1923,Uruguay,Argentina,أوروغواي,الأرجنتين,2,2,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,22,7,1923,0,0,4,198,1,1,Uruguay,Argentina,3,0,0.50268,0.46574,3,draw,draw
 30/09/1923,Uruguay,Argentina,أوروغواي,الأرجنتين,0,2,Copa Premio Honor Uruguayo, كأس أورغواي الفخرية,Montevideo,Uruguay,أوروغواي,FALSE,30,9,1923,-2,2,2,199,1,1,Uruguay,Argentina,3,2,0.43638,0.18443,3,loser,winner
 01/11/1923,Belgium,England,بلجيكا,إنجلترا,2,2,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,1,11,1923,0,0,4,200,1,1,Belgium,England,3,0,0.4115,0.49051,3,draw,draw
-18/11/1923,Argentina,Brazil,الأرجنتين,البرازيل,2,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,18,11,1923,1,-1,3,201,1,0,Argentina,Brazil,3,1,0.49681,0.05468,3,winner,loser
+18/11/1923,Argentina,Brazil,الأرجنتين,البرازيل,2,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,18,11,1923,1,-1,3,201,1,0,Argentina,Brazil,3,1,0.49681,0.05468,3,winner,loser
 25/11/1923,Netherlands,Switzerland,هولندا,سويسرا,4,1,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,25,11,1923,3,-3,5,202,1,0,Netherlands,Switzerland,3,3,0.23419,0.30552,3,winner,loser
-25/11/1923,Uruguay,Brazil,أوروغواي,البرازيل,2,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,25,11,1923,1,-1,3,203,1,0,Uruguay,Brazil,3,1,0.87164,0.49687,3,winner,loser
+25/11/1923,Uruguay,Brazil,أوروغواي,البرازيل,2,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,25,11,1923,1,-1,3,203,1,0,Uruguay,Brazil,3,1,0.87164,0.49687,3,winner,loser
 02/12/1923,Argentina,Brazil,الأرجنتين,البرازيل,0,2,Friendly,مبارة ودية,Buenos Aires,Argentina,الأرجنتين,FALSE,2,12,1923,-2,2,2,204,1,0,Argentina,Brazil,3,2,0.02861,0.1273,3,loser,winner
-02/12/1923,Uruguay,Argentina,أوروغواي,الأرجنتين,2,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,12,1923,2,-2,2,205,1,1,Uruguay,Argentina,3,2,0.25032,0.44933,3,winner,loser
+02/12/1923,Uruguay,Argentina,أوروغواي,الأرجنتين,2,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,12,1923,2,-2,2,205,1,1,Uruguay,Argentina,3,2,0.25032,0.44933,3,winner,loser
 09/12/1923,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa Roca, كأس روكا,Buenos Aires,Argentina,الأرجنتين,FALSE,9,12,1923,2,-2,2,206,1,0,Argentina,Brazil,3,2,0.79418,0.91374,3,winner,loser
 16/12/1923,Spain,Portugal,إسبانيا,البرتغال,3,0,Friendly,مبارة ودية,Seville,Spain,إسبانيا,FALSE,16,12,1923,3,-3,3,207,1,1,Spain,Portugal,3,3,0.42971,0.26161,3,winner,loser
 13/01/1924,France,Belgium,فرنسا,بلجيكا,2,0,Friendly,مبارة ودية,Montrouge,France,فرنسا,FALSE,13,1,1924,2,-2,2,208,0,1,France,Belgium,4,2,0.5435,0.58936,3,winner,loser
@@ -226,7 +226,7 @@
 21/09/1924,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,21,9,1924,0,0,2,225,1,1,Uruguay,Argentina,4,0,0.56036,0.79616,3,draw,draw
 02/10/1924,Argentina,Uruguay,الأرجنتين,أوروغواي,2,1,Friendly,مبارة ودية,Buenos Aires,Argentina,الأرجنتين,FALSE,2,10,1924,1,-1,3,226,1,1,Argentina,Uruguay,4,1,0.52794,0.54626,3,winner,loser
 05/10/1924,Denmark,Belgium,الدنمارك,بلجيكا,2,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,5,10,1924,1,-1,3,227,1,1,Denmark,Belgium,4,1,0.63524,0.16762,3,winner,loser
-02/11/1924,Uruguay,Argentina,أوروغواي,الأرجنتين,0,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,11,1924,0,0,0,228,1,1,Uruguay,Argentina,4,0,0.27117,0.61694,3,draw,draw
+02/11/1924,Uruguay,Argentina,أوروغواي,الأرجنتين,0,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,11,1924,0,0,0,228,1,1,Uruguay,Argentina,4,0,0.27117,0.61694,3,draw,draw
 11/11/1924,Belgium,France,بلجيكا,فرنسا,3,0,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,11,11,1924,3,-3,3,229,1,0,Belgium,France,4,3,0.55652,0.14851,3,winner,loser
 08/12/1924,England,Belgium,إنجلترا,بلجيكا,4,0,Friendly,مبارة ودية,West Bromwich,England,إنجلترا,FALSE,8,12,1924,4,-4,4,230,1,1,England,Belgium,4,4,0.29766,0.58357,3,winner,loser
 14/12/1924,Germany,Switzerland,ألمانيا,سويسرا,1,1,Friendly,مبارة ودية,Stuttgart,Germany,ألمانيا,FALSE,14,12,1924,0,0,2,231,1,0,Germany,Switzerland,4,0,0.99434,0.91223,3,draw,draw
@@ -242,8 +242,8 @@
 25/10/1925,Netherlands,Denmark,هولندا,الدنمارك,4,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,25,10,1925,2,-2,6,241,1,1,Netherlands,Denmark,5,2,0.33241,0.18024,3,winner,loser
 25/10/1925,Switzerland,Germany,سويسرا,ألمانيا,0,4,Friendly,مبارة ودية,Basel,Switzerland,سويسرا,FALSE,25,10,1925,-4,4,4,242,0,1,Switzerland,Germany,5,4,0.76527,0.59775,3,loser,winner
 08/11/1925,United States,Canada,الولايات المتحدة الأمريكية,كندا,6,1,Friendly,مبارة ودية,New York,United States,الولايات المتحدة الأمريكية,FALSE,8,11,1925,5,-5,7,243,0,0,United_States,Canada,5,5,0.16143,0.93722,3,winner,loser
-13/12/1925,Argentina,Brazil,الأرجنتين,البرازيل,4,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,13,12,1925,3,-3,5,244,1,0,Argentina,Brazil,5,3,0.56719,0.348,3,winner,loser
-25/12/1925,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,25,12,1925,0,0,4,245,1,0,Argentina,Brazil,5,0,0.66802,0.83793,3,draw,draw
+13/12/1925,Argentina,Brazil,الأرجنتين,البرازيل,4,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,13,12,1925,3,-3,5,244,1,0,Argentina,Brazil,5,3,0.56719,0.348,3,winner,loser
+25/12/1925,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,25,12,1925,0,0,4,245,1,0,Argentina,Brazil,5,0,0.66802,0.83793,3,draw,draw
 01/03/1926,England,Wales,إنجلترا,ويلز,1,3,British Championship, البطولة البريطانية,London,England,إنجلترا,FALSE,1,3,1926,-2,2,4,246,1,0,England,Wales,6,2,0.795,0.09179,3,loser,winner
 14/03/1926,Belgium,Netherlands,بلجيكا,هولندا,1,1,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,14,3,1926,0,0,2,247,1,1,Belgium,Netherlands,6,0,0.78991,0.16428,3,draw,draw
 28/03/1926,Netherlands,Switzerland,هولندا,سويسرا,5,0,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,28,3,1926,5,-5,5,248,1,0,Netherlands,Switzerland,6,5,0.71217,0.6333,3,winner,loser
@@ -255,7 +255,7 @@
 24/05/1926,Belgium,England,بلجيكا,إنجلترا,3,5,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,24,5,1926,-2,2,8,254,1,1,Belgium,England,6,2,0.25755,0.23439,3,loser,winner
 13/06/1926,Denmark,Netherlands,الدنمارك,هولندا,4,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,13,6,1926,3,-3,5,255,1,1,Denmark,Netherlands,6,3,0.14608,0.57152,3,winner,loser
 20/06/1926,Belgium,France,بلجيكا,فرنسا,2,2,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,20,6,1926,0,0,4,256,1,0,Belgium,France,6,0,0.58539,0.25075,3,draw,draw
-24/10/1926,Argentina,Uruguay,الأرجنتين,أوروغواي,0,2,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,24,10,1926,-2,2,2,257,1,1,Argentina,Uruguay,6,2,0.25747,0.73245,3,loser,winner
+24/10/1926,Argentina,Uruguay,الأرجنتين,أوروغواي,0,2,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,24,10,1926,-2,2,2,257,1,1,Argentina,Uruguay,6,2,0.25747,0.73245,3,loser,winner
 31/10/1926,Netherlands,Germany,هولندا,ألمانيا,2,3,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,31,10,1926,-1,1,5,258,1,1,Netherlands,Germany,6,1,0.41365,0.17178,3,loser,winner
 06/11/1926,United States,Canada,الولايات المتحدة الأمريكية,كندا,6,2,Friendly,مبارة ودية,New York,United States,الولايات المتحدة الأمريكية,FALSE,6,11,1926,4,-4,8,259,0,0,United_States,Canada,6,4,0.77547,0.1688,3,winner,loser
 12/12/1926,Germany,Switzerland,ألمانيا,سويسرا,2,3,Friendly,مبارة ودية,Munich,Germany,ألمانيا,FALSE,12,12,1926,-1,1,5,260,1,0,Germany,Switzerland,6,1,0.85553,0.29521,3,loser,winner
@@ -271,7 +271,7 @@
 14/07/1927,Uruguay,Argentina,أوروغواي,الأرجنتين,0,1,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,14,7,1927,-1,1,1,270,1,1,Uruguay,Argentina,7,1,0.43239,0.14593,3,loser,winner
 30/08/1927,Argentina,Uruguay,الأرجنتين,أوروغواي,0,1,Copa Lipton, كأس ليبتون,Buenos Aires,Argentina,الأرجنتين,FALSE,30,8,1927,-1,1,1,271,1,1,Argentina,Uruguay,7,1,0.85575,0.19002,3,loser,winner
 02/10/1927,Denmark,Germany,الدنمارك,ألمانيا,3,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,2,10,1927,2,-2,4,272,1,1,Denmark,Germany,7,2,0.85785,0.49479,3,winner,loser
-20/11/1927,Argentina,Uruguay,الأرجنتين,أوروغواي,3,2,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,20,11,1927,1,-1,5,273,1,1,Argentina,Uruguay,7,1,0.05922,0.79921,3,winner,loser
+20/11/1927,Argentina,Uruguay,الأرجنتين,أوروغواي,3,2,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,20,11,1927,1,-1,5,273,1,1,Argentina,Uruguay,7,1,0.05922,0.79921,3,winner,loser
 20/11/1927,Germany,Netherlands,ألمانيا,هولندا,2,2,Friendly,مبارة ودية,Cologne,Germany,ألمانيا,FALSE,20,11,1927,0,0,4,274,1,1,Germany,Netherlands,7,0,0.42024,0.32335,3,draw,draw
 28/11/1927,England,Wales,إنجلترا,ويلز,1,2,British Championship, البطولة البريطانية,Burnley,England,إنجلترا,FALSE,28,11,1927,-1,1,3,275,1,0,England,Wales,7,1,0.51543,0.32028,3,loser,winner
 08/01/1928,Portugal,Spain,البرتغال,إسبانيا,2,2,Friendly,مبارة ودية,Lisbon,Portugal,البرتغال,FALSE,8,1,1928,0,0,4,276,1,1,Portugal,Spain,8,0,0.27284,0.08498,3,draw,draw
@@ -306,7 +306,7 @@
 16/06/1929,Uruguay,Argentina,أوروغواي,الأرجنتين,1,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,16,6,1929,0,0,2,305,1,1,Uruguay,Argentina,9,0,0.62132,0.998,3,draw,draw
 20/09/1929,Uruguay,Argentina,أوروغواي,الأرجنتين,2,1,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,20,9,1929,1,-1,3,306,1,1,Uruguay,Argentina,9,1,0.79979,0.49504,3,winner,loser
 28/09/1929,Argentina,Uruguay,الأرجنتين,أوروغواي,0,0,Copa Lipton, كأس ليبتون,Buenos Aires,Argentina,الأرجنتين,FALSE,28,9,1929,0,0,0,307,1,1,Argentina,Uruguay,9,0,0.86507,0.96376,3,draw,draw
-17/11/1929,Argentina,Uruguay,الأرجنتين,أوروغواي,2,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,17,11,1929,2,-2,2,308,1,1,Argentina,Uruguay,9,2,0.94968,0.75816,3,winner,loser
+17/11/1929,Argentina,Uruguay,الأرجنتين,أوروغواي,2,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,17,11,1929,2,-2,2,308,1,1,Argentina,Uruguay,9,2,0.94968,0.75816,3,winner,loser
 20/11/1929,England,Wales,إنجلترا,ويلز,6,0,British Championship, البطولة البريطانية,London,England,إنجلترا,FALSE,20,11,1929,6,-6,6,309,1,0,England,Wales,9,6,0.40926,0.08579,3,winner,loser
 23/02/1930,Portugal,France,البرتغال,فرنسا,2,0,Friendly,مبارة ودية,Porto,Portugal,البرتغال,FALSE,23,2,1930,2,-2,2,310,1,0,Portugal,France,0,2,0.59978,0.87298,4,winner,loser
 23/03/1930,France,Switzerland,فرنسا,سويسرا,3,3,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,23,3,1930,0,0,6,311,0,0,France,Switzerland,0,0,0.15457,0.88558,4,draw,draw
@@ -396,7 +396,7 @@
 07/10/1934,Denmark,Germany,الدنمارك,ألمانيا,2,5,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,7,10,1934,-3,3,7,395,1,1,Denmark,Germany,4,3,0.18555,0.78598,4,loser,winner
 04/11/1934,Switzerland,Netherlands,سويسرا,هولندا,2,4,Friendly,مبارة ودية,Berne,Switzerland,سويسرا,FALSE,4,11,1934,-2,2,6,396,0,1,Switzerland,Netherlands,4,2,0.17168,0.78285,4,loser,winner
 24/01/1935,Spain,France,إسبانيا,فرنسا,2,0,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,24,1,1935,2,-2,2,397,1,0,Spain,France,5,2,0.28261,0.08181,4,winner,loser
-27/01/1935,Argentina,Uruguay,الأرجنتين,أوروغواي,0,3,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,27,1,1935,-3,3,3,398,1,1,Argentina,Uruguay,5,3,0.82471,0.71634,4,loser,winner
+27/01/1935,Argentina,Uruguay,الأرجنتين,أوروغواي,0,3,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,27,1,1935,-3,3,3,398,1,1,Argentina,Uruguay,5,3,0.82471,0.71634,4,loser,winner
 27/01/1935,Germany,Switzerland,ألمانيا,سويسرا,4,0,Friendly,مبارة ودية,Stuttgart,Germany,ألمانيا,FALSE,27,1,1935,4,-4,4,399,1,0,Germany,Switzerland,5,4,0.42369,0.44973,4,winner,loser
 17/02/1935,Netherlands,Germany,هولندا,ألمانيا,2,3,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,17,2,1935,-1,1,5,400,1,1,Netherlands,Germany,5,1,0.65327,0.43753,4,loser,winner
 17/03/1935,France,Germany,فرنسا,ألمانيا,1,3,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,17,3,1935,-2,2,4,401,0,1,France,Germany,5,2,0.65677,0.3317,4,loser,winner
@@ -430,11 +430,11 @@
 20/09/1936,Uruguay,Argentina,أوروغواي,الأرجنتين,2,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,20,9,1936,1,-1,3,429,1,1,Uruguay,Argentina,6,1,0.4807,0.44808,4,winner,loser
 04/10/1936,Denmark,Poland,الدنمارك,بولندا,2,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,4,10,1936,1,-1,3,430,1,0,Denmark,Poland,6,1,0.64823,0.23115,4,winner,loser
 17/10/1936,Wales,England,ويلز,إنجلترا,2,1,British Championship, البطولة البريطانية,Cardiff,Wales,ويلز,FALSE,17,10,1936,1,-1,3,431,0,1,Wales,England,6,1,0.53495,0.2043,4,winner,loser
-19/01/1937,Brazil,Uruguay,البرازيل,أوروغواي,3,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,19,1,1937,1,-1,5,432,0,1,Brazil,Uruguay,7,1,0.79611,0.29898,4,winner,loser
-23/01/1937,Argentina,Uruguay,الأرجنتين,أوروغواي,2,3,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,23,1,1937,-1,1,5,433,1,1,Argentina,Uruguay,7,1,0.1065,0.85448,4,loser,winner
-30/01/1937,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,1,1937,1,-1,1,434,1,0,Argentina,Brazil,7,1,0.72659,0.29986,4,winner,loser
+19/01/1937,Brazil,Uruguay,البرازيل,أوروغواي,3,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,19,1,1937,1,-1,5,432,0,1,Brazil,Uruguay,7,1,0.79611,0.29898,4,winner,loser
+23/01/1937,Argentina,Uruguay,الأرجنتين,أوروغواي,2,3,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,23,1,1937,-1,1,5,433,1,1,Argentina,Uruguay,7,1,0.1065,0.85448,4,loser,winner
+30/01/1937,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,1,1937,1,-1,1,434,1,0,Argentina,Brazil,7,1,0.72659,0.29986,4,winner,loser
 31/01/1937,Germany,Netherlands,ألمانيا,هولندا,2,2,Friendly,مبارة ودية,D√ºsseldorf,Germany,ألمانيا,FALSE,31,1,1937,0,0,4,435,1,1,Germany,Netherlands,7,0,0.40813,0.09854,4,draw,draw
-01/02/1937,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,1,2,1937,2,-2,2,436,1,0,Argentina,Brazil,7,2,0.87616,0.61622,4,winner,loser
+01/02/1937,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,1,2,1937,2,-2,2,436,1,0,Argentina,Brazil,7,2,0.87616,0.61622,4,winner,loser
 21/02/1937,Belgium,France,بلجيكا,فرنسا,3,1,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,21,2,1937,2,-2,4,437,1,0,Belgium,France,7,2,0.17848,0.52466,4,winner,loser
 07/03/1937,Netherlands,Switzerland,هولندا,سويسرا,2,1,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,7,3,1937,1,-1,3,438,1,0,Netherlands,Switzerland,7,1,0.5633,0.29935,4,winner,loser
 21/03/1937,Germany,France,ألمانيا,فرنسا,4,0,Friendly,مبارة ودية,Stuttgart,Germany,ألمانيا,FALSE,21,3,1937,4,-4,4,439,1,0,Germany,France,7,4,0.76865,0.08628,4,winner,loser
@@ -477,7 +477,7 @@
 06/11/1938,Switzerland,Portugal,سويسرا,البرتغال,1,0,Friendly,مبارة ودية,Lausanne,Switzerland,سويسرا,FALSE,6,11,1938,1,-1,1,476,0,1,Switzerland,Portugal,8,1,0.25307,0.27098,4,winner,loser
 15/01/1939,Brazil,Argentina,البرازيل,الأرجنتين,1,5,Copa Roca, كأس روكا,Rio de Janeiro,Brazil,البرازيل,FALSE,15,1,1939,-4,4,6,477,0,1,Brazil,Argentina,9,4,0.40827,0.78146,4,loser,winner
 22/01/1939,Brazil,Argentina,البرازيل,الأرجنتين,3,2,Copa Roca, كأس روكا,Rio de Janeiro,Brazil,البرازيل,FALSE,22,1,1939,1,-1,5,478,0,1,Brazil,Argentina,9,1,0.77639,0.53577,4,winner,loser
-22/01/1939,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,22,1,1939,-6,6,6,479,0,1,Ecuador,Uruguay,9,6,0.48571,0.00501,4,loser,winner
+22/01/1939,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,22,1,1939,-6,6,6,479,0,1,Ecuador,Uruguay,9,6,0.48571,0.00501,4,loser,winner
 22/01/1939,France,Poland,فرنسا,بولندا,4,0,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,22,1,1939,4,-4,4,480,0,0,France,Poland,9,4,0.21442,0.45496,4,winner,loser
 29/01/1939,Belgium,Germany,بلجيكا,ألمانيا,1,4,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,29,1,1939,-3,3,5,481,1,1,Belgium,Germany,9,3,0.05235,0.83895,4,loser,winner
 12/02/1939,Portugal,Switzerland,البرتغال,سويسرا,2,4,Friendly,مبارة ودية,Lisbon,Portugal,البرتغال,FALSE,12,2,1939,-2,2,6,482,1,0,Portugal,Switzerland,9,2,0.26775,0.43192,4,loser,winner
@@ -506,9 +506,9 @@
 15/08/1940,Argentina,Uruguay,الأرجنتين,أوروغواي,5,0,Friendly,مبارة ودية,Buenos Aires,Argentina,الأرجنتين,FALSE,15,8,1940,5,-5,5,505,1,1,Argentina,Uruguay,0,5,0.04137,0.12834,5,winner,loser
 17/11/1940,Germany,Denmark,ألمانيا,الدنمارك,1,0,Friendly,مبارة ودية,Hamburg,Germany,ألمانيا,FALSE,17,11,1940,1,-1,1,506,1,1,Germany,Denmark,0,1,0.31115,0.16223,5,winner,loser
 12/01/1941,Portugal,Spain,البرتغال,إسبانيا,2,2,Friendly,مبارة ودية,Lisbon,Portugal,البرتغال,FALSE,12,1,1941,0,0,4,507,1,1,Portugal,Spain,1,0,0.84083,0.72697,5,draw,draw
-09/02/1941,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,9,2,1941,-6,6,6,508,0,1,Ecuador,Uruguay,1,6,0.8728,0.70437,5,loser,winner
-16/02/1941,Argentina,Ecuador,الأرجنتين,الاكوادور,6,1,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,16,2,1941,5,-5,7,509,1,0,Argentina,Ecuador,1,5,0.25091,0.27944,5,winner,loser
-23/02/1941,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,23,2,1941,1,-1,1,510,1,1,Argentina,Uruguay,1,1,0.31252,0.53648,5,winner,loser
+09/02/1941,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,9,2,1941,-6,6,6,508,0,1,Ecuador,Uruguay,1,6,0.8728,0.70437,5,loser,winner
+16/02/1941,Argentina,Ecuador,الأرجنتين,الاكوادور,6,1,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,16,2,1941,5,-5,7,509,1,0,Argentina,Ecuador,1,5,0.25091,0.27944,5,winner,loser
+23/02/1941,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,23,2,1941,1,-1,1,510,1,1,Argentina,Uruguay,1,1,0.31252,0.53648,5,winner,loser
 09/03/1941,Germany,Switzerland,ألمانيا,سويسرا,4,2,Friendly,مبارة ودية,Stuttgart,Germany,ألمانيا,FALSE,9,3,1941,2,-2,6,511,1,0,Germany,Switzerland,1,2,0.4279,0.53309,5,winner,loser
 16/03/1941,Spain,Portugal,إسبانيا,البرتغال,5,1,Friendly,مبارة ودية,Bilbao,Spain,إسبانيا,FALSE,16,3,1941,4,-4,6,512,1,1,Spain,Portugal,1,4,0.03741,0.95406,5,winner,loser
 20/04/1941,Switzerland,Germany,سويسرا,ألمانيا,2,1,Friendly,مبارة ودية,Berne,Switzerland,سويسرا,FALSE,20,4,1941,1,-1,3,513,0,1,Switzerland,Germany,1,1,0.90528,0.24469,5,winner,loser
@@ -516,14 +516,14 @@
 16/11/1941,Germany,Denmark,ألمانيا,الدنمارك,1,1,Friendly,مبارة ودية,Dresden,Germany,ألمانيا,FALSE,16,11,1941,0,0,2,515,1,1,Germany,Denmark,1,0,0.76714,0.09216,5,draw,draw
 28/12/1941,Spain,Switzerland,إسبانيا,سويسرا,3,2,Friendly,مبارة ودية,Valencia,Spain,إسبانيا,FALSE,28,12,1941,1,-1,5,516,1,0,Spain,Switzerland,1,1,0.12794,0.62672,5,winner,loser
 01/01/1942,Portugal,Switzerland,البرتغال,سويسرا,3,0,Friendly,مبارة ودية,Lisbon,Portugal,البرتغال,FALSE,1,1,1942,3,-3,3,517,1,0,Portugal,Switzerland,2,3,0.25848,0.96527,5,winner,loser
-17/01/1942,Argentina,Brazil,الأرجنتين,البرازيل,2,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,17,1,1942,1,-1,3,518,1,0,Argentina,Brazil,2,1,0.14805,0.12613,5,winner,loser
-18/01/1942,Uruguay,Ecuador,أوروغواي,الاكوادور,7,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,18,1,1942,7,-7,7,519,1,0,Uruguay,Ecuador,2,7,0.35844,0.36823,5,winner,loser
+17/01/1942,Argentina,Brazil,الأرجنتين,البرازيل,2,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,17,1,1942,1,-1,3,518,1,0,Argentina,Brazil,2,1,0.14805,0.12613,5,winner,loser
+18/01/1942,Uruguay,Ecuador,أوروغواي,الاكوادور,7,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,18,1,1942,7,-7,7,519,1,0,Uruguay,Ecuador,2,7,0.35844,0.36823,5,winner,loser
 18/01/1942,Croatia,Germany,كرواتيا,ألمانيا,0,2,Friendly,مبارة ودية,Zagreb,Croatia,كرواتيا,FALSE,18,1,1942,-2,2,2,520,0,1,Croatia,Germany,2,2,0.33976,0.23306,5,loser,winner
-22/01/1942,Argentina,Ecuador,الأرجنتين,الاكوادور,12,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,22,1,1942,12,-12,12,521,1,0,Argentina,Ecuador,2,12,0.428,0.68643,5,winner,loser
-24/01/1942,Uruguay,Brazil,أوروغواي,البرازيل,1,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,24,1,1942,1,-1,1,522,1,0,Uruguay,Brazil,2,1,0.04012,0.96995,5,winner,loser
-31/01/1942,Brazil,Ecuador,البرازيل,الاكوادور,5,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,31,1,1942,4,-4,6,523,0,0,Brazil,Ecuador,2,4,0.28685,0.69035,5,winner,loser
+22/01/1942,Argentina,Ecuador,الأرجنتين,الاكوادور,12,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,22,1,1942,12,-12,12,521,1,0,Argentina,Ecuador,2,12,0.428,0.68643,5,winner,loser
+24/01/1942,Uruguay,Brazil,أوروغواي,البرازيل,1,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,24,1,1942,1,-1,1,522,1,0,Uruguay,Brazil,2,1,0.04012,0.96995,5,winner,loser
+31/01/1942,Brazil,Ecuador,البرازيل,الاكوادور,5,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,31,1,1942,4,-4,6,523,0,0,Brazil,Ecuador,2,4,0.28685,0.69035,5,winner,loser
 01/02/1942,Germany,Switzerland,ألمانيا,سويسرا,1,2,Friendly,مبارة ودية,Vienna,Germany,ألمانيا,FALSE,1,2,1942,-1,1,3,524,1,0,Germany,Switzerland,2,1,0.41793,0.33768,5,loser,winner
-07/02/1942,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,7,2,1942,1,-1,1,525,1,1,Uruguay,Argentina,2,1,0.54789,0.01315,5,winner,loser
+07/02/1942,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,7,2,1942,1,-1,1,525,1,1,Uruguay,Argentina,2,1,0.54789,0.01315,5,winner,loser
 08/03/1942,France,Switzerland,فرنسا,سويسرا,0,2,Friendly,مبارة ودية,Marseille,France,فرنسا,FALSE,8,3,1942,-2,2,2,526,0,0,France,Switzerland,2,2,0.24596,0.60994,5,loser,winner
 15/03/1942,Spain,France,إسبانيا,فرنسا,4,0,Friendly,مبارة ودية,Seville,Spain,إسبانيا,FALSE,15,3,1942,4,-4,4,527,1,0,Spain,France,2,4,0.21286,0.68958,5,winner,loser
 12/04/1942,Germany,Spain,ألمانيا,إسبانيا,1,1,Friendly,مبارة ودية,Berlin,Germany,ألمانيا,FALSE,12,4,1942,0,0,2,528,1,1,Germany,Spain,2,0,0.82432,0.60715,5,draw,draw
@@ -537,12 +537,12 @@
 14/05/1944,Brazil,Uruguay,البرازيل,أوروغواي,6,1,Friendly,مبارة ودية,Rio de Janeiro,Brazil,البرازيل,FALSE,14,5,1944,5,-5,7,536,0,1,Brazil,Uruguay,4,5,0.73786,0.73777,5,winner,loser
 17/05/1944,Brazil,Uruguay,البرازيل,أوروغواي,4,0,Friendly,مبارة ودية,S√£o Paulo,Brazil,البرازيل,FALSE,17,5,1944,4,-4,4,537,0,1,Brazil,Uruguay,4,4,0.86002,0.06128,5,winner,loser
 24/12/1944,France,Belgium,فرنسا,بلجيكا,3,1,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,24,12,1944,2,-2,4,538,0,1,France,Belgium,4,2,0.07559,0.44819,5,winner,loser
-24/01/1945,Ecuador,Uruguay,الاكوادور,أوروغواي,1,5,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,24,1,1945,-4,4,6,539,0,1,Ecuador,Uruguay,5,4,0.13659,0.42638,5,loser,winner
-31/01/1945,Argentina,Ecuador,الأرجنتين,الاكوادور,4,2,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,31,1,1945,2,-2,6,540,1,0,Argentina,Ecuador,5,2,0.54708,0.28382,5,winner,loser
-07/02/1945,Brazil,Uruguay,البرازيل,أوروغواي,3,0,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,7,2,1945,3,-3,3,541,0,1,Brazil,Uruguay,5,3,0.50558,0.10966,5,winner,loser
-15/02/1945,Argentina,Brazil,الأرجنتين,البرازيل,3,1,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,15,2,1945,2,-2,4,542,1,0,Argentina,Brazil,5,2,0.05053,0.86316,5,winner,loser
-21/02/1945,Brazil,Ecuador,البرازيل,الاكوادور,9,2,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,21,2,1945,7,-7,11,543,0,0,Brazil,Ecuador,5,7,0.89595,0.92774,5,winner,loser
-25/02/1945,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,25,2,1945,1,-1,1,544,1,1,Argentina,Uruguay,5,1,0.82222,0.25797,5,winner,loser
+24/01/1945,Ecuador,Uruguay,الاكوادور,أوروغواي,1,5,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,24,1,1945,-4,4,6,539,0,1,Ecuador,Uruguay,5,4,0.13659,0.42638,5,loser,winner
+31/01/1945,Argentina,Ecuador,الأرجنتين,الاكوادور,4,2,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,31,1,1945,2,-2,6,540,1,0,Argentina,Ecuador,5,2,0.54708,0.28382,5,winner,loser
+07/02/1945,Brazil,Uruguay,البرازيل,أوروغواي,3,0,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,7,2,1945,3,-3,3,541,0,1,Brazil,Uruguay,5,3,0.50558,0.10966,5,winner,loser
+15/02/1945,Argentina,Brazil,الأرجنتين,البرازيل,3,1,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,15,2,1945,2,-2,4,542,1,0,Argentina,Brazil,5,2,0.05053,0.86316,5,winner,loser
+21/02/1945,Brazil,Ecuador,البرازيل,الاكوادور,9,2,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,21,2,1945,7,-7,11,543,0,0,Brazil,Ecuador,5,7,0.89595,0.92774,5,winner,loser
+25/02/1945,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,25,2,1945,1,-1,1,544,1,1,Argentina,Uruguay,5,1,0.82222,0.25797,5,winner,loser
 11/03/1945,Portugal,Spain,البرتغال,إسبانيا,2,2,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,11,3,1945,0,0,4,545,1,1,Portugal,Spain,5,0,0.80688,0.10555,5,draw,draw
 08/04/1945,Switzerland,France,سويسرا,فرنسا,1,0,Friendly,مبارة ودية,Lausanne,Switzerland,سويسرا,FALSE,8,4,1945,1,-1,1,546,0,0,Switzerland,France,5,1,0.23494,0.62634,5,winner,loser
 06/05/1945,Spain,Portugal,إسبانيا,البرتغال,4,2,Friendly,مبارة ودية,La Coru√±a,Spain,إسبانيا,FALSE,6,5,1945,2,-2,6,547,1,1,Spain,Portugal,5,2,0.02701,0.26472,5,winner,loser
@@ -558,9 +558,9 @@
 23/12/1945,Brazil,Argentina,البرازيل,الأرجنتين,3,1,Copa Roca, كأس روكا,Rio de Janeiro,Brazil,البرازيل,FALSE,23,12,1945,2,-2,4,557,0,1,Brazil,Argentina,5,2,0.30624,0.84834,5,winner,loser
 05/01/1946,Uruguay,Brazil,أوروغواي,البرازيل,4,3,Copa Rio Branco, كأس ريو برانكو,Montevideo,Uruguay,أوروغواي,FALSE,5,1,1946,1,-1,7,558,1,0,Uruguay,Brazil,6,1,0.35333,0.68629,5,winner,loser
 19/01/1946,England,Belgium,إنجلترا,بلجيكا,2,0,Friendly,مبارة ودية,London,England,إنجلترا,FALSE,19,1,1946,2,-2,2,559,1,1,England,Belgium,6,2,0.53629,0.80527,5,winner,loser
-23/01/1946,Brazil,Uruguay,البرازيل,أوروغواي,4,3,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,23,1,1946,1,-1,7,560,0,1,Brazil,Uruguay,6,1,0.48581,0.34846,5,winner,loser
-02/02/1946,Argentina,Uruguay,الأرجنتين,أوروغواي,3,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,2,1946,2,-2,4,561,1,1,Argentina,Uruguay,6,2,0.54684,0.93059,5,winner,loser
-10/02/1946,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,10,2,1946,2,-2,2,562,1,0,Argentina,Brazil,6,2,0.84148,0.15958,5,winner,loser
+23/01/1946,Brazil,Uruguay,البرازيل,أوروغواي,4,3,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,23,1,1946,1,-1,7,560,0,1,Brazil,Uruguay,6,1,0.48581,0.34846,5,winner,loser
+02/02/1946,Argentina,Uruguay,الأرجنتين,أوروغواي,3,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,2,1946,2,-2,4,561,1,1,Argentina,Uruguay,6,2,0.54684,0.93059,5,winner,loser
+10/02/1946,Argentina,Brazil,الأرجنتين,البرازيل,2,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,10,2,1946,2,-2,2,562,1,0,Argentina,Brazil,6,2,0.84148,0.15958,5,winner,loser
 14/04/1946,Portugal,France,البرتغال,فرنسا,2,1,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,14,4,1946,1,-1,3,563,1,0,Portugal,France,6,1,0.74787,0.13468,5,winner,loser
 11/05/1946,England,Switzerland,إنجلترا,سويسرا,4,1,Friendly,مبارة ودية,London,England,إنجلترا,FALSE,11,5,1946,3,-3,5,564,1,0,England,Switzerland,6,3,0.961,0.48885,5,winner,loser
 12/05/1946,Netherlands,Belgium,هولندا,بلجيكا,6,3,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,12,5,1946,3,-3,9,565,1,1,Netherlands,Belgium,6,3,0.63435,0.1824,5,winner,loser
@@ -587,9 +587,9 @@
 18/10/1947,Wales,England,ويلز,إنجلترا,0,3,British Championship, البطولة البريطانية,Cardiff,Wales,ويلز,FALSE,18,10,1947,-3,3,3,586,0,1,Wales,England,7,3,0.44736,0.82838,5,loser,winner
 02/11/1947,Switzerland,Belgium,سويسرا,بلجيكا,4,0,Friendly,مبارة ودية,Geneva,Switzerland,سويسرا,FALSE,2,11,1947,4,-4,4,587,0,1,Switzerland,Belgium,7,4,0.41675,0.87427,5,winner,loser
 23/11/1947,Portugal,France,البرتغال,فرنسا,2,4,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,23,11,1947,-2,2,6,588,1,0,Portugal,France,7,2,0.92799,0.59323,5,loser,winner
-16/12/1947,Ecuador,Uruguay,الاكوادور,أوروغواي,1,6,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,16,12,1947,-5,5,7,589,0,1,Ecuador,Uruguay,7,5,0.94949,0.19309,5,loser,winner
-25/12/1947,Ecuador,Argentina,الاكوادور,الأرجنتين,0,2,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,25,12,1947,-2,2,2,590,0,1,Ecuador,Argentina,7,2,0.48413,0.85767,5,loser,winner
-28/12/1947,Argentina,Uruguay,الأرجنتين,أوروغواي,3,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,28,12,1947,2,-2,4,591,1,1,Argentina,Uruguay,7,2,0.17123,0.82835,5,winner,loser
+16/12/1947,Ecuador,Uruguay,الاكوادور,أوروغواي,1,6,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,16,12,1947,-5,5,7,589,0,1,Ecuador,Uruguay,7,5,0.94949,0.19309,5,loser,winner
+25/12/1947,Ecuador,Argentina,الاكوادور,الأرجنتين,0,2,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,25,12,1947,-2,2,2,590,0,1,Ecuador,Argentina,7,2,0.48413,0.85767,5,loser,winner
+28/12/1947,Argentina,Uruguay,الأرجنتين,أوروغواي,3,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,28,12,1947,2,-2,4,591,1,1,Argentina,Uruguay,7,2,0.17123,0.82835,5,winner,loser
 14/03/1948,Belgium,Netherlands,بلجيكا,هولندا,1,1,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,14,3,1948,0,0,2,592,1,1,Belgium,Netherlands,8,0,0.70433,0.31155,5,draw,draw
 21/03/1948,Spain,Portugal,إسبانيا,البرتغال,2,0,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,21,3,1948,2,-2,2,593,1,1,Spain,Portugal,8,2,0.21898,0.17674,5,winner,loser
 04/04/1948,Uruguay,Brazil,أوروغواي,البرازيل,1,1,Copa Rio Branco, كأس ريو برانكو,Montevideo,Uruguay,أوروغواي,FALSE,4,4,1948,0,0,2,594,1,0,Uruguay,Brazil,8,0,0.73417,0.88242,5,draw,draw
@@ -606,10 +606,10 @@
 02/01/1949,Spain,Belgium,إسبانيا,بلجيكا,1,1,Friendly,مبارة ودية,Barcelona,Spain,إسبانيا,FALSE,2,1,1949,0,0,2,605,1,1,Spain,Belgium,9,0,0.21228,0.32715,5,draw,draw
 13/03/1949,Netherlands,Belgium,هولندا,بلجيكا,3,3,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,13,3,1949,0,0,6,606,1,1,Netherlands,Belgium,9,0,0.65547,0.60947,5,draw,draw
 20/03/1949,Portugal,Spain,البرتغال,إسبانيا,1,1,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,20,3,1949,0,0,2,607,1,1,Portugal,Spain,9,0,0.24066,0.5725,5,draw,draw
-03/04/1949,Brazil,Ecuador,البرازيل,الاكوادور,9,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,3,4,1949,8,-8,10,608,0,0,Brazil,Ecuador,9,8,0.5851,0.41735,5,winner,loser
-13/04/1949,Ecuador,Uruguay,الاكوادور,أوروغواي,2,3,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,13,4,1949,-1,1,5,609,0,1,Ecuador,Uruguay,9,1,0.27308,0.38667,5,loser,winner
+03/04/1949,Brazil,Ecuador,البرازيل,الاكوادور,9,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,3,4,1949,8,-8,10,608,0,0,Brazil,Ecuador,9,8,0.5851,0.41735,5,winner,loser
+13/04/1949,Ecuador,Uruguay,الاكوادور,أوروغواي,2,3,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,13,4,1949,-1,1,5,609,0,1,Ecuador,Uruguay,9,1,0.27308,0.38667,5,loser,winner
 23/04/1949,Netherlands,France,هولندا,فرنسا,4,1,Friendly,مبارة ودية,Rotterdam,Netherlands,هولندا,FALSE,23,4,1949,3,-3,5,610,1,0,Netherlands,France,9,3,0.78621,0.51564,5,winner,loser
-30/04/1949,Brazil,Uruguay,البرازيل,أوروغواي,5,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,30,4,1949,4,-4,6,611,0,1,Brazil,Uruguay,9,4,0.76137,0.95975,5,winner,loser
+30/04/1949,Brazil,Uruguay,البرازيل,أوروغواي,5,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,30,4,1949,4,-4,6,611,0,1,Brazil,Uruguay,9,4,0.76137,0.95975,5,winner,loser
 15/05/1949,Portugal,Wales,البرتغال,ويلز,3,2,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,15,5,1949,1,-1,5,612,1,0,Portugal,Wales,9,1,0.83861,0.72484,5,winner,loser
 22/05/1949,Belgium,Wales,بلجيكا,ويلز,3,1,Friendly,مبارة ودية,Li√®ge,Belgium,بلجيكا,FALSE,22,5,1949,2,-2,4,613,1,0,Belgium,Wales,9,2,0.3836,0.99545,5,winner,loser
 22/05/1949,France,England,فرنسا,إنجلترا,1,3,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,22,5,1949,-2,2,4,614,0,1,France,England,9,2,0.07736,0.33435,5,loser,winner
@@ -680,11 +680,11 @@
 25/12/1952,France,Belgium,فرنسا,بلجيكا,0,1,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,25,12,1952,-1,1,1,679,0,1,France,Belgium,2,1,0.25229,0.35996,6,loser,winner
 28/12/1952,Spain,Germany,إسبانيا,ألمانيا,2,2,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,28,12,1952,0,0,4,680,1,1,Spain,Germany,2,0,0.56176,0.10887,6,draw,draw
 07/03/1953,Netherlands,Denmark,هولندا,الدنمارك,1,2,Friendly,مبارة ودية,Rotterdam,Netherlands,هولندا,FALSE,7,3,1953,-1,1,3,681,1,1,Netherlands,Denmark,3,1,0.66682,0.60612,6,loser,winner
-12/03/1953,Brazil,Ecuador,البرازيل,الاكوادور,2,0,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,12,3,1953,2,-2,2,682,0,0,Brazil,Ecuador,3,2,0.36354,0.59516,6,winner,loser
-15/03/1953,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,15,3,1953,1,-1,1,683,0,1,Brazil,Uruguay,3,1,0.97857,0.37715,6,winner,loser
+12/03/1953,Brazil,Ecuador,البرازيل,الاكوادور,2,0,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,12,3,1953,2,-2,2,682,0,0,Brazil,Ecuador,3,2,0.36354,0.59516,6,winner,loser
+15/03/1953,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,15,3,1953,1,-1,1,683,0,1,Brazil,Uruguay,3,1,0.97857,0.37715,6,winner,loser
 19/03/1953,Spain,Belgium,إسبانيا,بلجيكا,3,1,Friendly,مبارة ودية,Barcelona,Spain,إسبانيا,FALSE,19,3,1953,2,-2,4,684,1,1,Spain,Belgium,3,2,0.42226,0.65151,6,winner,loser
 22/03/1953,Netherlands,Switzerland,هولندا,سويسرا,1,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,22,3,1953,-1,1,3,685,1,0,Netherlands,Switzerland,3,1,0.05616,0.49957,6,loser,winner
-23/03/1953,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,23,3,1953,-6,6,6,686,0,1,Ecuador,Uruguay,3,6,0.09809,0.82149,6,loser,winner
+23/03/1953,Ecuador,Uruguay,الاكوادور,أوروغواي,0,6,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,23,3,1953,-6,6,6,686,0,1,Ecuador,Uruguay,3,6,0.09809,0.82149,6,loser,winner
 19/04/1953,Netherlands,Belgium,هولندا,بلجيكا,0,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,19,4,1953,-2,2,2,687,1,1,Netherlands,Belgium,3,2,0.80346,0.7934,6,loser,winner
 14/05/1953,Argentina,England,الأرجنتين,إنجلترا,3,1,Friendly,مبارة ودية,Buenos Aires,Argentina,الأرجنتين,FALSE,14,5,1953,2,-2,4,688,1,1,Argentina,England,3,2,0.31837,0.04228,6,winner,loser
 14/05/1953,France,Wales,فرنسا,ويلز,6,1,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,14,5,1953,5,-5,7,689,0,0,France,Wales,3,5,0.75915,0.63332,6,winner,loser
@@ -721,11 +721,11 @@
 28/11/1954,Portugal,Argentina,البرتغال,الأرجنتين,1,3,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,28,11,1954,-2,2,4,720,1,1,Portugal,Argentina,4,2,0.06115,0.67253,6,loser,winner
 01/12/1954,England,Germany,إنجلترا,ألمانيا,3,1,Friendly,مبارة ودية,London,England,إنجلترا,FALSE,1,12,1954,2,-2,4,721,1,1,England,Germany,4,2,0.17263,0.16732,6,winner,loser
 19/12/1954,Portugal,Germany,البرتغال,ألمانيا,0,3,Friendly,مبارة ودية,Oeiras,Portugal,البرتغال,FALSE,19,12,1954,-3,3,3,722,1,1,Portugal,Germany,4,3,0.5382,0.43509,6,loser,winner
-09/03/1955,Argentina,Ecuador,الأرجنتين,الاكوادور,4,0,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,9,3,1955,4,-4,4,723,1,0,Argentina,Ecuador,5,4,0.60214,0.15932,6,winner,loser
+09/03/1955,Argentina,Ecuador,الأرجنتين,الاكوادور,4,0,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,9,3,1955,4,-4,4,723,1,0,Argentina,Ecuador,5,4,0.60214,0.15932,6,winner,loser
 13/03/1955,Netherlands,Denmark,هولندا,الدنمارك,1,1,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,13,3,1955,0,0,2,724,1,1,Netherlands,Denmark,5,0,0.7617,0.83308,6,draw,draw
 17/03/1955,Spain,France,إسبانيا,فرنسا,1,2,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,17,3,1955,-1,1,3,725,1,0,Spain,France,5,1,0.48101,0.6358,6,loser,winner
-23/03/1955,Ecuador,Uruguay,الاكوادور,أوروغواي,1,5,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,23,3,1955,-4,4,6,726,0,1,Ecuador,Uruguay,5,4,0.82798,0.87446,6,loser,winner
-27/03/1955,Argentina,Uruguay,الأرجنتين,أوروغواي,6,1,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,27,3,1955,5,-5,7,727,1,1,Argentina,Uruguay,5,5,0.46336,0.5617,6,winner,loser
+23/03/1955,Ecuador,Uruguay,الاكوادور,أوروغواي,1,5,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,23,3,1955,-4,4,6,726,0,1,Ecuador,Uruguay,5,4,0.82798,0.87446,6,loser,winner
+27/03/1955,Argentina,Uruguay,الأرجنتين,أوروغواي,6,1,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,27,3,1955,5,-5,7,727,1,1,Argentina,Uruguay,5,5,0.46336,0.5617,6,winner,loser
 03/04/1955,Netherlands,Belgium,هولندا,بلجيكا,1,0,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,3,4,1955,1,-1,1,728,1,1,Netherlands,Belgium,5,1,0.54965,0.83378,6,winner,loser
 15/05/1955,France,England,فرنسا,إنجلترا,1,0,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,15,5,1955,1,-1,1,729,0,1,France,England,5,1,0.97066,0.4796,6,winner,loser
 18/05/1955,Spain,England,إسبانيا,إنجلترا,1,1,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,18,5,1955,0,0,2,730,1,1,Spain,England,5,0,0.14964,0.02991,6,draw,draw
@@ -738,9 +738,9 @@
 22/10/1955,Wales,England,ويلز,إنجلترا,2,1,British Championship, البطولة البريطانية,Cardiff,Wales,ويلز,FALSE,22,10,1955,1,-1,3,737,0,1,Wales,England,5,1,0.46629,0.9474,6,winner,loser
 30/11/1955,England,Spain,إنجلترا,إسبانيا,4,1,Friendly,مبارة ودية,London,England,إنجلترا,FALSE,30,11,1955,3,-3,5,738,1,1,England,Spain,5,3,0.36908,0.93419,6,winner,loser
 25/12/1955,Belgium,France,بلجيكا,فرنسا,2,1,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,25,12,1955,1,-1,3,739,1,0,Belgium,France,5,1,0.64531,0.92354,6,winner,loser
-05/02/1956,Argentina,Brazil,الأرجنتين,البرازيل,0,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,5,2,1956,-1,1,1,740,1,0,Argentina,Brazil,6,1,0.59316,0.23427,6,loser,winner
-10/02/1956,Uruguay,Brazil,أوروغواي,البرازيل,0,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,10,2,1956,0,0,0,741,1,0,Uruguay,Brazil,6,0,0.46837,0.48178,6,draw,draw
-15/02/1956,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,15,2,1956,1,-1,1,742,1,1,Uruguay,Argentina,6,1,0.86417,0.70605,6,winner,loser
+05/02/1956,Argentina,Brazil,الأرجنتين,البرازيل,0,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,TRUE,5,2,1956,-1,1,1,740,1,0,Argentina,Brazil,6,1,0.59316,0.23427,6,loser,winner
+10/02/1956,Uruguay,Brazil,أوروغواي,البرازيل,0,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,10,2,1956,0,0,0,741,1,0,Uruguay,Brazil,6,0,0.46837,0.48178,6,draw,draw
+15/02/1956,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,15,2,1956,1,-1,1,742,1,1,Uruguay,Argentina,6,1,0.86417,0.70605,6,winner,loser
 26/02/1956,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,1,Pan American Championship,بطولة عموم أميركا,Mexico City,Mexico,المكسيك,FALSE,26,2,1956,0,0,2,743,1,1,Mexico,Costa_Rica,6,0,0.55273,0.42031,6,draw,draw
 06/03/1956,Argentina,Costa Rica,الأرجنتين,كوستا ريكا,4,3,Pan American Championship,بطولة عموم أميركا,Mexico City,Mexico,المكسيك,TRUE,6,3,1956,1,-1,7,744,1,1,Argentina,Costa_Rica,6,1,0.59414,0.72986,6,winner,loser
 08/03/1956,Mexico,Brazil,المكسيك,البرازيل,1,2,Pan American Championship,بطولة عموم أميركا,Mexico City,Mexico,المكسيك,FALSE,8,3,1956,-1,1,3,745,1,0,Mexico,Brazil,6,1,0.40549,0.26859,6,loser,winner
@@ -770,14 +770,14 @@
 05/12/1956,England,Denmark,إنجلترا,الدنمارك,5,2,FIFA World Cup qualification, نصفيات كأس العالم,Wolverhampton,England,إنجلترا,FALSE,5,12,1956,3,-3,7,769,1,1,England,Denmark,6,3,0.19962,0.12351,6,winner,loser
 23/12/1956,Germany,Belgium,ألمانيا,بلجيكا,4,1,Friendly,مبارة ودية,Cologne,Germany,ألمانيا,FALSE,23,12,1956,3,-3,5,770,1,1,Germany,Belgium,6,3,0.9268,0.36186,6,winner,loser
 30/01/1957,Spain,Netherlands,إسبانيا,هولندا,5,1,Friendly,مبارة ودية,Madrid,Spain,إسبانيا,FALSE,30,1,1957,4,-4,6,771,1,1,Spain,Netherlands,7,4,0.7798,0.80193,6,winner,loser
-07/03/1957,Ecuador,Uruguay,الاكوادور,أوروغواي,2,5,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,7,3,1957,-3,3,7,772,0,1,Ecuador,Uruguay,7,3,0.69797,0.97947,6,loser,winner
+07/03/1957,Ecuador,Uruguay,الاكوادور,أوروغواي,2,5,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,7,3,1957,-3,3,7,772,0,1,Ecuador,Uruguay,7,3,0.69797,0.97947,6,loser,winner
 10/03/1957,Spain,Switzerland,إسبانيا,سويسرا,2,2,FIFA World Cup qualification, نصفيات كأس العالم,Madrid,Spain,إسبانيا,FALSE,10,3,1957,0,0,4,773,1,0,Spain,Switzerland,7,0,0.18374,0.23682,6,draw,draw
-17/03/1957,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,17,3,1957,3,-3,3,774,1,0,Argentina,Ecuador,7,3,0.04898,0.76519,6,winner,loser
-20/03/1957,Argentina,Uruguay,الأرجنتين,أوروغواي,4,0,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,20,3,1957,4,-4,4,775,1,1,Argentina,Uruguay,7,4,0.67682,0.52811,6,winner,loser
-21/03/1957,Brazil,Ecuador,البرازيل,الاكوادور,7,1,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,21,3,1957,6,-6,8,776,0,0,Brazil,Ecuador,7,6,0.01064,0.07465,6,winner,loser
-28/03/1957,Brazil,Uruguay,البرازيل,أوروغواي,2,3,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,28,3,1957,-1,1,5,777,0,1,Brazil,Uruguay,7,1,0.73555,0.15064,6,loser,winner
+17/03/1957,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,17,3,1957,3,-3,3,774,1,0,Argentina,Ecuador,7,3,0.04898,0.76519,6,winner,loser
+20/03/1957,Argentina,Uruguay,الأرجنتين,أوروغواي,4,0,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,20,3,1957,4,-4,4,775,1,1,Argentina,Uruguay,7,4,0.67682,0.52811,6,winner,loser
+21/03/1957,Brazil,Ecuador,البرازيل,الاكوادور,7,1,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,21,3,1957,6,-6,8,776,0,0,Brazil,Ecuador,7,6,0.01064,0.07465,6,winner,loser
+28/03/1957,Brazil,Uruguay,البرازيل,أوروغواي,2,3,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,28,3,1957,-1,1,5,777,0,1,Brazil,Uruguay,7,1,0.73555,0.15064,6,loser,winner
 31/03/1957,Belgium,Spain,بلجيكا,إسبانيا,0,5,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,31,3,1957,-5,5,5,778,1,1,Belgium,Spain,7,5,0.88938,0.10642,6,loser,winner
-03/04/1957,Argentina,Brazil,الأرجنتين,البرازيل,3,0,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,3,4,1957,3,-3,3,779,1,0,Argentina,Brazil,7,3,0.82348,0.83591,6,winner,loser
+03/04/1957,Argentina,Brazil,الأرجنتين,البرازيل,3,0,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,3,4,1957,3,-3,3,779,1,0,Argentina,Brazil,7,3,0.82348,0.83591,6,winner,loser
 03/04/1957,Netherlands,Germany,هولندا,ألمانيا,1,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,3,4,1957,-1,1,3,780,1,1,Netherlands,Germany,7,1,0.3809,0.02525,6,loser,winner
 07/04/1957,Mexico,United States,المكسيك,الولايات المتحدة الأمريكية,6,0,FIFA World Cup qualification, نصفيات كأس العالم,Mexico City,Mexico,المكسيك,FALSE,7,4,1957,6,-6,6,781,1,0,Mexico,United_States,7,6,0.4034,0.50679,6,winner,loser
 28/04/1957,Netherlands,Belgium,هولندا,بلجيكا,1,1,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,28,4,1957,0,0,2,782,1,1,Netherlands,Belgium,7,0,0.51479,0.54975,6,draw,draw
@@ -826,9 +826,9 @@
 01/03/1959,France,Belgium,فرنسا,بلجيكا,2,2,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,1,3,1959,0,0,4,825,0,1,France,Belgium,9,0,0.62148,0.76446,6,draw,draw
 01/03/1959,Mexico,Costa Rica,المكسيك,كوستا ريكا,3,1,Friendly,مبارة ودية,Mexico City,Mexico,المكسيك,FALSE,1,3,1959,2,-2,4,826,1,1,Mexico,Costa_Rica,9,2,0.22076,0.63853,6,winner,loser
 08/03/1959,Costa Rica,Mexico,كوستا ريكا,المكسيك,1,2,Friendly,مبارة ودية,San Jos√©,Costa Rica,كوستا ريكا,FALSE,8,3,1959,-1,1,3,827,1,1,Costa_Rica,Mexico,9,1,0.40756,0.16533,6,loser,winner
-26/03/1959,Brazil,Uruguay,البرازيل,أوروغواي,3,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,26,3,1959,2,-2,4,828,0,1,Brazil,Uruguay,9,2,0.49432,0.28449,6,winner,loser
-30/03/1959,Argentina,Uruguay,الأرجنتين,أوروغواي,4,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,3,1959,3,-3,5,829,1,1,Argentina,Uruguay,9,3,0.06736,0.20582,6,winner,loser
-04/04/1959,Argentina,Brazil,الأرجنتين,البرازيل,1,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,4,4,1959,0,0,2,830,1,0,Argentina,Brazil,9,0,0.51602,0.62488,6,draw,draw
+26/03/1959,Brazil,Uruguay,البرازيل,أوروغواي,3,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,TRUE,26,3,1959,2,-2,4,828,0,1,Brazil,Uruguay,9,2,0.49432,0.28449,6,winner,loser
+30/03/1959,Argentina,Uruguay,الأرجنتين,أوروغواي,4,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,30,3,1959,3,-3,5,829,1,1,Argentina,Uruguay,9,3,0.06736,0.20582,6,winner,loser
+04/04/1959,Argentina,Brazil,الأرجنتين,البرازيل,1,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,4,4,1959,0,0,2,830,1,0,Argentina,Brazil,9,0,0.51602,0.62488,6,draw,draw
 19/04/1959,Netherlands,Belgium,هولندا,بلجيكا,2,2,Friendly,مبارة ودية,Amsterdam,Netherlands,هولندا,FALSE,19,4,1959,0,0,4,831,1,1,Netherlands,Belgium,9,0,0.2897,0.6544,6,draw,draw
 13/05/1959,Brazil,England,البرازيل,إنجلترا,2,0,Friendly,مبارة ودية,Rio de Janeiro,Brazil,البرازيل,FALSE,13,5,1959,2,-2,2,832,0,1,Brazil,England,9,2,0.82295,0.7991,6,winner,loser
 16/05/1959,Switzerland,Portugal,سويسرا,البرتغال,4,3,Friendly,مبارة ودية,Geneva,Switzerland,سويسرا,FALSE,16,5,1959,1,-1,7,833,0,1,Switzerland,Portugal,9,1,0.79597,0.17308,6,winner,loser
@@ -844,13 +844,13 @@
 17/10/1959,Wales,England,ويلز,إنجلترا,1,1,British Championship, البطولة البريطانية,Cardiff,Wales,ويلز,FALSE,17,10,1959,0,0,2,843,0,1,Wales,England,9,0,0.75179,0.4146,6,draw,draw
 21/10/1959,Germany,Netherlands,ألمانيا,هولندا,7,0,Friendly,مبارة ودية,Cologne,Germany,ألمانيا,FALSE,21,10,1959,7,-7,7,844,1,1,Germany,Netherlands,9,7,0.58494,0.64785,6,winner,loser
 11/11/1959,France,Portugal,فرنسا,البرتغال,5,3,Friendly,مبارة ودية,Colombes,France,فرنسا,FALSE,11,11,1959,2,-2,8,845,0,1,France,Portugal,9,2,0.87337,0.88471,6,winner,loser
-06/12/1959,Ecuador,Uruguay,الاكوادور,أوروغواي,0,4,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,6,12,1959,-4,4,4,846,0,1,Ecuador,Uruguay,9,4,0.37964,0.31487,6,loser,winner
-12/12/1959,Brazil,Uruguay,البرازيل,أوروغواي,0,3,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,12,12,1959,-3,3,3,847,0,1,Brazil,Uruguay,9,3,0.66809,0.50117,6,loser,winner
-12/12/1959,Ecuador,Argentina,الاكوادور,الأرجنتين,1,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,12,12,1959,0,0,2,848,0,1,Ecuador,Argentina,9,0,0.72106,0.13209,6,draw,draw
-16/12/1959,Argentina,Uruguay,الأرجنتين,أوروغواي,0,5,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,16,12,1959,-5,5,5,849,1,1,Argentina,Uruguay,9,5,0.37713,0.55042,6,loser,winner
+06/12/1959,Ecuador,Uruguay,الاكوادور,أوروغواي,0,4,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,6,12,1959,-4,4,4,846,0,1,Ecuador,Uruguay,9,4,0.37964,0.31487,6,loser,winner
+12/12/1959,Brazil,Uruguay,البرازيل,أوروغواي,0,3,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,12,12,1959,-3,3,3,847,0,1,Brazil,Uruguay,9,3,0.66809,0.50117,6,loser,winner
+12/12/1959,Ecuador,Argentina,الاكوادور,الأرجنتين,1,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,12,12,1959,0,0,2,848,0,1,Ecuador,Argentina,9,0,0.72106,0.13209,6,draw,draw
+16/12/1959,Argentina,Uruguay,الأرجنتين,أوروغواي,0,5,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,16,12,1959,-5,5,5,849,1,1,Argentina,Uruguay,9,5,0.37713,0.55042,6,loser,winner
 17/12/1959,France,Spain,فرنسا,إسبانيا,4,3,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,17,12,1959,1,-1,7,850,0,1,France,Spain,9,1,0.9224,0.05781,6,winner,loser
-19/12/1959,Ecuador,Brazil,الاكوادور,البرازيل,1,3,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,19,12,1959,-2,2,4,851,0,0,Ecuador,Brazil,9,2,0.21748,0.22294,6,loser,winner
-22/12/1959,Argentina,Brazil,الأرجنتين,البرازيل,4,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,22,12,1959,3,-3,5,852,1,0,Argentina,Brazil,9,3,0.70389,0.91741,6,winner,loser
+19/12/1959,Ecuador,Brazil,الاكوادور,البرازيل,1,3,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,FALSE,19,12,1959,-2,2,4,851,0,0,Ecuador,Brazil,9,2,0.21748,0.22294,6,loser,winner
+22/12/1959,Argentina,Brazil,الأرجنتين,البرازيل,4,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,22,12,1959,3,-3,5,852,1,0,Argentina,Brazil,9,3,0.70389,0.91741,6,winner,loser
 27/12/1959,Ecuador,Brazil,الاكوادور,البرازيل,1,2,Friendly,مبارة ودية,Guayaquil,Ecuador,الاكوادور,FALSE,27,12,1959,-1,1,3,853,0,0,Ecuador,Brazil,9,1,0.70506,0.22274,6,loser,winner
 28/02/1960,Belgium,France,بلجيكا,فرنسا,1,0,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,28,2,1960,1,-1,1,854,1,0,Belgium,France,0,1,0.90519,0.67761,7,winner,loser
 06/03/1960,Brazil,Mexico,البرازيل,المكسيك,2,2,Pan American Championship,بطولة عموم أميركا,San Jos√©,Costa Rica,كوستا ريكا,TRUE,6,3,1960,0,0,4,855,0,1,Brazil,Mexico,0,0,0.68392,0.85988,7,draw,draw
@@ -951,9 +951,9 @@
 13/01/1963,Morocco,Switzerland,المغرب,سويسرا,1,0,Friendly,مبارة ودية,Casablanca,Morocco,المغرب,FALSE,13,1,1963,1,-1,1,950,0,0,Morocco,Switzerland,3,1,0.79015,0.35483,7,winner,loser
 27/02/1963,France,England,فرنسا,إنجلترا,5,2,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Paris,France,فرنسا,FALSE,27,2,1963,3,-3,7,951,0,1,France,England,3,3,0.52631,0.9816,7,winner,loser
 03/03/1963,Netherlands,Belgium,هولندا,بلجيكا,0,1,Friendly,مبارة ودية,Rotterdam,Netherlands,هولندا,FALSE,3,3,1963,-1,1,1,952,1,1,Netherlands,Belgium,3,1,0.62638,0.09945,7,loser,winner
-20/03/1963,Argentina,Ecuador,الأرجنتين,الاكوادور,4,2,Copa Am√©rica,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,20,3,1963,2,-2,6,953,1,0,Argentina,Ecuador,3,2,0.82397,0.21111,7,winner,loser
-24/03/1963,Argentina,Brazil,الأرجنتين,البرازيل,3,0,Copa Am√©rica,كوبا أميركا,La Paz,Bolivia,بوليفيا,TRUE,24,3,1963,3,-3,3,954,1,0,Argentina,Brazil,3,3,0.24106,0.90553,7,winner,loser
-27/03/1963,Brazil,Ecuador,البرازيل,الاكوادور,2,2,Copa Am√©rica,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,27,3,1963,0,0,4,955,0,0,Brazil,Ecuador,3,0,0.99892,0.6718,7,draw,draw
+20/03/1963,Argentina,Ecuador,الأرجنتين,الاكوادور,4,2,Copa America,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,20,3,1963,2,-2,6,953,1,0,Argentina,Ecuador,3,2,0.82397,0.21111,7,winner,loser
+24/03/1963,Argentina,Brazil,الأرجنتين,البرازيل,3,0,Copa America,كوبا أميركا,La Paz,Bolivia,بوليفيا,TRUE,24,3,1963,3,-3,3,954,1,0,Argentina,Brazil,3,3,0.24106,0.90553,7,winner,loser
+27/03/1963,Brazil,Ecuador,البرازيل,الاكوادور,2,2,Copa America,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,27,3,1963,0,0,4,955,0,0,Brazil,Ecuador,3,0,0.99892,0.6718,7,draw,draw
 30/03/1963,Costa Rica,Mexico,كوستا ريكا,المكسيك,0,0,CONCACAF Championship, بطولة الكونكاكاف,Santa Ana,El Salvador,السلفادور,TRUE,30,3,1963,0,0,0,956,1,1,Costa_Rica,Mexico,3,0,0.73208,0.56172,7,draw,draw
 31/03/1963,Switzerland,Netherlands,سويسرا,هولندا,1,1,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Berne,Switzerland,سويسرا,FALSE,31,3,1963,0,0,2,957,0,1,Switzerland,Netherlands,3,0,0.84161,0.42699,7,draw,draw
 13/04/1963,Brazil,Argentina,البرازيل,الأرجنتين,2,3,Copa Roca, كأس روكا,S√£o Paulo,Brazil,البرازيل,FALSE,13,4,1963,-1,1,5,958,0,1,Brazil,Argentina,3,1,0.96906,0.57585,7,loser,winner
@@ -1059,7 +1059,7 @@
 30/11/1966,Netherlands,Denmark,هولندا,الدنمارك,2,0,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Rotterdam,Netherlands,هولندا,FALSE,30,11,1966,2,-2,2,1058,1,1,Netherlands,Denmark,6,2,0.43983,0.67495,7,winner,loser
 05/01/1967,Mexico,Switzerland,المكسيك,سويسرا,3,0,Friendly,مبارة ودية,Mexico City,Mexico,المكسيك,FALSE,5,1,1967,3,-3,3,1059,1,0,Mexico,Switzerland,7,3,0.72963,0.91105,7,winner,loser
 08/01/1967,Mexico,Switzerland,المكسيك,سويسرا,0,2,Friendly,مبارة ودية,Guadalajara,Mexico,المكسيك,FALSE,8,1,1967,-2,2,2,1060,1,0,Mexico,Switzerland,7,2,0.19275,0.76513,7,loser,winner
-02/02/1967,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,2,1967,1,-1,1,1061,1,1,Uruguay,Argentina,7,1,0.93359,0.39699,7,winner,loser
+02/02/1967,Uruguay,Argentina,أوروغواي,الأرجنتين,1,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,2,2,1967,1,-1,1,1061,1,1,Uruguay,Argentina,7,1,0.93359,0.39699,7,winner,loser
 05/02/1967,Tunisia,Cameroon,تونس,الكاميرون,4,0,African Cup of Nations qualification, تصفيات كأس أمم أفريقيا,Tunis,Tunisia,تونس,FALSE,5,2,1967,4,-4,4,1062,1,1,Tunisia,Cameroon,7,4,0.64768,0.01626,7,winner,loser
 22/02/1967,Germany,Morocco,ألمانيا,المغرب,5,1,Friendly,مبارة ودية,Karlsruhe,Germany,ألمانيا,FALSE,22,2,1967,4,-4,6,1063,1,0,Germany,Morocco,7,4,0.5327,0.79424,7,winner,loser
 16/04/1967,Belgium,Netherlands,بلجيكا,هولندا,1,0,Friendly,مبارة ودية,Antwerp,Belgium,بلجيكا,FALSE,16,4,1967,1,-1,1,1064,1,1,Belgium,Netherlands,7,1,0.78964,0.88622,7,winner,loser
@@ -1330,9 +1330,9 @@
 06/07/1975,Canada,Poland,كندا,بولندا,1,8,Friendly,مبارة ودية,Montr√©al,Canada,كندا,FALSE,6,7,1975,-7,7,9,1329,0,0,Canada,Poland,5,7,0.8776,0.54594,8,loser,winner
 09/07/1975,Canada,Poland,كندا,بولندا,1,4,Friendly,مبارة ودية,Toronto,Canada,كندا,FALSE,9,7,1975,-3,3,5,1330,0,0,Canada,Poland,5,3,0.70329,0.28056,8,loser,winner
 18/07/1975,Uruguay,Argentina,أوروغواي,الأرجنتين,2,3,Copa Newton,كأس نيوتن,Montevideo,Uruguay,أوروغواي,FALSE,18,7,1975,-1,1,5,1331,1,1,Uruguay,Argentina,5,1,0.46543,0.14926,8,loser,winner
-06/08/1975,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa Am√©rica,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,FALSE,6,8,1975,1,-1,3,1332,0,1,Brazil,Argentina,5,1,0.29881,0.64975,8,winner,loser
+06/08/1975,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa America,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,FALSE,6,8,1975,1,-1,3,1332,0,1,Brazil,Argentina,5,1,0.29881,0.64975,8,winner,loser
 09/08/1975,Japan,South Korea,اليابان,كوريا الجنوبية,1,3,Merdeka Tournament, كأس العالم المصغرة للمنتخبات,Kuala Lumpur,Malaysia,ماليزيا,TRUE,9,8,1975,-2,2,4,1333,0,0,Japan,South_Korea,5,2,0.5513,0.76059,8,loser,winner
-16/08/1975,Argentina,Brazil,الأرجنتين,البرازيل,0,1,Copa Am√©rica,كوبا أميركا,Rosario,Argentina,الأرجنتين,FALSE,16,8,1975,-1,1,1,1334,1,0,Argentina,Brazil,5,1,0.76178,0.54927,8,loser,winner
+16/08/1975,Argentina,Brazil,الأرجنتين,البرازيل,0,1,Copa America,كوبا أميركا,Rosario,Argentina,الأرجنتين,FALSE,16,8,1975,-1,1,1,1334,1,0,Argentina,Brazil,5,1,0.76178,0.54927,8,loser,winner
 17/08/1975,Mexico,Costa Rica,المكسيك,كوستا ريكا,7,0,Friendly,مبارة ودية,Mexico City,Mexico,المكسيك,FALSE,17,8,1975,7,-7,7,1335,1,1,Mexico,Costa_Rica,5,7,0.11421,0.74551,8,winner,loser
 19/08/1975,Costa Rica,United States,كوستا ريكا,الولايات المتحدة الأمريكية,3,1,Friendly,مبارة ودية,Mexico City,Mexico,المكسيك,TRUE,19,8,1975,2,-2,4,1336,1,0,Costa_Rica,United_States,5,2,0.62327,0.1895,8,winner,loser
 21/08/1975,Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,6,0,Friendly,مبارة ودية,Mexico City,Mexico,المكسيك,TRUE,21,8,1975,6,-6,6,1337,1,0,Argentina,United_States,5,6,0.09013,0.15387,8,winner,loser
@@ -1478,13 +1478,13 @@
 23/05/1979,England,Wales,إنجلترا,ويلز,0,0,British Championship, البطولة البريطانية,London,England,إنجلترا,FALSE,23,5,1979,0,0,0,1477,1,0,England,Wales,9,0,0.69373,0.78042,8,draw,draw
 31/05/1979,Brazil,Uruguay,البرازيل,أوروغواي,5,1,Friendly,مبارة ودية,Rio de Janeiro,Brazil,البرازيل,FALSE,31,5,1979,4,-4,6,1478,0,1,Brazil,Uruguay,9,4,0.20486,0.55738,8,winner,loser
 16/06/1979,South Korea,Japan,كوريا الجنوبية,اليابان,4,1,Friendly,مبارة ودية,Seoul,South Korea,كوريا الجنوبية,FALSE,16,6,1979,3,-3,5,1479,0,0,South_Korea,Japan,9,3,0.17636,0.08277,8,winner,loser
-02/08/1979,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,2,8,1979,1,-1,3,1480,0,1,Brazil,Argentina,9,1,0.14909,0.96987,8,winner,loser
-23/08/1979,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,23,8,1979,0,0,4,1481,1,0,Argentina,Brazil,9,0,0.70376,0.82825,8,draw,draw
-05/09/1979,Ecuador,Uruguay,الاكوادور,أوروغواي,2,1,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,5,9,1979,1,-1,3,1482,0,1,Ecuador,Uruguay,9,1,0.57697,0.26248,8,winner,loser
+02/08/1979,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,2,8,1979,1,-1,3,1480,0,1,Brazil,Argentina,9,1,0.14909,0.96987,8,winner,loser
+23/08/1979,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,23,8,1979,0,0,4,1481,1,0,Argentina,Brazil,9,0,0.70376,0.82825,8,draw,draw
+05/09/1979,Ecuador,Uruguay,الاكوادور,أوروغواي,2,1,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,5,9,1979,1,-1,3,1482,0,1,Ecuador,Uruguay,9,1,0.57697,0.26248,8,winner,loser
 12/09/1979,England,Denmark,إنجلترا,الدنمارك,1,0,UEFA Euro qualification, تصفيات كأس أمم أوروبا,London,England,إنجلترا,FALSE,12,9,1979,1,-1,1,1483,1,1,England,Denmark,9,1,0.06761,0.75737,8,winner,loser
 12/09/1979,Germany,Argentina,ألمانيا,الأرجنتين,2,1,Friendly,مبارة ودية,Berlin,Germany,ألمانيا,FALSE,12,9,1979,1,-1,3,1484,1,1,Germany,Argentina,9,1,0.00129,0.29159,8,winner,loser
 12/09/1979,Switzerland,Poland,سويسرا,بولندا,0,2,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Lausanne,Switzerland,سويسرا,FALSE,12,9,1979,-2,2,2,1485,0,0,Switzerland,Poland,9,2,0.08407,0.75475,8,loser,winner
-16/09/1979,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,16,9,1979,1,-1,3,1486,1,0,Uruguay,Ecuador,9,1,0.59461,0.71262,8,winner,loser
+16/09/1979,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,16,9,1979,1,-1,3,1486,1,0,Uruguay,Ecuador,9,1,0.59461,0.71262,8,winner,loser
 26/09/1979,Netherlands,Belgium,هولندا,بلجيكا,1,0,Friendly,مبارة ودية,Rotterdam,Netherlands,هولندا,FALSE,26,9,1979,1,-1,1,1487,1,1,Netherlands,Belgium,9,1,0.63838,0.47848,8,winner,loser
 26/09/1979,Spain,Portugal,إسبانيا,البرتغال,1,1,Friendly,مبارة ودية,Vigo,Spain,إسبانيا,FALSE,26,9,1979,0,0,2,1488,1,1,Spain,Portugal,9,0,0.79624,0.47423,8,draw,draw
 10/10/1979,France,United States,فرنسا,الولايات المتحدة الأمريكية,3,0,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,10,10,1979,3,-3,3,1489,0,0,France,United_States,9,3,0.48114,0.44904,8,winner,loser
@@ -1652,19 +1652,19 @@
 17/06/1983,Switzerland,Brazil,سويسرا,البرازيل,1,2,Friendly,مبارة ودية,Basel,Switzerland,سويسرا,FALSE,17,6,1983,-1,1,3,1651,0,0,Switzerland,Brazil,3,1,0.70996,0.74218,9,loser,winner
 19/06/1983,Australia,England,أستراليا,إنجلترا,1,1,Friendly,مبارة ودية,Melbourne,Australia,أستراليا,FALSE,19,6,1983,0,0,2,1652,0,1,Australia,England,3,0,0.00309,0.28133,9,draw,draw
 09/08/1983,Costa Rica,South Korea,كوستا ريكا,كوريا الجنوبية,1,1,Friendly,مبارة ودية,San Jos√©,Costa Rica,كوستا ريكا,FALSE,9,8,1983,0,0,2,1653,1,0,Costa_Rica,South_Korea,3,0,0.89372,0.96019,9,draw,draw
-10/08/1983,Ecuador,Argentina,الاكوادور,الأرجنتين,2,2,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,10,8,1983,0,0,4,1654,0,1,Ecuador,Argentina,3,0,0.4755,0.71353,9,draw,draw
-17/08/1983,Ecuador,Brazil,الاكوادور,البرازيل,0,1,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,17,8,1983,-1,1,1,1655,0,0,Ecuador,Brazil,3,1,0.97638,0.47619,9,loser,winner
-24/08/1983,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,24,8,1983,1,-1,1,1656,1,0,Argentina,Brazil,3,1,0.65769,0.52365,9,winner,loser
-01/09/1983,Brazil,Ecuador,البرازيل,الاكوادور,5,0,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,FALSE,1,9,1983,5,-5,5,1657,0,0,Brazil,Ecuador,3,5,0.09741,0.27524,9,winner,loser
-07/09/1983,Argentina,Ecuador,الأرجنتين,الاكوادور,2,2,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,7,9,1983,0,0,4,1658,1,0,Argentina,Ecuador,3,0,0.68678,0.63706,9,draw,draw
+10/08/1983,Ecuador,Argentina,الاكوادور,الأرجنتين,2,2,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,10,8,1983,0,0,4,1654,0,1,Ecuador,Argentina,3,0,0.4755,0.71353,9,draw,draw
+17/08/1983,Ecuador,Brazil,الاكوادور,البرازيل,0,1,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,17,8,1983,-1,1,1,1655,0,0,Ecuador,Brazil,3,1,0.97638,0.47619,9,loser,winner
+24/08/1983,Argentina,Brazil,الأرجنتين,البرازيل,1,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,24,8,1983,1,-1,1,1656,1,0,Argentina,Brazil,3,1,0.65769,0.52365,9,winner,loser
+01/09/1983,Brazil,Ecuador,البرازيل,الاكوادور,5,0,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,FALSE,1,9,1983,5,-5,5,1657,0,0,Brazil,Ecuador,3,5,0.09741,0.27524,9,winner,loser
+07/09/1983,Argentina,Ecuador,الأرجنتين,الاكوادور,2,2,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,7,9,1983,0,0,4,1658,1,0,Argentina,Ecuador,3,0,0.68678,0.63706,9,draw,draw
 07/09/1983,Denmark,France,الدنمارك,فرنسا,3,1,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,7,9,1983,2,-2,4,1659,1,0,Denmark,France,3,2,0.36027,0.87267,9,winner,loser
-14/09/1983,Brazil,Argentina,البرازيل,الأرجنتين,0,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,14,9,1983,0,0,0,1660,0,1,Brazil,Argentina,3,0,0.06157,0.25244,9,draw,draw
+14/09/1983,Brazil,Argentina,البرازيل,الأرجنتين,0,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,14,9,1983,0,0,0,1660,0,1,Brazil,Argentina,3,0,0.06157,0.25244,9,draw,draw
 21/09/1983,Belgium,Netherlands,بلجيكا,هولندا,1,1,Friendly,مبارة ودية,Brussels,Belgium,بلجيكا,FALSE,21,9,1983,0,0,2,1661,1,1,Belgium,Netherlands,3,0,0.516,0.31535,9,draw,draw
 21/09/1983,England,Denmark,إنجلترا,الدنمارك,0,1,UEFA Euro qualification, تصفيات كأس أمم أوروبا,London,England,إنجلترا,FALSE,21,9,1983,-1,1,1,1662,1,1,England,Denmark,3,1,0.0954,0.05434,9,loser,winner
 05/10/1983,France,Spain,فرنسا,إسبانيا,1,1,Friendly,مبارة ودية,Paris,France,فرنسا,FALSE,5,10,1983,0,0,2,1663,0,1,France,Spain,3,0,0.28834,0.68672,9,draw,draw
-27/10/1983,Uruguay,Brazil,أوروغواي,البرازيل,2,0,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,27,10,1983,2,-2,2,1664,1,0,Uruguay,Brazil,3,2,0.5196,0.07385,9,winner,loser
+27/10/1983,Uruguay,Brazil,أوروغواي,البرازيل,2,0,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,27,10,1983,2,-2,2,1664,1,0,Uruguay,Brazil,3,2,0.5196,0.07385,9,winner,loser
 28/10/1983,Poland,Portugal,بولندا,البرتغال,0,1,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Wroc≈Çaw,Poland,بولندا,FALSE,28,10,1983,-1,1,1,1665,0,1,Poland,Portugal,3,1,0.52935,0.1466,9,loser,winner
-04/11/1983,Brazil,Uruguay,البرازيل,أوروغواي,1,1,Copa Am√©rica,كوبا أميركا,Salvador,Brazil,البرازيل,FALSE,4,11,1983,0,0,2,1666,0,1,Brazil,Uruguay,3,0,0.59588,0.41345,9,draw,draw
+04/11/1983,Brazil,Uruguay,البرازيل,أوروغواي,1,1,Copa America,كوبا أميركا,Salvador,Brazil,البرازيل,FALSE,4,11,1983,0,0,2,1666,0,1,Brazil,Uruguay,3,0,0.59588,0.41345,9,draw,draw
 09/11/1983,Switzerland,Belgium,سويسرا,بلجيكا,3,1,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Berne,Switzerland,سويسرا,FALSE,9,11,1983,2,-2,4,1667,0,1,Switzerland,Belgium,3,2,0.71886,0.46348,9,winner,loser
 16/11/1983,Netherlands,Spain,هولندا,إسبانيا,2,1,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Rotterdam,Netherlands,هولندا,FALSE,16,11,1983,1,-1,3,1668,1,1,Netherlands,Spain,3,1,0.90351,0.70321,9,winner,loser
 06/12/1983,Mexico,Canada,المكسيك,كندا,5,0,Friendly,مبارة ودية,Irapuato,Mexico,المكسيك,FALSE,6,12,1983,5,-5,5,1669,1,0,Mexico,Canada,3,5,0.96256,0.53122,9,winner,loser
@@ -1823,8 +1823,8 @@
 19/06/1987,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Friendly,مبارة ودية,Montevideo,Uruguay,أوروغواي,FALSE,19,6,1987,1,-1,3,1822,1,0,Uruguay,Ecuador,7,1,0.13295,0.88267,9,winner,loser
 21/06/1987,Brazil,Ecuador,البرازيل,الاكوادور,4,1,Friendly,مبارة ودية,Florian√≥polis,Brazil,البرازيل,FALSE,21,6,1987,3,-3,5,1823,0,0,Brazil,Ecuador,7,3,0.851,0.17335,9,winner,loser
 21/06/1987,South Korea,Australia,كوريا الجنوبية,أستراليا,1,1,Korea Cup,كأس كوريا,Seoul,South Korea,كوريا الجنوبية,FALSE,21,6,1987,0,0,2,1824,0,0,South_Korea,Australia,7,0,0.13706,0.27642,9,draw,draw
-02/07/1987,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,7,1987,3,-3,3,1825,1,0,Argentina,Ecuador,7,3,0.523,0.11132,9,winner,loser
-09/07/1987,Argentina,Uruguay,الأرجنتين,أوروغواي,0,1,Copa Am√©rica,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,9,7,1987,-1,1,1,1826,1,1,Argentina,Uruguay,7,1,0.15202,0.76807,9,loser,winner
+02/07/1987,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,2,7,1987,3,-3,3,1825,1,0,Argentina,Ecuador,7,3,0.523,0.11132,9,winner,loser
+09/07/1987,Argentina,Uruguay,الأرجنتين,أوروغواي,0,1,Copa America,كوبا أميركا,Buenos Aires,Argentina,الأرجنتين,FALSE,9,7,1987,-1,1,1,1826,1,1,Argentina,Uruguay,7,1,0.15202,0.76807,9,loser,winner
 12/08/1987,Germany,France,ألمانيا,فرنسا,2,1,Friendly,مبارة ودية,Berlin,Germany,ألمانيا,FALSE,12,8,1987,1,-1,3,1827,1,0,Germany,France,7,1,0.01074,0.90193,9,winner,loser
 09/09/1987,Germany,England,ألمانيا,إنجلترا,3,1,Friendly,مبارة ودية,D√ºsseldorf,Germany,ألمانيا,FALSE,9,9,1987,2,-2,4,1828,1,1,Germany,England,7,2,0.36625,0.01438,9,winner,loser
 09/09/1987,Netherlands,Belgium,هولندا,بلجيكا,0,0,Friendly,مبارة ودية,Rotterdam,Netherlands,هولندا,FALSE,9,9,1987,0,0,0,1829,1,1,Netherlands,Belgium,7,0,0.93714,0.77345,9,draw,draw
@@ -1905,12 +1905,12 @@
 08/06/1989,Canada,Belgium,كندا,بلجيكا,0,2,Friendly,مبارة ودية,Ottawa,Canada,كندا,FALSE,8,6,1989,-2,2,2,1904,0,1,Canada,Belgium,9,2,0.71854,0.74604,9,loser,winner
 18/06/1989,Denmark,Brazil,الدنمارك,البرازيل,4,0,Friendly,مبارة ودية,Copenhagen,Denmark,الدنمارك,FALSE,18,6,1989,4,-4,4,1905,1,0,Denmark,Brazil,9,4,0.30516,0.29638,9,winner,loser
 21/06/1989,Switzerland,Brazil,سويسرا,البرازيل,1,0,Friendly,مبارة ودية,Basel,Switzerland,سويسرا,FALSE,21,6,1989,1,-1,1,1906,0,0,Switzerland,Brazil,9,1,0.26204,0.62314,9,winner,loser
-02/07/1989,Uruguay,Ecuador,أوروغواي,الاكوادور,0,1,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,2,7,1989,-1,1,1,1907,1,0,Uruguay,Ecuador,9,1,0.89994,0.37652,9,loser,winner
-04/07/1989,Argentina,Ecuador,الأرجنتين,الاكوادور,0,0,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,4,7,1989,0,0,0,1908,1,0,Argentina,Ecuador,9,0,0.40961,0.80267,9,draw,draw
-08/07/1989,Uruguay,Argentina,أوروغواي,الأرجنتين,0,1,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,8,7,1989,-1,1,1,1909,1,1,Uruguay,Argentina,9,1,0.02289,0.19533,9,loser,winner
-12/07/1989,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,12,7,1989,2,-2,2,1910,0,1,Brazil,Argentina,9,2,0.01253,0.9834,9,winner,loser
-14/07/1989,Argentina,Uruguay,الأرجنتين,أوروغواي,0,2,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,14,7,1989,-2,2,2,1911,1,1,Argentina,Uruguay,9,2,0.95937,0.24073,9,loser,winner
-16/07/1989,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,16,7,1989,1,-1,1,1912,0,1,Brazil,Uruguay,9,1,0.38632,0.56372,9,winner,loser
+02/07/1989,Uruguay,Ecuador,أوروغواي,الاكوادور,0,1,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,2,7,1989,-1,1,1,1907,1,0,Uruguay,Ecuador,9,1,0.89994,0.37652,9,loser,winner
+04/07/1989,Argentina,Ecuador,الأرجنتين,الاكوادور,0,0,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,4,7,1989,0,0,0,1908,1,0,Argentina,Ecuador,9,0,0.40961,0.80267,9,draw,draw
+08/07/1989,Uruguay,Argentina,أوروغواي,الأرجنتين,0,1,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,8,7,1989,-1,1,1,1909,1,1,Uruguay,Argentina,9,1,0.02289,0.19533,9,loser,winner
+12/07/1989,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,12,7,1989,2,-2,2,1910,0,1,Brazil,Argentina,9,2,0.01253,0.9834,9,winner,loser
+14/07/1989,Argentina,Uruguay,الأرجنتين,أوروغواي,0,2,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,TRUE,14,7,1989,-2,2,2,1911,1,1,Argentina,Uruguay,9,2,0.95937,0.24073,9,loser,winner
+16/07/1989,Brazil,Uruguay,البرازيل,أوروغواي,1,0,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,16,7,1989,1,-1,1,1912,0,1,Brazil,Uruguay,9,1,0.38632,0.56372,9,winner,loser
 16/07/1989,Senegal,Tunisia,السنغال,تونس,3,0,African Cup of Nations qualification, تصفيات كأس أمم أفريقيا,Dakar,Senegal,السنغال,FALSE,16,7,1989,3,-3,3,1913,0,1,Senegal,Tunisia,9,3,0.18186,0.28968,9,winner,loser
 23/07/1989,Brazil,Japan,البرازيل,اليابان,1,0,Friendly,مبارة ودية,Rio de Janeiro,Brazil,البرازيل,FALSE,23,7,1989,1,-1,1,1914,0,0,Brazil,Japan,9,1,0.41874,0.83375,9,winner,loser
 30/07/1989,Tunisia,Senegal,تونس,السنغال,0,1,African Cup of Nations qualification, تصفيات كأس أمم أفريقيا,Tunis,Tunisia,تونس,FALSE,30,7,1989,-1,1,1,1915,1,0,Tunisia,Senegal,9,1,0.21737,0.99432,9,loser,winner
@@ -2011,10 +2011,10 @@
 03/07/1991,United States,Costa Rica,الولايات المتحدة الأمريكية,كوستا ريكا,3,2,Gold Cup,الكأس الذهبية,Los Angeles,United States,الولايات المتحدة الأمريكية,FALSE,3,7,1991,1,-1,5,2010,0,1,United_States,Costa_Rica,1,1,0.4054,0.77183,10,winner,loser
 05/07/1991,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,2,0,Gold Cup,الكأس الذهبية,Los Angeles,United States,الولايات المتحدة الأمريكية,FALSE,5,7,1991,2,-2,2,2011,0,1,United_States,Mexico,1,2,0.80735,0.10739,10,winner,loser
 07/07/1991,Mexico,Costa Rica,المكسيك,كوستا ريكا,2,0,Gold Cup,الكأس الذهبية,Los Angeles,United States,الولايات المتحدة الأمريكية,TRUE,7,7,1991,2,-2,2,2012,1,1,Mexico,Costa_Rica,1,2,0.46897,0.56493,10,winner,loser
-09/07/1991,Ecuador,Uruguay,الاكوادور,أوروغواي,1,1,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,9,7,1991,0,0,2,2013,0,1,Ecuador,Uruguay,1,0,0.8863,0.05546,10,draw,draw
-11/07/1991,Brazil,Uruguay,البرازيل,أوروغواي,1,1,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,11,7,1991,0,0,2,2014,0,1,Brazil,Uruguay,1,0,0.98413,0.81456,10,draw,draw
-15/07/1991,Brazil,Ecuador,البرازيل,الاكوادور,3,1,Copa Am√©rica,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,15,7,1991,2,-2,4,2015,0,0,Brazil,Ecuador,1,2,0.5834,0.30584,10,winner,loser
-17/07/1991,Argentina,Brazil,الأرجنتين,البرازيل,3,2,Copa Am√©rica,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,17,7,1991,1,-1,5,2016,1,0,Argentina,Brazil,1,1,0.08144,0.2552,10,winner,loser
+09/07/1991,Ecuador,Uruguay,الاكوادور,أوروغواي,1,1,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,9,7,1991,0,0,2,2013,0,1,Ecuador,Uruguay,1,0,0.8863,0.05546,10,draw,draw
+11/07/1991,Brazil,Uruguay,البرازيل,أوروغواي,1,1,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,11,7,1991,0,0,2,2014,0,1,Brazil,Uruguay,1,0,0.98413,0.81456,10,draw,draw
+15/07/1991,Brazil,Ecuador,البرازيل,الاكوادور,3,1,Copa America,كوبا أميركا,Vi√±a del Mar,Chile,تشيلي,TRUE,15,7,1991,2,-2,4,2015,0,0,Brazil,Ecuador,1,2,0.5834,0.30584,10,winner,loser
+17/07/1991,Argentina,Brazil,الأرجنتين,البرازيل,3,2,Copa America,كوبا أميركا,Santiago,Chile,تشيلي,TRUE,17,7,1991,1,-1,5,2016,1,0,Argentina,Brazil,1,1,0.08144,0.2552,10,winner,loser
 27/07/1991,Japan,South Korea,اليابان,كوريا الجنوبية,0,1,Friendly,مبارة ودية,Nagasaki,Japan,اليابان,FALSE,27,7,1991,-1,1,1,2017,0,0,Japan,South_Korea,1,1,0.38939,0.1381,10,loser,winner
 14/08/1991,Poland,France,بولندا,فرنسا,1,5,Friendly,مبارة ودية,Pozna≈Ñ,Poland,بولندا,FALSE,14,8,1991,-4,4,6,2018,0,0,Poland,France,1,4,0.89526,0.01574,10,loser,winner
 04/09/1991,Spain,Uruguay,إسبانيا,أوروغواي,2,1,Friendly,مبارة ودية,Oviedo,Spain,إسبانيا,FALSE,4,9,1991,1,-1,3,2019,1,1,Spain,Uruguay,1,1,0.3459,0.65692,10,winner,loser
@@ -2127,15 +2127,15 @@
 10/06/1993,Brazil,Germany,البرازيل,ألمانيا,3,3,USA Cup, كأس الولايات الأميركية المتحدة,Washington,United States,الولايات المتحدة الأمريكية,TRUE,10,6,1993,0,0,6,2126,0,1,Brazil,Germany,3,0,0.64703,0.85467,10,draw,draw
 13/06/1993,Brazil,England,البرازيل,إنجلترا,1,1,USA Cup, كأس الولايات الأميركية المتحدة,Washington,United States,الولايات المتحدة الأمريكية,TRUE,13,6,1993,0,0,2,2127,0,1,Brazil,England,3,0,0.29842,0.77207,10,draw,draw
 13/06/1993,United States,Germany,الولايات المتحدة الأمريكية,ألمانيا,3,4,USA Cup, كأس الولايات الأميركية المتحدة,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,13,6,1993,-1,1,7,2128,0,1,United_States,Germany,3,1,0.95657,0.61975,10,loser,winner
-16/06/1993,Uruguay,United States,أوروغواي,الولايات المتحدة الأمريكية,1,0,Copa Am√©rica,كوبا أميركا,Ambato,Ecuador,الاكوادور,TRUE,16,6,1993,1,-1,1,2129,1,0,Uruguay,United_States,3,1,0.08191,0.24198,10,winner,loser
-19/06/1993,Ecuador,United States,الاكوادور,الولايات المتحدة الأمريكية,2,0,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,19,6,1993,2,-2,2,2130,0,0,Ecuador,United_States,3,2,0.88545,0.40567,10,winner,loser
+16/06/1993,Uruguay,United States,أوروغواي,الولايات المتحدة الأمريكية,1,0,Copa America,كوبا أميركا,Ambato,Ecuador,الاكوادور,TRUE,16,6,1993,1,-1,1,2129,1,0,Uruguay,United_States,3,1,0.08191,0.24198,10,winner,loser
+19/06/1993,Ecuador,United States,الاكوادور,الولايات المتحدة الأمريكية,2,0,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,19,6,1993,2,-2,2,2130,0,0,Ecuador,United_States,3,2,0.88545,0.40567,10,winner,loser
 19/06/1993,England,Germany,إنجلترا,ألمانيا,1,2,USA Cup, كأس الولايات الأميركية المتحدة,Pontiac,United States,الولايات المتحدة الأمريكية,TRUE,19,6,1993,-1,1,3,2131,1,1,England,Germany,3,1,0.09951,0.31844,10,loser,winner
-20/06/1993,Argentina,Mexico,الأرجنتين,المكسيك,1,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,20,6,1993,0,0,2,2132,1,1,Argentina,Mexico,3,0,0.99435,0.92016,10,draw,draw
-22/06/1993,Ecuador,Uruguay,الاكوادور,أوروغواي,2,1,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,22,6,1993,1,-1,3,2133,0,1,Ecuador,Uruguay,3,1,0.65952,0.40281,10,winner,loser
-27/06/1993,Brazil,Argentina,البرازيل,الأرجنتين,1,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,27,6,1993,0,0,2,2134,0,1,Brazil,Argentina,3,0,0.98352,0.26953,10,draw,draw
+20/06/1993,Argentina,Mexico,الأرجنتين,المكسيك,1,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,20,6,1993,0,0,2,2132,1,1,Argentina,Mexico,3,0,0.99435,0.92016,10,draw,draw
+22/06/1993,Ecuador,Uruguay,الاكوادور,أوروغواي,2,1,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,22,6,1993,1,-1,3,2133,0,1,Ecuador,Uruguay,3,1,0.65952,0.40281,10,winner,loser
+27/06/1993,Brazil,Argentina,البرازيل,الأرجنتين,1,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,27,6,1993,0,0,2,2134,0,1,Brazil,Argentina,3,0,0.98352,0.26953,10,draw,draw
 29/06/1993,Costa Rica,Mexico,كوستا ريكا,المكسيك,0,2,Friendly,مبارة ودية,San Jos√©,Costa Rica,كوستا ريكا,FALSE,29,6,1993,-2,2,2,2135,1,1,Costa_Rica,Mexico,3,2,0.01066,0.10647,10,loser,winner
-30/06/1993,Ecuador,Mexico,الاكوادور,المكسيك,0,2,Copa Am√©rica,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,30,6,1993,-2,2,2,2136,0,1,Ecuador,Mexico,3,2,0.38562,0.01059,10,loser,winner
-04/07/1993,Argentina,Mexico,الأرجنتين,المكسيك,2,1,Copa Am√©rica,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,4,7,1993,1,-1,3,2137,1,1,Argentina,Mexico,3,1,0.95037,0.02336,10,winner,loser
+30/06/1993,Ecuador,Mexico,الاكوادور,المكسيك,0,2,Copa America,كوبا أميركا,Quito,Ecuador,الاكوادور,FALSE,30,6,1993,-2,2,2,2136,0,1,Ecuador,Mexico,3,2,0.38562,0.01059,10,loser,winner
+04/07/1993,Argentina,Mexico,الأرجنتين,المكسيك,2,1,Copa America,كوبا أميركا,Guayaquil,Ecuador,الاكوادور,TRUE,4,7,1993,1,-1,3,2137,1,1,Argentina,Mexico,3,1,0.95037,0.02336,10,winner,loser
 11/07/1993,Canada,Costa Rica,كندا,كوستا ريكا,1,1,Gold Cup,الكأس الذهبية,Mexico City,Mexico,المكسيك,TRUE,11,7,1993,0,0,2,2138,0,1,Canada,Costa_Rica,3,0,0.91438,0.88195,10,draw,draw
 15/07/1993,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,1,Gold Cup,الكأس الذهبية,Mexico City,Mexico,المكسيك,FALSE,15,7,1993,0,0,2,2139,1,1,Mexico,Costa_Rica,3,0,0.01091,0.77938,10,draw,draw
 17/07/1993,Senegal,Morocco,السنغال,المغرب,1,3,FIFA World Cup qualification, نصفيات كأس العالم,Dakar,Senegal,السنغال,FALSE,17,7,1993,-2,2,4,2140,0,0,Senegal,Morocco,3,2,0.52528,0.89698,10,loser,winner
@@ -2276,14 +2276,14 @@
 23/06/1995,Switzerland,Germany,سويسرا,ألمانيا,1,2,Friendly,مبارة ودية,Berne,Switzerland,سويسرا,FALSE,23,6,1995,-1,1,3,2275,0,1,Switzerland,Germany,5,1,0.78455,0.5755,10,loser,winner
 24/06/1995,Australia,Ghana,أستراليا,غانا,0,1,Friendly,مبارة ودية,Perth,Australia,أستراليا,FALSE,24,6,1995,-1,1,1,2276,0,0,Australia,Ghana,5,1,0.50588,0.09555,10,loser,winner
 30/06/1995,Argentina,Australia,الأرجنتين,أستراليا,2,0,Friendly,مبارة ودية,Quilmes,Argentina,الأرجنتين,FALSE,30,6,1995,2,-2,2,2277,1,0,Argentina,Australia,5,2,0.02376,0.13118,10,winner,loser
-07/07/1995,Brazil,Ecuador,البرازيل,الاكوادور,1,0,Copa Am√©rica,كوبا أميركا,Rivera,Uruguay,أوروغواي,TRUE,7,7,1995,1,-1,1,2278,0,0,Brazil,Ecuador,5,1,0.05351,0.42971,10,winner,loser
-13/07/1995,Uruguay,Mexico,أوروغواي,المكسيك,1,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,13,7,1995,0,0,2,2279,1,1,Uruguay,Mexico,5,0,0.06063,0.59888,10,draw,draw
-14/07/1995,Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,0,3,Copa Am√©rica,كوبا أميركا,Paysand√∫,Uruguay,أوروغواي,TRUE,14,7,1995,-3,3,3,2280,1,0,Argentina,United_States,5,3,0.53088,0.96411,10,loser,winner
+07/07/1995,Brazil,Ecuador,البرازيل,الاكوادور,1,0,Copa America,كوبا أميركا,Rivera,Uruguay,أوروغواي,TRUE,7,7,1995,1,-1,1,2278,0,0,Brazil,Ecuador,5,1,0.05351,0.42971,10,winner,loser
+13/07/1995,Uruguay,Mexico,أوروغواي,المكسيك,1,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,13,7,1995,0,0,2,2279,1,1,Uruguay,Mexico,5,0,0.06063,0.59888,10,draw,draw
+14/07/1995,Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,0,3,Copa America,كوبا أميركا,Paysand√∫,Uruguay,أوروغواي,TRUE,14,7,1995,-3,3,3,2280,1,0,Argentina,United_States,5,3,0.53088,0.96411,10,loser,winner
 15/07/1995,Tunisia,Senegal,تونس,السنغال,4,0,African Cup of Nations qualification, تصفيات كأس أمم أفريقيا,Tunis,Tunisia,تونس,FALSE,15,7,1995,4,-4,4,2281,1,0,Tunisia,Senegal,5,4,0.01925,0.7911,10,winner,loser
-17/07/1995,Brazil,Argentina,البرازيل,الأرجنتين,2,2,Copa Am√©rica,كوبا أميركا,Rivera,Uruguay,أوروغواي,TRUE,17,7,1995,0,0,4,2282,0,1,Brazil,Argentina,5,0,0.20878,0.27274,10,draw,draw
-17/07/1995,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,0,0,Copa Am√©rica,كوبا أميركا,Paysand√∫,Uruguay,أوروغواي,TRUE,17,7,1995,0,0,0,2283,0,1,United_States,Mexico,5,0,0.69547,0.42112,10,draw,draw
-20/07/1995,United States,Brazil,الولايات المتحدة الأمريكية,البرازيل,0,1,Copa Am√©rica,كوبا أميركا,Maldonado,Uruguay,أوروغواي,TRUE,20,7,1995,-1,1,1,2284,0,0,United_States,Brazil,5,1,0.08582,0.68334,10,loser,winner
-23/07/1995,Uruguay,Brazil,أوروغواي,البرازيل,1,1,Copa Am√©rica,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,23,7,1995,0,0,2,2285,1,0,Uruguay,Brazil,5,0,0.28909,0.53949,10,draw,draw
+17/07/1995,Brazil,Argentina,البرازيل,الأرجنتين,2,2,Copa America,كوبا أميركا,Rivera,Uruguay,أوروغواي,TRUE,17,7,1995,0,0,4,2282,0,1,Brazil,Argentina,5,0,0.20878,0.27274,10,draw,draw
+17/07/1995,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,0,0,Copa America,كوبا أميركا,Paysand√∫,Uruguay,أوروغواي,TRUE,17,7,1995,0,0,0,2283,0,1,United_States,Mexico,5,0,0.69547,0.42112,10,draw,draw
+20/07/1995,United States,Brazil,الولايات المتحدة الأمريكية,البرازيل,0,1,Copa America,كوبا أميركا,Maldonado,Uruguay,أوروغواي,TRUE,20,7,1995,-1,1,1,2284,0,0,United_States,Brazil,5,1,0.08582,0.68334,10,loser,winner
+23/07/1995,Uruguay,Brazil,أوروغواي,البرازيل,1,1,Copa America,كوبا أميركا,Montevideo,Uruguay,أوروغواي,FALSE,23,7,1995,0,0,2,2285,1,0,Uruguay,Brazil,5,0,0.28909,0.53949,10,draw,draw
 06/08/1995,Japan,Costa Rica,اليابان,كوستا ريكا,3,0,Friendly,مبارة ودية,Kyoto,Japan,اليابان,FALSE,6,8,1995,3,-3,3,2286,0,1,Japan,Costa_Rica,5,3,0.25771,0.1017,10,winner,loser
 09/08/1995,Japan,Brazil,اليابان,البرازيل,1,5,Friendly,مبارة ودية,Tokyo,Japan,اليابان,FALSE,9,8,1995,-4,4,6,2287,0,0,Japan,Brazil,5,4,0.5035,0.09755,10,loser,winner
 12/08/1995,South Korea,Brazil,كوريا الجنوبية,البرازيل,0,1,Friendly,مبارة ودية,Suwon,South Korea,كوريا الجنوبية,FALSE,12,8,1995,-1,1,1,2288,0,0,South_Korea,Brazil,5,1,0.76534,0.28967,10,loser,winner
@@ -2400,14 +2400,14 @@
 07/06/1997,Morocco,Ghana,المغرب,غانا,1,0,FIFA World Cup qualification, نصفيات كأس العالم,Casablanca,Morocco,المغرب,FALSE,7,6,1997,1,-1,1,2399,0,0,Morocco,Ghana,7,1,0.06683,0.42421,10,winner,loser
 08/06/1997,Japan,Croatia,اليابان,كرواتيا,4,3,Kirin Cup,كأس كيرين,Tokyo,Japan,اليابان,FALSE,8,6,1997,1,-1,7,2400,0,0,Japan,Croatia,7,1,0.87852,0.65247,10,winner,loser
 10/06/1997,England,Brazil,إنجلترا,البرازيل,0,1,Tournoi de France,دورة فرنسا,Paris,France,فرنسا,TRUE,10,6,1997,-1,1,1,2401,1,0,England,Brazil,7,1,0.8415,0.61194,10,loser,winner
-11/06/1997,Argentina,Ecuador,الأرجنتين,الاكوادور,0,0,Copa Am√©rica,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,11,6,1997,0,0,0,2402,1,0,Argentina,Ecuador,7,0,0.30207,0.22383,10,draw,draw
+11/06/1997,Argentina,Ecuador,الأرجنتين,الاكوادور,0,0,Copa America,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,11,6,1997,0,0,0,2402,1,0,Argentina,Ecuador,7,0,0.30207,0.22383,10,draw,draw
 12/06/1997,Ghana,Serbia,غانا,صربيا,1,3,Korea Cup,كأس كوريا,Seoul,South Korea,كوريا الجنوبية,TRUE,12,6,1997,-2,2,4,2403,0,1,Ghana,Serbia,7,2,0.08943,0.30653,10,loser,winner
-13/06/1997,Brazil,Costa Rica,البرازيل,كوستا ريكا,5,0,Copa Am√©rica,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,13,6,1997,5,-5,5,2404,0,1,Brazil,Costa_Rica,7,5,0.75029,0.94147,10,winner,loser
+13/06/1997,Brazil,Costa Rica,البرازيل,كوستا ريكا,5,0,Copa America,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,13,6,1997,5,-5,5,2404,0,1,Brazil,Costa_Rica,7,5,0.75029,0.94147,10,winner,loser
 14/06/1997,South Korea,Ghana,كوريا الجنوبية,غانا,3,0,Korea Cup,كأس كوريا,Suwon,South Korea,كوريا الجنوبية,FALSE,14,6,1997,3,-3,3,2405,0,0,South_Korea,Ghana,7,3,0.95916,0.26289,10,winner,loser
-16/06/1997,Brazil,Mexico,البرازيل,المكسيك,3,2,Copa Am√©rica,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,16,6,1997,1,-1,5,2406,0,1,Brazil,Mexico,7,1,0.17826,0.98786,10,winner,loser
+16/06/1997,Brazil,Mexico,البرازيل,المكسيك,3,2,Copa America,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,16,6,1997,1,-1,5,2406,0,1,Brazil,Mexico,7,1,0.17826,0.98786,10,winner,loser
 16/06/1997,South Korea,Serbia,كوريا الجنوبية,صربيا,1,1,Korea Cup,كأس كوريا,Seoul,South Korea,كوريا الجنوبية,FALSE,16,6,1997,0,0,2,2407,0,1,South_Korea,Serbia,7,0,0.77557,0.70919,10,draw,draw
-19/06/1997,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,1,Copa Am√©rica,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,19,6,1997,0,0,2,2408,1,1,Mexico,Costa_Rica,7,0,0.73975,0.04501,10,draw,draw
-22/06/1997,Ecuador,Mexico,الاكوادور,المكسيك,1,1,Copa Am√©rica,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,22,6,1997,0,0,2,2409,0,1,Ecuador,Mexico,7,0,0.24724,0.55031,10,draw,draw
+19/06/1997,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,1,Copa America,كوبا أميركا,Santa Cruz,Bolivia,بوليفيا,TRUE,19,6,1997,0,0,2,2408,1,1,Mexico,Costa_Rica,7,0,0.73975,0.04501,10,draw,draw
+22/06/1997,Ecuador,Mexico,الاكوادور,المكسيك,1,1,Copa America,كوبا أميركا,Cochabamba,Bolivia,بوليفيا,TRUE,22,6,1997,0,0,2,2409,0,1,Ecuador,Mexico,7,0,0.24724,0.55031,10,draw,draw
 27/07/1997,Morocco,Senegal,المغرب,السنغال,3,0,African Cup of Nations qualification, تصفيات كأس أمم أفريقيا,Rabat,Morocco,المغرب,FALSE,27,7,1997,3,-3,3,2410,0,0,Morocco,Senegal,7,3,0.41698,0.23185,10,winner,loser
 07/08/1997,United States,Ecuador,الولايات المتحدة الأمريكية,الاكوادور,0,1,Friendly,مبارة ودية,Baltimore,United States,الولايات المتحدة الأمريكية,FALSE,7,8,1997,-1,1,1,2411,0,0,United_States,Ecuador,7,1,0.2341,0.14625,10,loser,winner
 10/08/1997,South Korea,Brazil,كوريا الجنوبية,البرازيل,1,2,Friendly,مبارة ودية,Seoul,South Korea,كوريا الجنوبية,FALSE,10,8,1997,-1,1,3,2412,0,0,South_Korea,Brazil,7,1,0.57691,0.03084,10,loser,winner
@@ -2556,15 +2556,15 @@
 16/06/1999,Brazil,Poland,البرازيل,بولندا,2,0,Friendly,مبارة ودية,Bangkok,Thailand,تايلاند,TRUE,16,6,1999,2,-2,2,2555,0,0,Brazil,Poland,9,2,0.43192,0.32326,10,winner,loser
 16/06/1999,Croatia,Mexico,كرواتيا,المكسيك,2,1,Korea Cup,كأس كوريا,Seoul,South Korea,كوريا الجنوبية,TRUE,16,6,1999,1,-1,3,2556,0,1,Croatia,Mexico,9,1,0.1297,0.29824,10,winner,loser
 19/06/1999,South Korea,Croatia,كوريا الجنوبية,كرواتيا,1,1,Korea Cup,كأس كوريا,Seoul,South Korea,كوريا الجنوبية,FALSE,19,6,1999,0,0,2,2557,0,0,South_Korea,Croatia,9,0,0.91631,0.19777,10,draw,draw
-01/07/1999,Argentina,Ecuador,الأرجنتين,الاكوادور,3,1,Copa Am√©rica,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,1,7,1999,2,-2,4,2558,1,0,Argentina,Ecuador,9,2,0.74322,0.54047,10,winner,loser
-03/07/1999,Brazil,Mexico,البرازيل,المكسيك,2,1,Copa Am√©rica,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,3,7,1999,1,-1,3,2559,0,1,Brazil,Mexico,9,1,0.33552,0.96282,10,winner,loser
-04/07/1999,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,4,7,1999,1,-1,3,2560,1,0,Uruguay,Ecuador,9,1,0.02944,0.40673,10,winner,loser
-07/07/1999,Uruguay,Argentina,أوروغواي,الأرجنتين,0,2,Copa Am√©rica,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,7,7,1999,-2,2,2,2561,1,1,Uruguay,Argentina,9,2,0.37302,0.74246,10,loser,winner
+01/07/1999,Argentina,Ecuador,الأرجنتين,الاكوادور,3,1,Copa America,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,1,7,1999,2,-2,4,2558,1,0,Argentina,Ecuador,9,2,0.74322,0.54047,10,winner,loser
+03/07/1999,Brazil,Mexico,البرازيل,المكسيك,2,1,Copa America,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,3,7,1999,1,-1,3,2559,0,1,Brazil,Mexico,9,1,0.33552,0.96282,10,winner,loser
+04/07/1999,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa America,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,4,7,1999,1,-1,3,2560,1,0,Uruguay,Ecuador,9,1,0.02944,0.40673,10,winner,loser
+07/07/1999,Uruguay,Argentina,أوروغواي,الأرجنتين,0,2,Copa America,كوبا أميركا,Luque,Paraguay,باراغواي,TRUE,7,7,1999,-2,2,2,2561,1,1,Uruguay,Argentina,9,2,0.37302,0.74246,10,loser,winner
 09/07/1999,Canada,Saudi Arabia,كندا,المملكة العربية السعودية,0,2,Friendly,مبارة ودية,Fullerton,United States,الولايات المتحدة الأمريكية,TRUE,9,7,1999,-2,2,2,2562,0,1,Canada,Saudi_Arabia,9,2,0.06867,0.84679,10,loser,winner
-11/07/1999,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa Am√©rica,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,11,7,1999,1,-1,3,2563,0,1,Brazil,Argentina,9,1,0.17406,0.46586,10,winner,loser
-14/07/1999,Mexico,Brazil,المكسيك,البرازيل,0,2,Copa Am√©rica,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,14,7,1999,-2,2,2,2564,1,0,Mexico,Brazil,9,2,0.21223,0.77922,10,loser,winner
+11/07/1999,Brazil,Argentina,البرازيل,الأرجنتين,2,1,Copa America,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,11,7,1999,1,-1,3,2563,0,1,Brazil,Argentina,9,1,0.17406,0.46586,10,winner,loser
+14/07/1999,Mexico,Brazil,المكسيك,البرازيل,0,2,Copa America,كوبا أميركا,Ciudad del Este,Paraguay,باراغواي,TRUE,14,7,1999,-2,2,2,2564,1,0,Mexico,Brazil,9,2,0.21223,0.77922,10,loser,winner
 17/07/1999,Costa Rica,Saudi Arabia,كوستا ريكا,المملكة العربية السعودية,1,0,Friendly,مبارة ودية,Fullerton,United States,الولايات المتحدة الأمريكية,TRUE,17,7,1999,1,-1,1,2565,1,1,Costa_Rica,Saudi_Arabia,9,1,0.005,0.90649,10,winner,loser
-18/07/1999,Brazil,Uruguay,البرازيل,أوروغواي,3,0,Copa Am√©rica,كوبا أميركا,Asunci√≥n,Paraguay,باراغواي,TRUE,18,7,1999,3,-3,3,2566,0,1,Brazil,Uruguay,9,3,0.49716,0.46362,10,winner,loser
+18/07/1999,Brazil,Uruguay,البرازيل,أوروغواي,3,0,Copa America,كوبا أميركا,Asunci√≥n,Paraguay,باراغواي,TRUE,18,7,1999,3,-3,3,2566,0,1,Brazil,Uruguay,9,3,0.49716,0.46362,10,winner,loser
 24/07/1999,Brazil,Germany,البرازيل,ألمانيا,4,0,Confederations Cup, كأس القارات,Guadalajara,Mexico,المكسيك,TRUE,24,7,1999,4,-4,4,2567,0,1,Brazil,Germany,9,4,0.05627,0.45628,10,winner,loser
 25/07/1999,Mexico,Saudi Arabia,المكسيك,المملكة العربية السعودية,5,1,Confederations Cup, كأس القارات,Mexico City,Mexico,المكسيك,FALSE,25,7,1999,4,-4,6,2568,1,1,Mexico,Saudi_Arabia,9,4,0.26623,0.26613,10,winner,loser
 28/07/1999,Brazil,United States,البرازيل,الولايات المتحدة الأمريكية,1,0,Confederations Cup, كأس القارات,Guadalajara,Mexico,المكسيك,TRUE,28,7,1999,1,-1,1,2569,0,0,Brazil,United_States,9,1,0.31363,0.74689,10,winner,loser
@@ -2721,11 +2721,11 @@
 01/07/2001,Mexico,United States,المكسيك,الولايات المتحدة الأمريكية,1,0,FIFA World Cup qualification, نصفيات كأس العالم,Mexico City,Mexico,المكسيك,FALSE,1,7,2001,1,-1,1,2720,1,0,Mexico,United_States,1,1,0.00479,0.66837,11,winner,loser
 01/07/2001,Uruguay,Brazil,أوروغواي,البرازيل,1,0,FIFA World Cup qualification, نصفيات كأس العالم,Montevideo,Uruguay,أوروغواي,FALSE,1,7,2001,1,-1,1,2721,1,0,Uruguay,Brazil,1,1,0.80481,0.70037,11,winner,loser
 04/07/2001,Japan,Serbia,اليابان,صربيا,1,0,Kirin Cup,كأس كيرين,≈åita,Japan,اليابان,FALSE,4,7,2001,1,-1,1,2722,0,1,Japan,Serbia,1,1,0.35687,0.49312,11,winner,loser
-12/07/2001,Brazil,Mexico,البرازيل,المكسيك,0,1,Copa Am√©rica,كوبا أميركا,Cali,Colombia,كولومبيا,TRUE,12,7,2001,-1,1,1,2723,0,1,Brazil,Mexico,1,1,0.11369,0.89595,11,loser,winner
+12/07/2001,Brazil,Mexico,البرازيل,المكسيك,0,1,Copa America,كوبا أميركا,Cali,Colombia,كولومبيا,TRUE,12,7,2001,-1,1,1,2723,0,1,Brazil,Mexico,1,1,0.11369,0.89595,11,loser,winner
 14/07/2001,Senegal,Morocco,السنغال,المغرب,1,0,FIFA World Cup qualification, نصفيات كأس العالم,Dakar,Senegal,السنغال,FALSE,14,7,2001,1,-1,1,2724,0,0,Senegal,Morocco,1,1,0.20797,0.00147,11,winner,loser
-16/07/2001,Uruguay,Costa Rica,أوروغواي,كوستا ريكا,1,1,Copa Am√©rica,كوبا أميركا,Medell√≠n,Colombia,كولومبيا,TRUE,16,7,2001,0,0,2,2725,1,1,Uruguay,Costa_Rica,1,0,0.82047,0.14347,11,draw,draw
-22/07/2001,Uruguay,Costa Rica,أوروغواي,كوستا ريكا,2,1,Copa Am√©rica,كوبا أميركا,Armenia,Colombia,كولومبيا,TRUE,22,7,2001,1,-1,3,2726,1,1,Uruguay,Costa_Rica,1,1,0.97925,0.23127,11,winner,loser
-25/07/2001,Mexico,Uruguay,المكسيك,أوروغواي,2,1,Copa Am√©rica,كوبا أميركا,Pereira,Colombia,كولومبيا,TRUE,25,7,2001,1,-1,3,2727,1,1,Mexico,Uruguay,1,1,0.27716,0.97327,11,winner,loser
+16/07/2001,Uruguay,Costa Rica,أوروغواي,كوستا ريكا,1,1,Copa America,كوبا أميركا,Medell√≠n,Colombia,كولومبيا,TRUE,16,7,2001,0,0,2,2725,1,1,Uruguay,Costa_Rica,1,0,0.82047,0.14347,11,draw,draw
+22/07/2001,Uruguay,Costa Rica,أوروغواي,كوستا ريكا,2,1,Copa America,كوبا أميركا,Armenia,Colombia,كولومبيا,TRUE,22,7,2001,1,-1,3,2726,1,1,Uruguay,Costa_Rica,1,1,0.97925,0.23127,11,winner,loser
+25/07/2001,Mexico,Uruguay,المكسيك,أوروغواي,2,1,Copa America,كوبا أميركا,Pereira,Colombia,كولومبيا,TRUE,25,7,2001,1,-1,3,2727,1,1,Mexico,Uruguay,1,1,0.27716,0.97327,11,winner,loser
 01/08/2001,Qatar,Iran,قطر,إيران,2,1,Friendly,مبارة ودية,Doha,Qatar,قطر,FALSE,1,8,2001,1,-1,3,2728,0,1,Qatar,Iran,1,1,0.78945,0.68412,11,winner,loser
 05/08/2001,Saudi Arabia,Qatar,المملكة العربية السعودية,قطر,1,2,Friendly,مبارة ودية,Riyadh,Saudi Arabia,المملكة العربية السعودية,FALSE,5,8,2001,-1,1,3,2729,1,0,Saudi_Arabia,Qatar,1,1,0.13967,0.13759,11,loser,winner
 15/08/2001,Ecuador,Argentina,الاكوادور,الأرجنتين,0,2,FIFA World Cup qualification, نصفيات كأس العالم,Quito,Ecuador,الاكوادور,FALSE,15,8,2001,-2,2,2,2730,0,1,Ecuador,Argentina,1,2,0.32574,0.06263,11,loser,winner
@@ -2937,18 +2937,18 @@
 21/06/2004,Switzerland,France,سويسرا,فرنسا,1,3,UEFA Euro, كأس أمم أوروبا,Coimbra,Portugal,البرتغال,TRUE,21,6,2004,-2,2,4,2936,0,0,Switzerland,France,4,2,0.65608,0.31007,11,loser,winner
 24/06/2004,Portugal,England,البرتغال,إنجلترا,2,2,UEFA Euro, كأس أمم أوروبا,Lisbon,Portugal,البرتغال,FALSE,24,6,2004,0,0,4,2937,1,1,Portugal,England,4,0,0.01676,0.03421,11,draw,draw
 30/06/2004,Portugal,Netherlands,البرتغال,هولندا,2,1,UEFA Euro, كأس أمم أوروبا,Lisbon,Portugal,البرتغال,FALSE,30,6,2004,1,-1,3,2938,1,1,Portugal,Netherlands,4,1,0.97892,0.59102,11,winner,loser
-07/07/2004,Argentina,Ecuador,الأرجنتين,الاكوادور,6,1,Copa Am√©rica,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,7,7,2004,5,-5,7,2939,1,0,Argentina,Ecuador,4,5,0.40161,0.19431,11,winner,loser
-07/07/2004,Mexico,Uruguay,المكسيك,أوروغواي,2,2,Copa Am√©rica,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,7,7,2004,0,0,4,2940,1,1,Mexico,Uruguay,4,0,0.14704,0.3525,11,draw,draw
-10/07/2004,Argentina,Mexico,الأرجنتين,المكسيك,0,1,Copa Am√©rica,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,10,7,2004,-1,1,1,2941,1,1,Argentina,Mexico,4,1,0.74743,0.47605,11,loser,winner
-10/07/2004,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,10,7,2004,1,-1,3,2942,1,0,Uruguay,Ecuador,4,1,0.15544,0.17265,11,winner,loser
-11/07/2004,Brazil,Costa Rica,البرازيل,كوستا ريكا,4,1,Copa Am√©rica,كوبا أميركا,Arequipa,Peru,بيرو,TRUE,11,7,2004,3,-3,5,2943,0,1,Brazil,Costa_Rica,4,3,0.89962,0.41391,11,winner,loser
+07/07/2004,Argentina,Ecuador,الأرجنتين,الاكوادور,6,1,Copa America,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,7,7,2004,5,-5,7,2939,1,0,Argentina,Ecuador,4,5,0.40161,0.19431,11,winner,loser
+07/07/2004,Mexico,Uruguay,المكسيك,أوروغواي,2,2,Copa America,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,7,7,2004,0,0,4,2940,1,1,Mexico,Uruguay,4,0,0.14704,0.3525,11,draw,draw
+10/07/2004,Argentina,Mexico,الأرجنتين,المكسيك,0,1,Copa America,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,10,7,2004,-1,1,1,2941,1,1,Argentina,Mexico,4,1,0.74743,0.47605,11,loser,winner
+10/07/2004,Uruguay,Ecuador,أوروغواي,الاكوادور,2,1,Copa America,كوبا أميركا,Chiclayo,Peru,بيرو,TRUE,10,7,2004,1,-1,3,2942,1,0,Uruguay,Ecuador,4,1,0.15544,0.17265,11,winner,loser
+11/07/2004,Brazil,Costa Rica,البرازيل,كوستا ريكا,4,1,Copa America,كوبا أميركا,Arequipa,Peru,بيرو,TRUE,11,7,2004,3,-3,5,2943,0,1,Brazil,Costa_Rica,4,3,0.89962,0.41391,11,winner,loser
 11/07/2004,United States,Poland,الولايات المتحدة الأمريكية,بولندا,1,1,Friendly,مبارة ودية,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,11,7,2004,0,0,2,2944,0,0,United_States,Poland,4,0,0.44329,0.65485,11,draw,draw
-13/07/2004,Argentina,Uruguay,الأرجنتين,أوروغواي,4,2,Copa Am√©rica,كوبا أميركا,Piura,Peru,بيرو,TRUE,13,7,2004,2,-2,6,2945,1,1,Argentina,Uruguay,4,2,0.23407,0.94889,11,winner,loser
+13/07/2004,Argentina,Uruguay,الأرجنتين,أوروغواي,4,2,Copa America,كوبا أميركا,Piura,Peru,بيرو,TRUE,13,7,2004,2,-2,6,2945,1,1,Argentina,Uruguay,4,2,0.23407,0.94889,11,winner,loser
 13/07/2004,Japan,Serbia,اليابان,صربيا,1,0,Kirin Cup,كأس كيرين,Yokohama,Japan,اليابان,FALSE,13,7,2004,1,-1,1,2946,0,1,Japan,Serbia,4,1,0.66793,0.30138,11,winner,loser
-13/07/2004,Mexico,Ecuador,المكسيك,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Piura,Peru,بيرو,TRUE,13,7,2004,1,-1,3,2947,1,0,Mexico,Ecuador,4,1,0.08785,0.61467,11,winner,loser
-18/07/2004,Mexico,Brazil,المكسيك,البرازيل,0,4,Copa Am√©rica,كوبا أميركا,Piura,Peru,بيرو,TRUE,18,7,2004,-4,4,4,2948,1,0,Mexico,Brazil,4,4,0.09164,0.31654,11,loser,winner
-21/07/2004,Uruguay,Brazil,أوروغواي,البرازيل,1,1,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,21,7,2004,0,0,2,2949,1,0,Uruguay,Brazil,4,0,0.46071,0.52041,11,draw,draw
-25/07/2004,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa Am√©rica,كوبا أميركا,Lima,Peru,بيرو,TRUE,25,7,2004,0,0,4,2950,1,0,Argentina,Brazil,4,0,0.51364,0.67593,11,draw,draw
+13/07/2004,Mexico,Ecuador,المكسيك,الاكوادور,2,1,Copa America,كوبا أميركا,Piura,Peru,بيرو,TRUE,13,7,2004,1,-1,3,2947,1,0,Mexico,Ecuador,4,1,0.08785,0.61467,11,winner,loser
+18/07/2004,Mexico,Brazil,المكسيك,البرازيل,0,4,Copa America,كوبا أميركا,Piura,Peru,بيرو,TRUE,18,7,2004,-4,4,4,2948,1,0,Mexico,Brazil,4,4,0.09164,0.31654,11,loser,winner
+21/07/2004,Uruguay,Brazil,أوروغواي,البرازيل,1,1,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,21,7,2004,0,0,2,2949,1,0,Uruguay,Brazil,4,0,0.46071,0.52041,11,draw,draw
+25/07/2004,Argentina,Brazil,الأرجنتين,البرازيل,2,2,Copa America,كوبا أميركا,Lima,Peru,بيرو,TRUE,25,7,2004,0,0,4,2950,1,0,Argentina,Brazil,4,0,0.51364,0.67593,11,draw,draw
 28/07/2004,Japan,Iran,اليابان,إيران,0,0,AFC Asian Cup,كأس آسيا,Chongqing,China PR,الصين ,TRUE,28,7,2004,0,0,0,2951,0,1,Japan,Iran,4,0,0.80755,0.49301,11,draw,draw
 31/07/2004,South Korea,Iran,كوريا الجنوبية,إيران,3,4,AFC Asian Cup,كأس آسيا,Jinan,China PR,الصين ,TRUE,31,7,2004,-1,1,7,2952,0,1,South_Korea,Iran,4,1,0.95939,0.1372,11,loser,winner
 18/08/2004,Japan,Argentina,اليابان,الأرجنتين,1,2,Friendly,مبارة ودية,Fukuroi,Japan,اليابان,FALSE,18,8,2004,-1,1,3,2953,0,1,Japan,Argentina,4,1,0.69877,0.88207,11,loser,winner
@@ -3160,16 +3160,16 @@
 17/06/2007,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,0,Gold Cup,الكأس الذهبية,Houston,United States,الولايات المتحدة الأمريكية,TRUE,17,6,2007,1,-1,1,3159,1,1,Mexico,Costa_Rica,7,1,0.05167,0.93826,11,winner,loser
 21/06/2007,United States,Canada,الولايات المتحدة الأمريكية,كندا,2,1,Gold Cup,الكأس الذهبية,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,21,6,2007,1,-1,3,3160,0,0,United_States,Canada,7,1,0.9502,0.01494,11,winner,loser
 24/06/2007,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,2,1,Gold Cup,الكأس الذهبية,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,24,6,2007,1,-1,3,3161,0,1,United_States,Mexico,7,1,0.20795,0.09898,11,winner,loser
-27/06/2007,Brazil,Mexico,البرازيل,المكسيك,0,2,Copa Am√©rica,كوبا أميركا,Puerto Ordaz,Venezuela,فنزويلا,TRUE,27,6,2007,-2,2,2,3162,0,1,Brazil,Mexico,7,2,0.80171,0.29534,11,loser,winner
-28/06/2007,Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,4,1,Copa Am√©rica,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,28,6,2007,3,-3,5,3163,1,0,Argentina,United_States,7,3,0.34312,0.95467,11,winner,loser
-01/07/2007,Mexico,Ecuador,المكسيك,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Matur√≠n,Venezuela,فنزويلا,TRUE,1,7,2007,1,-1,3,3164,1,0,Mexico,Ecuador,7,1,0.54781,0.95828,11,winner,loser
-04/07/2007,Brazil,Ecuador,البرازيل,الاكوادور,1,0,Copa Am√©rica,كوبا أميركا,Puerto la Cruz,Venezuela,فنزويلا,TRUE,4,7,2007,1,-1,1,3165,0,0,Brazil,Ecuador,7,1,0.0812,0.59765,11,winner,loser
+27/06/2007,Brazil,Mexico,البرازيل,المكسيك,0,2,Copa America,كوبا أميركا,Puerto Ordaz,Venezuela,فنزويلا,TRUE,27,6,2007,-2,2,2,3162,0,1,Brazil,Mexico,7,2,0.80171,0.29534,11,loser,winner
+28/06/2007,Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,4,1,Copa America,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,28,6,2007,3,-3,5,3163,1,0,Argentina,United_States,7,3,0.34312,0.95467,11,winner,loser
+01/07/2007,Mexico,Ecuador,المكسيك,الاكوادور,2,1,Copa America,كوبا أميركا,Matur√≠n,Venezuela,فنزويلا,TRUE,1,7,2007,1,-1,3,3164,1,0,Mexico,Ecuador,7,1,0.54781,0.95828,11,winner,loser
+04/07/2007,Brazil,Ecuador,البرازيل,الاكوادور,1,0,Copa America,كوبا أميركا,Puerto la Cruz,Venezuela,فنزويلا,TRUE,4,7,2007,1,-1,1,3165,0,0,Brazil,Ecuador,7,1,0.0812,0.59765,11,winner,loser
 09/07/2007,Japan,Qatar,اليابان,قطر,1,1,AFC Asian Cup,كأس آسيا,Hanoi,Vietnam,فيتنام,TRUE,9,7,2007,0,0,2,3166,0,0,Japan,Qatar,7,0,0.04681,0.37206,11,draw,draw
-10/07/2007,Uruguay,Brazil,أوروغواي,البرازيل,2,2,Copa Am√©rica,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,10,7,2007,0,0,4,3167,1,0,Uruguay,Brazil,7,0,0.59092,0.37752,11,draw,draw
+10/07/2007,Uruguay,Brazil,أوروغواي,البرازيل,2,2,Copa America,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,10,7,2007,0,0,4,3167,1,0,Uruguay,Brazil,7,0,0.59092,0.37752,11,draw,draw
 11/07/2007,South Korea,Saudi Arabia,كوريا الجنوبية,المملكة العربية السعودية,1,1,AFC Asian Cup,كأس آسيا,Jakarta,Indonesia,إندونيسيا,TRUE,11,7,2007,0,0,2,3168,0,1,South_Korea,Saudi_Arabia,7,0,0.13675,0.98007,11,draw,draw
-11/07/2007,Mexico,Argentina,المكسيك,الأرجنتين,0,3,Copa Am√©rica,كوبا أميركا,Puerto Ordaz,Venezuela,فنزويلا,TRUE,11,7,2007,-3,3,3,3169,1,1,Mexico,Argentina,7,3,0.52433,0.55231,11,loser,winner
-14/07/2007,Mexico,Uruguay,المكسيك,أوروغواي,3,1,Copa Am√©rica,كوبا أميركا,Caracas,Venezuela,فنزويلا,TRUE,14,7,2007,2,-2,4,3170,1,1,Mexico,Uruguay,7,2,0.79077,0.11496,11,winner,loser
-15/07/2007,Brazil,Argentina,البرازيل,الأرجنتين,3,0,Copa Am√©rica,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,15,7,2007,3,-3,3,3171,0,1,Brazil,Argentina,7,3,0.52079,0.34666,11,winner,loser
+11/07/2007,Mexico,Argentina,المكسيك,الأرجنتين,0,3,Copa America,كوبا أميركا,Puerto Ordaz,Venezuela,فنزويلا,TRUE,11,7,2007,-3,3,3,3169,1,1,Mexico,Argentina,7,3,0.52433,0.55231,11,loser,winner
+14/07/2007,Mexico,Uruguay,المكسيك,أوروغواي,3,1,Copa America,كوبا أميركا,Caracas,Venezuela,فنزويلا,TRUE,14,7,2007,2,-2,4,3170,1,1,Mexico,Uruguay,7,2,0.79077,0.11496,11,winner,loser
+15/07/2007,Brazil,Argentina,البرازيل,الأرجنتين,3,0,Copa America,كوبا أميركا,Maracaibo,Venezuela,فنزويلا,TRUE,15,7,2007,3,-3,3,3171,0,1,Brazil,Argentina,7,3,0.52079,0.34666,11,winner,loser
 21/07/2007,Japan,Australia,اليابان,أستراليا,1,1,AFC Asian Cup,كأس آسيا,Hanoi,Vietnam,فيتنام,TRUE,21,7,2007,0,0,2,3172,0,0,Japan,Australia,7,0,0.52376,0.52618,11,draw,draw
 22/07/2007,Iran,South Korea,إيران,كوريا الجنوبية,0,0,AFC Asian Cup,كأس آسيا,Kuala Lumpur,Malaysia,ماليزيا,TRUE,22,7,2007,0,0,0,3173,1,0,Iran,South_Korea,7,0,0.59149,0.7316,11,draw,draw
 25/07/2007,Japan,Saudi Arabia,اليابان,المملكة العربية السعودية,2,3,AFC Asian Cup,كأس آسيا,Hanoi,Vietnam,فيتنام,TRUE,25,7,2007,-1,1,5,3174,0,1,Japan,Saudi_Arabia,7,1,0.28489,0.96288,11,loser,winner
@@ -3443,10 +3443,10 @@
 09/06/2011,Poland,France,بولندا,فرنسا,0,1,Friendly,مبارة ودية,Warsaw,Poland,بولندا,FALSE,9,6,2011,-1,1,1,3442,0,0,Poland,France,1,1,0.01477,0.10194,12,loser,winner
 12/06/2011,Mexico,Costa Rica,المكسيك,كوستا ريكا,4,1,Gold Cup,الكأس الذهبية,Chicago,United States,الولايات المتحدة الأمريكية,TRUE,12,6,2011,3,-3,5,3443,1,1,Mexico,Costa_Rica,1,3,0.14854,0.85519,12,winner,loser
 25/06/2011,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,2,4,Gold Cup,الكأس الذهبية,Pasadena,United States,الولايات المتحدة الأمريكية,FALSE,25,6,2011,-2,2,6,3444,0,1,United_States,Mexico,1,2,0.90776,0.60109,12,loser,winner
-11/07/2011,Argentina,Costa Rica,الأرجنتين,كوستا ريكا,3,0,Copa Am√©rica,كوبا أميركا,C√≥rdoba,Argentina,الأرجنتين,FALSE,11,7,2011,3,-3,3,3445,1,1,Argentina,Costa_Rica,1,3,0.168,0.67091,12,winner,loser
-12/07/2011,Uruguay,Mexico,أوروغواي,المكسيك,1,0,Copa Am√©rica,كوبا أميركا,La Plata,Argentina,الأرجنتين,TRUE,12,7,2011,1,-1,1,3446,1,1,Uruguay,Mexico,1,1,0.30562,0.75405,12,winner,loser
-13/07/2011,Brazil,Ecuador,البرازيل,الاكوادور,4,2,Copa Am√©rica,كوبا أميركا,C√≥rdoba,Argentina,الأرجنتين,TRUE,13,7,2011,2,-2,6,3447,0,0,Brazil,Ecuador,1,2,0.59776,0.047,12,winner,loser
-16/07/2011,Argentina,Uruguay,الأرجنتين,أوروغواي,1,1,Copa Am√©rica,كوبا أميركا,Santa Fe,Argentina,الأرجنتين,FALSE,16,7,2011,0,0,2,3448,1,1,Argentina,Uruguay,1,0,0.26534,0.75047,12,draw,draw
+11/07/2011,Argentina,Costa Rica,الأرجنتين,كوستا ريكا,3,0,Copa America,كوبا أميركا,C√≥rdoba,Argentina,الأرجنتين,FALSE,11,7,2011,3,-3,3,3445,1,1,Argentina,Costa_Rica,1,3,0.168,0.67091,12,winner,loser
+12/07/2011,Uruguay,Mexico,أوروغواي,المكسيك,1,0,Copa America,كوبا أميركا,La Plata,Argentina,الأرجنتين,TRUE,12,7,2011,1,-1,1,3446,1,1,Uruguay,Mexico,1,1,0.30562,0.75405,12,winner,loser
+13/07/2011,Brazil,Ecuador,البرازيل,الاكوادور,4,2,Copa America,كوبا أميركا,C√≥rdoba,Argentina,الأرجنتين,TRUE,13,7,2011,2,-2,6,3447,0,0,Brazil,Ecuador,1,2,0.59776,0.047,12,winner,loser
+16/07/2011,Argentina,Uruguay,الأرجنتين,أوروغواي,1,1,Copa America,كوبا أميركا,Santa Fe,Argentina,الأرجنتين,FALSE,16,7,2011,0,0,2,3448,1,1,Argentina,Uruguay,1,0,0.26534,0.75047,12,draw,draw
 10/08/2011,Costa Rica,Ecuador,كوستا ريكا,الاكوادور,0,2,Friendly,مبارة ودية,San Jos√©,Costa Rica,كوستا ريكا,FALSE,10,8,2011,-2,2,2,3449,1,0,Costa_Rica,Ecuador,1,2,0.57847,0.12947,12,loser,winner
 10/08/2011,Germany,Brazil,ألمانيا,البرازيل,3,2,Friendly,مبارة ودية,Stuttgart,Germany,ألمانيا,FALSE,10,8,2011,1,-1,5,3450,1,0,Germany,Brazil,1,1,0.46378,0.93139,12,winner,loser
 10/08/2011,Japan,South Korea,اليابان,كوريا الجنوبية,3,0,Friendly,مبارة ودية,Sapporo,Japan,اليابان,FALSE,10,8,2011,3,-3,3,3451,0,0,Japan,South_Korea,1,3,0.17778,0.7663,12,winner,loser
@@ -3727,8 +3727,8 @@
 12/06/2015,Wales,Belgium,ويلز,بلجيكا,1,0,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Cardiff,Wales,ويلز,FALSE,12,6,2015,1,-1,1,3726,0,1,Wales,Belgium,5,1,0.92649,0.27555,12,winner,loser
 13/06/2015,Denmark,Serbia,الدنمارك,صربيا,2,0,UEFA Euro qualification, تصفيات كأس أمم أوروبا,Copenhagen,Denmark,الدنمارك,FALSE,13,6,2015,2,-2,2,3727,1,1,Denmark,Serbia,5,2,0.30332,0.72378,12,winner,loser
 15/06/2015,Morocco,Tunisia,المغرب,تونس,1,1,African Nations Championship, بطولة أمم أفريقيا للمحليين,Casablanca,Morocco,المغرب,FALSE,15,6,2015,0,0,2,3728,0,1,Morocco,Tunisia,5,0,0.89818,0.27219,12,draw,draw
-16/06/2015,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,La Serena,Chile,تشيلي,TRUE,16,6,2015,1,-1,1,3729,1,1,Argentina,Uruguay,5,1,0.44189,0.38917,12,winner,loser
-19/06/2015,Mexico,Ecuador,المكسيك,الاكوادور,1,2,Copa Am√©rica,كوبا أميركا,Rancagua,Chile,تشيلي,TRUE,19,6,2015,-1,1,3,3730,1,0,Mexico,Ecuador,5,1,0.96531,0.22948,12,loser,winner
+16/06/2015,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa America,كوبا أميركا,La Serena,Chile,تشيلي,TRUE,16,6,2015,1,-1,1,3729,1,1,Argentina,Uruguay,5,1,0.44189,0.38917,12,winner,loser
+19/06/2015,Mexico,Ecuador,المكسيك,الاكوادور,1,2,Copa America,كوبا أميركا,Rancagua,Chile,تشيلي,TRUE,19,6,2015,-1,1,3,3730,1,0,Mexico,Ecuador,5,1,0.96531,0.22948,12,loser,winner
 27/06/2015,Mexico,Costa Rica,المكسيك,كوستا ريكا,2,2,Friendly,مبارة ودية,Orlando,United States,الولايات المتحدة الأمريكية,TRUE,27,6,2015,0,0,4,3731,1,1,Mexico,Costa_Rica,5,0,0.82354,0.90026,12,draw,draw
 14/07/2015,Canada,Costa Rica,كندا,كوستا ريكا,0,0,Gold Cup,الكأس الذهبية,Toronto,Canada,كندا,FALSE,14,7,2015,0,0,0,3732,0,1,Canada,Costa_Rica,5,0,0.04679,0.24295,12,draw,draw
 19/07/2015,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,0,Gold Cup,الكأس الذهبية,East Rutherford,United States,الولايات المتحدة الأمريكية,TRUE,19,7,2015,1,-1,1,3733,1,1,Mexico,Costa_Rica,5,1,0.84959,0.2709,12,winner,loser
@@ -3766,15 +3766,15 @@
 01/06/2016,Poland,Netherlands,بولندا,هولندا,1,2,Friendly,مبارة ودية,Gda≈Ñsk,Poland,بولندا,FALSE,1,6,2016,-1,1,3,3765,0,1,Poland,Netherlands,6,1,0.17834,0.24196,12,loser,winner
 01/06/2016,Spain,South Korea,إسبانيا,كوريا الجنوبية,6,1,Friendly,مبارة ودية,Salzburg,Austria,النمسا,TRUE,1,6,2016,5,-5,7,3766,1,0,Spain,South_Korea,6,5,0.37328,0.27293,12,winner,loser
 02/06/2016,England,Portugal,إنجلترا,البرتغال,1,0,Friendly,مبارة ودية,London,England,إنجلترا,FALSE,2,6,2016,1,-1,1,3767,1,1,England,Portugal,6,1,0.09102,0.96909,12,winner,loser
-04/06/2016,Brazil,Ecuador,البرازيل,الاكوادور,0,0,Copa Am√©rica,كوبا أميركا,Pasadena,United States,الولايات المتحدة الأمريكية,TRUE,4,6,2016,0,0,0,3768,0,0,Brazil,Ecuador,6,0,0.03591,0.93216,12,draw,draw
-05/06/2016,Mexico,Uruguay,المكسيك,أوروغواي,3,1,Copa Am√©rica,كوبا أميركا,Glendale,United States,الولايات المتحدة الأمريكية,TRUE,5,6,2016,2,-2,4,3769,1,1,Mexico,Uruguay,6,2,0.53253,0.73434,12,winner,loser
-07/06/2016,United States,Costa Rica,الولايات المتحدة الأمريكية,كوستا ريكا,4,0,Copa Am√©rica,كوبا أميركا,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,7,6,2016,4,-4,4,3770,0,1,United_States,Costa_Rica,6,4,0.01223,0.61588,12,winner,loser
+04/06/2016,Brazil,Ecuador,البرازيل,الاكوادور,0,0,Copa America,كوبا أميركا,Pasadena,United States,الولايات المتحدة الأمريكية,TRUE,4,6,2016,0,0,0,3768,0,0,Brazil,Ecuador,6,0,0.03591,0.93216,12,draw,draw
+05/06/2016,Mexico,Uruguay,المكسيك,أوروغواي,3,1,Copa America,كوبا أميركا,Glendale,United States,الولايات المتحدة الأمريكية,TRUE,5,6,2016,2,-2,4,3769,1,1,Mexico,Uruguay,6,2,0.53253,0.73434,12,winner,loser
+07/06/2016,United States,Costa Rica,الولايات المتحدة الأمريكية,كوستا ريكا,4,0,Copa America,كوبا أميركا,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,7,6,2016,4,-4,4,3770,0,1,United_States,Costa_Rica,6,4,0.01223,0.61588,12,winner,loser
 16/06/2016,England,Wales,إنجلترا,ويلز,2,1,UEFA Euro, كأس أمم أوروبا,Lens,France,فرنسا,TRUE,16,6,2016,1,-1,3,3771,1,0,England,Wales,6,1,0.86577,0.44328,12,winner,loser
 16/06/2016,Germany,Poland,ألمانيا,بولندا,0,0,UEFA Euro, كأس أمم أوروبا,Saint-Denis,France,فرنسا,TRUE,16,6,2016,0,0,0,3772,1,0,Germany,Poland,6,0,0.04074,0.43541,12,draw,draw
-16/06/2016,United States,Ecuador,الولايات المتحدة الأمريكية,الاكوادور,2,1,Copa Am√©rica,كوبا أميركا,Seattle,United States,الولايات المتحدة الأمريكية,FALSE,16,6,2016,1,-1,3,3773,0,0,United_States,Ecuador,6,1,0.4482,0.70906,12,winner,loser
+16/06/2016,United States,Ecuador,الولايات المتحدة الأمريكية,الاكوادور,2,1,Copa America,كوبا أميركا,Seattle,United States,الولايات المتحدة الأمريكية,FALSE,16,6,2016,1,-1,3,3773,0,0,United_States,Ecuador,6,1,0.4482,0.70906,12,winner,loser
 19/06/2016,France,Switzerland,فرنسا,سويسرا,0,0,UEFA Euro, كأس أمم أوروبا,Villeneuve-d'Ascq,France,فرنسا,FALSE,19,6,2016,0,0,0,3774,0,0,France,Switzerland,6,0,0.45085,0.33693,12,draw,draw
 21/06/2016,Croatia,Spain,كرواتيا,إسبانيا,2,1,UEFA Euro, كأس أمم أوروبا,Bordeaux,France,فرنسا,TRUE,21,6,2016,1,-1,3,3775,0,1,Croatia,Spain,6,1,0.72451,0.14798,12,winner,loser
-21/06/2016,United States,Argentina,الولايات المتحدة الأمريكية,الأرجنتين,0,4,Copa Am√©rica,كوبا أميركا,Houston,United States,الولايات المتحدة الأمريكية,FALSE,21,6,2016,-4,4,4,3776,0,1,United_States,Argentina,6,4,0.66852,0.48479,12,loser,winner
+21/06/2016,United States,Argentina,الولايات المتحدة الأمريكية,الأرجنتين,0,4,Copa America,كوبا أميركا,Houston,United States,الولايات المتحدة الأمريكية,FALSE,21,6,2016,-4,4,4,3776,0,1,United_States,Argentina,6,4,0.66852,0.48479,12,loser,winner
 25/06/2016,Croatia,Portugal,كرواتيا,البرتغال,0,1,UEFA Euro, كأس أمم أوروبا,Lens,France,فرنسا,TRUE,25,6,2016,-1,1,1,3777,0,1,Croatia,Portugal,6,1,0.4299,0.49634,12,loser,winner
 25/06/2016,Switzerland,Poland,سويسرا,بولندا,1,1,UEFA Euro, كأس أمم أوروبا,Saint-√âtienne,France,فرنسا,TRUE,25,6,2016,0,0,2,3778,0,0,Switzerland,Poland,6,0,0.24602,0.2523,12,draw,draw
 30/06/2016,Poland,Portugal,بولندا,البرتغال,1,1,UEFA Euro, كأس أمم أوروبا,Marseille,France,فرنسا,TRUE,30,6,2016,0,0,2,3779,0,1,Poland,Portugal,6,0,0.04175,0.00879,12,draw,draw
@@ -3993,14 +3993,14 @@
 09/06/2019,Portugal,Netherlands,البرتغال,هولندا,1,0,UEFA Nations League, دوري الأمم الأوروبية,Porto,Portugal,البرتغال,FALSE,9,6,2019,1,-1,1,3992,1,1,Portugal,Netherlands,9,1,0.71614,0.02064,12,winner,loser
 11/06/2019,Croatia,Tunisia,كرواتيا,تونس,1,2,Friendly,مبارة ودية,Vara≈ædin,Croatia,كرواتيا,FALSE,11,6,2019,-1,1,3,3993,0,1,Croatia,Tunisia,9,1,0.61077,0.37348,12,loser,winner
 11/06/2019,South Korea,Iran,كوريا الجنوبية,إيران,1,1,Friendly,مبارة ودية,Seoul,South Korea,كوريا الجنوبية,FALSE,11,6,2019,0,0,2,3994,0,1,South_Korea,Iran,9,0,0.35287,0.89986,12,draw,draw
-16/06/2019,Uruguay,Ecuador,أوروغواي,الاكوادور,4,0,Copa Am√©rica,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,TRUE,16,6,2019,4,-4,4,3995,1,0,Uruguay,Ecuador,9,4,0.84794,0.35786,12,winner,loser
+16/06/2019,Uruguay,Ecuador,أوروغواي,الاكوادور,4,0,Copa America,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,TRUE,16,6,2019,4,-4,4,3995,1,0,Uruguay,Ecuador,9,4,0.84794,0.35786,12,winner,loser
 19/06/2019,Mexico,Canada,المكسيك,كندا,3,1,Gold Cup,الكأس الذهبية,Denver,United States,الولايات المتحدة الأمريكية,TRUE,19,6,2019,2,-2,4,3996,1,0,Mexico,Canada,9,2,0.84783,0.5863,12,winner,loser
-20/06/2019,Uruguay,Japan,أوروغواي,اليابان,2,2,Copa Am√©rica,كوبا أميركا,Porto Alegre,Brazil,البرازيل,TRUE,20,6,2019,0,0,4,3997,1,0,Uruguay,Japan,9,0,0.56294,0.76289,12,draw,draw
-23/06/2019,Qatar,Argentina,قطر,الأرجنتين,0,2,Copa Am√©rica,كوبا أميركا,Porto Alegre,Brazil,البرازيل,TRUE,23,6,2019,-2,2,2,3998,0,1,Qatar,Argentina,9,2,0.08706,0.77128,12,loser,winner
-24/06/2019,Ecuador,Japan,الاكوادور,اليابان,1,1,Copa Am√©rica,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,TRUE,24,6,2019,0,0,2,3999,0,0,Ecuador,Japan,9,0,0.64468,0.20045,12,draw,draw
+20/06/2019,Uruguay,Japan,أوروغواي,اليابان,2,2,Copa America,كوبا أميركا,Porto Alegre,Brazil,البرازيل,TRUE,20,6,2019,0,0,4,3997,1,0,Uruguay,Japan,9,0,0.56294,0.76289,12,draw,draw
+23/06/2019,Qatar,Argentina,قطر,الأرجنتين,0,2,Copa America,كوبا أميركا,Porto Alegre,Brazil,البرازيل,TRUE,23,6,2019,-2,2,2,3998,0,1,Qatar,Argentina,9,2,0.08706,0.77128,12,loser,winner
+24/06/2019,Ecuador,Japan,الاكوادور,اليابان,1,1,Copa America,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,TRUE,24,6,2019,0,0,2,3999,0,0,Ecuador,Japan,9,0,0.64468,0.20045,12,draw,draw
 29/06/2019,Cameroon,Ghana,الكاميرون,غانا,0,0,African Cup of Nations, كأس أمم أفريقيا,Ismaila,Egypt,مصر,TRUE,29,6,2019,0,0,0,4000,1,0,Cameroon,Ghana,9,0,0.96207,0.7105,12,draw,draw
 29/06/2019,Mexico,Costa Rica,المكسيك,كوستا ريكا,1,1,Gold Cup,الكأس الذهبية,Houston,United States,الولايات المتحدة الأمريكية,TRUE,29,6,2019,0,0,2,4001,1,1,Mexico,Costa_Rica,9,0,0.66057,0.26419,12,draw,draw
-02/07/2019,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa Am√©rica,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,FALSE,2,7,2019,2,-2,2,4002,0,1,Brazil,Argentina,9,2,0.5422,0.44434,12,winner,loser
+02/07/2019,Brazil,Argentina,البرازيل,الأرجنتين,2,0,Copa America,كوبا أميركا,Belo Horizonte,Brazil,البرازيل,FALSE,2,7,2019,2,-2,2,4002,0,1,Brazil,Argentina,9,2,0.5422,0.44434,12,winner,loser
 07/07/2019,United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,0,1,Gold Cup,الكأس الذهبية,Chicago,United States,الولايات المتحدة الأمريكية,FALSE,7,7,2019,-1,1,1,4003,0,1,United_States,Mexico,9,1,0.55793,0.92868,12,loser,winner
 08/07/2019,Ghana,Tunisia,غانا,تونس,1,1,African Cup of Nations, كأس أمم أفريقيا,Ismaila,Egypt,مصر,TRUE,8,7,2019,0,0,2,4004,0,1,Ghana,Tunisia,9,0,0.0269,0.50889,12,draw,draw
 14/07/2019,Senegal,Tunisia,السنغال,تونس,1,0,African Cup of Nations, كأس أمم أفريقيا,Cairo,Egypt,مصر,TRUE,14,7,2019,1,-1,1,4005,0,1,Senegal,Tunisia,9,1,0.60443,0.21573,12,winner,loser
@@ -4082,20 +4082,20 @@
 13/06/2021,England,Croatia,إنجلترا,كرواتيا,1,0,UEFA Euro, كأس أمم أوروبا,London,England,إنجلترا,FALSE,13,6,2021,1,-1,1,4081,1,0,England,Croatia,1,1,0.39718,0.71817,13,winner,loser
 15/06/2021,Germany,France,ألمانيا,فرنسا,0,1,UEFA Euro, كأس أمم أوروبا,Munich,Germany,ألمانيا,FALSE,15,6,2021,-1,1,1,4082,1,0,Germany,France,1,1,0.64605,0.41983,13,loser,winner
 17/06/2021,Denmark,Belgium,الدنمارك,بلجيكا,1,2,UEFA Euro, كأس أمم أوروبا,Copenhagen,Denmark,الدنمارك,FALSE,17,6,2021,-1,1,3,4083,1,1,Denmark,Belgium,1,1,0.82239,0.83981,13,loser,winner
-18/06/2021,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa Am√©rica,كوبا أميركا,Bras√≠lia,Brazil,البرازيل,TRUE,18,6,2021,1,-1,1,4084,1,1,Argentina,Uruguay,1,1,0.72327,0.05317,13,winner,loser
+18/06/2021,Argentina,Uruguay,الأرجنتين,أوروغواي,1,0,Copa America,كوبا أميركا,Bras√≠lia,Brazil,البرازيل,TRUE,18,6,2021,1,-1,1,4084,1,1,Argentina,Uruguay,1,1,0.72327,0.05317,13,winner,loser
 19/06/2021,Spain,Poland,إسبانيا,بولندا,1,1,UEFA Euro, كأس أمم أوروبا,Seville,Spain,إسبانيا,FALSE,19,6,2021,0,0,2,4085,1,0,Spain,Poland,1,0,0.66043,0.53774,13,draw,draw
 19/06/2021,Germany,Portugal,ألمانيا,البرتغال,4,2,UEFA Euro, كأس أمم أوروبا,Munich,Germany,ألمانيا,FALSE,19,6,2021,2,-2,6,4086,1,1,Germany,Portugal,1,2,0.46905,0.32708,13,winner,loser
 23/06/2021,Portugal,France,البرتغال,فرنسا,2,2,UEFA Euro, كأس أمم أوروبا,Budapest,Hungary,هنغاريا,TRUE,23,6,2021,0,0,4,4087,1,0,Portugal,France,1,0,0.34905,0.971,13,draw,draw
 26/06/2021,Wales,Denmark,ويلز,الدنمارك,0,4,UEFA Euro, كأس أمم أوروبا,Amsterdam,Netherlands,هولندا,TRUE,26,6,2021,-4,4,4,4088,0,1,Wales,Denmark,1,4,0.36485,0.87609,13,loser,winner
 27/06/2021,Belgium,Portugal,بلجيكا,البرتغال,1,0,UEFA Euro, كأس أمم أوروبا,Seville,Spain,إسبانيا,TRUE,27,6,2021,1,-1,1,4089,1,1,Belgium,Portugal,1,1,0.32358,0.65323,13,winner,loser
-27/06/2021,Brazil,Ecuador,البرازيل,الاكوادور,1,1,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,FALSE,27,6,2021,0,0,2,4090,0,0,Brazil,Ecuador,1,0,0.97469,0.95078,13,draw,draw
+27/06/2021,Brazil,Ecuador,البرازيل,الاكوادور,1,1,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,FALSE,27,6,2021,0,0,2,4090,0,0,Brazil,Ecuador,1,0,0.97469,0.95078,13,draw,draw
 28/06/2021,Croatia,Spain,كرواتيا,إسبانيا,3,5,UEFA Euro, كأس أمم أوروبا,Copenhagen,Denmark,الدنمارك,TRUE,28,6,2021,-2,2,8,4091,0,1,Croatia,Spain,1,2,0.94374,0.41407,13,loser,winner
 28/06/2021,France,Switzerland,فرنسا,سويسرا,3,3,UEFA Euro, كأس أمم أوروبا,Bucharest,Romania,رومانيا,TRUE,28,6,2021,0,0,6,4092,0,0,France,Switzerland,1,0,0.81012,0.88746,13,draw,draw
 29/06/2021,England,Germany,إنجلترا,ألمانيا,2,0,UEFA Euro, كأس أمم أوروبا,London,England,إنجلترا,FALSE,29,6,2021,2,-2,2,4093,1,1,England,Germany,1,2,0.89448,0.84159,13,winner,loser
 02/07/2021,Switzerland,Spain,سويسرا,إسبانيا,1,1,UEFA Euro, كأس أمم أوروبا,Saint Petersburg,Russia,روسيا,TRUE,2,7,2021,0,0,2,4094,0,1,Switzerland,Spain,1,0,0.35544,0.38393,13,draw,draw
-03/07/2021,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa Am√©rica,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,3,7,2021,3,-3,3,4095,1,0,Argentina,Ecuador,1,3,0.63115,0.48733,13,winner,loser
+03/07/2021,Argentina,Ecuador,الأرجنتين,الاكوادور,3,0,Copa America,كوبا أميركا,Goi√¢nia,Brazil,البرازيل,TRUE,3,7,2021,3,-3,3,4095,1,0,Argentina,Ecuador,1,3,0.63115,0.48733,13,winner,loser
 07/07/2021,England,Denmark,إنجلترا,الدنمارك,2,1,UEFA Euro, كأس أمم أوروبا,London,England,إنجلترا,FALSE,7,7,2021,1,-1,3,4096,1,1,England,Denmark,1,1,0.99982,0.5467,13,winner,loser
-10/07/2021,Brazil,Argentina,البرازيل,الأرجنتين,0,1,Copa Am√©rica,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,10,7,2021,-1,1,1,4097,0,1,Brazil,Argentina,1,1,0.19526,0.53676,13,loser,winner
+10/07/2021,Brazil,Argentina,البرازيل,الأرجنتين,0,1,Copa America,كوبا أميركا,Rio de Janeiro,Brazil,البرازيل,FALSE,10,7,2021,-1,1,1,4097,0,1,Brazil,Argentina,1,1,0.19526,0.53676,13,loser,winner
 18/07/2021,United States,Canada,الولايات المتحدة الأمريكية,كندا,1,0,Gold Cup,الكأس الذهبية,Kansas City,United States,الولايات المتحدة الأمريكية,FALSE,18,7,2021,1,-1,1,4098,0,0,United_States,Canada,1,1,0.99662,0.51388,13,winner,loser
 25/07/2021,Costa Rica,Canada,كوستا ريكا,كندا,0,2,Gold Cup,الكأس الذهبية,Arlington,United States,الولايات المتحدة الأمريكية,TRUE,25,7,2021,-2,2,2,4099,1,0,Costa_Rica,Canada,1,2,0.89352,0.68084,13,loser,winner
 29/07/2021,Mexico,Canada,المكسيك,كندا,2,1,Gold Cup,الكأس الذهبية,Houston,United States,الولايات المتحدة الأمريكية,TRUE,29,7,2021,1,-1,3,4100,1,0,Mexico,Canada,1,1,0.12207,0.81254,13,winner,loser
@@ -4173,7 +4173,7 @@
 27/09/2022,Canada,Uruguay,كندا,أوروغواي,0,2,Friendly,مبارة ودية,NA,Slovakia,سلوفاكيا,FALSE,27,9,2022,-2,2,2,4172,0,1,Canada,Uruguay,2,2,0.35476,0.1302,13,loser,winner
 27/09/2022,Saudi Arabia,United States,المملكة العربية السعودية,الولايات المتحدة الأمريكية,0,0,Friendly,مبارة ودية,NA,Spain,إسبانيا,FALSE,27,9,2022,0,0,0,4173,1,0,Saudi_Arabia,United_States,2,0,0.11843,0.79355,13,draw,draw
 27/09/2022,South Korea,Cameroon,كوريا الجنوبية,الكاميرون,1,0,Friendly,مبارة ودية,NA,South Korea,كوريا الجنوبية,FALSE,27,9,2022,1,-1,1,4174,0,1,South_Korea,Cameroon,2,1,0.73299,0.8526,13,winner,loser
-27/09/2022,Japan,Ecuador,اليابان,الاكوادور,0,0,Copa Am√©rica,كوبا أميركا,NA,Brazil,البرازيل,FALSE,27,9,2022,0,0,0,4175,0,0,Japan,Ecuador,2,0,0.54576,0.2796,13,draw,draw
+27/09/2022,Japan,Ecuador,اليابان,الاكوادور,0,0,Copa America,كوبا أميركا,NA,Brazil,البرازيل,FALSE,27,9,2022,0,0,0,4175,0,0,Japan,Ecuador,2,0,0.54576,0.2796,13,draw,draw
 27/09/2022,Senegal,Iran,السنغال ,إيران,1,1,Friendly,مبارة ودية,NA,Austria,النمسا,FALSE,27,9,2022,0,0,2,4176,0,1,Senegal,Iran,2,0,0.33367,0.94873,13,draw,draw
 23/09/2022,Iran,Uruguay,إيران,أوروغواي,1,0,Friendly,مبارة ودية,NA,Austria,النمسا,FALSE,23,9,2022,1,-1,1,4177,1,1,Iran,Uruguay,2,1,0.48409,0.89574,13,winner,loser
 23/09/2022,Canada,Qatar,كندا,قطر,2,0,Friendly,مبارة ودية,NA,Austria,النمسا,FALSE,23,9,2022,2,-2,2,4178,0,0,Canada,Qatar,2,2,0.74536,0.11743,13,winner,loser
