@@ -748,20 +748,28 @@ function dataviz() {
 
             d3.select(this)
                 .append("text")
-                .attr("y", -10)
+                .attr("y", -20)
                 .style("fill", "grey")
                 .style("font-size", "26px")
                 .style("font-weight", "400")
                 .style("opacity", 1)
-                .text("The two selected teams");
+                .text("The selected teams have not");
             d3.select(this)
                 .append("text")
-                .attr("y", 20)
+                .attr("y", 10)
                 .style("fill", "grey")
                 .style("font-size", "26px")
                 .style("font-weight", "400")
                 .style("opacity", 1)
-                .text("didn't play against each other.");
+                .text("played against one another");
+            d3.select(this)
+                .append("text")
+                .attr("y", 40)
+                .style("fill", "grey")
+                .style("font-size", "26px")
+                .style("font-weight", "400")
+                .style("opacity", 1)
+                .text("in the past");
         });
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
