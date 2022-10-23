@@ -727,6 +727,7 @@ function dataviz() {
         .style("font-size", "18px")
         .style("text-align", "center")
         .style("text-anchor", "middle")
+        .style("direction", "rtl")
         .style("fill", "pink")
         .style("opacity", 0)
         .each(function (d, i) {
@@ -760,6 +761,23 @@ function dataviz() {
                 .attr("height", "150px")
                 .style("opacity", 1)
                 .attr("href", "");
+
+            d3.select(this)
+                .append("text")
+                .attr("y", -10)
+                .style("fill", "grey")
+                .style("font-size", "26px")
+                .style("font-weight", "400")
+                .style("opacity", 1)
+                .text("لم يلعب الفريقان المختاران");
+            d3.select(this)
+                .append("text")
+                .attr("y", 20)
+                .style("fill", "grey")
+                .style("font-size", "26px")
+                .style("font-weight", "400")
+                .style("opacity", 1)
+                .text("ضد بعضهما البعض.");
         });
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1309,66 +1327,69 @@ function dataviz() {
     function teams_stats_show(team_x, team_y) {
         // team text groups
         let team_summary = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y)[0];
+        let is_team_summary = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y).length;
 
-        console.log(team_summary);
+        // console.log(team_summary);
 
-        if (team_summary.length < 1) {
+        if (is_team_summary == 0) {
             stats_text.style("opacity", 0);
+            default_text.style("opacity", 1);
         } else {
             stats_text.style("opacity", 1);
+            default_text.style("opacity", 0);
+
+            d3.select("#id-team-stats-a").text(`${team_summary.team_a_ar}`); // Arabic goes here
+            d3.select("#id-team-stats-b").text(`${team_summary.team_b_ar}`); // Arabic goes here
+
+            // "#32A2EF", "#EB7716
+
+            d3.select("#id-wins-a")
+                .text(`${team_summary.winner} فوز`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+
+            d3.select("#id-wins-b")
+                .text(`${team_summary.loser} فوز`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+
+            d3.select("#t-stats-matches").text(`${team_summary.matches} مباراة`);
+
+            // stats rect and lines
+            d3.select("#rect-stats-wins")
+                .attr("width", `${team_summary.winning_perc * 1.6}`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+
+            d3.select("#rect-stats-draw")
+                .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
+                .attr("width", `${team_summary.draw_perc * 1.6}`);
+
+            d3.select("#rect-stats-losses")
+                .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
+                .attr("width", `${team_summary.losing_perc * 1.6}`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+
+            d3.select("#sep-stats-line1")
+                .attr("x1", `${-80 + team_summary.winning_perc * 1.6}`)
+                .attr("x2", `${-80 + team_summary.winning_perc * 1.6}`)
+                .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+
+            d3.select("#sep-stats-txt1")
+                .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
+                .text(`${team_summary.winning_perc}%`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+
+            d3.select("#sep-stats-line2")
+                .attr("x1", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
+                .attr("x2", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
+                .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+            d3.select("#sep-stats-txt2")
+                .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
+                .text(`${team_summary.losing_perc}%`)
+                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+
+            // flags
+            d3.select("#stats-team-a-flag").attr("href", `flags/${team_x}.jpg`);
+            d3.select("#stats-team-b-flag").attr("href", `flags/${team_y}.jpg`);
         }
-
-        d3.select("#id-team-stats-a").text(`${team_summary.team_a_ar}`); // Arabic goes here
-        d3.select("#id-team-stats-b").text(`${team_summary.team_b_ar}`); // Arabic goes here
-
-        // "#32A2EF", "#EB7716
-
-        d3.select("#id-wins-a")
-            .text(`${team_summary.winner} فوز`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
-
-        d3.select("#id-wins-b")
-            .text(`${team_summary.loser} فوز`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
-
-        d3.select("#t-stats-matches").text(`${team_summary.matches} مباراة`);
-
-        // stats rect and lines
-        d3.select("#rect-stats-wins")
-            .attr("width", `${team_summary.winning_perc * 1.6}`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
-
-        d3.select("#rect-stats-draw")
-            .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
-            .attr("width", `${team_summary.draw_perc * 1.6}`);
-
-        d3.select("#rect-stats-losses")
-            .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-            .attr("width", `${team_summary.losing_perc * 1.6}`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
-
-        d3.select("#sep-stats-line1")
-            .attr("x1", `${-80 + team_summary.winning_perc * 1.6}`)
-            .attr("x2", `${-80 + team_summary.winning_perc * 1.6}`)
-            .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
-
-        d3.select("#sep-stats-txt1")
-            .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
-            .text(`${team_summary.winning_perc}%`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
-
-        d3.select("#sep-stats-line2")
-            .attr("x1", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-            .attr("x2", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-            .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
-        d3.select("#sep-stats-txt2")
-            .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-            .text(`${team_summary.losing_perc}%`)
-            .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
-
-        // flags
-        d3.select("#stats-team-a-flag").attr("href", `flags/${team_x}.jpg`);
-        d3.select("#stats-team-b-flag").attr("href", `flags/${team_y}.jpg`);
     }
     teams_stats_show("England", "Brazil");
 
