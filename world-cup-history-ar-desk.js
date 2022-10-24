@@ -146,7 +146,7 @@ function dataviz() {
     const color_scale = d3
         .scaleOrdinal()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range(["#B3EEFF", "#7CDAFF", "#47C6FF", "#32A2EF", "url(#gradient-3)", "url(#gradient-2)", "url(#gradient-1)"]);
+        .range(["#B3EEFF", "#7CDAFF", "#47C6FF", "#32A2EF", "#A8603D", "#ADADAD", "#FFBA00"]);
     // .range(["#a1a1a1", "#a36880", "#99365d", "#87a16d", "#628045", "#466b9c", "#003470"]);
 
     const color_scale_txt = d3
