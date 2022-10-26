@@ -1742,7 +1742,7 @@
 12/07/1985,Saudi Arabia,Qatar,المملكة العربية السعودية,قطر,0,0,Arab Cup, كأس العرب,Taif,Saudi Arabia,المملكة العربية السعودية,FALSE,12,7,1985,0,0,0,1741,1,0,Saudi_Arabia,Qatar,5,0,0.88994,0.50866,9,draw,draw
 28/07/1985,Tunisia,Saudi Arabia,تونس,المملكة العربية السعودية,1,0,Friendly,مبارة ودية,Tunis,Tunisia,تونس,FALSE,28,7,1985,1,-1,1,1742,1,1,Tunisia,Saudi_Arabia,5,1,0.32368,0.72241,9,winner,loser
 17/08/1985,Canada,Costa Rica,كندا,كوستا ريكا,1,1,CONCACAF Championship, بطولة الكونكاكاف,Toronto,Canada,كندا,FALSE,17,8,1985,0,0,2,1743,0,1,Canada,Costa_Rica,5,0,0.54485,0.10767,9,draw,draw
-21/08/1985,France,Uruguay,فرنسا,أوروغواي,2,0,CONMEBOL‚ÄìUEFA Cup of Champions, كأس الأبطال,Paris,France,فرنسا,FALSE,21,8,1985,2,-2,2,1744,0,1,France,Uruguay,5,2,0.88881,0.70928,9,winner,loser
+21/08/1985,France,Uruguay,فرنسا,أوروغواي,2,0,CONMEBOL-UEFA Cup of Champions, كأس الأبطال,Paris,France,فرنسا,FALSE,21,8,1985,2,-2,2,1744,0,1,France,Uruguay,5,2,0.88881,0.70928,9,winner,loser
 01/09/1985,Costa Rica,Canada,كوستا ريكا,كندا,0,0,CONCACAF Championship, بطولة الكونكاكاف,San Jos√©,Costa Rica,كوستا ريكا,FALSE,1,9,1985,0,0,0,1745,1,0,Costa_Rica,Canada,5,0,0.75541,0.12855,9,draw,draw
 11/09/1985,Poland,Belgium,بولندا,بلجيكا,0,0,FIFA World Cup qualification,تصفيات كأس العالم,Chorz√≥w,Poland,بولندا,FALSE,11,9,1985,0,0,0,1746,0,1,Poland,Belgium,5,0,0.66167,0.1323,9,draw,draw
 15/09/1985,Cameroon,Saudi Arabia,الكاميرون,المملكة العربية السعودية,4,1,Friendly,مبارة ودية,Yaound√©,Cameroon,الكاميرون,FALSE,15,9,1985,3,-3,5,1747,1,1,Cameroon,Saudi_Arabia,5,3,0.97306,0.78936,9,winner,loser
@@ -2105,7 +2105,7 @@
 27/01/1993,Spain,Mexico,إسبانيا,المكسيك,1,1,Friendly,مبارة ودية,Las Palmas,Spain,إسبانيا,FALSE,27,1,1993,0,0,2,2104,1,1,Spain,Mexico,3,0,0.288,0.39425,10,draw,draw
 30/01/1993,United States,Denmark,الولايات المتحدة الأمريكية,الدنمارك,2,2,Friendly,مبارة ودية,Tempe,United States,الولايات المتحدة الأمريكية,FALSE,30,1,1993,0,0,4,2105,0,1,United_States,Denmark,3,0,0.19708,0.58287,10,draw,draw
 18/02/1993,Argentina,Brazil,الأرجنتين,البرازيل,1,1,Friendly,مبارة ودية,Buenos Aires,Argentina,الأرجنتين,FALSE,18,2,1993,0,0,2,2106,1,0,Argentina,Brazil,3,0,0.04195,0.92681,10,draw,draw
-24/02/1993,Argentina,Denmark,الأرجنتين,الدنمارك,1,1,CONMEBOL‚ÄìUEFA Cup of Champions, كأس الأبطال,Mar del Plata,Argentina,الأرجنتين,FALSE,24,2,1993,0,0,2,2107,1,1,Argentina,Denmark,3,0,0.49235,0.31777,10,draw,draw
+24/02/1993,Argentina,Denmark,الأرجنتين,الدنمارك,1,1,CONMEBOL-UEFA Cup of Champions, كأس الأبطال,Mar del Plata,Argentina,الأرجنتين,FALSE,24,2,1993,0,0,2,2107,1,1,Argentina,Denmark,3,0,0.49235,0.31777,10,draw,draw
 28/02/1993,Morocco,Tunisia,المغرب,تونس,0,0,FIFA World Cup qualification,تصفيات كأس العالم,Casablanca,Morocco,المغرب,FALSE,28,2,1993,0,0,0,2108,0,1,Morocco,Tunisia,3,0,0.50994,0.63357,10,draw,draw
 09/03/1993,Canada,South Korea,كندا,كوريا الجنوبية,0,2,Friendly,مبارة ودية,Coquitlam,Canada,كندا,FALSE,9,3,1993,-2,2,2,2109,0,0,Canada,South_Korea,3,2,0.34237,0.24065,10,loser,winner
 11/03/1993,Canada,South Korea,كندا,كوريا الجنوبية,2,0,Friendly,مبارة ودية,Victoria,Canada,كندا,FALSE,11,3,1993,2,-2,2,2110,0,0,Canada,South_Korea,3,2,0.89915,0.56573,10,winner,loser
