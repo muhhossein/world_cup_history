@@ -67,7 +67,7 @@
                 color: grey;
             }
 
-            #vizboard-desktop {
+            #vizboard-hist-d-en {
                 display: inline-block;
                 position: relative;
                 margin: 10px auto;
@@ -75,34 +75,15 @@
                 width: 100%;
             }
 
-            .svg-vizboard {
-                display: inline-block;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-
-            .axis line,
-            .axis path {
-                stroke: grey;
-                opacity: 0.4;
-                shape-rendering: crispEdges;
-            }
-
-            .axis text {
-                fill: grey;
-                font-size: 7px;
-                opacity: 0.5;
-            }
             /* ----------------------------------------------------- */
-            .custom-select {
+            .custom-select-d {
                 display: inline-block;
                 position: relative;
                 font-size: 30px;
                 line-height: 8px;
             }
 
-            .custom-select select {
+            .custom-select-d select {
                 display: none; /*hide original SELECT element: */
             }
 
@@ -229,9 +210,8 @@
 
     <body>
         <div class="team-select">
-            <!-- <p>Team A</p> -->
-            <div class="custom-select team-a-select" style="width: 240px">
-                <select name="Team A" id="team-a">
+            <div id="custom-select-d" class="custom-select-d" style="width: 240px">
+                <select name="Team" id="team-d">
                     <option value="_">Team A</option>
                     <option value="Argentina">Argentina</option>
                     <option value="Australia">Australia</option>
@@ -269,7 +249,7 @@
             </div>
         </div>
         <h1 class="title-comp">Past performance at the World Cup (1930-2018)</h1>
-        <div id="vizboard-desktop"></div>
+        <div id="vizboard-hist-d-en"></div>
 
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
@@ -278,63 +258,7 @@
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
-
+        <script type="text/javascript" src="world-cup-data-en.js"></script>
         <script type="text/javascript" src="world-cup-history-en-desk.js"></script>
-        <!--Chartbeat AJE header -->
-        <script type="text/javascript">
-            var _sf_startpt = new Date().getTime();
-        </script>
-
-        <!--GOOGLE ANALYTICS AJE -->
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i["GoogleAnalyticsObject"] = r;
-                (i[r] =
-                    i[r] ||
-                    function () {
-                        (i[r].q = i[r].q || []).push(arguments);
-                    }),
-                    (i[r].l = 1 * new Date());
-                (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m);
-            })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
-            ga("create", "UA-1615344-7", { allowAnchor: true });
-            ga("send", "pageview", {
-                page: location.pathname + location.search + location.hash,
-            });
-        </script>
-
-        <!--CHARTBEAT AJE -->
-        <script type="text/javascript">
-            var _sf_async_config = {};
-            /** CONFIGURATION START **/
-            _sf_async_config.uid = 3291;
-            _sf_async_config.domain = "aljazeera.com";
-            _sf_async_config.useCanonical = true;
-            _sf_async_config.sections = "AJ Labs";
-            _sf_async_config.authors = "AJ Labs";
-            _sf_async_config.title = "Visualising the FIFA Arab Cup 2021";
-            /** CONFIGURATION END **/
-            (function () {
-                function loadChartbeat() {
-                    window._sf_endpt = new Date().getTime();
-                    var e = document.createElement("script");
-                    e.setAttribute("language", "javascript");
-                    e.setAttribute("type", "text/javascript");
-                    e.setAttribute("src", "//static.chartbeat.com/js/chartbeat.js");
-                    document.body.appendChild(e);
-                }
-                var oldonload = window.onload;
-                window.onload =
-                    typeof window.onload != "function"
-                        ? loadChartbeat
-                        : function () {
-                              oldonload();
-                              loadChartbeat();
-                          };
-            })();
-        </script>
     </body>
 </html>

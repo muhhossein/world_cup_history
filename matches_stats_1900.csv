@@ -20,13 +20,13 @@ Netherlands,Argentina,هولندا,الأرجنتين,4,1,4,9,44,11,44,Netherlan
 Poland,Argentina,بولندا,الأرجنتين,2,6,3,11,27,55,18,Poland,Argentina
 Portugal,Argentina,البرتغال,الأرجنتين,1,5,2,8,25,62,12,Portugal,Argentina
 Qatar,Argentina,قطر,الأرجنتين,0,2,0,2,0,100,0,Qatar,Argentina
-Saudi Arabia,Argentina,المملكة العربية السعودية,الأرجنتين,2,2,0,4,0,50,50,Saudi_Arabia,Argentina
+Saudi Arabia,Argentina,السعودية,الأرجنتين,2,2,0,4,0,50,50,Saudi_Arabia,Argentina
 Serbia,Argentina,صربيا,الأرجنتين,0,3,1,4,25,75,0,Serbia,Argentina
 South Korea,Argentina,كوريا الجنوبية,الأرجنتين,0,3,0,3,0,100,0,South_Korea,Argentina
 Spain,Argentina,إسبانيا,الأرجنتين,2,6,6,14,43,43,14,Spain,Argentina
 Switzerland,Argentina,سويسرا,الأرجنتين,2,5,0,7,0,71,29,Switzerland,Argentina
 Tunisia,Argentina,تونس,الأرجنتين,0,1,0,1,0,100,0,Tunisia,Argentina
-United States,Argentina,الولايات المتحدة الأمريكية,الأرجنتين,2,6,2,10,20,60,20,United_States,Argentina
+United States,Argentina,الولايات المتحدة ,الأرجنتين,2,6,2,10,20,60,20,United_States,Argentina
 Uruguay,Argentina,أوروغواي,الأرجنتين,43,84,52,179,29,47,24,Uruguay,Argentina
 Wales,Argentina,ويلز,الأرجنتين,1,1,0,2,0,50,50,Wales,Argentina
 Argentina,Australia,الأرجنتين,أستراليا,1,1,5,7,71,14,14,Argentina,Australia
@@ -49,13 +49,13 @@ Morocco,Australia,المغرب,أستراليا,0,1,0,1,0,100,0,Morocco,Australi
 Netherlands,Australia,هولندا,أستراليا,2,1,1,4,25,25,50,Netherlands,Australia
 Poland,Australia,بولندا,أستراليا,0,1,0,1,0,100,0,Poland,Australia
 Qatar,Australia,قطر,أستراليا,1,3,1,5,20,60,20,Qatar,Australia
-Saudi Arabia,Australia,المملكة العربية السعودية,أستراليا,3,5,2,10,20,50,30,Saudi_Arabia,Australia
+Saudi Arabia,Australia,السعودية,أستراليا,3,5,2,10,20,50,30,Saudi_Arabia,Australia
 Serbia,Australia,صربيا,أستراليا,1,1,0,2,0,50,50,Serbia,Australia
 South Korea,Australia,كوريا الجنوبية,أستراليا,11,9,8,28,29,32,39,South_Korea,Australia
 Spain,Australia,إسبانيا,أستراليا,0,0,1,1,100,0,0,Spain,Australia
 Switzerland,Australia,سويسرا,أستراليا,1,0,0,1,0,0,100,Switzerland,Australia
 Tunisia,Australia,تونس,أستراليا,0,0,1,1,100,0,0,Tunisia,Australia
-United States,Australia,الولايات المتحدة الأمريكية,أستراليا,1,1,1,3,33,33,33,United_States,Australia
+United States,Australia,الولايات المتحدة ,أستراليا,1,1,1,3,33,33,33,United_States,Australia
 Uruguay,Australia,أوروغواي,أستراليا,0,3,4,7,57,43,0,Uruguay,Australia
 Wales,Australia,ويلز,أستراليا,0,1,0,1,0,100,0,Wales,Australia
 Argentina,Belgium,الأرجنتين,بلجيكا,0,1,3,4,75,25,0,Argentina,Belgium
@@ -75,13 +75,13 @@ Netherlands,Belgium,هولندا,بلجيكا,31,40,55,126,44,32,25,Netherlands,
 Poland,Belgium,بولندا,بلجيكا,6,8,7,21,33,38,29,Poland,Belgium
 Portugal,Belgium,البرتغال,بلجيكا,7,6,6,19,32,32,37,Portugal,Belgium
 Qatar,Belgium,قطر,بلجيكا,0,1,0,1,0,100,0,Qatar,Belgium
-Saudi Arabia,Belgium,المملكة العربية السعودية,بلجيكا,0,2,1,3,33,67,0,Saudi_Arabia,Belgium
+Saudi Arabia,Belgium,السعودية,بلجيكا,0,2,1,3,33,67,0,Saudi_Arabia,Belgium
 Serbia,Belgium,صربيا,بلجيكا,1,3,2,6,33,50,17,Serbia,Belgium
 South Korea,Belgium,كوريا الجنوبية,بلجيكا,1,3,0,4,0,75,25,South_Korea,Belgium
 Spain,Belgium,إسبانيا,بلجيكا,6,4,11,21,52,19,29,Spain,Belgium
 Switzerland,Belgium,سويسرا,بلجيكا,6,15,9,30,30,50,20,Switzerland,Belgium
 Tunisia,Belgium,تونس,بلجيكا,1,2,1,4,25,50,25,Tunisia,Belgium
-United States,Belgium,الولايات المتحدة الأمريكية,بلجيكا,0,5,1,6,17,83,0,United_States,Belgium
+United States,Belgium,الولايات المتحدة ,بلجيكا,0,5,1,6,17,83,0,United_States,Belgium
 Uruguay,Belgium,أوروغواي,بلجيكا,0,2,0,2,0,100,0,Uruguay,Belgium
 Wales,Belgium,ويلز,بلجيكا,5,6,5,16,31,38,31,Wales,Belgium
 Argentina,Brazil,الأرجنتين,البرازيل,26,43,39,108,36,40,24,Argentina,Brazil
@@ -105,14 +105,14 @@ Netherlands,Brazil,هولندا,البرازيل,5,3,4,12,33,25,42,Netherlands,B
 Poland,Brazil,بولندا,البرازيل,2,9,1,12,8,75,17,Poland,Brazil
 Portugal,Brazil,البرتغال,البرازيل,3,14,4,21,19,67,14,Portugal,Brazil
 Qatar,Brazil,قطر,البرازيل,0,1,0,1,0,100,0,Qatar,Brazil
-Saudi Arabia,Brazil,المملكة العربية السعودية,البرازيل,0,5,0,5,0,100,0,Saudi_Arabia,Brazil
+Saudi Arabia,Brazil,السعودية,البرازيل,0,5,0,5,0,100,0,Saudi_Arabia,Brazil
 Senegal,Brazil,السنغال,البرازيل,1,0,0,1,0,0,100,Senegal,Brazil
 Serbia,Brazil,صربيا,البرازيل,1,4,0,5,0,80,20,Serbia,Brazil
 South Korea,Brazil,كوريا الجنوبية,البرازيل,0,6,1,7,14,86,0,South_Korea,Brazil
 Spain,Brazil,إسبانيا,البرازيل,2,5,2,9,22,56,22,Spain,Brazil
 Switzerland,Brazil,سويسرا,البرازيل,4,3,2,9,22,33,44,Switzerland,Brazil
 Tunisia,Brazil,تونس,البرازيل,0,2,0,2,0,100,0,Tunisia,Brazil
-United States,Brazil,الولايات المتحدة الأمريكية,البرازيل,0,17,1,18,6,94,0,United_States,Brazil
+United States,Brazil,الولايات المتحدة ,البرازيل,0,17,1,18,6,94,0,United_States,Brazil
 Uruguay,Brazil,أوروغواي,البرازيل,19,37,20,76,26,49,25,Uruguay,Brazil
 Wales,Brazil,ويلز,البرازيل,1,8,1,10,10,80,10,Wales,Brazil
 Argentina,Cameroon,الأرجنتين,الكاميرون,1,1,0,2,0,50,50,Argentina,Cameroon
@@ -133,12 +133,12 @@ Morocco,Cameroon,المغرب,الكاميرون,4,6,1,11,9,55,36,Morocco,Camero
 Netherlands,Cameroon,هولندا,الكاميرون,1,0,2,3,67,0,33,Netherlands,Cameroon
 Poland,Cameroon,بولندا,الكاميرون,2,1,0,3,0,33,67,Poland,Cameroon
 Portugal,Cameroon,البرتغال,الكاميرون,0,0,2,2,100,0,0,Portugal,Cameroon
-Saudi Arabia,Cameroon,المملكة العربية السعودية,الكاميرون,1,2,2,5,40,40,20,Saudi_Arabia,Cameroon
+Saudi Arabia,Cameroon,السعودية,الكاميرون,1,2,2,5,40,40,20,Saudi_Arabia,Cameroon
 Senegal,Cameroon,السنغال,الكاميرون,5,3,5,13,38,23,38,Senegal,Cameroon
 Serbia,Cameroon,صربيا,الكاميرون,0,0,1,1,100,0,0,Serbia,Cameroon
 South Korea,Cameroon,كوريا الجنوبية,الكاميرون,2,0,3,5,60,0,40,South_Korea,Cameroon
 Tunisia,Cameroon,تونس,الكاميرون,7,9,3,19,16,47,37,Tunisia,Cameroon
-United States,Cameroon,الولايات المتحدة الأمريكية,الكاميرون,1,0,0,1,0,0,100,United_States,Cameroon
+United States,Cameroon,الولايات المتحدة ,الكاميرون,1,0,0,1,0,0,100,United_States,Cameroon
 Argentina,Canada,الأرجنتين,كندا,0,0,1,1,100,0,0,Argentina,Canada
 Australia,Canada,أستراليا,كندا,1,3,5,9,56,33,11,Australia,Canada
 Belgium,Canada,بلجيكا,كندا,0,0,1,1,100,0,0,Belgium,Canada
@@ -158,12 +158,12 @@ Morocco,Canada,المغرب,كندا,1,0,2,3,67,0,33,Morocco,Canada
 Netherlands,Canada,هولندا,كندا,0,0,1,1,100,0,0,Netherlands,Canada
 Poland,Canada,بولندا,كندا,0,0,6,6,100,0,0,Poland,Canada
 Portugal,Canada,البرتغال,كندا,1,0,1,2,50,0,50,Portugal,Canada
-Qatar,Canada,المملكة العربية السعودية,كندا,0,1,0,1,0,100,0,Qatar,Canada
+Qatar,Canada,السعودية,كندا,0,1,0,1,0,100,0,Qatar,Canada
 Saudi Arabia,Canada,كوريا الجنوبية,كندا,0,0,1,1,100,0,0,Saudi_Arabia,Canada
 South Korea,Canada,إسبانيا,كندا,1,2,2,5,40,40,20,South_Korea,Canada
 Spain,Canada,سويسرا,كندا,0,0,2,2,100,0,0,Spain,Canada
 Switzerland,Canada,تونس,كندا,0,1,0,1,0,100,0,Switzerland,Canada
-Tunisia,Canada,الولايات المتحدة الأمريكية,كندا,0,0,1,1,100,0,0,Tunisia,Canada
+Tunisia,Canada,الولايات المتحدة ,كندا,0,0,1,1,100,0,0,Tunisia,Canada
 United States,Canada,أوروغواي,كندا,11,10,15,36,42,28,31,United_States,Canada
 Uruguay,Canada,ويلز,كندا,0,0,2,2,100,0,0,Uruguay,Canada
 Wales,Canada,قطر,كندا,0,1,2,3,67,33,0,Wales,Canada
@@ -183,13 +183,13 @@ Mexico,Costa Rica,المكسيك,كوستا ريكا,19,6,28,53,53,11,36,Mexico,
 Netherlands,Costa Rica,هولندا,كوستا ريكا,1,0,0,1,0,0,100,Netherlands,Costa_Rica
 Poland,Costa Rica,بولندا,كوستا ريكا,0,0,2,2,100,0,0,Poland,Costa_Rica
 Qatar,Costa Rica,قطر,كوستا ريكا,1,0,0,1,0,0,100,Qatar,Costa_Rica
-Saudi Arabia,Costa Rica,المملكة العربية السعودية,كوستا ريكا,0,3,1,4,25,75,0,Saudi_Arabia,Costa_Rica
+Saudi Arabia,Costa Rica,السعودية,كوستا ريكا,0,3,1,4,25,75,0,Saudi_Arabia,Costa_Rica
 Serbia,Costa Rica,صربيا,كوستا ريكا,0,0,1,1,100,0,0,Serbia,Costa_Rica
 South Korea,Costa Rica,كوريا الجنوبية,كوستا ريكا,3,3,4,10,40,30,30,South_Korea,Costa_Rica
 Spain,Costa Rica,إسبانيا,كوستا ريكا,1,0,2,3,67,0,33,Spain,Costa_Rica
 Switzerland,Costa Rica,سويسرا,كوستا ريكا,1,1,1,3,33,33,33,Switzerland,Costa_Rica
 Tunisia,Costa Rica,تونس,كوستا ريكا,0,0,1,1,100,0,0,Tunisia,Costa_Rica
-United States,Costa Rica,الولايات المتحدة الأمريكية,كوستا ريكا,6,16,19,41,46,39,15,United_States,Costa_Rica
+United States,Costa Rica,الولايات المتحدة ,كوستا ريكا,6,16,19,41,46,39,15,United_States,Costa_Rica
 Uruguay,Costa Rica,أوروغواي,كوستا ريكا,3,1,6,10,60,10,30,Uruguay,Costa_Rica
 Wales,Costa Rica,ويلز,كوستا ريكا,0,1,1,2,50,50,0,Wales,Costa_Rica
 Argentina,Croatia,الأرجنتين,كرواتيا,1,2,2,5,40,40,20,Argentina,Croatia
@@ -216,7 +216,7 @@ South Korea,Croatia,كوريا الجنوبية,كرواتيا,2,3,2,7,29,43,29,
 Spain,Croatia,إسبانيا,كرواتيا,1,3,5,9,56,33,11,Spain,Croatia
 Switzerland,Croatia,سويسرا,كرواتيا,2,3,2,7,29,43,29,Switzerland,Croatia
 Tunisia,Croatia,تونس,كرواتيا,0,0,1,1,100,0,0,Tunisia,Croatia
-United States,Croatia,الولايات المتحدة الأمريكية,كرواتيا,0,1,0,1,0,100,0,United_States,Croatia
+United States,Croatia,الولايات المتحدة ,كرواتيا,0,1,0,1,0,100,0,United_States,Croatia
 Wales,Croatia,ويلز,كرواتيا,2,4,0,6,0,67,33,Wales,Croatia
 Argentina,Denmark,الأرجنتين,الدنمارك,1,1,0,2,0,50,50,Argentina,Denmark
 Australia,Denmark,أستراليا,الدنمارك,1,2,1,4,25,50,25,Australia,Denmark
@@ -235,14 +235,14 @@ Mexico,Denmark,المكسيك,الدنمارك,2,2,1,5,20,40,40,Mexico,Denmark
 Netherlands,Denmark,هولندا,الدنمارك,10,8,13,31,42,26,32,Netherlands,Denmark
 Poland,Denmark,بولندا,الدنمارك,1,10,8,19,42,53,5,Poland,Denmark
 Portugal,Denmark,البرتغال,الدنمارك,2,3,10,15,67,20,13,Portugal,Denmark
-Saudi Arabia,Denmark,المملكة العربية السعودية,الدنمارك,0,3,0,3,0,100,0,Saudi_Arabia,Denmark
+Saudi Arabia,Denmark,السعودية,الدنمارك,0,3,0,3,0,100,0,Saudi_Arabia,Denmark
 Senegal,Denmark,السنغال,الدنمارك,1,2,0,3,0,67,33,Senegal,Denmark
 Serbia,Denmark,صربيا,الدنمارك,0,3,0,3,0,100,0,Serbia,Denmark
 South Korea,Denmark,كوريا الجنوبية,الدنمارك,1,0,0,1,0,0,100,South_Korea,Denmark
 Spain,Denmark,إسبانيا,الدنمارك,3,2,11,16,69,12,19,Spain,Denmark
 Switzerland,Denmark,سويسرا,الدنمارك,6,4,2,12,17,33,50,Switzerland,Denmark
 Tunisia,Denmark,تونس,الدنمارك,0,1,0,1,0,100,0,Tunisia,Denmark
-United States,Denmark,الولايات المتحدة الأمريكية,الدنمارك,1,2,0,3,0,67,33,United_States,Denmark
+United States,Denmark,الولايات المتحدة ,الدنمارك,1,2,0,3,0,67,33,United_States,Denmark
 Uruguay,Denmark,أوروغواي,الدنمارك,0,2,0,2,0,100,0,Uruguay,Denmark
 Wales,Denmark,ويلز,الدنمارك,0,7,4,11,36,64,0,Wales,Denmark
 Argentina,Ecuador,الأرجنتين,الاكوادور,11,5,21,37,57,14,30,Argentina,Ecuador
@@ -266,9 +266,9 @@ Senegal,Ecuador,صربيا,الاكوادور,0,0,2,2,100,0,0,Senegal,Ecuador
 Serbia,Ecuador,كوريا الجنوبية,الاكوادور,0,1,0,1,0,100,0,Serbia,Ecuador
 South Korea,Ecuador,إسبانيا,الاكوادور,0,1,1,2,50,50,0,South_Korea,Ecuador
 Spain,Ecuador,سويسرا,الاكوادور,0,0,2,2,100,0,0,Spain,Ecuador
-Switzerland,Ecuador,الولايات المتحدة الأمريكية,الاكوادور,0,0,1,1,100,0,0,Switzerland,Ecuador
+Switzerland,Ecuador,الولايات المتحدة ,الاكوادور,0,0,1,1,100,0,0,Switzerland,Ecuador
 United States,Ecuador,أوروغواي,الاكوادور,4,5,4,13,31,38,31,United_States,Ecuador
-Uruguay,Ecuador,المملكة العربية السعودية,الاكوادور,10,7,31,48,65,15,21,Uruguay,Ecuador
+Uruguay,Ecuador,السعودية,الاكوادور,10,7,31,48,65,15,21,Uruguay,Ecuador
 Argentina,England,الأرجنتين,إنجلترا,6,6,3,15,20,40,40,Argentina,England
 Australia,England,أستراليا,إنجلترا,2,4,1,7,14,57,29,Australia,England
 Belgium,England,بلجيكا,إنجلترا,5,17,4,26,15,65,19,Belgium,England
@@ -288,13 +288,13 @@ Morocco,England,المغرب,إنجلترا,1,1,0,2,0,50,50,Morocco,England
 Netherlands,England,هولندا,إنجلترا,9,6,7,22,32,27,41,Netherlands,England
 Poland,England,بولندا,إنجلترا,8,12,1,21,5,57,38,Poland,England
 Portugal,England,البرتغال,إنجلترا,10,10,3,23,13,43,43,Portugal,England
-Saudi Arabia,England,المملكة العربية السعودية,إنجلترا,2,0,0,2,0,0,100,Saudi_Arabia,England
+Saudi Arabia,England,السعودية,إنجلترا,2,0,0,2,0,0,100,Saudi_Arabia,England
 Serbia,England,صربيا,إنجلترا,0,1,0,1,0,100,0,Serbia,England
 South Korea,England,كوريا الجنوبية,إنجلترا,1,0,0,1,0,0,100,South_Korea,England
 Spain,England,إسبانيا,إنجلترا,4,13,10,27,37,48,15,Spain,England
 Switzerland,England,سويسرا,إنجلترا,6,19,4,29,14,66,21,Switzerland,England
 Tunisia,England,تونس,إنجلترا,1,2,0,3,0,67,33,Tunisia,England
-United States,England,الولايات المتحدة الأمريكية,إنجلترا,1,8,2,11,18,73,9,United_States,England
+United States,England,الولايات المتحدة ,إنجلترا,1,8,2,11,18,73,9,United_States,England
 Uruguay,England,أوروغواي,إنجلترا,3,3,5,11,45,27,27,Uruguay,England
 Wales,England,ويلز,إنجلترا,19,51,13,83,16,61,23,Wales,England
 Argentina,France,الأرجنتين,فرنسا,3,3,6,12,50,25,25,Argentina,France
@@ -316,14 +316,14 @@ Morocco,France,المغرب,فرنسا,2,3,0,5,0,60,40,Morocco,France
 Netherlands,France,هولندا,فرنسا,4,13,11,28,39,46,14,Netherlands,France
 Poland,France,بولندا,فرنسا,5,8,3,16,19,50,31,Poland,France
 Portugal,France,البرتغال,فرنسا,3,17,6,26,23,65,12,Portugal,France
-Saudi Arabia,France,المملكة العربية السعودية,فرنسا,0,1,0,1,0,100,0,Saudi_Arabia,France
+Saudi Arabia,France,السعودية,فرنسا,0,1,0,1,0,100,0,Saudi_Arabia,France
 Senegal,France,السنغال,فرنسا,0,0,1,1,100,0,0,Senegal,France
 Serbia,France,صربيا,فرنسا,2,4,0,6,0,67,33,Serbia,France
 South Korea,France,كوريا الجنوبية,فرنسا,1,2,0,3,0,67,33,South_Korea,France
 Spain,France,إسبانيا,فرنسا,7,13,16,36,44,36,19,Spain,France
 Switzerland,France,سويسرا,فرنسا,11,16,12,39,31,41,28,Switzerland,France
 Tunisia,France,تونس,فرنسا,2,2,0,4,0,50,50,Tunisia,France
-United States,France,الولايات المتحدة الأمريكية,فرنسا,1,3,0,4,0,75,25,United_States,France
+United States,France,الولايات المتحدة ,فرنسا,1,3,0,4,0,75,25,United_States,France
 Uruguay,France,أوروغواي,فرنسا,4,3,2,9,22,33,44,Uruguay,France
 Wales,France,ويلز,فرنسا,1,4,1,6,17,67,17,Wales,France
 Argentina,Germany,الأرجنتين,ألمانيا,6,7,10,23,43,30,26,Argentina,Germany
@@ -346,13 +346,13 @@ Morocco,Germany,المغرب,ألمانيا,0,4,0,4,0,100,0,Morocco,Germany
 Netherlands,Germany,هولندا,ألمانيا,17,16,12,45,27,36,38,Netherlands,Germany
 Poland,Germany,بولندا,ألمانيا,7,13,1,21,5,62,33,Poland,Germany
 Portugal,Germany,البرتغال,ألمانيا,5,11,3,19,16,58,26,Portugal,Germany
-Saudi Arabia,Germany,المملكة العربية السعودية,ألمانيا,0,3,0,3,0,100,0,Saudi_Arabia,Germany
+Saudi Arabia,Germany,السعودية,ألمانيا,0,3,0,3,0,100,0,Saudi_Arabia,Germany
 Serbia,Germany,صربيا,ألمانيا,2,2,1,5,20,40,40,Serbia,Germany
 South Korea,Germany,كوريا الجنوبية,ألمانيا,0,2,2,4,50,50,0,South_Korea,Germany
 Spain,Germany,إسبانيا,ألمانيا,8,9,8,25,32,36,32,Spain,Germany
 Switzerland,Germany,سويسرا,ألمانيا,8,35,9,52,17,67,15,Switzerland,Germany
 Tunisia,Germany,تونس,ألمانيا,2,1,0,3,0,33,67,Tunisia,Germany
-United States,Germany,الولايات المتحدة الأمريكية,ألمانيا,0,7,4,11,36,64,0,United_States,Germany
+United States,Germany,الولايات المتحدة ,ألمانيا,0,7,4,11,36,64,0,United_States,Germany
 Uruguay,Germany,أوروغواي,ألمانيا,2,8,0,10,0,80,20,Uruguay,Germany
 Wales,Germany,ويلز,ألمانيا,6,9,2,17,12,53,35,Wales,Germany
 Argentina,Ghana,الأرجنتين,غانا,0,0,1,1,100,0,0,Argentina,Ghana
@@ -370,12 +370,12 @@ Morocco,Ghana,المغرب,غانا,3,2,5,10,50,20,30,Morocco,Ghana
 Netherlands,Ghana,هولندا,غانا,1,0,2,3,67,0,33,Netherlands,Ghana
 Portugal,Ghana,البرتغال,غانا,0,0,1,1,100,0,0,Portugal,Ghana
 Qatar,Ghana,قطر,غانا,0,1,0,1,0,100,0,Qatar,Ghana
-Saudi Arabia,Ghana,المملكة العربية السعودية,غانا,2,2,1,5,20,40,40,Saudi_Arabia,Ghana
+Saudi Arabia,Ghana,السعودية,غانا,2,2,1,5,20,40,40,Saudi_Arabia,Ghana
 Senegal,Ghana,السنغال,غانا,5,3,4,12,33,25,42,Senegal,Ghana
 Serbia,Ghana,صربيا,غانا,0,1,1,2,50,50,0,Serbia,Ghana
 South Korea,Ghana,كوريا الجنوبية,غانا,0,3,3,6,50,50,0,South_Korea,Ghana
 Tunisia,Ghana,تونس,غانا,5,9,3,17,18,53,29,Tunisia,Ghana
-United States,Ghana,الولايات المتحدة الأمريكية,غانا,0,2,2,4,50,50,0,United_States,Ghana
+United States,Ghana,الولايات المتحدة ,غانا,0,2,2,4,50,50,0,United_States,Ghana
 Uruguay,Ghana,أوروغواي,غانا,1,0,0,1,0,0,100,Uruguay,Ghana
 Argentina,Iran,الأرجنتين,إيران,1,0,1,2,50,0,50,Argentina,Iran
 Australia,Iran,أستراليا,إيران,2,3,2,7,29,43,29,Australia,Iran
@@ -396,13 +396,13 @@ Netherlands,Iran,هولندا,إيران,0,0,1,1,100,0,0,Netherlands,Iran
 Poland,Iran,بولندا,إيران,0,0,2,2,100,0,0,Poland,Iran
 Portugal,Iran,البرتغال,إيران,1,0,2,3,67,0,33,Portugal,Iran
 Qatar,Iran,قطر,إيران,4,15,3,22,14,68,18,Qatar,Iran
-Saudi Arabia,Iran,المملكة العربية السعودية,إيران,6,4,4,14,29,29,43,Saudi_Arabia,Iran
+Saudi Arabia,Iran,السعودية,إيران,6,4,4,14,29,29,43,Saudi_Arabia,Iran
 Senegal,Iran,السنغال,إيران,2,0,0,2,0,0,100,Senegal,Iran
 Serbia,Iran,صربيا,إيران,0,0,1,1,100,0,0,Serbia,Iran
 South Korea,Iran,كوريا الجنوبية,إيران,9,10,8,27,30,37,33,South_Korea,Iran
 Spain,Iran,إسبانيا,إيران,0,0,1,1,100,0,0,Spain,Iran
 Tunisia,Iran,تونس,إيران,1,0,1,2,50,0,50,Tunisia,Iran
-United States,Iran,الولايات المتحدة الأمريكية,إيران,1,1,0,2,0,50,50,United_States,Iran
+United States,Iran,الولايات المتحدة ,إيران,1,1,0,2,0,50,50,United_States,Iran
 Uruguay,Iran,أوروغواي,إيران,1,1,0,2,0,50,50,Uruguay,Iran
 Wales,Iran,ويلز,إيران,0,0,1,1,100,0,0,Wales,Iran
 Argentina,Japan,الأرجنتين,اليابان,0,1,6,7,86,14,0,Argentina,Japan
@@ -424,14 +424,14 @@ Mexico,Japan,المكسيك,اليابان,0,1,6,7,86,14,0,Mexico,Japan
 Netherlands,Japan,هولندا,اليابان,1,0,2,3,67,0,33,Netherlands,Japan
 Poland,Japan,بولندا,اليابان,0,2,5,7,71,29,0,Poland,Japan
 Qatar,Japan,قطر,اليابان,3,2,2,7,29,29,43,Qatar,Japan
-Saudi Arabia,Japan,المملكة العربية السعودية,اليابان,1,10,4,15,27,67,7,Saudi_Arabia,Japan
+Saudi Arabia,Japan,السعودية,اليابان,1,10,4,15,27,67,7,Saudi_Arabia,Japan
 Senegal,Japan,السنغال,اليابان,2,0,2,4,50,0,50,Senegal,Japan
 Serbia,Japan,صربيا,اليابان,0,4,4,8,50,50,0,Serbia,Japan
 South Korea,Japan,كوريا الجنوبية,اليابان,21,12,33,66,50,18,32,South_Korea,Japan
 Spain,Japan,إسبانيا,اليابان,0,0,1,1,100,0,0,Spain,Japan
 Switzerland,Japan,سويسرا,اليابان,1,1,1,3,33,33,33,Switzerland,Japan
 Tunisia,Japan,تونس,اليابان,0,4,1,5,20,80,0,Tunisia,Japan
-United States,Japan,الولايات المتحدة الأمريكية,اليابان,0,2,1,3,33,67,0,United_States,Japan
+United States,Japan,الولايات المتحدة ,اليابان,0,2,1,3,33,67,0,United_States,Japan
 Uruguay,Japan,أوروغواي,اليابان,2,2,4,8,50,25,25,Uruguay,Japan
 Wales,Japan,ويلز,اليابان,0,0,1,1,100,0,0,Wales,Japan
 Argentina,Mexico,الأرجنتين,المكسيك,12,4,15,31,48,13,39,Argentina,Mexico
@@ -453,14 +453,14 @@ Japan,Mexico,اليابان,المكسيك,0,6,1,7,14,86,0,Japan,Mexico
 Netherlands,Mexico,هولندا,المكسيك,1,4,4,9,44,44,11,Netherlands,Mexico
 Poland,Mexico,بولندا,المكسيك,3,3,3,9,33,33,33,Poland,Mexico
 Portugal,Mexico,البرتغال,المكسيك,2,0,3,5,60,0,40,Portugal,Mexico
-Saudi Arabia,Mexico,المملكة العربية السعودية,المكسيك,1,4,0,5,0,80,20,Saudi_Arabia,Mexico
+Saudi Arabia,Mexico,السعودية,المكسيك,1,4,0,5,0,80,20,Saudi_Arabia,Mexico
 Senegal,Mexico,السنغال,المكسيك,0,1,0,1,0,100,0,Senegal,Mexico
 Serbia,Mexico,صربيا,المكسيك,1,1,2,4,50,25,25,Serbia,Mexico
 South Korea,Mexico,كوريا الجنوبية,المكسيك,2,8,3,13,23,62,15,South_Korea,Mexico
 Spain,Mexico,إسبانيا,المكسيك,3,0,3,6,50,0,50,Spain,Mexico
 Switzerland,Mexico,سويسرا,المكسيك,1,1,4,6,67,17,17,Switzerland,Mexico
 Tunisia,Mexico,تونس,المكسيك,0,0,1,1,100,0,0,Tunisia,Mexico
-United States,Mexico,الولايات المتحدة الأمريكية,المكسيك,15,35,21,71,30,49,21,United_States,Mexico
+United States,Mexico,الولايات المتحدة ,المكسيك,15,35,21,71,30,49,21,United_States,Mexico
 Uruguay,Mexico,أوروغواي,المكسيك,7,8,7,22,32,36,32,Uruguay,Mexico
 Wales,Mexico,ويلز,المكسيك,2,2,1,5,20,40,40,Wales,Mexico
 Argentina,Morocco,الأرجنتين,المغرب,0,0,3,3,100,0,0,Argentina,Morocco
@@ -479,14 +479,14 @@ Netherlands,Morocco,هولندا,المغرب,0,1,2,3,67,33,0,Netherlands,Morocc
 Poland,Morocco,بولندا,المغرب,2,1,1,4,25,25,50,Poland,Morocco
 Portugal,Morocco,البرتغال,المغرب,0,1,1,2,50,50,0,Portugal,Morocco
 Qatar,Morocco,قطر,المغرب,1,1,0,2,0,50,50,Qatar,Morocco
-Saudi Arabia,Morocco,المملكة العربية السعودية,المغرب,1,3,3,7,43,43,14,Saudi_Arabia,Morocco
+Saudi Arabia,Morocco,السعودية,المغرب,1,3,3,7,43,43,14,Saudi_Arabia,Morocco
 Senegal,Morocco,السنغال,المغرب,5,18,6,29,21,62,17,Senegal,Morocco
 Serbia,Morocco,صربيا,المغرب,0,1,0,1,0,100,0,Serbia,Morocco
 South Korea,Morocco,كوريا الجنوبية,المغرب,3,1,0,4,0,25,75,South_Korea,Morocco
 Spain,Morocco,إسبانيا,المغرب,1,0,2,3,67,0,33,Spain,Morocco
 Switzerland,Morocco,سويسرا,المغرب,0,2,0,2,0,100,0,Switzerland,Morocco
 Tunisia,Morocco,تونس,المغرب,22,10,6,38,16,26,58,Tunisia,Morocco
-United States,Morocco,الولايات المتحدة الأمريكية,المغرب,0,3,1,4,25,75,0,United_States,Morocco
+United States,Morocco,الولايات المتحدة ,المغرب,0,3,1,4,25,75,0,United_States,Morocco
 Uruguay,Morocco,أوروغواي,المغرب,0,0,1,1,100,0,0,Uruguay,Morocco
 Argentina,Netherlands,الأرجنتين,هولندا,4,4,1,9,11,44,44,Argentina,Netherlands
 Australia,Netherlands,أستراليا,هولندا,2,1,1,4,25,25,50,Australia,Netherlands
@@ -508,13 +508,13 @@ Mexico,Netherlands,المكسيك,هولندا,1,4,4,9,44,44,11,Mexico,Netherlan
 Morocco,Netherlands,المغرب,هولندا,0,2,1,3,33,67,0,Morocco,Netherlands
 Poland,Netherlands,بولندا,هولندا,7,8,3,18,17,44,39,Poland,Netherlands
 Portugal,Netherlands,البرتغال,هولندا,4,2,8,14,57,14,29,Portugal,Netherlands
-Saudi Arabia,Netherlands,المملكة العربية السعودية,هولندا,0,1,0,1,0,100,0,Saudi_Arabia,Netherlands
+Saudi Arabia,Netherlands,السعودية,هولندا,0,1,0,1,0,100,0,Saudi_Arabia,Netherlands
 Serbia,Netherlands,صربيا,هولندا,0,3,0,3,0,100,0,Serbia,Netherlands
 South Korea,Netherlands,كوريا الجنوبية,هولندا,0,2,0,2,0,100,0,South_Korea,Netherlands
 Spain,Netherlands,إسبانيا,هولندا,2,6,4,12,33,50,17,Spain,Netherlands
 Switzerland,Netherlands,سويسرا,هولندا,3,14,15,32,47,44,9,Switzerland,Netherlands
 Tunisia,Netherlands,تونس,هولندا,2,1,0,3,0,33,67,Tunisia,Netherlands
-United States,Netherlands,الولايات المتحدة الأمريكية,هولندا,0,4,1,5,20,80,0,United_States,Netherlands
+United States,Netherlands,الولايات المتحدة ,هولندا,0,4,1,5,20,80,0,United_States,Netherlands
 Uruguay,Netherlands,أوروغواي,هولندا,1,2,1,4,25,50,25,Uruguay,Netherlands
 Wales,Netherlands,ويلز,هولندا,0,10,0,10,0,100,0,Wales,Netherlands
 Argentina,Poland,الأرجنتين,بولندا,2,3,6,11,55,27,18,Argentina,Poland
@@ -536,14 +536,14 @@ Mexico,Poland,المكسيك,بولندا,3,3,3,9,33,33,33,Mexico,Poland
 Morocco,Poland,المغرب,بولندا,2,1,1,4,25,25,50,Morocco,Poland
 Netherlands,Poland,هولندا,بولندا,7,3,8,18,44,17,39,Netherlands,Poland
 Portugal,Poland,البرتغال,بولندا,5,3,5,13,38,23,38,Portugal,Poland
-Saudi Arabia,Poland,المملكة العربية السعودية,بولندا,0,4,0,4,0,100,0,Saudi_Arabia,Poland
+Saudi Arabia,Poland,السعودية,بولندا,0,4,0,4,0,100,0,Saudi_Arabia,Poland
 Senegal,Poland,السنغال,بولندا,0,0,1,1,100,0,0,Senegal,Poland
 Serbia,Poland,صربيا,بولندا,3,4,0,7,0,57,43,Serbia,Poland
 South Korea,Poland,كوريا الجنوبية,بولندا,1,1,1,3,33,33,33,South_Korea,Poland
 Spain,Poland,إسبانيا,بولندا,2,1,8,11,73,9,18,Spain,Poland
 Switzerland,Poland,سويسرا,بولندا,5,4,1,10,10,40,50,Switzerland,Poland
 Tunisia,Poland,تونس,بولندا,0,2,1,3,33,67,0,Tunisia,Poland
-United States,Poland,الولايات المتحدة الأمريكية,بولندا,3,6,7,16,44,38,19,United_States,Poland
+United States,Poland,الولايات المتحدة ,بولندا,3,6,7,16,44,38,19,United_States,Poland
 Uruguay,Poland,أوروغواي,بولندا,2,1,1,4,25,25,50,Uruguay,Poland
 Wales,Poland,ويلز,بولندا,2,6,1,9,11,67,22,Wales,Poland
 Argentina,Portugal,الأرجنتين,البرتغال,1,2,5,8,62,25,12,Argentina,Portugal
@@ -564,13 +564,13 @@ Morocco,Portugal,المغرب,البرتغال,0,1,1,2,50,50,0,Morocco,Portugal
 Netherlands,Portugal,هولندا,البرتغال,4,8,2,14,14,57,29,Netherlands,Portugal
 Poland,Portugal,بولندا,البرتغال,5,5,3,13,23,38,38,Poland,Portugal
 Qatar,Portugal,قطر,البرتغال,0,2,0,2,0,100,0,Qatar,Portugal
-Saudi Arabia,Portugal,المملكة العربية السعودية,البرتغال,0,2,0,2,0,100,0,Saudi_Arabia,Portugal
+Saudi Arabia,Portugal,السعودية,البرتغال,0,2,0,2,0,100,0,Saudi_Arabia,Portugal
 Serbia,Portugal,صربيا,البرتغال,4,3,1,8,12,38,50,Serbia,Portugal
 South Korea,Portugal,كوريا الجنوبية,البرتغال,0,0,1,1,100,0,0,South_Korea,Portugal
 Spain,Portugal,إسبانيا,البرتغال,17,8,15,40,38,20,42,Spain,Portugal
 Switzerland,Portugal,سويسرا,البرتغال,5,9,11,25,44,36,20,Switzerland,Portugal
 Tunisia,Portugal,تونس,البرتغال,2,0,0,2,0,0,100,Tunisia,Portugal
-United States,Portugal,الولايات المتحدة الأمريكية,البرتغال,3,2,2,7,29,29,43,United_States,Portugal
+United States,Portugal,الولايات المتحدة ,البرتغال,3,2,2,7,29,29,43,United_States,Portugal
 Uruguay,Portugal,أوروغواي,البرتغال,1,1,1,3,33,33,33,Uruguay,Portugal
 Wales,Portugal,ويلز,البرتغال,0,3,1,4,25,75,0,Wales,Portugal
 Argentina,Qatar,الأرجنتين,قطر,0,0,2,2,100,0,0,Argentina,Qatar
@@ -585,42 +585,42 @@ Ghana,Qatar,إيران,قطر,0,0,1,1,100,0,0,Ghana,Qatar
 Iran,Qatar,اليابان,قطر,4,3,15,22,68,14,18,Iran,Qatar
 Japan,Qatar,المغرب,قطر,3,2,2,7,29,29,43,Japan,Qatar
 Morocco,Qatar,البرتغال,قطر,1,0,1,2,50,0,50,Morocco,Qatar
-Portugal,Qatar,المملكة العربية السعودية,قطر,0,0,2,2,100,0,0,Portugal,Qatar
+Portugal,Qatar,السعودية,قطر,0,0,2,2,100,0,0,Portugal,Qatar
 Saudi Arabia,Qatar,صربيا,قطر,14,8,17,39,44,21,36,Saudi_Arabia,Qatar
 Serbia,Qatar,كوريا الجنوبية,قطر,0,1,2,3,67,33,0,Serbia,Qatar
 South Korea,Qatar,سويسرا,قطر,1,3,6,10,60,30,10,South_Korea,Qatar
 Switzerland,Qatar,تونس,قطر,0,1,0,1,0,100,0,Switzerland,Qatar
-Tunisia,Qatar,الولايات المتحدة الأمريكية,قطر,0,2,1,3,33,67,0,Tunisia,Qatar
+Tunisia,Qatar,الولايات المتحدة ,قطر,0,2,1,3,33,67,0,Tunisia,Qatar
 United States,Qatar,ويلز,قطر,0,0,1,1,100,0,0,United_States,Qatar
 Wales,Qatar,كندا,قطر,0,0,1,1,100,0,0,Wales,Qatar
-Argentina,Saudi Arabia,الأرجنتين,المملكة العربية السعودية,2,0,2,4,50,0,50,Argentina,Saudi_Arabia
-Australia,Saudi Arabia,أستراليا,المملكة العربية السعودية,3,2,5,10,50,20,30,Australia,Saudi_Arabia
-Belgium,Saudi Arabia,بلجيكا,المملكة العربية السعودية,0,1,2,3,67,33,0,Belgium,Saudi_Arabia
-Brazil,Saudi Arabia,البرازيل,المملكة العربية السعودية,0,0,5,5,100,0,0,Brazil,Saudi_Arabia
-Cameroon,Saudi Arabia,الكاميرون,المملكة العربية السعودية,1,2,2,5,40,40,20,Cameroon,Saudi_Arabia
-Canada,Saudi Arabia,كندا,المملكة العربية السعودية,0,1,0,1,0,100,0,Canada,Saudi_Arabia
-Costa Rica,Saudi Arabia,كوستا ريكا,المملكة العربية السعودية,0,1,3,4,75,25,0,Costa_Rica,Saudi_Arabia
-Denmark,Saudi Arabia,الدنمارك,المملكة العربية السعودية,0,0,3,3,100,0,0,Denmark,Saudi_Arabia
-Ecuador,Saudi Arabia,إنجلترا,المملكة العربية السعودية,1,0,0,1,0,0,100,Ecuador,Saudi_Arabia
-England,Saudi Arabia,فرنسا,المملكة العربية السعودية,2,0,0,2,0,0,100,England,Saudi_Arabia
-France,Saudi Arabia,ألمانيا,المملكة العربية السعودية,0,0,1,1,100,0,0,France,Saudi_Arabia
-Germany,Saudi Arabia,غانا,المملكة العربية السعودية,0,0,3,3,100,0,0,Germany,Saudi_Arabia
-Ghana,Saudi Arabia,إيران,المملكة العربية السعودية,2,1,2,5,40,20,40,Ghana,Saudi_Arabia
-Iran,Saudi Arabia,اليابان,المملكة العربية السعودية,6,4,4,14,29,29,43,Iran,Saudi_Arabia
-Japan,Saudi Arabia,المكسيك,المملكة العربية السعودية,1,4,10,15,67,27,7,Japan,Saudi_Arabia
-Mexico,Saudi Arabia,المغرب,المملكة العربية السعودية,1,0,4,5,80,0,20,Mexico,Saudi_Arabia
-Morocco,Saudi Arabia,هولندا,المملكة العربية السعودية,1,3,3,7,43,43,14,Morocco,Saudi_Arabia
-Netherlands,Saudi Arabia,بولندا,المملكة العربية السعودية,0,0,1,1,100,0,0,Netherlands,Saudi_Arabia
-Poland,Saudi Arabia,البرتغال,المملكة العربية السعودية,0,0,4,4,100,0,0,Poland,Saudi_Arabia
-Portugal,Saudi Arabia,قطر,المملكة العربية السعودية,0,0,2,2,100,0,0,Portugal,Saudi_Arabia
-Qatar,Saudi Arabia,السنغال,المملكة العربية السعودية,14,17,8,39,21,44,36,Qatar,Saudi_Arabia
-Senegal,Saudi Arabia,كوريا الجنوبية,المملكة العربية السعودية,0,2,0,2,0,100,0,Senegal,Saudi_Arabia
-South Korea,Saudi Arabia,إسبانيا,المملكة العربية السعودية,8,4,4,16,25,25,50,South_Korea,Saudi_Arabia
-Spain,Saudi Arabia,تونس,المملكة العربية السعودية,0,0,3,3,100,0,0,Spain,Saudi_Arabia
-Tunisia,Saudi Arabia,الولايات المتحدة الأمريكية,المملكة العربية السعودية,1,3,4,8,50,38,12,Tunisia,Saudi_Arabia
-United States,Saudi Arabia,أوروغواي,المملكة العربية السعودية,2,2,2,6,33,33,33,United_States,Saudi_Arabia
-Uruguay,Saudi Arabia,ويلز,المملكة العربية السعودية,1,1,1,3,33,33,33,Uruguay,Saudi_Arabia
-Wales,Saudi Arabia,الاكوادور,المملكة العربية السعودية,0,0,1,1,100,0,0,Wales,Saudi_Arabia
+Argentina,Saudi Arabia,الأرجنتين,السعودية,2,0,2,4,50,0,50,Argentina,Saudi_Arabia
+Australia,Saudi Arabia,أستراليا,السعودية,3,2,5,10,50,20,30,Australia,Saudi_Arabia
+Belgium,Saudi Arabia,بلجيكا,السعودية,0,1,2,3,67,33,0,Belgium,Saudi_Arabia
+Brazil,Saudi Arabia,البرازيل,السعودية,0,0,5,5,100,0,0,Brazil,Saudi_Arabia
+Cameroon,Saudi Arabia,الكاميرون,السعودية,1,2,2,5,40,40,20,Cameroon,Saudi_Arabia
+Canada,Saudi Arabia,كندا,السعودية,0,1,0,1,0,100,0,Canada,Saudi_Arabia
+Costa Rica,Saudi Arabia,كوستا ريكا,السعودية,0,1,3,4,75,25,0,Costa_Rica,Saudi_Arabia
+Denmark,Saudi Arabia,الدنمارك,السعودية,0,0,3,3,100,0,0,Denmark,Saudi_Arabia
+Ecuador,Saudi Arabia,إنجلترا,السعودية,1,0,0,1,0,0,100,Ecuador,Saudi_Arabia
+England,Saudi Arabia,فرنسا,السعودية,2,0,0,2,0,0,100,England,Saudi_Arabia
+France,Saudi Arabia,ألمانيا,السعودية,0,0,1,1,100,0,0,France,Saudi_Arabia
+Germany,Saudi Arabia,غانا,السعودية,0,0,3,3,100,0,0,Germany,Saudi_Arabia
+Ghana,Saudi Arabia,إيران,السعودية,2,1,2,5,40,20,40,Ghana,Saudi_Arabia
+Iran,Saudi Arabia,اليابان,السعودية,6,4,4,14,29,29,43,Iran,Saudi_Arabia
+Japan,Saudi Arabia,المكسيك,السعودية,1,4,10,15,67,27,7,Japan,Saudi_Arabia
+Mexico,Saudi Arabia,المغرب,السعودية,1,0,4,5,80,0,20,Mexico,Saudi_Arabia
+Morocco,Saudi Arabia,هولندا,السعودية,1,3,3,7,43,43,14,Morocco,Saudi_Arabia
+Netherlands,Saudi Arabia,بولندا,السعودية,0,0,1,1,100,0,0,Netherlands,Saudi_Arabia
+Poland,Saudi Arabia,البرتغال,السعودية,0,0,4,4,100,0,0,Poland,Saudi_Arabia
+Portugal,Saudi Arabia,قطر,السعودية,0,0,2,2,100,0,0,Portugal,Saudi_Arabia
+Qatar,Saudi Arabia,السنغال,السعودية,14,17,8,39,21,44,36,Qatar,Saudi_Arabia
+Senegal,Saudi Arabia,كوريا الجنوبية,السعودية,0,2,0,2,0,100,0,Senegal,Saudi_Arabia
+South Korea,Saudi Arabia,إسبانيا,السعودية,8,4,4,16,25,25,50,South_Korea,Saudi_Arabia
+Spain,Saudi Arabia,تونس,السعودية,0,0,3,3,100,0,0,Spain,Saudi_Arabia
+Tunisia,Saudi Arabia,الولايات المتحدة ,السعودية,1,3,4,8,50,38,12,Tunisia,Saudi_Arabia
+United States,Saudi Arabia,أوروغواي,السعودية,2,2,2,6,33,33,33,United_States,Saudi_Arabia
+Uruguay,Saudi Arabia,ويلز,السعودية,1,1,1,3,33,33,33,Uruguay,Saudi_Arabia
+Wales,Saudi Arabia,الاكوادور,السعودية,0,0,1,1,100,0,0,Wales,Saudi_Arabia
 Brazil,Senegal,البرازيل,السنغال,1,0,0,1,0,0,100,Brazil,Senegal
 Cameroon,Senegal,الكاميرون,السنغال,5,5,3,13,23,38,38,Cameroon,Senegal
 Croatia,Senegal,كرواتيا,السنغال,0,0,1,1,100,0,0,Croatia,Senegal
@@ -633,7 +633,7 @@ Japan,Senegal,اليابان,السنغال,2,2,0,4,0,50,50,Japan,Senegal
 Mexico,Senegal,المكسيك,السنغال,0,0,1,1,100,0,0,Mexico,Senegal
 Morocco,Senegal,المغرب,السنغال,5,6,18,29,62,21,17,Morocco,Senegal
 Poland,Senegal,بولندا,السنغال,0,1,0,1,0,100,0,Poland,Senegal
-Saudi Arabia,Senegal,المملكة العربية السعودية,السنغال,0,0,2,2,100,0,0,Saudi_Arabia,Senegal
+Saudi Arabia,Senegal,السعودية,السنغال,0,0,2,2,100,0,0,Saudi_Arabia,Senegal
 South Korea,Senegal,كوريا الجنوبية,السنغال,1,3,1,5,20,60,20,South_Korea,Senegal
 Tunisia,Senegal,تونس,السنغال,6,4,9,19,47,21,32,Tunisia,Senegal
 Uruguay,Senegal,أوروغواي,السنغال,1,0,0,1,0,0,100,Uruguay,Senegal
@@ -662,7 +662,7 @@ South Korea,Serbia,كوريا الجنوبية,صربيا,4,3,2,9,22,33,44,South
 Spain,Serbia,إسبانيا,صربيا,3,0,3,6,50,0,50,Spain,Serbia
 Switzerland,Serbia,سويسرا,صربيا,3,1,1,5,20,20,60,Switzerland,Serbia
 Tunisia,Serbia,تونس,صربيا,0,2,0,2,0,100,0,Tunisia,Serbia
-United States,Serbia,الولايات المتحدة الأمريكية,صربيا,1,1,0,2,0,50,50,United_States,Serbia
+United States,Serbia,الولايات المتحدة ,صربيا,1,1,0,2,0,50,50,United_States,Serbia
 Uruguay,Serbia,أوروغواي,صربيا,1,1,0,2,0,50,50,Uruguay,Serbia
 Wales,Serbia,ويلز,صربيا,2,4,0,6,0,67,33,Wales,Serbia
 Argentina,South Korea,الأرجنتين,كوريا الجنوبية,0,0,3,3,100,0,0,Argentina,South_Korea
@@ -687,13 +687,13 @@ Netherlands,South Korea,هولندا,كوريا الجنوبية,0,0,2,2,100,0,0
 Poland,South Korea,بولندا,كوريا الجنوبية,1,1,1,3,33,33,33,Poland,South_Korea
 Portugal,South Korea,البرتغال,كوريا الجنوبية,0,1,0,1,0,100,0,Portugal,South_Korea
 Qatar,South Korea,قطر,كوريا الجنوبية,1,6,3,10,30,60,10,Qatar,South_Korea
-Saudi Arabia,South Korea,المملكة العربية السعودية,كوريا الجنوبية,8,4,4,16,25,25,50,Saudi_Arabia,South_Korea
+Saudi Arabia,South Korea,السعودية,كوريا الجنوبية,8,4,4,16,25,25,50,Saudi_Arabia,South_Korea
 Senegal,South Korea,السنغال,كوريا الجنوبية,1,1,3,5,60,20,20,Senegal,South_Korea
 Serbia,South Korea,صربيا,كوريا الجنوبية,4,2,3,9,33,22,44,Serbia,South_Korea
 Spain,South Korea,إسبانيا,كوريا الجنوبية,2,0,4,6,67,0,33,Spain,South_Korea
 Switzerland,South Korea,سويسرا,كوريا الجنوبية,0,1,1,2,50,50,0,Switzerland,South_Korea
 Tunisia,South Korea,تونس,كوريا الجنوبية,1,0,1,2,50,0,50,Tunisia,South_Korea
-United States,South Korea,الولايات المتحدة الأمريكية,كوريا الجنوبية,2,4,3,9,33,44,22,United_States,South_Korea
+United States,South Korea,الولايات المتحدة ,كوريا الجنوبية,2,4,3,9,33,44,22,United_States,South_Korea
 Uruguay,South Korea,أوروغواي,كوريا الجنوبية,1,1,6,8,75,12,12,Uruguay,South_Korea
 Argentina,Spain,الأرجنتين,إسبانيا,2,6,6,14,43,43,14,Argentina,Spain
 Australia,Spain,أستراليا,إسبانيا,0,1,0,1,0,100,0,Australia,Spain
@@ -714,12 +714,12 @@ Morocco,Spain,المغرب,إسبانيا,1,2,0,3,0,67,33,Morocco,Spain
 Netherlands,Spain,هولندا,إسبانيا,2,4,6,12,50,33,17,Netherlands,Spain
 Poland,Spain,بولندا,إسبانيا,2,8,1,11,9,73,18,Poland,Spain
 Portugal,Spain,البرتغال,إسبانيا,17,15,8,40,20,38,42,Portugal,Spain
-Saudi Arabia,Spain,المملكة العربية السعودية,إسبانيا,0,3,0,3,0,100,0,Saudi_Arabia,Spain
+Saudi Arabia,Spain,السعودية,إسبانيا,0,3,0,3,0,100,0,Saudi_Arabia,Spain
 Serbia,Spain,صربيا,إسبانيا,3,3,0,6,0,50,50,Serbia,Spain
 South Korea,Spain,كوريا الجنوبية,إسبانيا,2,4,0,6,0,67,33,South_Korea,Spain
 Switzerland,Spain,سويسرا,إسبانيا,6,17,1,24,4,71,25,Switzerland,Spain
 Tunisia,Spain,تونس,إسبانيا,0,2,0,2,0,100,0,Tunisia,Spain
-United States,Spain,الولايات المتحدة الأمريكية,إسبانيا,0,4,1,5,20,80,0,United_States,Spain
+United States,Spain,الولايات المتحدة ,إسبانيا,0,4,1,5,20,80,0,United_States,Spain
 Uruguay,Spain,أوروغواي,إسبانيا,5,5,0,10,0,50,50,Uruguay,Spain
 Wales,Spain,ويلز,إسبانيا,2,3,1,6,17,50,33,Wales,Spain
 Argentina,Switzerland,الأرجنتين,سويسرا,2,0,5,7,71,0,29,Argentina,Switzerland
@@ -745,7 +745,7 @@ Serbia,Switzerland,صربيا,سويسرا,3,1,1,5,20,20,60,Serbia,Switzerland
 South Korea,Switzerland,كوريا الجنوبية,سويسرا,0,1,1,2,50,50,0,South_Korea,Switzerland
 Spain,Switzerland,إسبانيا,سويسرا,6,1,17,24,71,4,25,Spain,Switzerland
 Tunisia,Switzerland,تونس,سويسرا,1,2,0,3,0,67,33,Tunisia,Switzerland
-United States,Switzerland,الولايات المتحدة الأمريكية,سويسرا,4,4,1,9,11,44,44,United_States,Switzerland
+United States,Switzerland,الولايات المتحدة ,سويسرا,4,4,1,9,11,44,44,United_States,Switzerland
 Uruguay,Switzerland,أوروغواي,سويسرا,1,0,2,3,67,0,33,Uruguay,Switzerland
 Wales,Switzerland,ويلز,سويسرا,1,5,2,8,25,62,12,Wales,Switzerland
 Argentina,Tunisia,الأرجنتين,تونس,0,0,1,1,100,0,0,Argentina,Tunisia
@@ -769,45 +769,45 @@ Netherlands,Tunisia,هولندا,تونس,2,0,1,3,33,0,67,Netherlands,Tunisia
 Poland,Tunisia,بولندا,تونس,0,1,2,3,67,33,0,Poland,Tunisia
 Portugal,Tunisia,البرتغال,تونس,2,0,0,2,0,0,100,Portugal,Tunisia
 Qatar,Tunisia,قطر,تونس,0,1,2,3,67,33,0,Qatar,Tunisia
-Saudi Arabia,Tunisia,المملكة العربية السعودية,تونس,1,4,3,8,38,50,12,Saudi_Arabia,Tunisia
+Saudi Arabia,Tunisia,السعودية,تونس,1,4,3,8,38,50,12,Saudi_Arabia,Tunisia
 Senegal,Tunisia,السنغال,تونس,6,9,4,19,21,47,32,Senegal,Tunisia
 Serbia,Tunisia,صربيا,تونس,0,0,2,2,100,0,0,Serbia,Tunisia
 South Korea,Tunisia,كوريا الجنوبية,تونس,1,1,0,2,0,50,50,South_Korea,Tunisia
 Spain,Tunisia,إسبانيا,تونس,0,0,2,2,100,0,0,Spain,Tunisia
 Switzerland,Tunisia,سويسرا,تونس,1,0,2,3,67,0,33,Switzerland,Tunisia
-United States,Tunisia,الولايات المتحدة الأمريكية,تونس,1,0,0,1,0,0,100,United_States,Tunisia
+United States,Tunisia,الولايات المتحدة ,تونس,1,0,0,1,0,0,100,United_States,Tunisia
 Uruguay,Tunisia,أوروغواي,تونس,1,0,0,1,0,0,100,Uruguay,Tunisia
 Wales,Tunisia,ويلز,تونس,0,1,0,1,0,100,0,Wales,Tunisia
-Argentina,United States,الأرجنتين,الولايات المتحدة الأمريكية,2,2,6,10,60,20,20,Argentina,United_States
-Australia,United States,أستراليا,الولايات المتحدة الأمريكية,1,1,1,3,33,33,33,Australia,United_States
-Belgium,United States,بلجيكا,الولايات المتحدة الأمريكية,0,1,5,6,83,17,0,Belgium,United_States
-Brazil,United States,البرازيل,الولايات المتحدة الأمريكية,0,1,17,18,94,6,0,Brazil,United_States
-Cameroon,United States,الكاميرون,الولايات المتحدة الأمريكية,1,0,0,1,0,0,100,Cameroon,United_States
-Canada,United States,كندا,الولايات المتحدة الأمريكية,11,15,10,36,28,42,31,Canada,United_States
-Costa Rica,United States,كوستا ريكا,الولايات المتحدة الأمريكية,6,19,16,41,39,46,15,Costa_Rica,United_States
-Croatia,United States,كرواتيا,الولايات المتحدة الأمريكية,0,0,1,1,100,0,0,Croatia,United_States
-Denmark,United States,الدنمارك,الولايات المتحدة الأمريكية,1,0,2,3,67,0,33,Denmark,United_States
-Ecuador,United States,الاكوادور,الولايات المتحدة الأمريكية,4,4,5,13,38,31,31,Ecuador,United_States
-England,United States,إنجلترا,الولايات المتحدة الأمريكية,1,2,8,11,73,18,9,England,United_States
-France,United States,فرنسا,الولايات المتحدة الأمريكية,1,0,3,4,75,0,25,France,United_States
-Germany,United States,ألمانيا,الولايات المتحدة الأمريكية,0,4,7,11,64,36,0,Germany,United_States
-Ghana,United States,غانا,الولايات المتحدة الأمريكية,0,2,2,4,50,50,0,Ghana,United_States
-Iran,United States,إيران,الولايات المتحدة الأمريكية,1,0,1,2,50,0,50,Iran,United_States
-Japan,United States,اليابان,الولايات المتحدة الأمريكية,0,1,2,3,67,33,0,Japan,United_States
-Mexico,United States,المكسيك,الولايات المتحدة الأمريكية,15,21,35,71,49,30,21,Mexico,United_States
-Morocco,United States,المغرب,الولايات المتحدة الأمريكية,0,1,3,4,75,25,0,Morocco,United_States
-Netherlands,United States,هولندا,الولايات المتحدة الأمريكية,0,1,4,5,80,20,0,Netherlands,United_States
-Poland,United States,بولندا,الولايات المتحدة الأمريكية,3,7,6,16,38,44,19,Poland,United_States
-Portugal,United States,البرتغال,الولايات المتحدة الأمريكية,3,2,2,7,29,29,43,Portugal,United_States
-Qatar,United States,قطر,الولايات المتحدة الأمريكية,0,1,0,1,0,100,0,Qatar,United_States
-Saudi Arabia,United States,المملكة العربية السعودية,الولايات المتحدة الأمريكية,2,2,2,6,33,33,33,Saudi_Arabia,United_States
-Serbia,United States,صربيا,الولايات المتحدة الأمريكية,1,0,1,2,50,0,50,Serbia,United_States
-South Korea,United States,كوريا الجنوبية,الولايات المتحدة الأمريكية,2,3,4,9,44,33,22,South_Korea,United_States
-Spain,United States,إسبانيا,الولايات المتحدة الأمريكية,0,1,4,5,80,20,0,Spain,United_States
-Switzerland,United States,سويسرا,الولايات المتحدة الأمريكية,4,1,4,9,44,11,44,Switzerland,United_States
-Tunisia,United States,تونس,الولايات المتحدة الأمريكية,1,0,0,1,0,0,100,Tunisia,United_States
-Uruguay,United States,أوروغواي,الولايات المتحدة الأمريكية,4,2,1,7,14,29,57,Uruguay,United_States
-Wales,United States,ويلز,الولايات المتحدة الأمريكية,1,1,0,2,0,50,50,Wales,United_States
+Argentina,United States,الأرجنتين,الولايات المتحدة ,2,2,6,10,60,20,20,Argentina,United_States
+Australia,United States,أستراليا,الولايات المتحدة ,1,1,1,3,33,33,33,Australia,United_States
+Belgium,United States,بلجيكا,الولايات المتحدة ,0,1,5,6,83,17,0,Belgium,United_States
+Brazil,United States,البرازيل,الولايات المتحدة ,0,1,17,18,94,6,0,Brazil,United_States
+Cameroon,United States,الكاميرون,الولايات المتحدة ,1,0,0,1,0,0,100,Cameroon,United_States
+Canada,United States,كندا,الولايات المتحدة ,11,15,10,36,28,42,31,Canada,United_States
+Costa Rica,United States,كوستا ريكا,الولايات المتحدة ,6,19,16,41,39,46,15,Costa_Rica,United_States
+Croatia,United States,كرواتيا,الولايات المتحدة ,0,0,1,1,100,0,0,Croatia,United_States
+Denmark,United States,الدنمارك,الولايات المتحدة ,1,0,2,3,67,0,33,Denmark,United_States
+Ecuador,United States,الاكوادور,الولايات المتحدة ,4,4,5,13,38,31,31,Ecuador,United_States
+England,United States,إنجلترا,الولايات المتحدة ,1,2,8,11,73,18,9,England,United_States
+France,United States,فرنسا,الولايات المتحدة ,1,0,3,4,75,0,25,France,United_States
+Germany,United States,ألمانيا,الولايات المتحدة ,0,4,7,11,64,36,0,Germany,United_States
+Ghana,United States,غانا,الولايات المتحدة ,0,2,2,4,50,50,0,Ghana,United_States
+Iran,United States,إيران,الولايات المتحدة ,1,0,1,2,50,0,50,Iran,United_States
+Japan,United States,اليابان,الولايات المتحدة ,0,1,2,3,67,33,0,Japan,United_States
+Mexico,United States,المكسيك,الولايات المتحدة ,15,21,35,71,49,30,21,Mexico,United_States
+Morocco,United States,المغرب,الولايات المتحدة ,0,1,3,4,75,25,0,Morocco,United_States
+Netherlands,United States,هولندا,الولايات المتحدة ,0,1,4,5,80,20,0,Netherlands,United_States
+Poland,United States,بولندا,الولايات المتحدة ,3,7,6,16,38,44,19,Poland,United_States
+Portugal,United States,البرتغال,الولايات المتحدة ,3,2,2,7,29,29,43,Portugal,United_States
+Qatar,United States,قطر,الولايات المتحدة ,0,1,0,1,0,100,0,Qatar,United_States
+Saudi Arabia,United States,السعودية,الولايات المتحدة ,2,2,2,6,33,33,33,Saudi_Arabia,United_States
+Serbia,United States,صربيا,الولايات المتحدة ,1,0,1,2,50,0,50,Serbia,United_States
+South Korea,United States,كوريا الجنوبية,الولايات المتحدة ,2,3,4,9,44,33,22,South_Korea,United_States
+Spain,United States,إسبانيا,الولايات المتحدة ,0,1,4,5,80,20,0,Spain,United_States
+Switzerland,United States,سويسرا,الولايات المتحدة ,4,1,4,9,44,11,44,Switzerland,United_States
+Tunisia,United States,تونس,الولايات المتحدة ,1,0,0,1,0,0,100,Tunisia,United_States
+Uruguay,United States,أوروغواي,الولايات المتحدة ,4,2,1,7,14,29,57,Uruguay,United_States
+Wales,United States,ويلز,الولايات المتحدة ,1,1,0,2,0,50,50,Wales,United_States
 Argentina,Uruguay,الأرجنتين,أوروغواي,43,52,84,179,47,29,24,Argentina,Uruguay
 Australia,Uruguay,أستراليا,أوروغواي,0,4,3,7,43,57,0,Australia,Uruguay
 Belgium,Uruguay,بلجيكا,أوروغواي,0,0,2,2,100,0,0,Belgium,Uruguay
@@ -827,14 +827,14 @@ Morocco,Uruguay,المغرب,أوروغواي,0,1,0,1,0,100,0,Morocco,Uruguay
 Netherlands,Uruguay,هولندا,أوروغواي,1,1,2,4,50,25,25,Netherlands,Uruguay
 Poland,Uruguay,بولندا,أوروغواي,2,1,1,4,25,25,50,Poland,Uruguay
 Portugal,Uruguay,البرتغال,أوروغواي,1,1,1,3,33,33,33,Portugal,Uruguay
-Saudi Arabia,Uruguay,المملكة العربية السعودية,أوروغواي,1,1,1,3,33,33,33,Saudi_Arabia,Uruguay
+Saudi Arabia,Uruguay,السعودية,أوروغواي,1,1,1,3,33,33,33,Saudi_Arabia,Uruguay
 Senegal,Uruguay,السنغال,أوروغواي,1,0,0,1,0,0,100,Senegal,Uruguay
 Serbia,Uruguay,صربيا,أوروغواي,1,0,1,2,50,0,50,Serbia,Uruguay
 South Korea,Uruguay,كوريا الجنوبية,أوروغواي,1,6,1,8,12,75,12,South_Korea,Uruguay
 Spain,Uruguay,إسبانيا,أوروغواي,5,0,5,10,50,0,50,Spain,Uruguay
 Switzerland,Uruguay,سويسرا,أوروغواي,1,2,0,3,0,67,33,Switzerland,Uruguay
 Tunisia,Uruguay,تونس,أوروغواي,1,0,0,1,0,0,100,Tunisia,Uruguay
-United States,Uruguay,الولايات المتحدة الأمريكية,أوروغواي,4,1,2,7,29,14,57,United_States,Uruguay
+United States,Uruguay,الولايات المتحدة ,أوروغواي,4,1,2,7,29,14,57,United_States,Uruguay
 Wales,Uruguay,ويلز,أوروغواي,1,1,0,2,0,50,50,Wales,Uruguay
 Argentina,Wales,الأرجنتين,ويلز,1,0,1,2,50,0,50,Argentina,Wales
 Australia,Wales,أستراليا,ويلز,0,0,1,1,100,0,0,Australia,Wales
@@ -854,10 +854,10 @@ Netherlands,Wales,هولندا,ويلز,0,0,10,10,100,0,0,Netherlands,Wales
 Poland,Wales,بولندا,ويلز,2,1,6,9,67,11,22,Poland,Wales
 Portugal,Wales,البرتغال,ويلز,0,1,3,4,75,25,0,Portugal,Wales
 Qatar,Wales,قطر,ويلز,0,1,0,1,0,100,0,Qatar,Wales
-Saudi Arabia,Wales,المملكة العربية السعودية,ويلز,0,1,0,1,0,100,0,Saudi_Arabia,Wales
+Saudi Arabia,Wales,السعودية,ويلز,0,1,0,1,0,100,0,Saudi_Arabia,Wales
 Serbia,Wales,صربيا,ويلز,2,0,4,6,67,0,33,Serbia,Wales
 Spain,Wales,إسبانيا,ويلز,2,1,3,6,50,17,33,Spain,Wales
 Switzerland,Wales,سويسرا,ويلز,1,2,5,8,62,25,12,Switzerland,Wales
 Tunisia,Wales,تونس,ويلز,0,0,1,1,100,0,0,Tunisia,Wales
-United States,Wales,الولايات المتحدة الأمريكية,ويلز,1,0,1,2,50,0,50,United_States,Wales
+United States,Wales,الولايات المتحدة ,ويلز,1,0,1,2,50,0,50,United_States,Wales
 Uruguay,Wales,أوروغواي,ويلز,1,0,1,2,50,0,50,Uruguay,Wales

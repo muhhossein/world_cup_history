@@ -4,7 +4,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Dimensions
-let dimensions = {
+let dimensions_hist_m_en = {
     width: window.innerWidth * 0.95,
     height: window.innerHeight * 0.9,
     margin: {
@@ -16,56 +16,58 @@ let dimensions = {
 };
 
 //Define drawing area within "dimensions" object
-dimensions.vizboardWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right;
+dimensions_hist_m_en.vizboardWidth = dimensions_hist_m_en.width - dimensions_hist_m_en.margin.left - dimensions_hist_m_en.margin.right;
 
-dimensions.vizboardHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom;
+dimensions_hist_m_en.vizboardHeight = dimensions_hist_m_en.height - dimensions_hist_m_en.margin.top - dimensions_hist_m_en.margin.bottom;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Draw SVG
-const vizboardWidth = 450;
-const vizboardHeight = 800;
+const vizboardWidth_hist_m_en = 450;
+const vizboardHeight_hist_m_en = 800;
 
-const vizboard = d3
-    .select("#vizboard-desktop")
+const vizboard_hist_m_en = d3
+    .select("#vizboard-hist-m-en")
     .append("svg")
     .classed("svg-vizboard", true)
-    .attr("viewBox", `0 0 ${vizboardWidth} ${vizboardHeight}`)
+    .attr("viewBox", `0 0 ${vizboardWidth_hist_m_en} ${vizboardHeight_hist_m_en}`)
     .attr("preserveAspectRatio", "xMinYMin meet");
 // .style("border", "1px dashed red");
 
-let svg = vizboard.append("g").style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`);
+let svg_hist_m_en = vizboard_hist_m_en
+    .append("g")
+    .style("transform", `translate(${dimensions_hist_m_en.margin.left}px, ${dimensions_hist_m_en.margin.top}px)`);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Create SVG dimensions
-let width = vizboardWidth - dimensions.margin.left - dimensions.margin.right;
-let height = vizboardHeight - dimensions.margin.top - dimensions.margin.bottom;
+let width_hist_m_en = vizboardWidth_hist_m_en - dimensions_hist_m_en.margin.left - dimensions_hist_m_en.margin.right;
+let height_hist_m_en = vizboardHeight_hist_m_en - dimensions_hist_m_en.margin.top - dimensions_hist_m_en.margin.bottom;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 02. Data ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const worldcup_history_file = "world_cup_history.csv";
+// const worldcup_history_file = "world_cup_history.csv";
 
-// dataset
-var worldcup_history_data = [];
+// // dataset
+// var worldcup_history_data = [];
 
-// matches converter function
-var worldcup_history_converter = function (point) {
-    return {
-        serial: +point.serial,
-        cup_serial: +point.cup_serial,
-        team: point.team,
-        team_txt: point.team_txt,
-        year: +point.year,
-        host: point.host,
-        appearances: +point.appearances,
-        stage: point.stage,
-        count: +point.count,
-        matches: +point.pld,
-        goals: +point.gf,
-    };
-};
+// // matches converter function
+// var worldcup_history_converter = function (point) {
+//     return {
+//         serial: +point.serial,
+//         cup_serial: +point.cup_serial,
+//         team: point.team,
+//         team_txt: point.team_txt,
+//         year: +point.year,
+//         host: point.host,
+//         appearances: +point.appearances,
+//         stage: point.stage,
+//         count: +point.count,
+//         matches: +point.pld,
+//         goals: +point.gf,
+//     };
+// };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -75,31 +77,24 @@ Promise.all([d3.csv(worldcup_history_file, worldcup_history_converter)]).then(fu
 
     // console.log(worldcup_history_data);
     // call the draw function
-    dataviz();
+    dataviz_hist_m_en();
 }); //end of then method
 
-function dataviz() {
+function dataviz_hist_m_en() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 03. Nested Data ////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // teams data
-    worldcup_countries = d3.flatRollup(
+    let worldcup_countries = d3.flatRollup(
         worldcup_history_data,
         (v) => v.length,
         (d) => d.team
     );
 
-    // countries
-    worldcup_countries_domain = worldcup_countries.map((d, i) => d[0]);
-
-    // check
-    // console.log(worldcup_countries);
-    // console.log(worldcup_countries_domain);
-
     // years Data
-    worldcup_years = d3.flatRollup(
+    let worldcup_years = d3.flatRollup(
         worldcup_history_data,
         (v) => v.length,
         (d) => d.year,
@@ -110,11 +105,7 @@ function dataviz() {
     // sort years
     worldcup_years = worldcup_years.sort((a, b) => d3.ascending(a[0], b[0]));
 
-    worldcup_years_domain = worldcup_years.map((d, i) => d[0]);
-
-    // check
-    // console.log(worldcup_years);
-    // console.log(worldcup_years_domain);
+    let worldcup_years_domain = worldcup_years.map((d, i) => d[0]);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -124,22 +115,22 @@ function dataviz() {
     const wc_years_scale = d3
         .scalePoint()
         .domain(worldcup_years_domain)
-        .range([0 + 10, width - 20]);
+        .range([0 + 10, width_hist_m_en - 20]);
 
     const wc_stages_scale = d3
         .scalePoint()
         .domain(["R1", "R2", "QF", "4th", "3rd", "2nd", "1st"])
-        .range([0 + 150, height - 250]);
+        .range([0 + 150, height_hist_m_en - 250]);
 
     const wc_labels_scale = d3
         .scalePoint()
         .domain(["First round", "Second round", "Quarter-finals", "Fourth-place", "Third-place", "Runner-up", "Winner"])
-        .range([0 + 170, height - 230]);
+        .range([0 + 170, height_hist_m_en - 230]);
 
     const wc_h_scale = d3
         .scaleLinear()
         .domain([1, 8])
-        .range([0, width + 90]);
+        .range([0, width_hist_m_en + 90]);
 
     const color_scale = d3
         .scaleOrdinal()
@@ -158,7 +149,7 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Create the svg:defs element and the main gradient definition.
-    var svgDefs = svg.append("defs");
+    var svgDefs = svg_hist_m_en.append("defs");
     // 1
     var gradient_1 = svgDefs.append("linearGradient").attr("id", "gradient-1");
     gradient_1
@@ -196,7 +187,7 @@ function dataviz() {
     // 06. Body /////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const central_group = svg.append("g").classed("central-group", true).attr("transform", `translate(0,0)`);
+    const central_group = svg_hist_m_en.append("g").classed("central-group", true).attr("transform", `translate(0,0)`);
 
     // border
     central_group
@@ -204,7 +195,7 @@ function dataviz() {
         .attr("x", -130)
         .attr("y", 60)
         .attr("height", 530)
-        .attr("width", width + 260)
+        .attr("width", width_hist_m_en + 260)
         .style("fill", "none")
         .style("fill-opacity", 1)
         .style("stroke", "grey")
@@ -321,7 +312,7 @@ function dataviz() {
     // matches
     central_group
         .append("text")
-        .attr("x", width / 2 - 100)
+        .attr("x", width_hist_m_en / 2 - 100)
         .attr("y", 75)
         .style("font-size", "12px")
         .style("font-weight", "500")
@@ -333,7 +324,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("id", "id-matches")
-        .attr("x", width / 2 - 100)
+        .attr("x", width_hist_m_en / 2 - 100)
         .attr("y", 53)
         .style("font-size", "22px")
         .style("font-weight", "600")
@@ -345,7 +336,7 @@ function dataviz() {
     // goals
     central_group
         .append("text")
-        .attr("x", width / 2 + 100)
+        .attr("x", width_hist_m_en / 2 + 100)
         .attr("y", 75)
         .style("font-size", "12px")
         .style("font-weight", "500")
@@ -357,7 +348,7 @@ function dataviz() {
     central_group
         .append("text")
         .attr("id", "id-goals")
-        .attr("x", width / 2 + 100)
+        .attr("x", width_hist_m_en / 2 + 100)
         .attr("y", 53)
         .style("font-size", "22px")
         .style("font-weight", "600")
@@ -375,7 +366,7 @@ function dataviz() {
     const flag = central_group.append("g").each(function (d, i) {
         d3.select(this)
             .append("rect")
-            .attr("x", width / 2 - 52.5)
+            .attr("x", width_hist_m_en / 2 - 52.5)
             .attr("y", 19)
             .attr("width", 105)
             .attr("height", 62)
@@ -385,8 +376,8 @@ function dataviz() {
 
         d3.select(this)
             .append("image")
-            .attr("id", "id-flag-a")
-            .attr("x", width / 2 - 50)
+            .attr("id", "id-flag-all")
+            .attr("x", width_hist_m_en / 2 - 50)
             .attr("y", 50 - 35)
             .attr("width", "100px")
             .attr("height", "70px")
@@ -403,7 +394,7 @@ function dataviz() {
     // timeline
     d3.selectAll(".timeline").style("opacity", 0);
     d3.selectAll(".cup-Brazil").style("opacity", 1);
-    d3.select("#id-appearances").text(worldcup_history_data.filter((d) => d.team_txt == "Brazil").length);
+    d3.selectAll("#id-appearances").text(worldcup_history_data.filter((d) => d.team_txt == "Brazil").length);
 
     // bars
     d3.selectAll(".team-bars").style("opacity", 0);
@@ -417,7 +408,7 @@ function dataviz() {
     d3.select(`#id-goals`).text(worldcup_history_data.filter((d) => d.team_txt == "Brazil")[0].goals);
 
     // update function
-    function team_stats_show(team_x) {
+    function team_stats_show_m(team_x) {
         //timeline
         d3.selectAll(".timeline").transition().duration(200).style("opacity", 0);
         d3.selectAll(`.cup-${team_x}`).transition().duration(50).style("opacity", 1);
@@ -432,22 +423,24 @@ function dataviz() {
         d3.selectAll(`.labels-${team_x}`).transition().duration(50).style("opacity", 1);
 
         // flag
-        d3.select("#id-flag-a").attr("href", `flags/${team_x}.jpg`);
+        d3.selectAll("#id-flag-all").attr("href", `flags/${team_x}.jpg`);
 
         // matches and goals
         if (team_x != "Qatar") {
-            d3.select(`#id-matches`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].matches);
-            d3.select(`#id-goals`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].goals);
+            d3.selectAll(`#id-matches`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].matches);
+            d3.selectAll(`#id-goals`).text(worldcup_history_data.filter((d) => d.team_txt == team_x)[0].goals);
         } else {
-            d3.select(`#id-matches`).text("0");
-            d3.select(`#id-goals`).text("0");
+            d3.selectAll(`#id-matches`).text("0");
+            d3.selectAll(`#id-goals`).text("0");
         }
     }
 
     /* When the user clicks on the button,
         toggle between hiding and showing the dropdown content */
-    var a_team = document.getElementById("team-a");
-    var atext, avalue;
+    /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+    let m_team = document.getElementById("team-d");
+    let mtext, mvalue;
 
     // console.log(a_team);
     //////////////////////////////////////////////////
@@ -468,12 +461,12 @@ function dataviz() {
         b.setAttribute("class", "select-items select-hide");
         for (j = 1; j < ll; j++) {
             /* For each option in the original select element,
-          create a new DIV that will act as an option item: */
+              create a new DIV that will act as an option item: */
             c = document.createElement("DIV");
             c.innerHTML = selElmnt.options[j].innerHTML;
             c.addEventListener("click", function (e) {
                 /* When an item is clicked, update the original select box,
-              and the selected item: */
+                  and the selected item: */
                 var y, i, k, s, h, sl, yl;
                 s = this.parentNode.parentNode.getElementsByTagName("select")[0];
                 sl = s.length;
@@ -498,27 +491,27 @@ function dataviz() {
         x[i].appendChild(b);
         a.addEventListener("click", function (e) {
             /* When the select box is clicked, close any other select boxes,
-          and open/close the current select box: */
+              and open/close the current select box: */
             e.stopPropagation();
             closeAllSelect(this);
             this.nextSibling.classList.toggle("select-hide");
             this.classList.toggle("select-arrow-active");
 
-            atext = a_team.options[a_team.selectedIndex].text;
-            avalue = a_team.options[a_team.selectedIndex].value;
+            mtext = m_team.options[m_team.selectedIndex].text;
+            mvalue = m_team.options[m_team.selectedIndex].value;
             //log value
             // console.log(atext, btext);
             // console.log(avalue, bvalue);
 
             // selection function
             // team_selection(avalue, bvalue);
-            team_stats_show(avalue);
+            team_stats_show_m(mvalue);
         });
     }
 
     function closeAllSelect(elmnt) {
         /* A function that will close all select boxes in the document,
-        except the current select box: */
+            except the current select box: */
         var x,
             y,
             i,

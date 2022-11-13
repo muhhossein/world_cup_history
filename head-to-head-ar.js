@@ -4,7 +4,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Dimensions
-let dimensions = {
+let dimensions_head_ar = {
     width: window.innerWidth * 0.95,
     height: window.innerHeight * 0.9,
     margin: {
@@ -16,160 +16,155 @@ let dimensions = {
 };
 
 //Define drawing area within "dimensions" object
-dimensions.vizboardWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right;
+dimensions_head_ar.vizboardWidth = dimensions_head_ar.width - dimensions_head_ar.margin.left - dimensions_head_ar.margin.right;
 
-dimensions.vizboardHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom;
+dimensions_head_ar.vizboardHeight = dimensions_head_ar.height - dimensions_head_ar.margin.top - dimensions_head_ar.margin.bottom;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Draw SVG
-const vizboardWidth = 800;
-const vizboardHeight = 1200;
+const vizboardWidth_head_ar = 800;
+const vizboardHeight_head_ar = 1200;
 
-const vizboard = d3
-    .select("#vizboard-desktop")
+const vizboard_head_ar = d3
+    .select("#vizboard-head-ar")
     .append("svg")
     .classed("svg-vizboard", true)
-    .attr("viewBox", `0 0 ${vizboardWidth} ${vizboardHeight}`);
+    .attr("viewBox", `0 0 ${vizboardWidth_head_ar} ${vizboardHeight_head_ar}`);
 // .attr("preserveAspectRatio", "xMinYMin meet");
 // .style("border", "1px dashed lightblue")
 
-let svg = vizboard.append("g").style("transform", `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`);
+let svg_head_ar = vizboard_head_ar
+    .append("g")
+    .style("transform", `translate(${dimensions_head_ar.margin.left}px, ${dimensions_head_ar.margin.top}px)`);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Create SVG dimensions
-let width = vizboardWidth - dimensions.margin.left - dimensions.margin.right;
-let height = vizboardHeight - dimensions.margin.top - dimensions.margin.bottom;
+let width_head_ar = vizboardWidth_head_ar - dimensions_head_ar.margin.left - dimensions_head_ar.margin.right;
+let height_head_ar = vizboardHeight_head_ar - dimensions_head_ar.margin.top - dimensions_head_ar.margin.bottom;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 02. Data ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const matches_file = "matches_1900.csv";
-const matches_long_file = "matches_long_1900.csv";
-const matches_summary_file = "matches_summary_1900.csv";
-const matches_stats_file = "matches_stats_1900.csv";
+// const matches_file = "matches_1900_ar.csv";
+// const matches_long_file = "matches_long_1900_ar.csv";
+// const matches_summary_file = "matches_summary_1900.csv";
+// const matches_stats_file = "matches_stats_1900.csv";
 
-// dataset
-var worldcup_matches = [];
-var worldcup_matches_long = [];
-var worldcup_matches_summary = [];
-var worldcup_matches_stats = [];
-var worldcup_countries = [];
-var worldcup_matches_long_groups = [];
+// // dataset
+// var worldcup_matches = [];
+// var worldcup_matches_long = [];
+// var worldcup_matches_summary = [];
+// var worldcup_matches_stats = [];
+// var worldcup_countries = [];
+// var worldcup_matches_long_groups = [];
 
-// matches converter function
-var matches_converter = function (point) {
-    return {
-        serial: +point.serial,
-        home_team: point.home_team_txt,
-        away_team: point.away_team_txt,
-        home_team_ar: point.home_team_ar,
-        away_team_ar: point.away_team_ar,
-        home_team_text: point.home_team,
-        away_team_text: point.away_team,
-        tournament: point.tournament,
-        tournament_ar: point.tournament_ar,
-        home_score: +point.home_score,
-        away_score: +point.away_score,
-        home_result_desc: point.home_result_desc,
-        away_result_desc: point.away_result_desc,
-        match_serial: +point.serial,
-        year: +point.year,
-        day: +point.day,
-        decade: +point.decade,
-        year_n: +point.year_n,
-        size: +point.result,
-        home_random: +point.home_random,
-        away_random: +point.away_random,
-        home_group: +point.home_group,
-        away_group: +point.away_group,
-    };
-};
+// // matches converter function
+// var matches_converter = function (point) {
+//     return {
+//         serial: +point.serial,
+//         home_team_ar: point.home_team_ar,
+//         away_team_ar: point.away_team_ar,
+//         home_team_text: point.home_team,
+//         away_team_text: point.away_team,
+//         tournament_ar: point.tournament_ar,
+//         home_score: +point.home_score,
+//         away_score: +point.away_score,
+//         home_result_desc: point.home_result_desc,
+//         away_result_desc: point.away_result_desc,
+//         match_serial: +point.serial,
+//         year: +point.year,
+//         day: +point.day,
+//         decade: +point.decade,
+//         year_n: +point.year_n,
+//         size: +point.result,
+//         home_random: +point.home_random,
+//         away_random: +point.away_random,
+//         home_group: +point.home_group,
+//         away_group: +point.away_group,
+//     };
+// };
 
-// data converter function
-var matches_long_converter = function (point) {
-    return {
-        serial: +point.serial,
-        team: point.team_txt,
-        team_ar: point.team_ar,
-        team_text: point.team,
-        home_team: point.home_team_txt,
-        away_team: point.away_team_txt,
-        home_team_ar: point.home_team_ar,
-        away_team_ar: point.away_team_ar,
-        home_team_text: point.home_team,
-        away_team_text: point.away_team,
-        match_serial: +point.serial,
-        year: +point.year,
-        month: +point.month,
-        day: +point.day,
-        decade: +point.decade,
-        year_n: +point.year_n,
-        result_desc: point.result_desc,
-        size: +point.size,
-        random: +point.random,
-        tournament: point.tournament,
-        tournament_ar: point.tournament_ar,
-        date: point.date,
-        home_score: point.home_score,
-        away_score: point.away_score,
-        city: point.city,
-        country: point.country,
-        country_ar: point.country_ar,
+// // data converter function
+// var matches_long_converter = function (point) {
+//     return {
+//         serial: +point.serial,
 
-        team_a: point.team_a,
-        team_b: point.team_b,
-        team_a_txt: point.team_a_txt,
-        team_b_txt: point.team_b_txt,
-        team_a_ar: point.team_a_ar,
-        team_b_ar: point.team_b_ar,
-        result_desc_a: point.result_desc_a,
-        result_desc_b: point.result_desc_b,
-        score_a: +point.score_a,
-        score_b: +point.score_b,
-        random_a: +point.random_a,
-        random_b: +point.random_b,
-    };
-};
+//         team_ar: point.team_ar,
+//         team_text: point.team,
+//         home_team: point.home_team_txt,
+//         away_team: point.away_team_txt,
+//         home_team_ar: point.home_team_ar,
+//         away_team_ar: point.away_team_ar,
+//         home_team_text: point.home_team,
+//         away_team_text: point.away_team,
+//         match_serial: +point.serial,
+//         year: +point.year,
+//         month: +point.month,
+//         day: +point.day,
+//         decade: +point.decade,
+//         year_n: +point.year_n,
+//         result_desc: point.result_desc,
+//         size: +point.size,
+//         random: +point.random,
+//         tournament: point.tournament,
+//         tournament_ar: point.tournament_ar,
+//         home_score: point.home_score,
+//         away_score: point.away_score,
+//         country_ar: point.country_ar,
+//         team_a: point.team_a,
+//         team_b: point.team_b,
+//         team_a_txt: point.team_a_txt,
+//         team_b_txt: point.team_b_txt,
+//         team_a_ar: point.team_a_ar,
+//         team_b_ar: point.team_b_ar,
+//         result_desc_a: point.result_desc_a,
+//         result_desc_b: point.result_desc_b,
+//         score_a: +point.score_a,
+//         score_b: +point.score_b,
+//         random_a: +point.random_a,
+//         random_b: +point.random_b,
+//     };
+// };
 
-// data converter function
-var matches_summary_converter = function (point) {
-    return {
-        team: point.team,
-        team_ar: point.team_ar,
-        team_text: point.team_txt,
-        matches: +point.matches,
-        winning: +point.winner,
-        loss: +point.loser,
-        draw: +point.draw,
-        start_year: +point.start_year,
-        end_year: +point.end_year,
-        winning_perc: +point.winning_perc,
-        losing_perc: +point.losing_perc,
-        draw_perc: +point.draw_perc,
-    };
-};
+// // data converter function
+// var matches_summary_converter = function (point) {
+//     return {
+//         team: point.team,
+//         team_ar: point.team_ar,
+//         team_text: point.team_txt,
+//         matches: +point.matches,
+//         winning: +point.winner,
+//         loss: +point.loser,
+//         draw: +point.draw,
+//         start_year: +point.start_year,
+//         end_year: +point.end_year,
+//         winning_perc: +point.winning_perc,
+//         losing_perc: +point.losing_perc,
+//         draw_perc: +point.draw_perc,
+//     };
+// };
 
-// data converter function
-var matches_stats_converter = function (point) {
-    return {
-        team_a: point.team_a,
-        team_a_ar: point.team_a_ar,
-        team_a_txt: point.team_a_txt,
-        team_b: point.team_b,
-        team_b_ar: point.team_b_ar,
-        team_b_txt: point.team_b_txt,
-        matches: +point.total,
-        winning_perc: +point.winning_perc,
-        losing_perc: +point.losing_perc,
-        draw_perc: +point.draw_perc,
+// // data converter function
+// var matches_stats_converter = function (point) {
+//     return {
+//         team_a: point.team_a,
+//         team_a_ar: point.team_a_ar,
+//         team_a_txt: point.team_a_txt,
+//         team_b: point.team_b,
+//         team_b_ar: point.team_b_ar,
+//         team_b_txt: point.team_b_txt,
+//         matches: +point.total,
+//         winning_perc: +point.winning_perc,
+//         losing_perc: +point.losing_perc,
+//         draw_perc: +point.draw_perc,
 
-        winner: +point.winner,
-        loser: +point.loser,
-        draw: +point.draw,
-    };
-};
+//         winner: +point.winner,
+//         loser: +point.loser,
+//         draw: +point.draw,
+//     };
+// };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -187,7 +182,7 @@ Promise.all([
 
     // console.log(worldcup_matches_stats);
     // call the draw function
-    dataviz();
+    dataviz_head_ar();
 }); //end of then method
 
 // console.log(worldcup_matches_long);
@@ -206,7 +201,7 @@ Promise.all([
 //     // d2_line = worldcup_matches_long_groups[1][1];
 // }
 
-function dataviz() {
+function dataviz_head_ar() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // 03. Nested Data ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -241,7 +236,7 @@ function dataviz() {
     // Radial Scale
     const radial_domain = [0, 120];
     const inner_r = 0;
-    const outer_r = d3.min([width, height]) * 0.5;
+    const outer_r = d3.min([width_head_ar, height_head_ar]) * 0.5;
     const radial_scale = d3.scaleLinear().domain(radial_domain).range([inner_r, outer_r]);
 
     // Angle Scale
@@ -258,7 +253,7 @@ function dataviz() {
     const group_scale = d3
         .scalePoint()
         .domain([0, 1])
-        .range([-width / 2.5, width / 2.5]);
+        .range([-width_head_ar / 2.5, width_head_ar / 2.5]);
 
     // Sub Circles Scale
     const subGroups_scale = d3.scaleLinear().domain([1, 13]).range([40, 150]);
@@ -285,11 +280,11 @@ function dataviz() {
     const angleMatchSlice = (Math.PI * 2) / 10;
 
     // Match Color Scale
-    const match_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#32A2EF", "#EB7716", "grey"]);
+    const match_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#0286fa", "#990261", "grey"]);
     // .range(["#00eaff", "#ff0062", "yellow"]);
 
     // Match Color Scale
-    const cline_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#32A2EF", "#EB7716", "grey"]);
+    const cline_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#0286fa", "#990261", "grey"]);
     // .range(["#00a6c7", "#c7003f", "yellow"]);
 
     // Match Result Scale
@@ -318,10 +313,10 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Create Group
-    const mainGroup = svg
+    const mainGroup = svg_head_ar
         .append("g")
         .classed("main-group", true)
-        .attr("transform", `translate(${width * 0.5}, ${(height + 200) * 0.5})`);
+        .attr("transform", `translate(${width_head_ar * 0.5}, ${(height_head_ar + 200) * 0.5})`);
 
     const p_position = function (i) {
         let x = group_scale(i);
@@ -385,10 +380,13 @@ function dataviz() {
     // Match Circles
     let matchCircles1 = mainGroup.each(function (d, i) {
         d3.select(this)
-            .selectAll("circle.match-circles-1")
+            .selectAll("circle.match-circles-head-1")
             .data(worldcup_matches_long)
             .join("circle")
-            .attr("class", (d) => `match-circles match-circles-1 serial_${d.serial} a_team_c_${d.team_a_txt} b_team_c_${d.team_b_txt}`)
+            .attr(
+                "class",
+                (d) => `match-circles-head match-circles-head-1 serial_${d.serial} a_team_c_${d.team_a_txt} b_team_c_${d.team_b_txt}`
+            )
             .attr("cx", (d, i) => match_Xposition(d, i) + group_scale(0))
             .attr("cy", (d, i) => match_Yposition(d, i))
             .attr("r", (d, i) => match_result_scale(d.size))
@@ -401,10 +399,13 @@ function dataviz() {
 
     let matchCircles2 = mainGroup.each(function (d, i) {
         d3.select(this)
-            .selectAll("circle.match-circles-2")
+            .selectAll("circle.match-circles-head-2")
             .data(worldcup_matches_long)
             .join("circle")
-            .attr("class", (d) => `match-circles match-circles-2 serial_${d.serial} a_team_c_${d.team_a_txt} b_team_c_${d.team_b_txt}`)
+            .attr(
+                "class",
+                (d) => `match-circles-head match-circles-head-2 serial_${d.serial} a_team_c_${d.team_a_txt} b_team_c_${d.team_b_txt}`
+            )
             .attr("cx", (d, i) => match_Xposition(d, i) + group_scale(1))
             .attr("cy", (d, i) => match_Yposition(d, i))
             .attr("r", (d, i) => match_result_scale(d.size))
@@ -421,7 +422,7 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     var connection_line;
-    var connection_lines;
+    var connection_lines_head;
 
     // console.log(d1_line[4].random);
 
@@ -475,7 +476,7 @@ function dataviz() {
     // Position Functions
 
     // // Text Groups
-    let flagGroups = mainGroup
+    let flagGroups_head = mainGroup
         .append("g")
         .classed("flag-groups", true)
         .attr("transform", (d, i) => `translate(0, 260)`)
@@ -492,7 +493,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("id", "id-flag-a")
+                .attr("id", "id-head-flag-a")
                 .attr("x", (d, i) => group_scale(0) - 15)
                 .attr("y", -260 - 15)
                 .attr("width", "30px")
@@ -512,7 +513,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("id", "id-flag-b")
+                .attr("id", "id-head-flag-b")
                 .attr("x", (d, i) => group_scale(1) - 15)
                 .attr("y", -260 - 15)
                 .attr("width", "30px")
@@ -646,8 +647,8 @@ function dataviz() {
                 .style("direction", "rtl")
                 .text("فوز | تعادل | خسارة");
 
-            const colors = ["#EB7716", "grey", "#32A2EF"];
-            // "#32A2EF", "#EB7716", "grey"
+            const colors = ["#990261", "grey", "#0286fa"];
+            // "#0286fa", "#990261", "grey"
 
             d3.select(this)
                 .selectAll("circle.annotation-circles")
@@ -701,11 +702,11 @@ function dataviz() {
     // d3.select("#label_United_States").text("US").attr("transform", "translate(0,0)");
     // d3.select("#label_Costa_Rica").text("Costa Rica").attr("transform", "translate(0,0)");
     // Connection lines
-    connection_lines = mainGroup
-        .selectAll("line.connection-lines")
+    connection_lines_head = mainGroup
+        .selectAll("line.connection-line-heads-head")
         .data(worldcup_matches_long)
         .join("path")
-        .classed("connection-lines", true)
+        .classed("connection-line-heads-head", true)
         .attr("class", (d, i) => `line_serial_${d.serial} a_team_l_${d.team_a_txt} b_team_l_${d.team_b_txt}`) //
         .attr("d", (d, i) => `M ${line_x1(d, i)} ${line_y1(d, i)} Q 0 0 ${line_x2(d, i)} ${line_y2(d, i)}`)
         .style("stroke-width", (d) => match_line_scale(d.size))
@@ -720,9 +721,9 @@ function dataviz() {
     // 10. Default Text ///////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const default_text = mainGroup
+    const default_text_head = mainGroup
         .append("g")
-        .attr("id", "id-default-text")
+        .attr("id", "id-head-default-text")
         .style("transform", "translate(0px,-390px)")
         .style("font-size", "18px")
         .style("text-align", "center")
@@ -737,7 +738,7 @@ function dataviz() {
                 .attr("cx", 0)
                 .attr("cy", 0)
                 .attr("r", 200)
-                .attr("class", "id-central-circle")
+                .attr("class", "id-head-central-circle")
                 .style("fill", "white")
                 .style("stroke", "#4d1c3e")
                 .style("stroke-opacity", 0.6)
@@ -784,16 +785,16 @@ function dataviz() {
     // // 11. Match Text /////////////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    var goals_a_length = 5;
-    var goals_a_data = d3.range(0, goals_a_length, 1);
+    var goals_a_length_head = 5;
+    var goals_a_data_head = d3.range(0, goals_a_length_head, 1);
 
-    var goals_b_length = 5;
-    var goals_b_data = d3.range(0, goals_b_length, 1);
+    var goals_b_length_head = 5;
+    var goals_b_data_head = d3.range(0, goals_b_length_head, 1);
     var goals_a, goals_b;
 
-    const match_text = mainGroup
+    const match_text_head = mainGroup
         .append("g")
-        .attr("id", "id-g-text")
+        .attr("id", "id-head-g-text")
         .style("transform", "translate(0px,-390px)")
         .style("font-size", "22px")
         .style("text-align", "center")
@@ -825,7 +826,7 @@ function dataviz() {
             // team a
             d3.select(this)
                 .append("text")
-                .attr("id", "id-team-a")
+                .attr("id", "id-head-team-a")
                 .attr("x", -10)
                 .attr("y", -50)
                 .style("font-weight", "700")
@@ -836,7 +837,7 @@ function dataviz() {
             // team b
             d3.select(this)
                 .append("text")
-                .attr("id", "id-team-b")
+                .attr("id", "id-head-team-b")
                 .attr("x", 10)
                 .attr("y", -50)
                 .style("font-weight", "700")
@@ -849,7 +850,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("text")
-                .attr("id", "id-score-a")
+                .attr("id", "id-head-score-a")
                 .attr("x", -10)
                 .attr("y", 0)
                 // .style("fill", "#195aa6")
@@ -861,7 +862,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("text")
-                .attr("id", "id-score-b")
+                .attr("id", "id-head-score-b")
                 .attr("x", 10)
                 .attr("y", 0)
                 // .style("fill", "#bf3d72")
@@ -874,14 +875,14 @@ function dataviz() {
             // tournament
             d3.select(this)
                 .append("text")
-                .attr("id", "id-tournament")
+                .attr("id", "id-head-tournament")
                 .attr("y", 45)
                 .style("font-size", "22px")
                 .style("font-weight", "500")
                 .text("Teams");
 
             // country
-            d3.select(this).append("text").attr("id", "id-country").attr("y", 75).style("font-size", "20px").text("Teams");
+            d3.select(this).append("text").attr("id", "id-head-country").attr("y", 75).style("font-size", "20px").text("Teams");
 
             // team a and b flags
             d3.select(this)
@@ -908,7 +909,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("id", "id-team-a-flag")
+                .attr("id", "id-head-team-a-flag")
                 .attr("x", -70)
                 .attr("y", -140)
                 .attr("width", "40px")
@@ -918,7 +919,7 @@ function dataviz() {
 
             d3.select(this)
                 .append("image")
-                .attr("id", "id-team-b-flag")
+                .attr("id", "id-head-team-b-flag")
                 .attr("x", 30)
                 .attr("y", -140)
                 .attr("width", "40px")
@@ -932,9 +933,9 @@ function dataviz() {
     // // 12. Central Text STATS /////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const stats_text = mainGroup
+    const stats_text_head = mainGroup
         .append("g")
-        .attr("id", "id-stats-text")
+        .attr("id", "id-head-stats-text")
         .style("transform", "translate(0px,-390px)")
         .style("font-size", "22px")
         .style("text-align", "center")
@@ -964,7 +965,7 @@ function dataviz() {
             // team a
             d3.select(this)
                 .append("text")
-                .attr("id", "id-team-stats-a")
+                .attr("id", "id-head-team-stats-a")
                 .attr("x", -10)
                 .attr("y", -50)
                 .style("font-weight", "700")
@@ -975,7 +976,7 @@ function dataviz() {
             // team b
             d3.select(this)
                 .append("text")
-                .attr("id", "id-team-stats-b")
+                .attr("id", "id-head-team-stats-b")
                 .attr("x", 10)
                 .attr("y", -50)
                 .style("font-weight", "700")
@@ -987,23 +988,23 @@ function dataviz() {
             d3.select(this).append("text").attr("y", 60).style("fill", "grey").text(" : ");
             d3.select(this)
                 .append("text")
-                .attr("id", "id-wins-a")
+                .attr("id", "id-head-wins-a")
                 .attr("x", -10)
                 .attr("y", 60)
-                .style("fill", "#32A2EF")
+                .style("fill", "#0286fa")
                 .style("text-align", "left")
                 .style("text-anchor", "start")
                 .style("direction", "rtl")
                 .text("Scores");
 
-            // "#32A2EF", "#EB7716"
+            // "#0286fa", "#990261"
 
             d3.select(this)
                 .append("text")
-                .attr("id", "id-wins-b")
+                .attr("id", "id-head-wins-b")
                 .attr("x", 10)
                 .attr("y", 60)
-                .style("fill", "#EB7716")
+                .style("fill", "#990261")
                 .style("text-align", "right")
                 .style("text-anchor", "end")
                 .style("direction", "rtl")
@@ -1018,7 +1019,7 @@ function dataviz() {
                 .attr("height", 15)
                 .attr("width", 40)
                 .attr("id", "rect-stats-wins")
-                .style("fill", "#32A2EF")
+                .style("fill", "#0286fa")
                 .style("opacity", 0.8);
 
             d3.select(this)
@@ -1038,7 +1039,7 @@ function dataviz() {
                 .attr("height", 15)
                 .attr("width", 30)
                 .attr("id", "rect-stats-losses")
-                .style("fill", "#EB7716")
+                .style("fill", "#990261")
                 .style("opacity", 0.8);
 
             // sep line
@@ -1059,7 +1060,7 @@ function dataviz() {
                 .attr("x2", 10)
                 .attr("y2", 140)
                 .attr("id", "sep-stats-line2")
-                .style("stroke", "#EB7716")
+                .style("stroke", "#990261")
                 .style("opacity", 0.9);
 
             // sep line text
@@ -1068,7 +1069,7 @@ function dataviz() {
                 .attr("x", -10)
                 .attr("y", 90)
                 .attr("id", "sep-stats-txt1")
-                .style("fill", "#32A2EF")
+                .style("fill", "#0286fa")
                 .style("font-size", "16px")
                 .style("font-weight", "600")
                 .style("opacity", 1)
@@ -1079,7 +1080,7 @@ function dataviz() {
                 .attr("x", 10)
                 .attr("y", 155)
                 .attr("id", "sep-stats-txt2")
-                .style("fill", "#EB7716")
+                .style("fill", "#990261")
                 .style("font-size", "16px")
                 .style("font-weight", "600")
                 .style("opacity", 1)
@@ -1175,29 +1176,31 @@ function dataviz() {
         let match_data = d3.select(this).data()[0];
         // console.log(match_data);
 
-        default_text.style("opacity", 0);
-        match_text.style("opacity", 1);
+        default_text_head.style("opacity", 0);
+        match_text_head.style("opacity", 1);
         // text
-        d3.select("#id-team-a").text(`${match_data.team_a_ar}`);
-        d3.select("#id-team-b").text(`${match_data.team_b_ar}`);
-        d3.select("#id-score-a").text(`${match_data.score_a}`);
-        d3.select("#id-score-b").text(`${match_data.score_b}`);
-        d3.select("#id-tournament").text(`${match_data.tournament_ar}`);
-        d3.select("#id-country").text(`${match_data.country_ar} | ${match_data.day} ${month_scale(match_data.month)} ${match_data.year}`);
-        d3.select("#id-team-a-flag").attr("href", `flags/${match_data.team_a_txt}.jpg`);
-        d3.select("#id-team-b-flag").attr("href", `flags/${match_data.team_b_txt}.jpg`);
+        d3.select("#id-head-team-a").text(`${match_data.team_a_ar}`);
+        d3.select("#id-head-team-b").text(`${match_data.team_b_ar}`);
+        d3.select("#id-head-score-a").text(`${match_data.score_a}`);
+        d3.select("#id-head-score-b").text(`${match_data.score_b}`);
+        d3.select("#id-head-tournament").text(`${match_data.tournament_ar}`);
+        d3.select("#id-head-country").text(
+            `${match_data.country_ar} | ${match_data.day} ${month_scale(match_data.month)} ${match_data.year}`
+        );
+        d3.select("#id-head-team-a-flag").attr("href", `flags/${match_data.team_a_txt}.jpg`);
+        d3.select("#id-head-team-b-flag").attr("href", `flags/${match_data.team_b_txt}.jpg`);
         // goals
-        goals_a_length = match_data.score_a;
-        goals_a_data = d3.range(0, goals_a_length, 1);
-        goals_b_length = match_data.score_b;
-        goals_b_data = d3.range(0, goals_b_length, 1);
+        goals_a_length_head = match_data.score_a;
+        goals_a_data_head = d3.range(0, goals_a_length_head, 1);
+        goals_b_length_head = match_data.score_b;
+        goals_b_data_head = d3.range(0, goals_b_length_head, 1);
 
-        goals_a = mainGroup.each(function (d, i) {
+        let goals_a_head = mainGroup.each(function (d, i) {
             d3.select(this)
                 .selectAll("circle.goals-a")
-                .data(goals_a_data)
+                .data(goals_a_data_head)
                 .join("circle")
-                .attr("id", "id-goals-a")
+                .attr("id", "id-head-goals-a")
                 .attr("class", "goals-a")
                 .attr("cx", (d, i) => -40 - 12 * i)
                 .attr("cy", -398)
@@ -1207,12 +1210,12 @@ function dataviz() {
                 .style("stroke", "white")
                 .style("fill", "grey");
         });
-        goals_b = mainGroup.each(function (d, i) {
+        let goals_b_head = mainGroup.each(function (d, i) {
             d3.select(this)
                 .selectAll("circle.goals-b")
-                .data(goals_b_data)
+                .data(goals_b_data_head)
                 .join("circle")
-                .attr("id", "id-goals-b")
+                .attr("id", "id-head-goals-b")
                 .attr("class", "goals-b")
                 .attr("cx", (d, i) => 40 + 12 * i)
                 .attr("cy", -398)
@@ -1225,11 +1228,11 @@ function dataviz() {
 
         // connection line
         connection_line = mainGroup
-            .selectAll("line.connection-line")
+            .selectAll("line.connection-line-head")
             .data(worldcup_matches_long.filter((d) => d.serial == match_data.serial && d.team_a_txt == match_data.team_a_txt))
             .enter()
             .append("path")
-            .classed("connection-line", true)
+            .classed("connection-line-head", true)
             .attr("d", (d) => `M ${line_x1(d)} ${line_y1(d)} Q 0 0 ${line_x2(d)} ${line_y2(d)}`)
             .style("stroke-width", (d) => match_line_scale(d.size))
             .style("stroke", `black`)
@@ -1246,25 +1249,25 @@ function dataviz() {
             .attr("r", (d, i) => match_result_scale(d.size) + 2)
             .raise();
 
-        match_text.raise();
+        match_text_head.raise();
         matchCircles1.raise();
         matchCircles2.raise();
 
         d3.selectAll(".t-info").style("opacity", 0);
 
         // stats
-        stats_text.style("opacity", 0);
+        stats_text_head.style("opacity", 0);
 
         // default text
-        default_text.style("opacity", 0);
+        default_text_head.style("opacity", 0);
     } //end of mouse over
 
     // mouse leave
-    function match_mouseleave() {
+    function match_mouseleave_head() {
         let match_data = d3.select(this).data()[0];
-        match_text.style("opacity", 0);
+        match_text_head.style("opacity", 0);
 
-        connection_lines
+        connection_lines_head
             .style("stroke-width", (d) => match_line_scale(d.size))
             .style("stroke", "grey")
             .style("opacity", (d) => result_opacity_scale(d.size))
@@ -1272,16 +1275,16 @@ function dataviz() {
 
         connection_line.remove();
         // Match Circles
-        d3.selectAll(".match-circles")
+        d3.selectAll(".match-circles-head")
             .style("fill-opacity", 0.6)
             .style("stroke-opacity", 1)
             .attr("r", (d, i) => match_result_scale(d.size) + 0);
 
-        d3.selectAll(".match-circles-1")
+        d3.selectAll(".match-circles-head-1")
             .style("stroke", (d, i) => match_color_scale(d.result_desc_a))
             .attr("r", (d, i) => match_result_scale(d.size));
 
-        d3.selectAll(".match-circles-2")
+        d3.selectAll(".match-circles-head-2")
             .style("stroke", (d, i) => match_color_scale(d.result_desc_b))
             .attr("r", (d, i) => match_result_scale(d.size));
 
@@ -1290,11 +1293,11 @@ function dataviz() {
         d3.selectAll("circle.goals-b").style("opacity", 0);
 
         // default text
-        default_text.style("opacity", 0);
-        stats_text.style("opacity", 1);
+        default_text_head.style("opacity", 0);
+        stats_text_head.style("opacity", 1);
     }
 
-    d3.selectAll("circle.match-circles").on("mouseover", match_mouseover).on("mouseleave", match_mouseleave);
+    d3.selectAll("circle.match-circles-head").on("mouseover", match_mouseover).on("mouseleave", match_mouseleave_head);
     refCircles.lower();
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1303,95 +1306,95 @@ function dataviz() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Intial selection
-    d3.selectAll(`.match-circles-1, .match-circles-2`).raise();
-    d3.selectAll(`.match-circles-1, .match-circles-2`).style("visibility", "hidden");
+    d3.selectAll(`.match-circles-head-1, .match-circles-head-2`).raise();
+    d3.selectAll(`.match-circles-head-1, .match-circles-head-2`).style("visibility", "hidden");
     d3.selectAll(`.a_team_c_England.b_team_c_Brazil`).style("visibility", "visible");
 
-    connection_lines.style("visibility", "hidden");
+    connection_lines_head.style("visibility", "hidden");
     d3.selectAll(`.a_team_l_England.b_team_l_Brazil`).style("visibility", "visible");
 
     // Team selection functions
     function team_selection(team_x, team_y) {
-        d3.selectAll(`.match-circles-1, .match-circles-2`).style("visibility", "hidden");
+        d3.selectAll(`.match-circles-head-1, .match-circles-head-2`).style("visibility", "hidden");
         d3.selectAll(`.a_team_c_${team_x}.b_team_c_${team_y}`).style("visibility", "visible");
 
-        connection_lines.style("visibility", "hidden");
+        connection_lines_head.style("visibility", "hidden");
         d3.selectAll(`.a_team_l_${team_x}.b_team_l_${team_y}`).style("visibility", "visible");
 
         // flags
-        d3.select("#id-flag-a").attr("href", `flags/${team_x}.jpg`);
-        d3.select("#id-flag-b").attr("href", `flags/${team_y}.jpg`);
+        d3.select("#id-head-flag-a").attr("href", `flags/${team_x}.jpg`);
+        d3.select("#id-head-flag-b").attr("href", `flags/${team_y}.jpg`);
     }
 
     // stats show
-    function teams_stats_show(team_x, team_y) {
+    function teams_stats_show_head(team_x, team_y) {
         // team text groups
-        let team_summary = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y)[0];
-        let is_team_summary = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y).length;
+        let team_summary_head = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y)[0];
+        let is_team_summary_head = worldcup_matches_stats.filter((d) => d.team_a_txt == team_x && d.team_b_txt == team_y).length;
 
         // console.log(team_summary);
 
-        if (is_team_summary == 0) {
-            stats_text.style("opacity", 0);
-            default_text.style("opacity", 1);
+        if (is_team_summary_head == 0) {
+            stats_text_head.style("opacity", 0);
+            default_text_head.style("opacity", 1);
         } else {
-            stats_text.style("opacity", 1);
-            default_text.style("opacity", 0);
+            stats_text_head.style("opacity", 1);
+            default_text_head.style("opacity", 0);
 
-            d3.select("#id-team-stats-a").text(`${team_summary.team_a_ar}`); // Arabic goes here
-            d3.select("#id-team-stats-b").text(`${team_summary.team_b_ar}`); // Arabic goes here
+            d3.select("#id-head-team-stats-a").text(`${team_summary_head.team_a_ar}`); // Arabic goes here
+            d3.select("#id-head-team-stats-b").text(`${team_summary_head.team_b_ar}`); // Arabic goes here
 
-            // "#32A2EF", "#EB7716
+            // "#0286fa", "#990261
 
-            d3.select("#id-wins-a")
-                .text(`${team_summary.winner} فوز`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+            d3.select("#id-head-wins-a")
+                .text(`${team_summary_head.winner} فوز`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#0286fa" : "#990261"}`);
 
-            d3.select("#id-wins-b")
-                .text(`${team_summary.loser} فوز`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+            d3.select("#id-head-wins-b")
+                .text(`${team_summary_head.loser} فوز`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#990261" : "#0286fa"}`);
 
-            d3.select("#t-stats-matches").text(`${team_summary.matches} مباراة`);
+            d3.select("#t-stats-matches").text(`${team_summary_head.matches} مباراة`);
 
             // stats rect and lines
             d3.select("#rect-stats-wins")
-                .attr("width", `${team_summary.winning_perc * 1.6}`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+                .attr("width", `${team_summary_head.winning_perc * 1.6}`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#0286fa" : "#990261"}`);
 
             d3.select("#rect-stats-draw")
-                .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
-                .attr("width", `${team_summary.draw_perc * 1.6}`);
+                .attr("x", `${-80 + team_summary_head.winning_perc * 1.6}`)
+                .attr("width", `${team_summary_head.draw_perc * 1.6}`);
 
             d3.select("#rect-stats-losses")
-                .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-                .attr("width", `${team_summary.losing_perc * 1.6}`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+                .attr("x", `${-80 + team_summary_head.winning_perc * 1.6 + team_summary_head.draw_perc * 1.6}`)
+                .attr("width", `${team_summary_head.losing_perc * 1.6}`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#990261" : "#0286fa"}`);
 
             d3.select("#sep-stats-line1")
-                .attr("x1", `${-80 + team_summary.winning_perc * 1.6}`)
-                .attr("x2", `${-80 + team_summary.winning_perc * 1.6}`)
-                .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+                .attr("x1", `${-80 + team_summary_head.winning_perc * 1.6}`)
+                .attr("x2", `${-80 + team_summary_head.winning_perc * 1.6}`)
+                .style("stroke", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#0286fa" : "#990261"}`);
 
             d3.select("#sep-stats-txt1")
-                .attr("x", `${-80 + team_summary.winning_perc * 1.6}`)
-                .text(`${team_summary.winning_perc}%`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#32A2EF" : "#EB7716"}`);
+                .attr("x", `${-80 + team_summary_head.winning_perc * 1.6}`)
+                .text(`${team_summary_head.winning_perc}%`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#0286fa" : "#990261"}`);
 
             d3.select("#sep-stats-line2")
-                .attr("x1", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-                .attr("x2", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-                .style("stroke", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+                .attr("x1", `${-80 + team_summary_head.winning_perc * 1.6 + team_summary_head.draw_perc * 1.6}`)
+                .attr("x2", `${-80 + team_summary_head.winning_perc * 1.6 + team_summary_head.draw_perc * 1.6}`)
+                .style("stroke", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#990261" : "#0286fa"}`);
             d3.select("#sep-stats-txt2")
-                .attr("x", `${-80 + team_summary.winning_perc * 1.6 + team_summary.draw_perc * 1.6}`)
-                .text(`${team_summary.losing_perc}%`)
-                .style("fill", `${team_summary.winning_perc > team_summary.losing_perc ? "#EB7716" : "#32A2EF"}`);
+                .attr("x", `${-80 + team_summary_head.winning_perc * 1.6 + team_summary_head.draw_perc * 1.6}`)
+                .text(`${team_summary_head.losing_perc}%`)
+                .style("fill", `${team_summary_head.winning_perc > team_summary_head.losing_perc ? "#990261" : "#0286fa"}`);
 
             // flags
             d3.select("#stats-team-a-flag").attr("href", `flags/${team_x}.jpg`);
             d3.select("#stats-team-b-flag").attr("href", `flags/${team_y}.jpg`);
         }
     }
-    teams_stats_show("England", "Brazil");
+    teams_stats_show_head("England", "Brazil");
 
     /* When the user clicks on the button,
         toggle between hiding and showing the dropdown content */
@@ -1403,7 +1406,7 @@ function dataviz() {
     //////////////////////////////////////////////////
     var x, i, j, l, ll, selElmnt, a, b, c;
     /* Look for any elements with the class "custom-select": */
-    x = document.getElementsByClassName("custom-select");
+    x = document.getElementsByClassName("custom-select-2");
     l = x.length;
     for (i = 0; i < l; i++) {
         selElmnt = x[i].getElementsByTagName("select")[0];
@@ -1464,7 +1467,7 @@ function dataviz() {
 
             // selection function
             team_selection(avalue, bvalue);
-            teams_stats_show(avalue, bvalue);
+            teams_stats_show_head(avalue, bvalue);
         });
     }
 

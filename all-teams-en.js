@@ -40,114 +40,114 @@ let height = vizboardSide - dimensions.margin.top - dimensions.margin.bottom;
 // 02. Data ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-let points = [];
-for (var i = 0; i < 24; i++) {
-    var x = {
-        group: i % 2 == 0 ? 0 : 1, //0-4
-        // group: 1,
-        value: 10,
-    };
-    points.push(x);
-}
+// let points = [];
+// for (var i = 0; i < 24; i++) {
+//     var x = {
+//         group: i % 2 == 0 ? 0 : 1, //0-4
+//         // group: 1,
+//         value: 10,
+//     };
+//     points.push(x);
+// }
 
-// // Test Data
-// console.log("data:", points);
-const matches_file = "matches_1900.csv";
-const matches_long_file = "matches_long_1900.csv";
-const matches_summary_file = "matches_summary_1900.csv";
-const matches_stats_file = "matches_stats_1900.csv";
+// // // Test Data
+// // console.log("data:", points);
+// const matches_file = "matches_1900_en.csv";
+// const matches_long_file = "matches_long_1900_en.csv";
+// const matches_summary_file = "matches_summary_1900.csv";
+// const matches_stats_file = "matches_stats_1900.csv";
 
-// dataset
-var worldcup_matches = [];
-var worldcup_matches_long = [];
-var worldcup_matches_summary = [];
-var worldcup_matches_stats = [];
-var worldcup_countries = [];
+// // dataset
+// var worldcup_matches = [];
+// var worldcup_matches_long = [];
+// var worldcup_matches_summary = [];
+// var worldcup_matches_stats = [];
+// var worldcup_countries = [];
 
-// matches converter function
-var matches_converter = function (point) {
-    return {
-        serial: +point.serial,
-        home_team: point.home_team_txt,
-        away_team: point.away_team_txt,
-        home_team_text: point.home_team,
-        away_team_text: point.away_team,
-        tournament: point.tournament,
-        home_score: +point.home_score,
-        away_score: +point.away_score,
-        home_result_desc: point.home_result_desc,
-        away_result_desc: point.away_result_desc,
-        match_serial: +point.serial,
-        year: +point.year,
-        day: +point.day,
-        decade: +point.decade,
-        year_n: +point.year_n,
-        size: +point.result,
-        home_random: +point.home_random,
-        away_random: +point.away_random,
-        home_group: +point.home_group,
-        away_group: +point.away_group,
-    };
-};
+// // matches converter function
+// var matches_converter = function (point) {
+//     return {
+//         serial: +point.serial,
+//         home_team: point.home_team_txt,
+//         away_team: point.away_team_txt,
+//         home_team_text: point.home_team,
+//         away_team_text: point.away_team,
+//         tournament: point.tournament,
+//         home_score: +point.home_score,
+//         away_score: +point.away_score,
+//         home_result_desc: point.home_result_desc,
+//         away_result_desc: point.away_result_desc,
+//         match_serial: +point.serial,
+//         year: +point.year,
+//         day: +point.day,
+//         decade: +point.decade,
+//         year_n: +point.year_n,
+//         size: +point.result,
+//         home_random: +point.home_random,
+//         away_random: +point.away_random,
+//         home_group: +point.home_group,
+//         away_group: +point.away_group,
+//     };
+// };
 
-// data converter function
-var matches_long_converter = function (point) {
-    return {
-        serial: +point.serial,
-        team: point.team_txt,
-        team_text: point.team,
-        home_team: point.home_team_txt,
-        away_team: point.away_team_txt,
-        home_team_text: point.home_team,
-        away_team_text: point.away_team,
-        match_serial: +point.serial,
-        year: +point.year,
-        month: +point.month,
-        day: +point.day,
-        decade: +point.decade,
-        year_n: +point.year_n,
-        result_desc: point.result_desc,
-        size: +point.size,
-        random: +point.random,
-        tournament: point.tournament,
-        date: point.date,
-        home_score: point.home_score,
-        away_score: point.away_score,
-        city: point.city,
-        country: point.country,
-    };
-};
+// // data converter function
+// var matches_long_converter = function (point) {
+//     return {
+//         serial: +point.serial,
+//         team: point.team_txt,
+//         team_text: point.team,
+//         home_team: point.home_team_txt,
+//         away_team: point.away_team_txt,
+//         home_team_text: point.home_team,
+//         away_team_text: point.away_team,
+//         match_serial: +point.serial,
+//         year: +point.year,
+//         month: +point.month,
+//         day: +point.day,
+//         decade: +point.decade,
+//         year_n: +point.year_n,
+//         result_desc: point.result_desc,
+//         size: +point.size,
+//         random: +point.random,
+//         tournament: point.tournament,
+//         date: point.date,
+//         home_score: point.home_score,
+//         away_score: point.away_score,
+//         city: point.city,
+//         country: point.country,
+//     };
+// };
 
-// data converter function
-var matches_summary_converter = function (point) {
-    return {
-        team: point.team,
-        team_text: point.team_txt,
-        matches: +point.matches,
-        winning: +point.winner,
-        loss: +point.loser,
-        draw: +point.draw,
-        start_year: +point.start_year,
-        end_year: +point.end_year,
-        winning_perc: +point.winning_perc,
-        losing_perc: +point.losing_perc,
-        draw_perc: +point.draw_perc,
-    };
-};
+// // data converter function
+// var matches_summary_converter = function (point) {
+//     return {
+//         team: point.team,
+//         team_text: point.team_txt,
+//         matches: +point.matches,
+//         winning: +point.winner,
+//         loss: +point.loser,
+//         draw: +point.draw,
+//         start_year: +point.start_year,
+//         end_year: +point.end_year,
+//         winning_perc: +point.winning_perc,
+//         losing_perc: +point.losing_perc,
+//         draw_perc: +point.draw_perc,
+//     };
+// };
 
-// data converter function
-var matches_stats_converter = function (point) {
-    return {
-        team_a: point.team_a,
-        team_a_text: point.team_a_txt,
-        team_b: point.team_b,
-        team_b_text: point.team_b_txt,
-        matches: +point.total,
-        winning_perc: +point.winning_perc,
-        losing_perc: +point.losing_perc,
-        draw_perc: +point.draw_perc,
-    };
-};
+// // data converter function
+// var matches_stats_converter = function (point) {
+//     return {
+//         team_a: point.team_a,
+//         team_a_text: point.team_a_txt,
+//         team_b: point.team_b,
+//         team_b_text: point.team_b_txt,
+//         matches: +point.total,
+//         winning_perc: +point.winning_perc,
+//         losing_perc: +point.losing_perc,
+//         draw_perc: +point.draw_perc,
+//     };
+// };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -248,10 +248,10 @@ function dataviz() {
     const angleMatchSlice = (Math.PI * 2) / 10;
 
     // Match Color Scale
-    const match_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#32A2EF", "#EB7716", "grey"]);
+    const match_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#0286fa", "#990261", "grey"]);
 
     // Match Color Scale
-    const cline_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#32A2EF", "#EB7716", "grey"]);
+    const cline_color_scale = d3.scaleOrdinal().domain(["winner", "loser", "draw"]).range(["#0286fa", "#990261", "grey"]);
 
     // Match Result Scale
     const match_result_scale = d3.scaleSqrt().domain([0, 12]).range([0.5, 5]);
@@ -634,7 +634,7 @@ function dataviz() {
                 .append("circle")
                 .attr("cx", 0)
                 .attr("cy", 0)
-                .attr("r", 140)
+                .attr("r", 170)
                 .style("fill", "white")
                 .style("stroke", "white")
                 .style("fill-opacity", 0.6)
@@ -701,10 +701,10 @@ function dataviz() {
                 .attr("cy", 0)
                 .attr("r", 200)
                 .attr("class", "id-central-circle")
-                .style("fill", "grey")
+                .style("fill", "white")
                 .style("stroke", "black")
                 .style("stroke-opacity", 0.6)
-                .style("fill-opacity", 0.1);
+                .style("fill-opacity", 0.5);
 
             d3.select(this).append("text").attr("y", -50).style("font-size", "26px").style("fill", "grey").text(" : ");
             // team a
@@ -839,10 +839,10 @@ function dataviz() {
                 .attr("cx", 0)
                 .attr("cy", 0)
                 .attr("r", 200)
-                .style("fill", "grey")
+                .style("fill", "white")
                 .style("stroke", "black")
                 .style("stroke-opacity", 0.6)
-                .style("fill-opacity", 0.1);
+                .style("fill-opacity", 0.5);
 
             d3.select(this)
                 .append("rect")
@@ -853,7 +853,7 @@ function dataviz() {
                 .attr("width", 70)
                 .style("fill", "white")
                 .style("stroke", "black")
-                .style("fill-opacity", 0.3)
+                .style("fill-opacity", 0.5)
                 .style("opacity", 1);
 
             d3.select(this)
@@ -903,7 +903,7 @@ function dataviz() {
                 .attr("height", 10)
                 .attr("width", 50)
                 .attr("id", "rect-wins")
-                .style("fill", "#32A2EF")
+                .style("fill", "#0286fa")
                 .style("opacity", 0.8);
 
             d3.select(this)
@@ -923,7 +923,7 @@ function dataviz() {
                 .attr("height", 10)
                 .attr("width", 30)
                 .attr("id", "rect-losses")
-                .style("fill", "#EB7716")
+                .style("fill", "#990261")
                 .style("opacity", 0.8);
 
             // sep line
@@ -934,7 +934,7 @@ function dataviz() {
                 .attr("x2", -10)
                 .attr("y2", 115)
                 .attr("id", "team-stats-line1")
-                .style("stroke", "#32A2EF")
+                .style("stroke", "#0286fa")
                 .style("opacity", 0.9);
 
             d3.select(this)
@@ -944,7 +944,7 @@ function dataviz() {
                 .attr("x2", 10)
                 .attr("y2", 115)
                 .attr("id", "team-stats-line2")
-                .style("stroke", "#EB7716")
+                .style("stroke", "#990261")
                 .style("opacity", 0.9);
 
             // sep line text
@@ -953,7 +953,7 @@ function dataviz() {
                 .attr("x", -10)
                 .attr("y", 137)
                 .attr("id", "team-stats-txt1")
-                .style("fill", "#32A2EF")
+                .style("fill", "#0286fa")
                 .style("font-size", "20px")
                 .style("font-weight", "500")
                 .style("opacity", 1)
@@ -964,7 +964,7 @@ function dataviz() {
                 .attr("x", 10)
                 .attr("y", 137)
                 .attr("id", "team-stats-txt2")
-                .style("fill", "#EB7716")
+                .style("fill", "#990261")
                 .style("font-size", "20px")
                 .style("font-weight", "500")
                 .style("opacity", 1)

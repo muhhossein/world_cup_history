@@ -9,18 +9,18 @@
         <meta name="author" content="Al Jazeera" />
         <meta name="robots" content="max-image-preview:large" />
         <meta property="og:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="og:description" content="Summary goes here" />
+        <meta property="og:description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="description" content="Summary goes here" />
+        <meta property="description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@AJEnglish" />
         <meta property="twitter:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="twitter:description" content="Summary goes here" />
+        <meta property="twitter:description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="image" content="" />
         <meta property="twitter:image:src" content="" />
         <meta name="title" content="Visualising the FIFA World Cup 2022" />
-        <meta name="description" content="Summary goes here" />
+        <meta name="description" content="Past performance at the World Cup (1930-2018)" />
         <link rel="amphtml" href="https://interactive.aljazeera.com/aje/fifa-arab-cup-2021/amp.html" />
         <link rel="apple-touch-icon" href="apple-touch-icon.jpg" />
         <link rel="shortcut icon" href="favicon.ico" />
@@ -79,7 +79,14 @@
                 color: grey;
             }
 
-            #vizboard-head-ar {
+            #vizboard-hist-d-ar {
+                display: inline-block;
+                position: relative;
+                margin: 10px auto;
+                text-align: center;
+                width: 100%;
+            }
+            #vizboard-hist-m-en {
                 display: inline-block;
                 position: relative;
                 margin: 10px auto;
@@ -87,13 +94,15 @@
                 width: 100%;
             }
             /* ----------------------------------------------------- */
+            .custom-select,
             .custom-select-2 {
                 display: inline-block;
                 position: relative;
-                font-size: 18px;
+                font-size: 30px;
                 line-height: 8px;
             }
 
+            .custom-select select,
             .custom-select-2 select {
                 display: none; /*hide original SELECT element: */
             }
@@ -153,7 +162,7 @@
             }
 
             .team-select {
-                margin: 0px auto;
+                margin: 20px auto;
                 vertical-align: middle;
                 text-align: center;
             }
@@ -162,7 +171,7 @@
                 margin-top: 10px;
             }
             .team-b-select {
-                margin-left: 0px;
+                margin-left: 24px;
             }
             .title-comp {
                 font-size: 19px;
@@ -171,14 +180,57 @@
                 margin-top: 0px;
                 padding-top: 0px;
             }
-            /*//////////////////////////////////////////////////////////////*/
         </style>
     </head>
 
     <body>
         <div class="team-select">
             <!-- <p>Team A</p> -->
-            <div class="custom-select-2" style="width: 220px">
+            <div class="custom-select" style="width: 200px">
+                <select name="Team" id="team-d">
+                    <option value="_">Team</option>
+                    <option value="Argentina">الأرجنتين</option>
+                    <option value="Australia">أستراليا</option>
+                    <option value="Belgium">بلجيكا</option>
+                    <option selected="selected" value="Brazil">البرازيل</option>
+                    <option value="Cameroon">الكاميرون</option>
+                    <option value="Canada">كندا</option>
+                    <option value="Costa_Rica">كوستا ريكا</option>
+                    <option value="Croatia">كرواتيا</option>
+                    <option value="Denmark">الدنمارك</option>
+                    <option value="Ecuador">الاكوادور</option>
+                    <option value="England">إنجلترا</option>
+                    <option value="France">فرنسا</option>
+                    <option value="Germany">ألمانيا</option>
+                    <option value="Ghana">غانا</option>
+                    <option value="Iran">إيران</option>
+                    <option value="Japan">اليابان</option>
+                    <option value="Mexico">المكسيك</option>
+                    <option value="Morocco">المغرب</option>
+                    <option value="Netherlands">هولندا</option>
+                    <option value="Poland">بولندا</option>
+                    <option value="Portugal">البرتغال</option>
+                    <option value="Qatar">قطر</option>
+                    <option value="Saudi_Arabia">السعودية</option>
+                    <option value="Senegal">السنغال</option>
+                    <option value="Serbia">صربيا</option>
+                    <option value="South_Korea">كوريا الجنوبية</option>
+                    <option value="Spain">إسبانيا</option>
+                    <option value="Switzerland">سويسرا</option>
+                    <option value="Tunisia">تونس</option>
+                    <option value="United_States">الولايات المتحدة</option>
+                    <option value="Uruguay">أوروغواي</option>
+                    <option value="Wales">ويلز</option>
+                </select>
+            </div>
+        </div>
+        <h1 class="title-comp">(2018 - 1930) تاريخ المشاركات في كأس العالم</h1>
+        <div id="vizboard-hist-d-ar"></div>
+        <div id="vizboard-hist-m-ar"></div>
+
+        <div class="team-select">
+            <!-- <p>Team A</p> -->
+            <div class="custom-select-2 team-a-select" style="width: 220px">
                 <select name="Team A" id="team-a">
                     <option value="Argentina">الأرجنتين</option>
                     <option value="Australia">أستراليا</option>
@@ -218,7 +270,7 @@
             <p style="color: black; font-size: 18px">ضد</p>
             <!-- <p class="team-b-text">Team B</p> -->
 
-            <div class="custom-select-2" style="width: 220px">
+            <div class="custom-select-2 team-b-select" style="width: 220px">
                 <select name="Team B" id="team-b">
                     <option value="Argentina">الأرجنتين</option>
                     <option value="Australia">أستراليا</option>
@@ -256,7 +308,7 @@
             </div>
         </div>
         <div id="vizboard-head-ar"></div>
-
+        <div id="vizboard"></div>
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
@@ -265,6 +317,9 @@
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <script type="text/javascript" src="world-cup-data-ar.js"></script>
+        <script type="text/javascript" src="world-cup-history-ar-desk.js"></script>
+        <script type="text/javascript" src="world-cup-history-ar-mob.js"></script>
         <script type="text/javascript" src="head-to-head-ar.js"></script>
+        <script type="text/javascript" src="all-teams-ar.js"></script>
     </body>
 </html>

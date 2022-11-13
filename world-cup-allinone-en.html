@@ -9,18 +9,18 @@
         <meta name="author" content="Al Jazeera" />
         <meta name="robots" content="max-image-preview:large" />
         <meta property="og:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="og:description" content="Summary goes here" />
+        <meta property="og:description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="description" content="Summary goes here" />
+        <meta property="description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@AJEnglish" />
         <meta property="twitter:title" content="Visualising the FIFA World Cup 2022" />
-        <meta property="twitter:description" content="Summary goes here" />
+        <meta property="twitter:description" content="Past performance at the World Cup (1930-2018)" />
         <meta property="image" content="" />
         <meta property="twitter:image:src" content="" />
         <meta name="title" content="Visualising the FIFA World Cup 2022" />
-        <meta name="description" content="Summary goes here" />
+        <meta name="description" content="Past performance at the World Cup (1930-2018)" />
         <link rel="amphtml" href="https://interactive.aljazeera.com/aje/fifa-arab-cup-2021/amp.html" />
         <link rel="apple-touch-icon" href="apple-touch-icon.jpg" />
         <link rel="shortcut icon" href="favicon.ico" />
@@ -33,8 +33,6 @@
 
         <!-- https://observablehq.com/@didoesdigital/9-june-2020-designing-for-small-screens-responsive-data-viz -->
         <!-- <script type="text/javascript" src="d3.js"></script> -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -69,7 +67,14 @@
                 color: grey;
             }
 
-            #vizboard-head-en {
+            #vizboard-hist-d-en {
+                display: inline-block;
+                position: relative;
+                margin: 10px auto;
+                text-align: center;
+                width: 100%;
+            }
+            #vizboard-hist-m-en {
                 display: inline-block;
                 position: relative;
                 margin: 10px auto;
@@ -77,13 +82,15 @@
                 width: 100%;
             }
             /* ----------------------------------------------------- */
+            .custom-select,
             .custom-select-2 {
                 display: inline-block;
                 position: relative;
-                font-size: 24px;
+                font-size: 30px;
                 line-height: 8px;
             }
 
+            .custom-select select,
             .custom-select-2 select {
                 display: none; /*hide original SELECT element: */
             }
@@ -143,7 +150,7 @@
             }
 
             .team-select {
-                margin: 0px auto;
+                margin: 20px auto;
                 vertical-align: middle;
                 text-align: center;
             }
@@ -152,7 +159,7 @@
                 margin-top: 10px;
             }
             .team-b-select {
-                margin-left: 0px;
+                margin-left: 24px;
             }
             .title-comp {
                 font-size: 19px;
@@ -161,11 +168,53 @@
                 margin-top: 0px;
                 padding-top: 0px;
             }
-            /*//////////////////////////////////////////////////////////////*/
         </style>
     </head>
 
     <body>
+        <div class="team-select">
+            <!-- <p>Team A</p> -->
+            <div class="custom-select" style="width: 240px">
+                <select name="Team" id="team-d">
+                    <option value="_">Team A</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Belgium">Belgium</option>
+                    <option selected="selected" value="Brazil">Brazil</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Costa_Rica">Costa Rica</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="England">England</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Saudi_Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="South_Korea">South Korea</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="United_States">US</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Wales">Wales</option>
+                </select>
+            </div>
+        </div>
+        <h1 class="title-comp">Past performance at the World Cup (1930-2018)</h1>
+        <div id="vizboard-hist-d-en"></div>
+        <div id="vizboard-hist-m-en"></div>
         <div class="team-select">
             <!-- <p>Team A</p> -->
             <div class="custom-select-2 team-a-select" style="width: 220px">
@@ -246,6 +295,7 @@
             </div>
         </div>
         <div id="vizboard-head-en"></div>
+        <div id="vizboard"></div>
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
@@ -253,7 +303,11 @@
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////////////////////////////////////////////// -->
+
         <script type="text/javascript" src="world-cup-data-en.js"></script>
+        <script type="text/javascript" src="world-cup-history-en-desk.js"></script>
+        <script type="text/javascript" src="world-cup-history-en-mob.js"></script>
         <script type="text/javascript" src="head-to-head-en.js"></script>
+        <script type="text/javascript" src="all-teams-en.js"></script>
     </body>
 </html>
